@@ -1495,15 +1495,24 @@ with _tabs[1]:
         _rst_c1, _rst_c2 = st.columns([1, 5])
         with _rst_c1:
             if st.button("Reset All", type="secondary", key="ind_pnl_reset",
-                         help="Clears ALL trade history and P&L"):
-                for _rf in _glob_mod.glob(os.path.join(_APP_DIR, "pos_state_*.json")):
-                    try:
-                        import json as _jrst; _ss_r = _jrst.load(open(_rf, encoding='utf-8'))
-                        _ss_r['history'] = []; _ss_r['total_trades'] = 0
-                        _ss_r['winning'] = 0; _ss_r['total_pnl'] = 0.0; _ss_r['open_trade'] = None
-                        _jrst.dump(_ss_r, open(_rf,'w', encoding='utf-8'), indent=2)
+                         help="Clears ALL trade history, open positions and P&L"):
+                _all_state_files = (
+                    _glob_mod.glob(os.path.join(_APP_DIR, "pos_state_*.json")) +
+                    _glob_mod.glob(os.path.join(_APP_DIR, "options_state*.json")) +
+                    _glob_mod.glob(os.path.join(_APP_DIR, "results", "trades_*.json"))
+                )
+                for _rf in _all_state_files:
+                    try: os.remove(_rf)
                     except: pass
-                st.success("All data reset!"); st.rerun()
+                _gh_pt = os.path.join(_APP_DIR, "data", "paper_trades.json")
+                if os.path.exists(_gh_pt):
+                    try: os.remove(_gh_pt)
+                    except: pass
+                # Stop all running bots
+                for _sk in list(st.session_state.keys()):
+                    if any(x in _sk for x in ('_pos_trader', '_opt_trader', '_oat_trader', 'ofs_')):
+                        del st.session_state[_sk]
+                st.success("All trades cleared!"); st.rerun()
 
         # ── Big net banner ────────────────────────────────────────────────────
         st.markdown(
