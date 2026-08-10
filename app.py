@@ -132,10 +132,10 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 [data-testid="stSidebar"] * { color: #1e293b !important; }
 
 /* ── Tabs ───────────────────────────────────────────────────────── */
-.stTabs [data-baseweb="tab-list"] { background: #fbbf24; border-radius: 10px; padding: 4px; gap: 4px; }
+.stTabs [data-baseweb="tab-list"] { background: #bfdbfe; border-radius: 10px; padding: 4px; gap: 4px; }
 .stTabs [data-baseweb="tab"] { color: #0f172a !important; font-family:'JetBrains Mono'; font-size:12px; font-weight:600; border-radius:8px; padding:6px 16px; }
 .stTabs [data-baseweb="tab"] p { color: #0f172a !important; }
-.stTabs [data-baseweb="tab"]:hover { color:#0f172a !important; background:#fde68a; }
+.stTabs [data-baseweb="tab"]:hover { color:#0f172a !important; background:#93c5fd; }
 .stTabs [data-baseweb="tab"]:hover p { color:#0f172a !important; }
 .stTabs [aria-selected="true"] { color:#0f172a !important; background:#ffffff; font-weight:700; box-shadow:0 2px 8px rgba(0,0,0,0.15); }
 .stTabs [aria-selected="true"] p { color:#0f172a !important; }
@@ -5248,7 +5248,6 @@ with _tabs[5]:
         st.caption("Paper trade results · Date-wise · Capital tracker · Auto-saved")
     with _psl_h2:
         if st.button("🗑 Clear All History", type="secondary", help="Reset all paper trade history and start fresh from today"):
-            # Delete all paper trade state files
             import glob as _gl
             _files_to_clear = (
                 _gl.glob(os.path.join(_APP_DIR, "pos_state_*.json")) +
@@ -5258,13 +5257,25 @@ with _tabs[5]:
             )
             for _fc in _files_to_clear:
                 try:
-                    if os.path.exists(_fc):
-                        os.remove(_fc)
-                except Exception:
-                    pass
-            # Reset bots so they start fresh
+                    if os.path.exists(_fc): os.remove(_fc)
+                except Exception: pass
+            # Reset optfut_state.json (OFS auto trader)
+            _ofs_f = os.path.join(_APP_DIR, "optfut_state.json")
+            try:
+                with open(_ofs_f, "w") as _ff:
+                    json.dump({"date":"","positions":[],"closed":[],"log":[],"total_pnl":0.0}, _ff)
+            except Exception: pass
+            # Reset pos_state.json (legacy single-file trader)
+            _ps_f = os.path.join(_APP_DIR, "pos_state.json")
+            try:
+                with open(_ps_f, "w") as _ff:
+                    json.dump({"status":"IDLE","global_bias":"NEUTRAL","trades_today":0,
+                               "total_trades":0,"winning":0,"total_pnl":0.0,
+                               "history":[],"open_trade":None,"date":""}, _ff)
+            except Exception: pass
+            # Kill all bot session state
             for _sk in list(st.session_state.keys()):
-                if any(x in _sk for x in ('_pos_trader', '_opt_trader', '_oat_trader', 'ofs_')):
+                if any(x in _sk for x in ('_pos_trader','_opt_trader','_oat_trader','ofs_','_oat_auto')):
                     del st.session_state[_sk]
             st.success("All history cleared! Fresh start from today.")
             st.rerun()
@@ -5525,29 +5536,48 @@ with _tabs[5]:
             _render_pnl_table(_ps_filt, "ps_tbt")
 
         # ── Export ────────────────────────────────────────────────────────────
-        _pse1, _pse2, _pse3 = st.columns(3)
+        st.markdown("---")
+        st.markdown('<div style="color:#1d4ed8;font-size:14px;font-weight:700;font-family:JetBrains Mono;margin-bottom:8px">Export Results</div>', unsafe_allow_html=True)
+        _pse1, _pse2 = st.columns(2)
+        _today_exp = str(__import__('datetime').date.today())
         with _pse1:
+            if _ps_filt:
+                _ps_all_df = pd.DataFrame([{k: v for k, v in t.items() if not k.startswith('_')} for t in _ps_filt])
+                st.download_button(
+                    "⬇ Export All Trades — CSV",
+                    _ps_all_df.to_csv(index=False),
+                    f"india_trades_{_today_exp}.csv",
+                    "text/csv",
+                    type="primary",
+                    use_container_width=True,
+                    key="ps_exp_all2"
+                )
+            else:
+                st.button("⬇ Export All Trades — CSV", disabled=True, use_container_width=True)
+        with _pse2:
             if _ps_daily_sorted:
                 _ps_exp_df = pd.DataFrame([{
-                    "Date":d,"Trades":v["trades"],"W/L":f'{v["wins"]}/{v["trades"]-v["wins"]}',
-                    "Invested Rs":round(v["invested"],2),"Gross P&L":round(v["gross"],2),
-                    "Charges Rs":round(v["charges"],2),"Net P&L":round(v["net"],2),
-                    "Win%":round(v["wins"]/v["trades"]*100,1) if v["trades"] else 0,
-                    "Return%":round(v["net"]/v["invested"]*100,2) if v["invested"] else 0
-                } for d,v in _ps_daily_sorted])
-                st.download_button("Export Summary CSV", _ps_exp_df.to_csv(index=False),
-                    f"india_summary_{str(__import__('datetime').date.today())}.csv", "text/csv", key="ps_exp_sum")
-        with _pse2:
-            if _ps_filt:
-                _ps_all_df = pd.DataFrame([{k:v for k,v in t.items() if not k.startswith('_')} for t in _ps_filt])
-                st.download_button("Export All Trades CSV", _ps_all_df.to_csv(index=False),
-                    f"india_trades_all_{str(__import__('datetime').date.today())}.csv", "text/csv", key="ps_exp_all")
-        with _pse3:
-            st.markdown(
-                f'<div style="background:#eff6ff;border:1px solid #1d4ed8;border-radius:8px;'
-                f'padding:8px 12px;font-family:JetBrains Mono;font-size:10px;color:#1d4ed8">'
-                f'Auto-saved daily to:<br>results/trades_YYYY-MM-DD.json + .csv</div>',
-                unsafe_allow_html=True)
+                    "Date": d,
+                    "Trades": v["trades"],
+                    "W/L": f'{v["wins"]}/{v["trades"] - v["wins"]}',
+                    "Invested Rs": round(v["invested"], 2),
+                    "Gross P&L": round(v["gross"], 2),
+                    "Charges Rs": round(v["charges"], 2),
+                    "Net P&L": round(v["net"], 2),
+                    "Win %": round(v["wins"] / v["trades"] * 100, 1) if v["trades"] else 0,
+                    "Return %": round(v["net"] / v["invested"] * 100, 2) if v["invested"] else 0,
+                } for d, v in _ps_daily_sorted])
+                st.download_button(
+                    "⬇ Export Daily Summary — CSV",
+                    _ps_exp_df.to_csv(index=False),
+                    f"india_daily_summary_{_today_exp}.csv",
+                    "text/csv",
+                    type="primary",
+                    use_container_width=True,
+                    key="ps_exp_sum2"
+                )
+            else:
+                st.button("⬇ Export Daily Summary — CSV", disabled=True, use_container_width=True)
 
 
 with _tabs[6]:
