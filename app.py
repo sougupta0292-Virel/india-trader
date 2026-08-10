@@ -997,7 +997,7 @@ with st.sidebar:
                 st.session_state["ofs_scan_time"]   = _ist_now2.strftime('%H:%M:%S IST')
                 st.session_state["ofs_all_exp"]      = {_idx: _ofs_all_expiries(_idx) for _idx in NSE_INDICES}
             except Exception: pass
-        st.toast("9 AM Auto-start: All bots launched!", icon="")
+        st.toast("9 AM Auto-start: All bots launched!", icon="🚀")
         st.rerun()
 
     # ── START / STOP buttons ──────────────────────────────────────────────────
