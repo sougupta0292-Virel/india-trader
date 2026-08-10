@@ -351,6 +351,20 @@ def _all_trades():
         except Exception:
             pass
 
+    # 4. GitHub Actions paper trades from data/paper_trades.json
+    _gh_paper_file = os.path.join(_APP_DIR, "data", "paper_trades.json")
+    if os.path.exists(_gh_paper_file):
+        try:
+            with open(_gh_paper_file, encoding="utf-8") as fh:
+                _gh_data = json.load(fh)
+            for t in _gh_data.get("closed_trades", []):
+                tid = t.get("id", "")
+                if tid and tid in seen_ids: continue
+                if tid: seen_ids.add(tid)
+                trades.append(t)
+        except Exception:
+            pass
+
     return trades
 
 def _trade_entry(t):
