@@ -839,19 +839,16 @@ with st.sidebar:
     _SB_DEFAULT_OPT = ["ORB Breakout","5 EMA Cross","VWAP Bounce","Gap & Go","Premarket Break"]
 
     st.markdown("---")
-    st.markdown('<div style="color:#1d4ed8;font-size:13px;font-weight:700;font-family:JetBrains Mono;margin-bottom:8px"> SEGMENT CONTROLS</div>', unsafe_allow_html=True)
+    st.markdown('<div style="color:#1d4ed8;font-size:13px;font-weight:700;font-family:JetBrains Mono;margin-bottom:4px"> SEGMENT CONTROLS</div>', unsafe_allow_html=True)
+    st.markdown('<div style="background:#f0fdf4;border:1px solid #86efac;border-radius:6px;padding:5px 10px;margin-bottom:8px;font-family:JetBrains Mono;font-size:9px;font-weight:700;color:#166534">📋 PAPER TRADE ONLY — no real money at risk</div>', unsafe_allow_html=True)
+
+    # All bots are hardcoded to paper mode — no live trade option
+    _sb_eq_live  = False
+    _sb_fut_live = False
 
     # ── EQUITY ────────────────────────────────────────────────────────────────
-    _sb_eq_hdr = st.columns([3, 2])
-    with _sb_eq_hdr[0]:
-        _sb_eq_on = st.toggle("Equity", value=st.session_state.get('sb_eq_on', True), key="sb_eq_on")
-    with _sb_eq_hdr[1]:
-        _sb_eq_live = st.toggle("LIVE", value=st.session_state.get('sb_eq_live', False), key="sb_eq_live",
-                                 disabled=not _sb_eq_on, help="OFF = Paper trade")
+    _sb_eq_on = st.toggle("Equity (Paper)", value=st.session_state.get('sb_eq_on', True), key="sb_eq_on")
     if _sb_eq_on:
-        _sb_eq_mode_c = "#dc2626" if _sb_eq_live else "#166534"
-        _sb_eq_mode_l = "⚡ LIVE ORDERS" if _sb_eq_live else "📋 PAPER"
-        st.markdown(f'<div style="font-family:JetBrains Mono;font-size:9px;color:{_sb_eq_mode_c};margin:-6px 0 4px 0;font-weight:700">{_sb_eq_mode_l}</div>', unsafe_allow_html=True)
         _sb_eq_tfs = st.multiselect("TF", ["5M","15M","1H","4H"],
             default=st.session_state.get('sb_eq_tfs_val', ["15M","1H"]),
             key="sb_eq_tfs_val", label_visibility="collapsed",
@@ -862,21 +859,12 @@ with st.sidebar:
             placeholder="Pick strategies…")
     else:
         _sb_eq_tfs = []; _sb_eq_strats = []
-        st.markdown('<div style="font-family:JetBrains Mono;font-size:9px;color:#94a3b8;margin:-4px 0 4px 0">Equity bots disabled</div>', unsafe_allow_html=True)
 
     st.markdown('<div style="border-top:1px solid #e2e8f0;margin:6px 0"></div>', unsafe_allow_html=True)
 
     # ── FUTURES ───────────────────────────────────────────────────────────────
-    _sb_fut_hdr = st.columns([3, 2])
-    with _sb_fut_hdr[0]:
-        _sb_fut_on = st.toggle("Futures", value=st.session_state.get('sb_fut_on', True), key="sb_fut_on")
-    with _sb_fut_hdr[1]:
-        _sb_fut_live = st.toggle("LIVE", value=st.session_state.get('sb_fut_live', False), key="sb_fut_live",
-                                  disabled=not _sb_fut_on, help="OFF = Paper trade")
+    _sb_fut_on = st.toggle("Futures (Paper)", value=st.session_state.get('sb_fut_on', True), key="sb_fut_on")
     if _sb_fut_on:
-        _sb_fut_mode_c = "#dc2626" if _sb_fut_live else "#166534"
-        _sb_fut_mode_l = "⚡ LIVE ORDERS" if _sb_fut_live else "📋 PAPER"
-        st.markdown(f'<div style="font-family:JetBrains Mono;font-size:9px;color:{_sb_fut_mode_c};margin:-6px 0 4px 0;font-weight:700">{_sb_fut_mode_l}</div>', unsafe_allow_html=True)
         _sb_fut_tfs = st.multiselect("TF", ["5M","15M","1H","4H"],
             default=st.session_state.get('sb_fut_tfs_val', ["15M","1H"]),
             key="sb_fut_tfs_val", label_visibility="collapsed",
@@ -887,13 +875,11 @@ with st.sidebar:
             placeholder="Pick strategies…")
     else:
         _sb_fut_tfs = []; _sb_fut_strats = []
-        st.markdown('<div style="font-family:JetBrains Mono;font-size:9px;color:#94a3b8;margin:-4px 0 4px 0">Futures bots disabled</div>', unsafe_allow_html=True)
 
     st.markdown('<div style="border-top:1px solid #e2e8f0;margin:6px 0"></div>', unsafe_allow_html=True)
 
-    # ── OPTIONS (always paper) ────────────────────────────────────────────────
-    _sb_opt_on = st.toggle("Options (Paper only)", value=st.session_state.get('sb_opt_on', False), key="sb_opt_on")
-    st.markdown('<div style="font-family:JetBrains Mono;font-size:9px;color:#d97706;margin:-6px 0 4px 0;font-weight:700">📋 PAPER ONLY — buys CE/PE on signal</div>', unsafe_allow_html=True)
+    # ── OPTIONS (paper only) ──────────────────────────────────────────────────
+    _sb_opt_on = st.toggle("Options (Paper)", value=st.session_state.get('sb_opt_on', False), key="sb_opt_on")
     if _sb_opt_on:
         _sb_opt_tfs = st.multiselect("TF", ["5M","15M","1H","4H"],
             default=st.session_state.get('sb_opt_tfs_val', ["5M","15M"]),
@@ -913,20 +899,19 @@ with st.sidebar:
                             value=st.session_state.get('sb_oat_on', True), key="sb_oat_on")
     st.markdown('<div style="font-family:JetBrains Mono;font-size:9px;color:#7c3aed;'
                 'margin:-6px 0 4px 0;font-weight:700">'
-                '⚡ CHANDELIER · TUX+ST · CE_REGIME — All 3 Indices</div>',
+                '📋 CHANDELIER · TUX+ST · CE_REGIME — Paper only</div>',
                 unsafe_allow_html=True)
     if _sb_oat_on and OFS_OK:
         _sb_oat_mode  = st.selectbox("Mode", ["both", "options", "futures"],
                                       index=["both", "options", "futures"].index(
                                           st.session_state.get('oat_mode', 'both')),
                                       key="oat_mode")
-        _sb_oat_paper = st.toggle("Paper Mode",
-                                   value=st.session_state.get('oat_paper', True), key="oat_paper")
+        _sb_oat_paper = True   # always paper
         _sb_oat_qty   = st.number_input("Lots", 1, 10,
                                          int(st.session_state.get('oat_qty', 1)), key="oat_qty")
     else:
         _sb_oat_mode  = st.session_state.get('oat_mode', 'both')
-        _sb_oat_paper = st.session_state.get('oat_paper', True)
+        _sb_oat_paper = True
         _sb_oat_qty   = int(st.session_state.get('oat_qty', 1))
 
     st.markdown("---")
@@ -1123,8 +1108,8 @@ with st.sidebar:
             st.success("All bots stopped."); st.rerun()
 
     st.markdown("---")
-    if st.button("Refresh All Data", type="primary", width='stretch'):
-        with st.spinner("Fetching NSE data..."):
+    if st.button("🔄 Refresh All", type="primary", width='stretch', help="Refresh prices, signals and all tabs"):
+        with st.spinner("Refreshing everything..."):
             for _sym in NSE_INDICES:
                 _ld = fetch_nse_live_data(_sym)
                 if _ld and _sym == "NIFTY":
@@ -1134,15 +1119,18 @@ with st.sidebar:
                     st.session_state.prev_close = _ld['prev_close']
                     st.session_state.day_high   = _ld.get('day_high', _ld['spot']*1.01)
                     st.session_state.day_low    = _ld.get('day_low',  _ld['spot']*0.99)
-        if STRATEGY_ENGINE_OK:
-            try:
-                cues = GlobalCuesEngine.fetch_global_cues()
-                gb, gs, _ = GlobalCuesEngine.compute_global_bias(cues)
-                st.session_state.global_bias  = gb
-                st.session_state.global_score = gs
-                st.session_state.cues         = cues
-            except Exception: pass
-        st.success(f"Refreshed! Nifty: Rs{st.session_state.spot:,.0f}")
+            if STRATEGY_ENGINE_OK:
+                try:
+                    cues = GlobalCuesEngine.fetch_global_cues()
+                    gb, gs, _ = GlobalCuesEngine.compute_global_bias(cues)
+                    st.session_state.global_bias  = gb
+                    st.session_state.global_score = gs
+                    st.session_state.cues         = cues
+                except Exception: pass
+            # Clear all scanner caches so next render does a fresh scan
+            for _ck in list(st.session_state.keys()):
+                if any(x in _ck for x in ('_scan_cache', '_sig_cache', '_ofs_scan', '_oat_sig')):
+                    del st.session_state[_ck]
         st.rerun()
 
     # Auto-connect Angel One if market open and env keys set
@@ -5245,8 +5233,32 @@ with _tabs[5]:
     from collections import defaultdict as _ps_dd
     import numpy as _ps_np
 
-    st.markdown('<div style="color:#1d4ed8;font-size:20px;font-weight:700;font-family:JetBrains Mono">P&L Summary</div>', unsafe_allow_html=True)
-    st.caption("Paper trade results · Date-wise · Capital tracker · Auto-saved")
+    _psl_h1, _psl_h2 = st.columns([3, 1])
+    with _psl_h1:
+        st.markdown('<div style="color:#1d4ed8;font-size:20px;font-weight:700;font-family:JetBrains Mono">P&L Summary</div>', unsafe_allow_html=True)
+        st.caption("Paper trade results · Date-wise · Capital tracker · Auto-saved")
+    with _psl_h2:
+        if st.button("🗑 Clear All History", type="secondary", help="Reset all paper trade history and start fresh from today"):
+            # Delete all paper trade state files
+            import glob as _gl
+            _files_to_clear = (
+                _gl.glob(os.path.join(_APP_DIR, "pos_state_*.json")) +
+                _gl.glob(os.path.join(_APP_DIR, "options_state*.json")) +
+                _gl.glob(os.path.join(_APP_DIR, "results", "trades_*.json")) +
+                [os.path.join(_APP_DIR, "data", "paper_trades.json")]
+            )
+            for _fc in _files_to_clear:
+                try:
+                    if os.path.exists(_fc):
+                        os.remove(_fc)
+                except Exception:
+                    pass
+            # Reset bots so they start fresh
+            for _sk in list(st.session_state.keys()):
+                if any(x in _sk for x in ('_pos_trader', '_opt_trader', '_oat_trader', 'ofs_')):
+                    del st.session_state[_sk]
+            st.success("All history cleared! Fresh start from today.")
+            st.rerun()
 
     # ── Capital input ─────────────────────────────────────────────────────────
     _ps_c1, _ps_c2 = st.columns([2,3])
@@ -5358,7 +5370,7 @@ with _tabs[5]:
     else:
         # ── Filters ───────────────────────────────────────────────────────────
         _psf1, _psf2, _psf3, _psf4 = st.columns(4)
-        with _psf1: _ps_period = st.selectbox("Period", ["Today","Last 7 Days","Last 30 Days","All Time"], key="ps_period")
+        with _psf1: _ps_period = st.selectbox("Period", ["Today","Last 7 Days","Last 30 Days","All Time"], index=0, key="ps_period")
         with _psf2: _ps_fseg   = st.selectbox("Segment",["All","Equity","Futures","Options"], key="ps_fseg")
         with _psf3: _ps_fdir   = st.selectbox("Direction",["All","LONG","SHORT"], key="ps_fdir")
         with _psf4: _ps_fres   = st.selectbox("Result",  ["All","WIN","LOSS"], key="ps_fres")
