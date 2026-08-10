@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 4,
+  "winning": 1,
+  "total_pnl": 4.882812481810106e-05,
+  "last_scan": "12:08:53",
+  "last_signal": "No signal",
+  "last_action": "Closed -1pts (Rs.-1)",
+  "log": [
+    {
+      "time": "07:36:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:36:49) \u2014 waiting"
+    },
+    {
+      "time": "07:41:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:41:49) \u2014 waiting"
+    },
+    {
+      "time": "07:46:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:46:49) \u2014 waiting"
+    },
+    {
+      "time": "07:51:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:51:49) \u2014 waiting"
+    },
+    {
+      "time": "07:56:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:56:49) \u2014 waiting"
+    },
+    {
+      "time": "08:01:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:01:49) \u2014 waiting"
+    },
+    {
+      "time": "08:06:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:06:49) \u2014 waiting"
+    },
+    {
+      "time": "08:11:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:11:49) \u2014 waiting"
+    },
+    {
+      "time": "08:16:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:16:49) \u2014 waiting"
+    },
+    {
+      "time": "08:21:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:21:49) \u2014 waiting"
+    },
+    {
+      "time": "08:26:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:26:49) \u2014 waiting"
+    },
+    {
+      "time": "08:31:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:31:49) \u2014 waiting"
+    },
+    {
+      "time": "08:36:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:36:49) \u2014 waiting"
+    },
+    {
+      "time": "08:41:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:41:49) \u2014 waiting"
+    },
+    {
+      "time": "08:46:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:46:49) \u2014 waiting"
+    },
+    {
+      "time": "08:51:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:51:49) \u2014 waiting"
+    },
+    {
+      "time": "08:56:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:56:49) \u2014 waiting"
+    },
+    {
+      "time": "09:01:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:01:49) \u2014 waiting"
+    },
+    {
+      "time": "09:06:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:06:49) \u2014 waiting"
+    },
+    {
+      "time": "09:11:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:11:49) \u2014 waiting"
+    },
+    {
+      "time": "09:16:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:16:49) \u2014 waiting"
+    },
+    {
+      "time": "09:21:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,298.70"
+    },
+    {
+      "time": "09:21:50",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:26:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,299.60"
+    },
+    {
+      "time": "09:26:52",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:32:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,300.90"
+    },
+    {
+      "time": "09:32:36",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG JSWSTEEL | Entry: 1,819 | Target: 1,869 | SL: 1,795 | R:R 1:2.1 | Pre-market break LONG | PM H 1,805 | Range 25pts"
+    },
+    {
+      "time": "09:32:38",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG JSWSTEEL @ 1,301"
+    },
+    {
+      "time": "09:38:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,299.80"
+    },
+    {
+      "time": "09:38:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG JSWSTEEL | Entry: 1,301 | LTP: 1,300 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "09:38:11",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed LONG JSWSTEEL | Entry: 1,301 \u2192 Exit: 1,300 | PnL: -1pts (Rs.-1) | STOP_LOSS"
+    },
+    {
+      "time": "09:43:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,302.00"
+    },
+    {
+      "time": "09:43:14",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:48:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,300.10"
+    },
+    {
+      "time": "09:48:16",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:53:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,297.10"
+    },
+    {
+      "time": "09:53:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:58:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,298.00"
+    },
+    {
+      "time": "09:58:18",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:03:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,298.40"
+    },
+    {
+      "time": "10:03:19",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:08:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,300.00"
+    },
+    {
+      "time": "10:08:20",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:13:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,302.40"
+    },
+    {
+      "time": "10:13:21",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:18:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,300.40"
+    },
+    {
+      "time": "10:18:24",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:18:25",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,300 \u2014 skipped."
+    },
+    {
+      "time": "10:23:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,299.40"
+    },
+    {
+      "time": "10:23:26",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:23:27",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,299 \u2014 skipped."
+    },
+    {
+      "time": "10:28:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,299.40"
+    },
+    {
+      "time": "10:28:28",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:28:28",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,299 \u2014 skipped."
+    },
+    {
+      "time": "10:33:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,299.90"
+    },
+    {
+      "time": "10:33:29",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:33:30",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,300 \u2014 skipped."
+    },
+    {
+      "time": "10:38:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,296.60"
+    },
+    {
+      "time": "10:38:31",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:38:31",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,297 \u2014 skipped."
+    },
+    {
+      "time": "10:43:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,295.40"
+    },
+    {
+      "time": "10:43:32",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:43:33",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,295 \u2014 skipped."
+    },
+    {
+      "time": "10:48:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,296.50"
+    },
+    {
+      "time": "10:48:33",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:48:34",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,296 \u2014 skipped."
+    },
+    {
+      "time": "10:53:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,297.50"
+    },
+    {
+      "time": "10:53:35",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:53:36",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,298 \u2014 skipped."
+    },
+    {
+      "time": "10:58:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,297.00"
+    },
+    {
+      "time": "10:58:37",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,300 | Target: 1,275 | SL: 1,313 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1303"
+    },
+    {
+      "time": "10:58:37",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,297 \u2014 skipped."
+    },
+    {
+      "time": "11:03:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,299.00"
+    },
+    {
+      "time": "11:03:39",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:08:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,300.00"
+    },
+    {
+      "time": "11:08:40",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:13:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,299.30"
+    },
+    {
+      "time": "11:13:41",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:18:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,297.70"
+    },
+    {
+      "time": "11:18:42",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:23:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,295.90"
+    },
+    {
+      "time": "11:23:43",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:28:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,297.90"
+    },
+    {
+      "time": "11:28:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:33:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,298.70"
+    },
+    {
+      "time": "11:33:47",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:38:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,298.20"
+    },
+    {
+      "time": "11:38:48",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:43:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,298.70"
+    },
+    {
+      "time": "11:43:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:48:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,295.80"
+    },
+    {
+      "time": "11:48:51",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:53:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,290.70"
+    },
+    {
+      "time": "11:53:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:58:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,290.60"
+    },
+    {
+      "time": "11:58:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:03:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,292.40"
+    },
+    {
+      "time": "12:03:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:08:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,293.60"
+    },
+    {
+      "time": "12:08:54",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260603_111720",
+      "date": "2026-06-03",
+      "time": "11:17:20",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "JSWSTEEL",
+      "direction": "LONG",
+      "entry": 1299.9,
+      "target": 1332.3,
+      "stop_loss": 1283.5,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1301.0,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 1.1,
+      "pnl_rs": 1.1,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_093238",
+      "date": "2026-06-05",
+      "time": "09:32:38",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "JSWSTEEL",
+      "direction": "LONG",
+      "entry": 1300.9,
+      "target": 1869.5,
+      "stop_loss": 1794.7,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1299.8,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -1.1,
+      "pnl_rs": -1.1,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

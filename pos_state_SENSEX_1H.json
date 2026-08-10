@@ -1,0 +1,607 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 4,
+  "total_trades": 6,
+  "winning": 1,
+  "total_pnl": -10398.931249999732,
+  "last_scan": "12:05:43",
+  "last_signal": "No signal",
+  "last_action": "Closed -290pts (Rs.-5,795)",
+  "log": [
+    {
+      "time": "07:28:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:28:24) \u2014 waiting"
+    },
+    {
+      "time": "07:33:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:24) \u2014 waiting"
+    },
+    {
+      "time": "07:38:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:38:24) \u2014 waiting"
+    },
+    {
+      "time": "07:43:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:43:24) \u2014 waiting"
+    },
+    {
+      "time": "07:48:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:48:24) \u2014 waiting"
+    },
+    {
+      "time": "07:53:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:53:24) \u2014 waiting"
+    },
+    {
+      "time": "07:58:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:58:24) \u2014 waiting"
+    },
+    {
+      "time": "08:03:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:03:24) \u2014 waiting"
+    },
+    {
+      "time": "08:08:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:08:25) \u2014 waiting"
+    },
+    {
+      "time": "08:13:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:13:25) \u2014 waiting"
+    },
+    {
+      "time": "08:18:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:25) \u2014 waiting"
+    },
+    {
+      "time": "08:23:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:23:25) \u2014 waiting"
+    },
+    {
+      "time": "08:28:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:28:25) \u2014 waiting"
+    },
+    {
+      "time": "08:33:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:25) \u2014 waiting"
+    },
+    {
+      "time": "08:38:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:38:25) \u2014 waiting"
+    },
+    {
+      "time": "08:43:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:43:25) \u2014 waiting"
+    },
+    {
+      "time": "08:48:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:25) \u2014 waiting"
+    },
+    {
+      "time": "08:53:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:53:25) \u2014 waiting"
+    },
+    {
+      "time": "08:58:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:58:25) \u2014 waiting"
+    },
+    {
+      "time": "09:03:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:25) \u2014 waiting"
+    },
+    {
+      "time": "09:08:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:08:25) \u2014 waiting"
+    },
+    {
+      "time": "09:13:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:13:25) \u2014 waiting"
+    },
+    {
+      "time": "09:18:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:25) \u2014 waiting"
+    },
+    {
+      "time": "09:23:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,360.01"
+    },
+    {
+      "time": "09:23:26",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:28:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,629.94"
+    },
+    {
+      "time": "09:28:27",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:34:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,550.96"
+    },
+    {
+      "time": "09:34:35",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:40:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,491.62"
+    },
+    {
+      "time": "09:40:17",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG SENSEX | Entry: 74,508 | Target: 74,985 | SL: 74,269 | R:R 1:2.0 | VWAP trend LONG | EMA5=74,389 VWAP=74,279 | Vol spike"
+    },
+    {
+      "time": "09:40:17",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG SENSEX @ 74,492"
+    },
+    {
+      "time": "09:45:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,562.07"
+    },
+    {
+      "time": "09:45:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,562 | Unrealized: +70pts (Rs.+1,409)"
+    },
+    {
+      "time": "09:50:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,556.34"
+    },
+    {
+      "time": "09:50:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,556 | Unrealized: +65pts (Rs.+1,294)"
+    },
+    {
+      "time": "09:55:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,528.56"
+    },
+    {
+      "time": "09:55:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,529 | Unrealized: +37pts (Rs.+739)"
+    },
+    {
+      "time": "10:00:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,576.72"
+    },
+    {
+      "time": "10:00:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,577 | Unrealized: +85pts (Rs.+1,702)"
+    },
+    {
+      "time": "10:05:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,492.00"
+    },
+    {
+      "time": "10:05:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,492 | Unrealized: +0pts (Rs.+8)"
+    },
+    {
+      "time": "10:10:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,544.92"
+    },
+    {
+      "time": "10:10:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,545 | Unrealized: +53pts (Rs.+1,066)"
+    },
+    {
+      "time": "10:15:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,493.00"
+    },
+    {
+      "time": "10:15:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,493 | Unrealized: +1pts (Rs.+28)"
+    },
+    {
+      "time": "10:20:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,512.83"
+    },
+    {
+      "time": "10:20:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,513 | Unrealized: +21pts (Rs.+424)"
+    },
+    {
+      "time": "10:25:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,632.00"
+    },
+    {
+      "time": "10:25:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,632 | Unrealized: +140pts (Rs.+2,808)"
+    },
+    {
+      "time": "10:30:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,588.97"
+    },
+    {
+      "time": "10:30:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,589 | Unrealized: +97pts (Rs.+1,947)"
+    },
+    {
+      "time": "10:35:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,596.40"
+    },
+    {
+      "time": "10:35:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,596 | Unrealized: +105pts (Rs.+2,096)"
+    },
+    {
+      "time": "10:40:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,646.79"
+    },
+    {
+      "time": "10:40:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,647 | Unrealized: +155pts (Rs.+3,103)"
+    },
+    {
+      "time": "10:45:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,580.26"
+    },
+    {
+      "time": "10:45:29",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,580 | Unrealized: +89pts (Rs.+1,773)"
+    },
+    {
+      "time": "10:50:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,412.53"
+    },
+    {
+      "time": "10:50:29",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,413 | Unrealized: -79pts (Rs.-1,582)"
+    },
+    {
+      "time": "10:55:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,201.88"
+    },
+    {
+      "time": "10:55:30",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG SENSEX | Entry: 74,492 | LTP: 74,202 | Unrealized: -290pts (Rs.-5,795)"
+    },
+    {
+      "time": "10:55:30",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed LONG SENSEX | Entry: 74,492 \u2192 Exit: 74,202 | PnL: -290pts (Rs.-5,795) | STOP_LOSS"
+    },
+    {
+      "time": "11:00:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,158.09"
+    },
+    {
+      "time": "11:00:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:05:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,273.65"
+    },
+    {
+      "time": "11:05:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:10:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,286.93"
+    },
+    {
+      "time": "11:10:32",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:15:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,368.95"
+    },
+    {
+      "time": "11:15:32",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:20:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,529.16"
+    },
+    {
+      "time": "11:20:33",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:25:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,584.88"
+    },
+    {
+      "time": "11:25:34",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG SENSEX | Entry: 74,585 | Target: 75,154 | SL: 74,300 | R:R 1:2.0 | VWAP trend LONG | EMA5=74,470 VWAP=74,310 | Vol spike"
+    },
+    {
+      "time": "11:25:34",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9149,170 \u2014 skipped."
+    },
+    {
+      "time": "11:30:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,492.72"
+    },
+    {
+      "time": "11:30:35",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SENSEX | Entry: 74,435 | Target: 73,880 | SL: 74,723 | R:R 1:1.9 | Candle above EMA5(74413), break of low 74435"
+    },
+    {
+      "time": "11:30:35",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9148,985 \u2014 skipped."
+    },
+    {
+      "time": "11:35:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,404.60"
+    },
+    {
+      "time": "11:35:37",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SENSEX | Entry: 74,435 | Target: 73,880 | SL: 74,723 | R:R 1:1.9 | Candle above EMA5(74413), break of low 74435"
+    },
+    {
+      "time": "11:35:37",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9148,809 \u2014 skipped."
+    },
+    {
+      "time": "11:40:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,399.22"
+    },
+    {
+      "time": "11:40:38",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SENSEX | Entry: 74,435 | Target: 73,880 | SL: 74,723 | R:R 1:1.9 | Candle above EMA5(74413), break of low 74435"
+    },
+    {
+      "time": "11:40:39",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9148,798 \u2014 skipped."
+    },
+    {
+      "time": "11:45:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,455.23"
+    },
+    {
+      "time": "11:45:40",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SENSEX | Entry: 74,435 | Target: 73,880 | SL: 74,723 | R:R 1:1.9 | Candle above EMA5(74413), break of low 74435"
+    },
+    {
+      "time": "11:45:40",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9148,910 \u2014 skipped."
+    },
+    {
+      "time": "11:50:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,425.86"
+    },
+    {
+      "time": "11:50:41",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SENSEX | Entry: 74,435 | Target: 73,880 | SL: 74,723 | R:R 1:1.9 | Candle above EMA5(74413), break of low 74435"
+    },
+    {
+      "time": "11:50:41",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9148,852 \u2014 skipped."
+    },
+    {
+      "time": "11:55:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,388.48"
+    },
+    {
+      "time": "11:55:42",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SENSEX | Entry: 74,435 | Target: 73,880 | SL: 74,723 | R:R 1:1.9 | Candle above EMA5(74413), break of low 74435"
+    },
+    {
+      "time": "11:55:42",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9148,777 \u2014 skipped."
+    },
+    {
+      "time": "12:00:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,441.10"
+    },
+    {
+      "time": "12:00:43",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SENSEX | Entry: 74,435 | Target: 73,880 | SL: 74,723 | R:R 1:1.9 | Candle above EMA5(74413), break of low 74435"
+    },
+    {
+      "time": "12:00:43",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9148,882 \u2014 skipped."
+    },
+    {
+      "time": "12:05:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SENSEX | LTP: 74,451.77"
+    },
+    {
+      "time": "12:05:45",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SENSEX | Entry: 74,435 | Target: 73,880 | SL: 74,723 | R:R 1:1.9 | Candle above EMA5(74413), break of low 74435"
+    },
+    {
+      "time": "12:05:45",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9148,904 \u2014 skipped."
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260527_092117",
+      "date": "2026-05-27",
+      "time": "09:21:17",
+      "strategy": "VWAP_TREND",
+      "instrument": "SENSEX",
+      "direction": "LONG",
+      "entry": 76009.7,
+      "target": 75889.71,
+      "stop_loss": 76069.7,
+      "qty": 20,
+      "status": "CLOSED",
+      "exit_price": 75939.86,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": -69.84,
+      "pnl_rs": -1396.8,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_092220",
+      "date": "2026-06-03",
+      "time": "09:22:20",
+      "strategy": "5EMA",
+      "instrument": "SENSEX",
+      "direction": "SHORT",
+      "entry": 74649.84,
+      "target": 74060.29,
+      "stop_loss": 74841.55,
+      "qty": 20,
+      "status": "CLOSED",
+      "exit_price": 73997.16,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 652.68,
+      "pnl_rs": 13053.67,
+      "paper": true
+    },
+    {
+      "id": "POS_20260604_092229",
+      "date": "2026-06-04",
+      "time": "09:22:29",
+      "strategy": "MOM_SCALP",
+      "instrument": "SENSEX",
+      "direction": "LONG",
+      "entry": 74346.17,
+      "target": 74678.77,
+      "stop_loss": 74149.55,
+      "qty": 20,
+      "status": "CLOSED",
+      "exit_price": 73935.83,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -410.34,
+      "pnl_rs": -8206.8,
+      "paper": true
+    },
+    {
+      "id": "POS_20260604_093232",
+      "date": "2026-06-04",
+      "time": "09:32:32",
+      "strategy": "VWAP_TREND",
+      "instrument": "SENSEX",
+      "direction": "SHORT",
+      "entry": 74063.99,
+      "target": 73684.1,
+      "stop_loss": 74262.21,
+      "qty": 20,
+      "status": "CLOSED",
+      "exit_price": 74466.7,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -402.71,
+      "pnl_rs": -8054.26,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_094017",
+      "date": "2026-06-05",
+      "time": "09:40:17",
+      "strategy": "VWAP_TREND",
+      "instrument": "SENSEX",
+      "direction": "LONG",
+      "entry": 74491.62,
+      "target": 74984.9,
+      "stop_loss": 74268.94,
+      "qty": 20,
+      "status": "CLOSED",
+      "exit_price": 74201.88,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -289.74,
+      "pnl_rs": -5794.74,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

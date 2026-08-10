@@ -1,0 +1,571 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 6,
+  "winning": 2,
+  "total_pnl": -3.800018310546875,
+  "last_scan": "12:06:04",
+  "last_signal": "No signal",
+  "last_action": "Closed +1pts (Rs.+1)",
+  "log": [
+    {
+      "time": "14:10:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 410.15"
+    },
+    {
+      "time": "14:10:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BEL | Entry: 405 | LTP: 410 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:25:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 409.50"
+    },
+    {
+      "time": "14:25:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BEL | Entry: 405 | LTP: 410 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:40:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 411.30"
+    },
+    {
+      "time": "14:40:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BEL | Entry: 405 | LTP: 411 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "14:55:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 410.10"
+    },
+    {
+      "time": "14:55:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BEL | Entry: 405 | LTP: 410 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "15:10:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 409.45"
+    },
+    {
+      "time": "15:10:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BEL | Entry: 405 | LTP: 409 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "15:25:26",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed SHORT BEL | Entry: 405 \u2192 Exit: 410 | PnL: -5pts (Rs.-5) | EOD_SQUAREOFF"
+    },
+    {
+      "time": "15:40:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:26) \u2014 waiting"
+    },
+    {
+      "time": "15:55:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:26) \u2014 waiting"
+    },
+    {
+      "time": "16:10:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:26) \u2014 waiting"
+    },
+    {
+      "time": "16:25:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:26) \u2014 waiting"
+    },
+    {
+      "time": "16:40:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:26) \u2014 waiting"
+    },
+    {
+      "time": "16:55:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:26) \u2014 waiting"
+    },
+    {
+      "time": "17:10:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:26) \u2014 waiting"
+    },
+    {
+      "time": "17:25:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:25:26) \u2014 waiting"
+    },
+    {
+      "time": "19:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:34:37) \u2014 waiting"
+    },
+    {
+      "time": "19:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:49:37) \u2014 waiting"
+    },
+    {
+      "time": "20:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:04:37) \u2014 waiting"
+    },
+    {
+      "time": "20:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:19:37) \u2014 waiting"
+    },
+    {
+      "time": "20:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:34:37) \u2014 waiting"
+    },
+    {
+      "time": "20:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:49:37) \u2014 waiting"
+    },
+    {
+      "time": "21:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:04:37) \u2014 waiting"
+    },
+    {
+      "time": "21:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:19:37) \u2014 waiting"
+    },
+    {
+      "time": "21:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:34:37) \u2014 waiting"
+    },
+    {
+      "time": "21:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:49:37) \u2014 waiting"
+    },
+    {
+      "time": "22:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:04:37) \u2014 waiting"
+    },
+    {
+      "time": "22:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:19:37) \u2014 waiting"
+    },
+    {
+      "time": "22:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:34:37) \u2014 waiting"
+    },
+    {
+      "time": "22:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:49:37) \u2014 waiting"
+    },
+    {
+      "time": "23:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:04:37) \u2014 waiting"
+    },
+    {
+      "time": "23:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:19:37) \u2014 waiting"
+    },
+    {
+      "time": "23:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:34:37) \u2014 waiting"
+    },
+    {
+      "time": "23:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:49:37) \u2014 waiting"
+    },
+    {
+      "time": "00:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:04:37) \u2014 waiting"
+    },
+    {
+      "time": "00:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:19:37) \u2014 waiting"
+    },
+    {
+      "time": "00:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:34:37) \u2014 waiting"
+    },
+    {
+      "time": "00:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:49:37) \u2014 waiting"
+    },
+    {
+      "time": "01:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:04:37) \u2014 waiting"
+    },
+    {
+      "time": "01:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:19:37) \u2014 waiting"
+    },
+    {
+      "time": "01:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:34:37) \u2014 waiting"
+    },
+    {
+      "time": "01:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:49:37) \u2014 waiting"
+    },
+    {
+      "time": "02:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:04:37) \u2014 waiting"
+    },
+    {
+      "time": "02:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:19:37) \u2014 waiting"
+    },
+    {
+      "time": "02:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:34:37) \u2014 waiting"
+    },
+    {
+      "time": "02:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:49:37) \u2014 waiting"
+    },
+    {
+      "time": "03:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:04:37) \u2014 waiting"
+    },
+    {
+      "time": "03:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:19:37) \u2014 waiting"
+    },
+    {
+      "time": "03:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:34:37) \u2014 waiting"
+    },
+    {
+      "time": "03:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:49:37) \u2014 waiting"
+    },
+    {
+      "time": "04:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:04:37) \u2014 waiting"
+    },
+    {
+      "time": "04:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:19:37) \u2014 waiting"
+    },
+    {
+      "time": "04:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:34:37) \u2014 waiting"
+    },
+    {
+      "time": "04:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:49:37) \u2014 waiting"
+    },
+    {
+      "time": "05:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:04:37) \u2014 waiting"
+    },
+    {
+      "time": "05:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:19:37) \u2014 waiting"
+    },
+    {
+      "time": "05:34:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:34:37) \u2014 waiting"
+    },
+    {
+      "time": "05:49:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:49:37) \u2014 waiting"
+    },
+    {
+      "time": "06:04:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:04:37) \u2014 waiting"
+    },
+    {
+      "time": "06:19:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:19:37) \u2014 waiting"
+    },
+    {
+      "time": "06:34:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:34:38) \u2014 waiting"
+    },
+    {
+      "time": "06:49:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:49:38) \u2014 waiting"
+    },
+    {
+      "time": "07:04:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:04:38) \u2014 waiting"
+    },
+    {
+      "time": "07:19:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:19:38) \u2014 waiting"
+    },
+    {
+      "time": "07:34:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:34:38) \u2014 waiting"
+    },
+    {
+      "time": "07:49:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:49:38) \u2014 waiting"
+    },
+    {
+      "time": "08:04:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:04:38) \u2014 waiting"
+    },
+    {
+      "time": "08:19:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:19:38) \u2014 waiting"
+    },
+    {
+      "time": "08:34:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:34:38) \u2014 waiting"
+    },
+    {
+      "time": "08:49:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:49:38) \u2014 waiting"
+    },
+    {
+      "time": "09:04:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:04:38) \u2014 waiting"
+    },
+    {
+      "time": "09:19:38",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:19:38) \u2014 waiting"
+    },
+    {
+      "time": "09:35:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 408.20"
+    },
+    {
+      "time": "09:35:55",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG BEL | Entry: 23,476 | Target: 23,624 | SL: 23,402 | R:R 1:2.0 | VWAP trend LONG | EMA5=23,449 VWAP=23,412 | Vol spike"
+    },
+    {
+      "time": "09:35:55",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG BEL @ 408"
+    },
+    {
+      "time": "09:50:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 409.00"
+    },
+    {
+      "time": "09:50:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG BEL | Entry: 408 | LTP: 409 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "09:50:56",
+      "level": "TRADE",
+      "message": "\u2705 WIN: Closed LONG BEL | Entry: 408 \u2192 Exit: 409 | PnL: +1pts (Rs.+1) | STOP_LOSS"
+    },
+    {
+      "time": "10:05:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 409.60"
+    },
+    {
+      "time": "10:05:57",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.3 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:20:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 410.25"
+    },
+    {
+      "time": "10:20:59",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:35:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 409.25"
+    },
+    {
+      "time": "10:35:59",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:51:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 409.50"
+    },
+    {
+      "time": "10:51:00",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:06:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 409.10"
+    },
+    {
+      "time": "11:06:01",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:21:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 407.85"
+    },
+    {
+      "time": "11:21:02",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:36:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 407.60"
+    },
+    {
+      "time": "11:36:03",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:51:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 407.40"
+    },
+    {
+      "time": "11:51:04",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT BEL | Entry: 407 | Target: 384 | SL: 419 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.3% | 9EMA 409"
+    },
+    {
+      "time": "11:51:04",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9407 \u2014 skipped."
+    },
+    {
+      "time": "12:06:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BEL | LTP: 407.05"
+    },
+    {
+      "time": "12:06:05",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260526_101247",
+      "date": "2026-05-26",
+      "time": "10:12:47",
+      "strategy": "VWAP_TREND",
+      "instrument": "BEL",
+      "direction": "LONG",
+      "entry": 422.95,
+      "target": 24196.3,
+      "stop_loss": 23986.9,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 423.4,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.45,
+      "pnl_rs": 0.45,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_093124",
+      "date": "2026-06-03",
+      "time": "09:31:24",
+      "strategy": "GAP_AND_GO",
+      "instrument": "BEL",
+      "direction": "SHORT",
+      "entry": 405.15,
+      "target": 381.65,
+      "stop_loss": 416.9,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 410.2,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -5.05,
+      "pnl_rs": -5.05,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_093555",
+      "date": "2026-06-05",
+      "time": "09:35:55",
+      "strategy": "VWAP_TREND",
+      "instrument": "BEL",
+      "direction": "LONG",
+      "entry": 408.2,
+      "target": 23624.2,
+      "stop_loss": 23401.53,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 409.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.8,
+      "pnl_rs": 0.8,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

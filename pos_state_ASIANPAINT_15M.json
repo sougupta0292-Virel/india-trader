@@ -1,0 +1,643 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 5,
+  "total_trades": 13,
+  "winning": 3,
+  "total_pnl": -43.0,
+  "last_scan": "12:05:21",
+  "last_signal": "No signal",
+  "last_action": "Closed +4pts (Rs.+4)",
+  "log": [
+    {
+      "time": "13:54:34",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:09:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,660.80"
+    },
+    {
+      "time": "14:09:35",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.9 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:24:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,662.60"
+    },
+    {
+      "time": "14:24:36",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ASIANPAINT | Entry: 2,660 | Target: 2,614 | SL: 2,685 | R:R 1:1.9 | Pre-market break SHORT | PM L 2,675 | Range 23pts"
+    },
+    {
+      "time": "14:24:37",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,753 | This trade: \u20b92,663 \u2014 skipped."
+    },
+    {
+      "time": "14:39:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,664.90"
+    },
+    {
+      "time": "14:39:37",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:54:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,658.70"
+    },
+    {
+      "time": "14:54:39",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:09:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,661.00"
+    },
+    {
+      "time": "15:09:39",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "15:39:39",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:39:39) \u2014 waiting"
+    },
+    {
+      "time": "15:54:39",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:54:39) \u2014 waiting"
+    },
+    {
+      "time": "16:09:39",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:09:39) \u2014 waiting"
+    },
+    {
+      "time": "16:24:39",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:24:39) \u2014 waiting"
+    },
+    {
+      "time": "16:39:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:39:40) \u2014 waiting"
+    },
+    {
+      "time": "16:54:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:54:40) \u2014 waiting"
+    },
+    {
+      "time": "17:09:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:09:40) \u2014 waiting"
+    },
+    {
+      "time": "17:24:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:24:40) \u2014 waiting"
+    },
+    {
+      "time": "19:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:33:51) \u2014 waiting"
+    },
+    {
+      "time": "19:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:48:51) \u2014 waiting"
+    },
+    {
+      "time": "20:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:03:51) \u2014 waiting"
+    },
+    {
+      "time": "20:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:18:51) \u2014 waiting"
+    },
+    {
+      "time": "20:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:33:51) \u2014 waiting"
+    },
+    {
+      "time": "20:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:48:51) \u2014 waiting"
+    },
+    {
+      "time": "21:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:03:51) \u2014 waiting"
+    },
+    {
+      "time": "21:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:18:51) \u2014 waiting"
+    },
+    {
+      "time": "21:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:33:51) \u2014 waiting"
+    },
+    {
+      "time": "21:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:48:51) \u2014 waiting"
+    },
+    {
+      "time": "22:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:03:51) \u2014 waiting"
+    },
+    {
+      "time": "22:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:18:51) \u2014 waiting"
+    },
+    {
+      "time": "22:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:33:51) \u2014 waiting"
+    },
+    {
+      "time": "22:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:48:51) \u2014 waiting"
+    },
+    {
+      "time": "23:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:03:51) \u2014 waiting"
+    },
+    {
+      "time": "23:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:18:51) \u2014 waiting"
+    },
+    {
+      "time": "23:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:33:51) \u2014 waiting"
+    },
+    {
+      "time": "23:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:48:51) \u2014 waiting"
+    },
+    {
+      "time": "00:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:03:51) \u2014 waiting"
+    },
+    {
+      "time": "00:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:18:51) \u2014 waiting"
+    },
+    {
+      "time": "00:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:33:51) \u2014 waiting"
+    },
+    {
+      "time": "00:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:48:51) \u2014 waiting"
+    },
+    {
+      "time": "01:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:03:51) \u2014 waiting"
+    },
+    {
+      "time": "01:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:18:51) \u2014 waiting"
+    },
+    {
+      "time": "01:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:33:51) \u2014 waiting"
+    },
+    {
+      "time": "01:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:48:51) \u2014 waiting"
+    },
+    {
+      "time": "02:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:03:51) \u2014 waiting"
+    },
+    {
+      "time": "02:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:18:51) \u2014 waiting"
+    },
+    {
+      "time": "02:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:33:51) \u2014 waiting"
+    },
+    {
+      "time": "02:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:48:51) \u2014 waiting"
+    },
+    {
+      "time": "03:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:03:51) \u2014 waiting"
+    },
+    {
+      "time": "03:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:18:51) \u2014 waiting"
+    },
+    {
+      "time": "03:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:33:51) \u2014 waiting"
+    },
+    {
+      "time": "03:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:48:51) \u2014 waiting"
+    },
+    {
+      "time": "04:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:03:51) \u2014 waiting"
+    },
+    {
+      "time": "04:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:18:51) \u2014 waiting"
+    },
+    {
+      "time": "04:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:33:51) \u2014 waiting"
+    },
+    {
+      "time": "04:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:48:51) \u2014 waiting"
+    },
+    {
+      "time": "05:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:03:51) \u2014 waiting"
+    },
+    {
+      "time": "05:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:18:51) \u2014 waiting"
+    },
+    {
+      "time": "05:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:33:51) \u2014 waiting"
+    },
+    {
+      "time": "05:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:48:51) \u2014 waiting"
+    },
+    {
+      "time": "06:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:03:51) \u2014 waiting"
+    },
+    {
+      "time": "06:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:18:51) \u2014 waiting"
+    },
+    {
+      "time": "06:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:33:51) \u2014 waiting"
+    },
+    {
+      "time": "06:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:48:51) \u2014 waiting"
+    },
+    {
+      "time": "07:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:03:51) \u2014 waiting"
+    },
+    {
+      "time": "07:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:18:51) \u2014 waiting"
+    },
+    {
+      "time": "07:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:51) \u2014 waiting"
+    },
+    {
+      "time": "07:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:48:51) \u2014 waiting"
+    },
+    {
+      "time": "08:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:03:51) \u2014 waiting"
+    },
+    {
+      "time": "08:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:51) \u2014 waiting"
+    },
+    {
+      "time": "08:33:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:51) \u2014 waiting"
+    },
+    {
+      "time": "08:48:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:51) \u2014 waiting"
+    },
+    {
+      "time": "09:03:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:51) \u2014 waiting"
+    },
+    {
+      "time": "09:18:51",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:51) \u2014 waiting"
+    },
+    {
+      "time": "09:35:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,685.20"
+    },
+    {
+      "time": "09:35:10",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ASIANPAINT | Entry: 24,495 | Target: 24,035 | SL: 24,680 | R:R 1:2.5 | Pre-market break SHORT | PM L 24,670 | Range 230pts"
+    },
+    {
+      "time": "09:35:10",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ASIANPAINT @ 2,685"
+    },
+    {
+      "time": "09:50:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,681.20"
+    },
+    {
+      "time": "09:50:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ASIANPAINT | Entry: 2,685 | LTP: 2,681 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "09:50:11",
+      "level": "TRADE",
+      "message": "\u2705 WIN: Closed SHORT ASIANPAINT | Entry: 2,685 \u2192 Exit: 2,681 | PnL: +4pts (Rs.+4) | TARGET_HIT"
+    },
+    {
+      "time": "10:05:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,684.60"
+    },
+    {
+      "time": "10:05:14",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:20:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,685.60"
+    },
+    {
+      "time": "10:20:15",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.9 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:35:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,683.70"
+    },
+    {
+      "time": "10:35:16",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:50:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,691.80"
+    },
+    {
+      "time": "10:50:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:05:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,696.80"
+    },
+    {
+      "time": "11:05:18",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:20:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,690.30"
+    },
+    {
+      "time": "11:20:19",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:35:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,688.40"
+    },
+    {
+      "time": "11:35:20",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:50:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,681.80"
+    },
+    {
+      "time": "11:50:21",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:05:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ASIANPAINT | LTP: 2,681.10"
+    },
+    {
+      "time": "12:05:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260527_092047",
+      "date": "2026-05-27",
+      "time": "09:20:47",
+      "strategy": "GAP_AND_GO",
+      "instrument": "ASIANPAINT",
+      "direction": "SHORT",
+      "entry": 2669.8,
+      "target": 2616.52,
+      "stop_loss": 2657.89,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2666.6,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 3.2,
+      "pnl_rs": 3.2,
+      "paper": true
+    },
+    {
+      "id": "POS_20260529_093953",
+      "date": "2026-05-29",
+      "time": "09:39:53",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ASIANPAINT",
+      "direction": "SHORT",
+      "entry": 2674.0,
+      "target": 2622.2,
+      "stop_loss": 2678.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2682.3,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -8.3,
+      "pnl_rs": -8.3,
+      "paper": true
+    },
+    {
+      "id": "POS_20260602_124516",
+      "date": "2026-06-02",
+      "time": "12:45:16",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ASIANPAINT",
+      "direction": "SHORT",
+      "entry": 2635.6,
+      "target": 2590.8,
+      "stop_loss": 2646.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2650.7,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -15.1,
+      "pnl_rs": -15.1,
+      "paper": true
+    },
+    {
+      "id": "POS_20260602_131518",
+      "date": "2026-06-02",
+      "time": "13:15:18",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ASIANPAINT",
+      "direction": "LONG",
+      "entry": 2648.2,
+      "target": 2678.5,
+      "stop_loss": 2632.3,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2663.0,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 14.8,
+      "pnl_rs": 14.8,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_103034",
+      "date": "2026-06-03",
+      "time": "10:30:34",
+      "strategy": "GAP_AND_GO",
+      "instrument": "ASIANPAINT",
+      "direction": "SHORT",
+      "entry": 2648.7,
+      "target": 2607.4,
+      "stop_loss": 2666.8,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2667.8,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -19.1,
+      "pnl_rs": -19.1,
+      "paper": true
+    },
+    {
+      "id": "POS_20260604_092418",
+      "date": "2026-06-04",
+      "time": "09:24:18",
+      "strategy": "VWAP_TREND",
+      "instrument": "ASIANPAINT",
+      "direction": "LONG",
+      "entry": 2671.6,
+      "target": 2715.12,
+      "stop_loss": 2649.84,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2649.1,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -22.5,
+      "pnl_rs": -22.5,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_093510",
+      "date": "2026-06-05",
+      "time": "09:35:10",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ASIANPAINT",
+      "direction": "SHORT",
+      "entry": 2685.2,
+      "target": 24035.0,
+      "stop_loss": 24680.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2681.2,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 4.0,
+      "pnl_rs": 4.0,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

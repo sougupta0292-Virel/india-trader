@@ -1,0 +1,518 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 11,
+  "winning": 0,
+  "total_pnl": 0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 3,157",
+  "last_action": "Opened SHORT GRASIM",
+  "log": [
+    {
+      "time": "14:32:36",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,164 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:32:37",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:38",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,163.80"
+    },
+    {
+      "time": "14:33:38",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,164 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:33:38",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:39",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,164.00"
+    },
+    {
+      "time": "14:34:39",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,164 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:34:39",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:35:40",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,163.10"
+    },
+    {
+      "time": "14:35:40",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,163 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:35:40",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:36:41",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,161.20"
+    },
+    {
+      "time": "14:36:41",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,161 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:36:41",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:42",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,163.00"
+    },
+    {
+      "time": "14:37:42",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,163 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:37:42",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:42",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,162.00"
+    },
+    {
+      "time": "14:38:42",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:38:43",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:43",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,159.10"
+    },
+    {
+      "time": "14:39:43",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,159 | Unrealized: +6pts (Rs.+6)"
+    },
+    {
+      "time": "14:39:44",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:44",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,162.50"
+    },
+    {
+      "time": "14:40:44",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:40:44",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:45",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,161.40"
+    },
+    {
+      "time": "14:41:45",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,161 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:41:45",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:46",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,161.00"
+    },
+    {
+      "time": "14:42:46",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,161 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:42:46",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:47",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,161.90"
+    },
+    {
+      "time": "14:43:47",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:43:48",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:48",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,162.40"
+    },
+    {
+      "time": "14:44:48",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:44:49",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:49",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,163.00"
+    },
+    {
+      "time": "14:45:49",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,163 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:45:50",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:50",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,162.30"
+    },
+    {
+      "time": "14:46:50",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:46:51",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:51",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,161.80"
+    },
+    {
+      "time": "14:47:51",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:47:52",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:52",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,162.00"
+    },
+    {
+      "time": "14:48:52",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:48:52",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:53",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,162.00"
+    },
+    {
+      "time": "14:49:53",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:49:53",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:54",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,162.20"
+    },
+    {
+      "time": "14:50:54",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,162 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:50:55",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:55:55",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,162.70"
+    },
+    {
+      "time": "14:55:55",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,163 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:55:56",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:00:56",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,159.60"
+    },
+    {
+      "time": "15:00:56",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,165 | LTP: 3,160 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "15:00:56",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT GRASIM | Entry: 3,160 | Target: 3,134 | SL: 3,173 | R:R 1:2.0 | Gap+Go SHORT | Gap -86.6% | 9EMA 3163"
+    },
+    {
+      "time": "15:00:56",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT GRASIM @ 3,160"
+    },
+    {
+      "time": "15:05:57",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,156.60"
+    },
+    {
+      "time": "15:05:57",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,160 | LTP: 3,157 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "15:05:57",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT GRASIM | Entry: 3,159 | Target: 3,133 | SL: 3,172 | R:R 1:2.0 | Gap+Go SHORT | Gap -86.6% | 9EMA 3162"
+    },
+    {
+      "time": "15:05:57",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT GRASIM @ 3,157"
+    },
+    {
+      "time": "15:10:58",
+      "level": "INFO",
+      "message": "🔍 Scanning GRASIM | LTP: 3,157.10"
+    },
+    {
+      "time": "15:10:58",
+      "level": "INFO",
+      "message": "📊 SHORT GRASIM | Entry: 3,157 | LTP: 3,157 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:10:58",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT GRASIM | Entry: 3,157 | Target: 3,129 | SL: 3,171 | R:R 1:2.0 | Gap+Go SHORT | Gap -86.6% | 9EMA 3161"
+    },
+    {
+      "time": "15:10:58",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT GRASIM @ 3,157"
+    },
+    {
+      "time": "15:15:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:15:58) — waiting"
+    },
+    {
+      "time": "15:20:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:20:58) — waiting"
+    },
+    {
+      "time": "15:25:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:25:58) — waiting"
+    },
+    {
+      "time": "15:30:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:30:58) — waiting"
+    },
+    {
+      "time": "15:35:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:35:58) — waiting"
+    },
+    {
+      "time": "15:40:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:40:58) — waiting"
+    },
+    {
+      "time": "15:45:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:45:58) — waiting"
+    },
+    {
+      "time": "15:50:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:50:58) — waiting"
+    },
+    {
+      "time": "15:55:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:55:58) — waiting"
+    },
+    {
+      "time": "16:00:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:00:58) — waiting"
+    },
+    {
+      "time": "16:05:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:05:58) — waiting"
+    },
+    {
+      "time": "16:10:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:10:58) — waiting"
+    },
+    {
+      "time": "16:15:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:15:58) — waiting"
+    },
+    {
+      "time": "16:20:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:20:58) — waiting"
+    },
+    {
+      "time": "16:25:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:25:58) — waiting"
+    },
+    {
+      "time": "16:30:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:30:58) — waiting"
+    },
+    {
+      "time": "16:35:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:35:58) — waiting"
+    },
+    {
+      "time": "16:40:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:40:58) — waiting"
+    },
+    {
+      "time": "16:45:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:45:58) — waiting"
+    },
+    {
+      "time": "16:50:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:50:58) — waiting"
+    },
+    {
+      "time": "16:55:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:55:58) — waiting"
+    },
+    {
+      "time": "17:00:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:00:58) — waiting"
+    },
+    {
+      "time": "17:05:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:05:58) — waiting"
+    },
+    {
+      "time": "17:10:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:10:58) — waiting"
+    },
+    {
+      "time": "17:15:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:15:58) — waiting"
+    },
+    {
+      "time": "17:20:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:20:58) — waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | GRASIM | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:15) — waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 0,
+  "losses": 0
+}

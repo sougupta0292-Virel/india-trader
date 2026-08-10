@@ -1,0 +1,535 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 1,
+  "total_trades": 7,
+  "winning": 0,
+  "total_pnl": -0.9000061035156364,
+  "last_scan": "02:47:28",
+  "last_signal": "No signal",
+  "last_action": "Closed -1pts (Rs.-1)",
+  "log": [
+    {
+      "time": "06:37:05",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:37:05) \u2014 waiting"
+    },
+    {
+      "time": "06:42:05",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:42:05) \u2014 waiting"
+    },
+    {
+      "time": "06:47:05",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:47:05) \u2014 waiting"
+    },
+    {
+      "time": "06:52:05",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:52:05) \u2014 waiting"
+    },
+    {
+      "time": "06:57:05",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:57:05) \u2014 waiting"
+    },
+    {
+      "time": "07:02:05",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:02:05) \u2014 waiting"
+    },
+    {
+      "time": "07:07:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:07:06) \u2014 waiting"
+    },
+    {
+      "time": "07:12:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:12:06) \u2014 waiting"
+    },
+    {
+      "time": "07:17:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:17:06) \u2014 waiting"
+    },
+    {
+      "time": "07:22:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:22:06) \u2014 waiting"
+    },
+    {
+      "time": "07:27:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:27:06) \u2014 waiting"
+    },
+    {
+      "time": "07:32:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:32:06) \u2014 waiting"
+    },
+    {
+      "time": "07:37:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:37:06) \u2014 waiting"
+    },
+    {
+      "time": "07:42:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:42:06) \u2014 waiting"
+    },
+    {
+      "time": "07:47:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:47:06) \u2014 waiting"
+    },
+    {
+      "time": "07:52:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:52:06) \u2014 waiting"
+    },
+    {
+      "time": "07:57:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:57:06) \u2014 waiting"
+    },
+    {
+      "time": "08:02:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:02:06) \u2014 waiting"
+    },
+    {
+      "time": "08:07:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:07:06) \u2014 waiting"
+    },
+    {
+      "time": "08:12:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:12:06) \u2014 waiting"
+    },
+    {
+      "time": "08:17:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:06) \u2014 waiting"
+    },
+    {
+      "time": "08:22:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:06) \u2014 waiting"
+    },
+    {
+      "time": "08:27:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:06) \u2014 waiting"
+    },
+    {
+      "time": "08:32:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:06) \u2014 waiting"
+    },
+    {
+      "time": "08:37:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:06) \u2014 waiting"
+    },
+    {
+      "time": "08:42:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:06) \u2014 waiting"
+    },
+    {
+      "time": "08:47:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:06) \u2014 waiting"
+    },
+    {
+      "time": "08:52:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:06) \u2014 waiting"
+    },
+    {
+      "time": "08:57:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:06) \u2014 waiting"
+    },
+    {
+      "time": "09:02:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:06) \u2014 waiting"
+    },
+    {
+      "time": "09:07:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:06) \u2014 waiting"
+    },
+    {
+      "time": "09:12:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:06) \u2014 waiting"
+    },
+    {
+      "time": "09:17:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:06) \u2014 waiting"
+    },
+    {
+      "time": "09:22:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.80"
+    },
+    {
+      "time": "09:22:07",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:27:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.80"
+    },
+    {
+      "time": "09:27:09",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:32:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.45"
+    },
+    {
+      "time": "09:33:00",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:38:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.00"
+    },
+    {
+      "time": "09:38:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:43:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.65"
+    },
+    {
+      "time": "09:43:50",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:48:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.50"
+    },
+    {
+      "time": "09:48:51",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:53:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.35"
+    },
+    {
+      "time": "09:53:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:58:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.25"
+    },
+    {
+      "time": "09:58:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:03:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.80"
+    },
+    {
+      "time": "10:03:55",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:08:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.45"
+    },
+    {
+      "time": "10:08:55",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:13:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.30"
+    },
+    {
+      "time": "10:13:57",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:18:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.00"
+    },
+    {
+      "time": "10:18:59",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:24:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 266.00"
+    },
+    {
+      "time": "10:24:00",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:29:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.60"
+    },
+    {
+      "time": "10:29:01",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:34:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.75"
+    },
+    {
+      "time": "10:34:02",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:39:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.20"
+    },
+    {
+      "time": "10:39:03",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:44:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.70"
+    },
+    {
+      "time": "10:44:04",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:49:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.60"
+    },
+    {
+      "time": "10:49:06",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:54:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.35"
+    },
+    {
+      "time": "10:54:08",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:59:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.15"
+    },
+    {
+      "time": "10:59:09",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:04:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.30"
+    },
+    {
+      "time": "11:04:10",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:09:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.45"
+    },
+    {
+      "time": "11:09:11",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:14:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.85"
+    },
+    {
+      "time": "11:14:12",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:19:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.20"
+    },
+    {
+      "time": "11:19:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:24:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.30"
+    },
+    {
+      "time": "11:24:14",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:29:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.60"
+    },
+    {
+      "time": "11:29:15",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:34:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.65"
+    },
+    {
+      "time": "11:34:17",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:39:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.40"
+    },
+    {
+      "time": "11:39:18",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:44:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.45"
+    },
+    {
+      "time": "11:44:19",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:49:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.45"
+    },
+    {
+      "time": "11:49:19",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:54:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.35"
+    },
+    {
+      "time": "11:54:20",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:59:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.10"
+    },
+    {
+      "time": "11:59:21",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:04:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 265.10"
+    },
+    {
+      "time": "12:04:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "02:47:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:47:28) \u2014 waiting"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260602_111516",
+      "date": "2026-06-02",
+      "time": "11:15:16",
+      "strategy": "GAP_AND_GO",
+      "instrument": "ONGC",
+      "direction": "SHORT",
+      "entry": 264.2,
+      "target": 242.74,
+      "stop_loss": 275.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 265.1,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -0.9,
+      "pnl_rs": -0.9,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-06"
+}

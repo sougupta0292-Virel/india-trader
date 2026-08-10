@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 1,
+  "total_trades": 3,
+  "winning": 1,
+  "total_pnl": 3.0999755859375,
+  "last_scan": "02:47:30",
+  "last_signal": "No signal",
+  "last_action": "Closed +3pts (Rs.+3)",
+  "log": [
+    {
+      "time": "06:37:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:37:09) \u2014 waiting"
+    },
+    {
+      "time": "06:42:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:42:09) \u2014 waiting"
+    },
+    {
+      "time": "06:47:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:47:09) \u2014 waiting"
+    },
+    {
+      "time": "06:52:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:52:09) \u2014 waiting"
+    },
+    {
+      "time": "06:57:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:57:09) \u2014 waiting"
+    },
+    {
+      "time": "07:02:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:02:09) \u2014 waiting"
+    },
+    {
+      "time": "07:07:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:07:09) \u2014 waiting"
+    },
+    {
+      "time": "07:12:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:12:09) \u2014 waiting"
+    },
+    {
+      "time": "07:17:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:17:09) \u2014 waiting"
+    },
+    {
+      "time": "07:22:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:22:09) \u2014 waiting"
+    },
+    {
+      "time": "07:27:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:27:09) \u2014 waiting"
+    },
+    {
+      "time": "07:32:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:32:09) \u2014 waiting"
+    },
+    {
+      "time": "07:37:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:37:09) \u2014 waiting"
+    },
+    {
+      "time": "07:42:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:42:09) \u2014 waiting"
+    },
+    {
+      "time": "07:47:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:47:09) \u2014 waiting"
+    },
+    {
+      "time": "07:52:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:52:09) \u2014 waiting"
+    },
+    {
+      "time": "07:57:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:57:09) \u2014 waiting"
+    },
+    {
+      "time": "08:02:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:02:09) \u2014 waiting"
+    },
+    {
+      "time": "08:07:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:07:09) \u2014 waiting"
+    },
+    {
+      "time": "08:12:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:12:09) \u2014 waiting"
+    },
+    {
+      "time": "08:17:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:09) \u2014 waiting"
+    },
+    {
+      "time": "08:22:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:09) \u2014 waiting"
+    },
+    {
+      "time": "08:27:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:09) \u2014 waiting"
+    },
+    {
+      "time": "08:32:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:09) \u2014 waiting"
+    },
+    {
+      "time": "08:37:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:09) \u2014 waiting"
+    },
+    {
+      "time": "08:42:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:09) \u2014 waiting"
+    },
+    {
+      "time": "08:47:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:09) \u2014 waiting"
+    },
+    {
+      "time": "08:52:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:09) \u2014 waiting"
+    },
+    {
+      "time": "08:57:09",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:09) \u2014 waiting"
+    },
+    {
+      "time": "09:02:10",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:10) \u2014 waiting"
+    },
+    {
+      "time": "09:07:10",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:10) \u2014 waiting"
+    },
+    {
+      "time": "09:12:10",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:10) \u2014 waiting"
+    },
+    {
+      "time": "09:17:10",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:10) \u2014 waiting"
+    },
+    {
+      "time": "09:22:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,517.70"
+    },
+    {
+      "time": "09:22:10",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:27:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,513.00"
+    },
+    {
+      "time": "09:27:12",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:33:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,510.70"
+    },
+    {
+      "time": "09:33:16",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:38:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,505.60"
+    },
+    {
+      "time": "09:38:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:43:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,497.30"
+    },
+    {
+      "time": "09:43:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:48:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,500.10"
+    },
+    {
+      "time": "09:48:54",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:53:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,501.90"
+    },
+    {
+      "time": "09:53:56",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:58:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,502.30"
+    },
+    {
+      "time": "09:58:57",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:03:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,499.70"
+    },
+    {
+      "time": "10:03:59",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:09:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,499.00"
+    },
+    {
+      "time": "10:09:00",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:14:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,500.20"
+    },
+    {
+      "time": "10:14:01",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:19:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,496.40"
+    },
+    {
+      "time": "10:19:02",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:24:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,496.30"
+    },
+    {
+      "time": "10:24:03",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:29:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,494.00"
+    },
+    {
+      "time": "10:29:04",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:34:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,492.20"
+    },
+    {
+      "time": "10:34:05",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:39:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,489.50"
+    },
+    {
+      "time": "10:39:06",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:44:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,501.30"
+    },
+    {
+      "time": "10:44:07",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:49:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,492.50"
+    },
+    {
+      "time": "10:49:08",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:54:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,491.50"
+    },
+    {
+      "time": "10:54:09",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:59:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,491.80"
+    },
+    {
+      "time": "10:59:11",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:04:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,491.90"
+    },
+    {
+      "time": "11:04:12",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:09:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,491.80"
+    },
+    {
+      "time": "11:09:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:14:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,488.00"
+    },
+    {
+      "time": "11:14:14",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:19:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,489.30"
+    },
+    {
+      "time": "11:19:15",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:24:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,488.10"
+    },
+    {
+      "time": "11:24:16",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:29:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,486.10"
+    },
+    {
+      "time": "11:29:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:34:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,487.90"
+    },
+    {
+      "time": "11:34:18",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:39:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,488.60"
+    },
+    {
+      "time": "11:39:19",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:44:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,491.30"
+    },
+    {
+      "time": "11:44:21",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:49:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,493.30"
+    },
+    {
+      "time": "11:49:21",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:54:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,488.20"
+    },
+    {
+      "time": "11:54:22",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:59:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,484.60"
+    },
+    {
+      "time": "11:59:23",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "12:04:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,481.70"
+    },
+    {
+      "time": "12:04:24",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "02:47:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:47:30) \u2014 waiting"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260528_105524",
+      "date": "2026-05-28",
+      "time": "10:55:24",
+      "strategy": "GAP_AND_GO",
+      "instrument": "TECHM",
+      "direction": "SHORT",
+      "entry": 1456.2,
+      "target": 580.69,
+      "stop_loss": 623.83,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1456.2,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_101723",
+      "date": "2026-06-03",
+      "time": "10:17:23",
+      "strategy": "GAP_AND_GO",
+      "instrument": "TECHM",
+      "direction": "SHORT",
+      "entry": 1491.0,
+      "target": 1355.56,
+      "stop_loss": 1561.42,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1487.9,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 3.1,
+      "pnl_rs": 3.1,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-06"
+}

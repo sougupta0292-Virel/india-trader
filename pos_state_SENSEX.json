@@ -1,0 +1,14 @@
+{
+  "status": "STOPPED",
+  "total_trades": 0,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": null,
+  "last_signal": null,
+  "last_action": null,
+  "history": [],
+  "trades": [],
+  "open_trade": null,
+  "log": [],
+  "date": "2026-05-19"
+}

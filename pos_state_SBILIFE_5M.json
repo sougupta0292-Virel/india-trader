@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 12,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 1,868",
+  "last_action": "Opened SHORT SBILIFE",
+  "log": [
+    {
+      "time": "14:36:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,873 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:36:20",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,873.00"
+    },
+    {
+      "time": "14:37:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,873 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:37:21",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,872.80"
+    },
+    {
+      "time": "14:38:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,873 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:38:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,873.00"
+    },
+    {
+      "time": "14:39:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,873 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:39:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,872.60"
+    },
+    {
+      "time": "14:40:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,873 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:40:24",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,871.20"
+    },
+    {
+      "time": "14:41:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,871 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:41:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,872.30"
+    },
+    {
+      "time": "14:42:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,872 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:42:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,870.40"
+    },
+    {
+      "time": "14:43:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,870 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:43:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,870.80"
+    },
+    {
+      "time": "14:44:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,871 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:44:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,869.40"
+    },
+    {
+      "time": "14:45:29",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,869 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:45:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,869.80"
+    },
+    {
+      "time": "14:46:30",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,870 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:46:31",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,869.70"
+    },
+    {
+      "time": "14:47:31",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,870 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:47:32",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,871.80"
+    },
+    {
+      "time": "14:48:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,872 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:48:33",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,870.00"
+    },
+    {
+      "time": "14:49:33",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,870 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:49:34",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,869.90"
+    },
+    {
+      "time": "14:50:34",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,873 | LTP: 1,870 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:50:34",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SBILIFE | Entry: 1,869 | Target: 1,843 | SL: 1,882 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.1% | 9EMA 1872"
+    },
+    {
+      "time": "14:50:34",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SBILIFE @ 1,870"
+    },
+    {
+      "time": "14:55:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,873.60"
+    },
+    {
+      "time": "14:55:36",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,870 | LTP: 1,874 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:55:36",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,869.20"
+    },
+    {
+      "time": "15:00:38",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,870 | LTP: 1,869 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:00:38",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,866.90"
+    },
+    {
+      "time": "15:01:40",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,870 | LTP: 1,867 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "15:01:40",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:02:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,869.90"
+    },
+    {
+      "time": "15:02:41",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,870 | LTP: 1,870 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:02:41",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:03:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,869.50"
+    },
+    {
+      "time": "15:03:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,870 | LTP: 1,870 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:03:42",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SBILIFE | Entry: 1,870 | Target: 1,843 | SL: 1,883 | R:R 1:2.0 | VWAP trend SHORT | EMA5=1,871 VWAP=1,873 | Vol spike"
+    },
+    {
+      "time": "15:03:42",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SBILIFE @ 1,870"
+    },
+    {
+      "time": "15:08:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,868.50"
+    },
+    {
+      "time": "15:08:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,870 | LTP: 1,868 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:08:43",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SBILIFE | Entry: 1,869 | Target: 1,844 | SL: 1,882 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.1% | 9EMA 1872"
+    },
+    {
+      "time": "15:08:43",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SBILIFE @ 1,868"
+    },
+    {
+      "time": "15:13:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,870.20"
+    },
+    {
+      "time": "15:13:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,868 | LTP: 1,870 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:13:44",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:14:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBILIFE | LTP: 1,871.30"
+    },
+    {
+      "time": "15:14:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBILIFE | Entry: 1,868 | LTP: 1,871 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:14:45",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:15:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:45) \u2014 waiting"
+    },
+    {
+      "time": "15:20:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:45) \u2014 waiting"
+    },
+    {
+      "time": "15:25:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:45) \u2014 waiting"
+    },
+    {
+      "time": "15:30:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:45) \u2014 waiting"
+    },
+    {
+      "time": "15:35:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:45) \u2014 waiting"
+    },
+    {
+      "time": "15:40:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:45) \u2014 waiting"
+    },
+    {
+      "time": "15:45:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:45) \u2014 waiting"
+    },
+    {
+      "time": "15:50:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:45) \u2014 waiting"
+    },
+    {
+      "time": "15:55:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:45) \u2014 waiting"
+    },
+    {
+      "time": "16:00:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:45) \u2014 waiting"
+    },
+    {
+      "time": "16:05:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:45) \u2014 waiting"
+    },
+    {
+      "time": "16:10:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:45) \u2014 waiting"
+    },
+    {
+      "time": "16:15:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:45) \u2014 waiting"
+    },
+    {
+      "time": "16:20:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:45) \u2014 waiting"
+    },
+    {
+      "time": "16:25:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:45) \u2014 waiting"
+    },
+    {
+      "time": "16:30:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:45) \u2014 waiting"
+    },
+    {
+      "time": "16:35:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:45) \u2014 waiting"
+    },
+    {
+      "time": "16:40:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:45) \u2014 waiting"
+    },
+    {
+      "time": "16:45:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:45) \u2014 waiting"
+    },
+    {
+      "time": "16:50:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:45) \u2014 waiting"
+    },
+    {
+      "time": "16:55:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:45) \u2014 waiting"
+    },
+    {
+      "time": "17:00:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:45) \u2014 waiting"
+    },
+    {
+      "time": "17:05:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:45) \u2014 waiting"
+    },
+    {
+      "time": "17:10:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:45) \u2014 waiting"
+    },
+    {
+      "time": "17:15:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:45) \u2014 waiting"
+    },
+    {
+      "time": "17:20:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:45) \u2014 waiting"
+    },
+    {
+      "time": "17:24:29",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | SBILIFE | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:15) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

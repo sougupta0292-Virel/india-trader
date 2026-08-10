@@ -1,0 +1,518 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 12,
+  "winning": 0,
+  "total_pnl": 0,
+  "last_scan": "01:45:14",
+  "last_signal": "SHORT @ 4,077",
+  "last_action": "Opened SHORT TITAN",
+  "log": [
+    {
+      "time": "14:16:18",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,101.90"
+    },
+    {
+      "time": "14:16:19",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:17:19",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,099.40"
+    },
+    {
+      "time": "14:17:20",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:18:20",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,099.70"
+    },
+    {
+      "time": "14:18:21",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:19:21",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,097.00"
+    },
+    {
+      "time": "14:19:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:20:22",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,098.20"
+    },
+    {
+      "time": "14:20:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:21:24",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,097.00"
+    },
+    {
+      "time": "14:21:24",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:22:25",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,097.60"
+    },
+    {
+      "time": "14:22:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:23:26",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,099.90"
+    },
+    {
+      "time": "14:23:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:24:27",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,097.90"
+    },
+    {
+      "time": "14:24:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:28",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,091.50"
+    },
+    {
+      "time": "14:25:29",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:26:29",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,093.00"
+    },
+    {
+      "time": "14:26:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:27:30",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,094.80"
+    },
+    {
+      "time": "14:27:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:28:31",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,096.00"
+    },
+    {
+      "time": "14:28:31",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:29:32",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,099.00"
+    },
+    {
+      "time": "14:29:33",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:30:34",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,095.20"
+    },
+    {
+      "time": "14:30:34",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:35:35",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,102.00"
+    },
+    {
+      "time": "14:35:35",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:40:36",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,097.10"
+    },
+    {
+      "time": "14:40:36",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT TITAN | Entry: 4,096 | Target: 4,068 | SL: 4,110 | R:R 1:2.0 | Gap+Go SHORT | Gap -82.7% | 9EMA 4100"
+    },
+    {
+      "time": "14:40:36",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT TITAN @ 4,097"
+    },
+    {
+      "time": "14:45:37",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,086.80"
+    },
+    {
+      "time": "14:45:37",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,087 | Unrealized: +10pts (Rs.+10)"
+    },
+    {
+      "time": "14:45:37",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:38",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,087.50"
+    },
+    {
+      "time": "14:46:38",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,088 | Unrealized: +10pts (Rs.+10)"
+    },
+    {
+      "time": "14:46:38",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:39",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,088.70"
+    },
+    {
+      "time": "14:47:39",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,089 | Unrealized: +8pts (Rs.+8)"
+    },
+    {
+      "time": "14:47:39",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:40",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,089.30"
+    },
+    {
+      "time": "14:48:40",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,089 | Unrealized: +8pts (Rs.+8)"
+    },
+    {
+      "time": "14:48:40",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:41",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,089.70"
+    },
+    {
+      "time": "14:49:41",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,090 | Unrealized: +7pts (Rs.+7)"
+    },
+    {
+      "time": "14:49:42",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:42",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,090.00"
+    },
+    {
+      "time": "14:50:42",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,090 | Unrealized: +7pts (Rs.+7)"
+    },
+    {
+      "time": "14:50:42",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:55:44",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,087.80"
+    },
+    {
+      "time": "14:55:44",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,088 | Unrealized: +9pts (Rs.+9)"
+    },
+    {
+      "time": "14:55:45",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.7 < 1.8 — skipped"
+    },
+    {
+      "time": "15:00:45",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,085.50"
+    },
+    {
+      "time": "15:00:45",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,086 | Unrealized: +12pts (Rs.+12)"
+    },
+    {
+      "time": "15:00:45",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:46",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,082.80"
+    },
+    {
+      "time": "15:01:46",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,097 | LTP: 4,083 | Unrealized: +14pts (Rs.+14)"
+    },
+    {
+      "time": "15:01:46",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT TITAN | Entry: 4,083 | Target: 4,032 | SL: 4,108 | R:R 1:2.0 | VWAP trend SHORT | EMA5=4,087 VWAP=4,098 | Vol spike"
+    },
+    {
+      "time": "15:01:46",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT TITAN @ 4,083"
+    },
+    {
+      "time": "15:06:47",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,077.70"
+    },
+    {
+      "time": "15:06:47",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,083 | LTP: 4,078 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "15:06:47",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT TITAN | Entry: 4,080 | Target: 4,040 | SL: 4,100 | R:R 1:2.0 | Gap+Go SHORT | Gap -82.7% | 9EMA 4090"
+    },
+    {
+      "time": "15:06:47",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT TITAN @ 4,078"
+    },
+    {
+      "time": "15:11:48",
+      "level": "INFO",
+      "message": "🔍 Scanning TITAN | LTP: 4,077.10"
+    },
+    {
+      "time": "15:11:48",
+      "level": "INFO",
+      "message": "📊 SHORT TITAN | Entry: 4,078 | LTP: 4,077 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:11:48",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT TITAN | Entry: 4,079 | Target: 4,041 | SL: 4,097 | R:R 1:2.0 | Gap+Go SHORT | Gap -82.6% | 9EMA 4087"
+    },
+    {
+      "time": "15:11:48",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT TITAN @ 4,077"
+    },
+    {
+      "time": "15:16:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:16:48) — waiting"
+    },
+    {
+      "time": "15:21:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:21:48) — waiting"
+    },
+    {
+      "time": "15:26:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:26:48) — waiting"
+    },
+    {
+      "time": "15:31:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:31:48) — waiting"
+    },
+    {
+      "time": "15:36:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:36:48) — waiting"
+    },
+    {
+      "time": "15:41:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:41:48) — waiting"
+    },
+    {
+      "time": "15:46:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:46:48) — waiting"
+    },
+    {
+      "time": "15:51:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:51:48) — waiting"
+    },
+    {
+      "time": "15:56:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:56:48) — waiting"
+    },
+    {
+      "time": "16:01:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:01:48) — waiting"
+    },
+    {
+      "time": "16:06:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:06:48) — waiting"
+    },
+    {
+      "time": "16:11:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:11:48) — waiting"
+    },
+    {
+      "time": "16:16:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:16:48) — waiting"
+    },
+    {
+      "time": "16:21:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:21:48) — waiting"
+    },
+    {
+      "time": "16:26:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:26:48) — waiting"
+    },
+    {
+      "time": "16:31:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:31:48) — waiting"
+    },
+    {
+      "time": "16:36:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:36:48) — waiting"
+    },
+    {
+      "time": "16:41:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:41:48) — waiting"
+    },
+    {
+      "time": "16:46:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:46:48) — waiting"
+    },
+    {
+      "time": "16:51:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:51:48) — waiting"
+    },
+    {
+      "time": "16:56:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:56:48) — waiting"
+    },
+    {
+      "time": "17:01:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:01:48) — waiting"
+    },
+    {
+      "time": "17:06:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:06:48) — waiting"
+    },
+    {
+      "time": "17:11:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:11:48) — waiting"
+    },
+    {
+      "time": "17:16:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:16:48) — waiting"
+    },
+    {
+      "time": "17:21:48",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:21:48) — waiting"
+    },
+    {
+      "time": "17:25:02",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | TITAN | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:14) — waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 0,
+  "losses": 0
+}

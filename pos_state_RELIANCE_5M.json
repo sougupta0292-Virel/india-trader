@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 0,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:12",
+  "last_signal": "\u2014",
+  "last_action": "\u2014",
+  "log": [
+    {
+      "time": "09:44:51",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "09:49:52",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "09:54:53",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "09:59:53",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:04:54",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:09:57",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:14:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning RELIANCE | LTP: 23,791.05"
+    },
+    {
+      "time": "10:14:58",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "10:16:00",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:21:03",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:26:09",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:31:16",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:36:18",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:41:19",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:46:20",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:51:21",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:56:23",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:01:24",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:06:26",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:11:27",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:16:28",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:21:30",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:26:31",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:31:32",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:36:32",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:41:33",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:46:35",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:51:36",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:56:38",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:01:39",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:06:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning RELIANCE | LTP: 23,795.35"
+    },
+    {
+      "time": "12:06:41",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "12:07:42",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:12:43",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:17:44",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:22:45",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:27:46",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:32:47",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:37:48",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:42:48",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:47:49",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:52:50",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:57:51",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:02:52",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:07:53",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:12:54",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:17:55",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:22:56",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:27:58",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:32:58",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:38:00",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:43:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning RELIANCE | LTP: 23,806.95"
+    },
+    {
+      "time": "13:43:01",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:44:02",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:49:03",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:54:04",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:59:05",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:04:06",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:09:07",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:14:08",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:19:09",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:24:12",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:29:13",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:34:14",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:39:15",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:44:16",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:49:18",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:54:18",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:59:21",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "15:04:23",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "15:09:25",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "15:14:27",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "15:19:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:19:27) \u2014 waiting"
+    },
+    {
+      "time": "15:24:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:24:27) \u2014 waiting"
+    },
+    {
+      "time": "15:29:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:29:27) \u2014 waiting"
+    },
+    {
+      "time": "15:34:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:34:27) \u2014 waiting"
+    },
+    {
+      "time": "15:39:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:39:27) \u2014 waiting"
+    },
+    {
+      "time": "15:44:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:44:27) \u2014 waiting"
+    },
+    {
+      "time": "15:49:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:49:27) \u2014 waiting"
+    },
+    {
+      "time": "15:54:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:54:27) \u2014 waiting"
+    },
+    {
+      "time": "15:59:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:59:27) \u2014 waiting"
+    },
+    {
+      "time": "16:04:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:04:27) \u2014 waiting"
+    },
+    {
+      "time": "16:09:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:09:27) \u2014 waiting"
+    },
+    {
+      "time": "16:14:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:14:27) \u2014 waiting"
+    },
+    {
+      "time": "16:19:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:19:27) \u2014 waiting"
+    },
+    {
+      "time": "16:24:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:24:27) \u2014 waiting"
+    },
+    {
+      "time": "16:29:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:29:27) \u2014 waiting"
+    },
+    {
+      "time": "16:34:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:34:27) \u2014 waiting"
+    },
+    {
+      "time": "16:39:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:39:27) \u2014 waiting"
+    },
+    {
+      "time": "16:44:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:44:27) \u2014 waiting"
+    },
+    {
+      "time": "16:49:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:49:27) \u2014 waiting"
+    },
+    {
+      "time": "16:54:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:54:27) \u2014 waiting"
+    },
+    {
+      "time": "16:59:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:59:27) \u2014 waiting"
+    },
+    {
+      "time": "17:04:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:04:27) \u2014 waiting"
+    },
+    {
+      "time": "17:09:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:09:27) \u2014 waiting"
+    },
+    {
+      "time": "17:14:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:14:27) \u2014 waiting"
+    },
+    {
+      "time": "17:19:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:19:27) \u2014 waiting"
+    },
+    {
+      "time": "17:24:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:24:27) \u2014 waiting"
+    },
+    {
+      "time": "01:45:12",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | RELIANCE | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:12",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:12) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

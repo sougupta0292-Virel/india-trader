@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 8,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 1,785",
+  "last_action": "Opened SHORT ADANIPORTS",
+  "log": [
+    {
+      "time": "14:35:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,788 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:35:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:36:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,788.00"
+    },
+    {
+      "time": "14:36:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,788 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:36:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,787.50"
+    },
+    {
+      "time": "14:37:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,788 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:37:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,786.50"
+    },
+    {
+      "time": "14:38:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,786 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:38:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,785.10"
+    },
+    {
+      "time": "14:39:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,785 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:39:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,784.60"
+    },
+    {
+      "time": "14:40:29",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,785 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:40:29",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,784.50"
+    },
+    {
+      "time": "14:41:30",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,784 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:41:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,784.70"
+    },
+    {
+      "time": "14:42:31",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,785 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:42:31",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,783.60"
+    },
+    {
+      "time": "14:43:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,784 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:43:32",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,782.90"
+    },
+    {
+      "time": "14:44:33",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,783 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:44:33",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,781.80"
+    },
+    {
+      "time": "14:45:35",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,782 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:45:35",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,782.60"
+    },
+    {
+      "time": "14:46:35",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,783 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:46:36",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,782.90"
+    },
+    {
+      "time": "14:47:36",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,783 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:47:37",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,782.20"
+    },
+    {
+      "time": "14:48:37",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,782 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:48:37",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,783.20"
+    },
+    {
+      "time": "14:49:38",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,783 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:49:38",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,784.30"
+    },
+    {
+      "time": "14:50:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,784 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:50:39",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,783.50"
+    },
+    {
+      "time": "14:55:40",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,784 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:55:40",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,782.40"
+    },
+    {
+      "time": "15:00:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,782 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:00:43",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,784.50"
+    },
+    {
+      "time": "15:01:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,784 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:01:44",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:02:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,785.70"
+    },
+    {
+      "time": "15:02:45",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,786 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:02:45",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:03:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,787.50"
+    },
+    {
+      "time": "15:03:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,788 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:03:46",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:04:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,787.60"
+    },
+    {
+      "time": "15:04:47",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,788 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:04:47",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:05:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,786.70"
+    },
+    {
+      "time": "15:05:48",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,787 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:05:49",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.3 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:10:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIPORTS | LTP: 1,787.80"
+    },
+    {
+      "time": "15:10:49",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ADANIPORTS | Entry: 1,785 | LTP: 1,788 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:10:50",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:15:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:50) \u2014 waiting"
+    },
+    {
+      "time": "15:20:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:50) \u2014 waiting"
+    },
+    {
+      "time": "15:25:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:50) \u2014 waiting"
+    },
+    {
+      "time": "15:30:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:50) \u2014 waiting"
+    },
+    {
+      "time": "15:35:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:50) \u2014 waiting"
+    },
+    {
+      "time": "15:40:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:50) \u2014 waiting"
+    },
+    {
+      "time": "15:45:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:50) \u2014 waiting"
+    },
+    {
+      "time": "15:50:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:50) \u2014 waiting"
+    },
+    {
+      "time": "15:55:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:50) \u2014 waiting"
+    },
+    {
+      "time": "16:00:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:50) \u2014 waiting"
+    },
+    {
+      "time": "16:05:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:50) \u2014 waiting"
+    },
+    {
+      "time": "16:10:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:50) \u2014 waiting"
+    },
+    {
+      "time": "16:15:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:50) \u2014 waiting"
+    },
+    {
+      "time": "16:20:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:50) \u2014 waiting"
+    },
+    {
+      "time": "16:25:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:50) \u2014 waiting"
+    },
+    {
+      "time": "16:30:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:50) \u2014 waiting"
+    },
+    {
+      "time": "16:35:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:50) \u2014 waiting"
+    },
+    {
+      "time": "16:40:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:50) \u2014 waiting"
+    },
+    {
+      "time": "16:45:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:50) \u2014 waiting"
+    },
+    {
+      "time": "16:50:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:50) \u2014 waiting"
+    },
+    {
+      "time": "16:55:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:50) \u2014 waiting"
+    },
+    {
+      "time": "17:00:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:50) \u2014 waiting"
+    },
+    {
+      "time": "17:05:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:50) \u2014 waiting"
+    },
+    {
+      "time": "17:10:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:50) \u2014 waiting"
+    },
+    {
+      "time": "17:15:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:50) \u2014 waiting"
+    },
+    {
+      "time": "17:20:50",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:50) \u2014 waiting"
+    },
+    {
+      "time": "17:24:27",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | ADANIPORTS | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:15) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

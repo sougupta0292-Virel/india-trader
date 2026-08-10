@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 4,
+  "winning": 1,
+  "total_pnl": -15.5,
+  "last_scan": "12:06:49",
+  "last_signal": "No signal",
+  "last_action": "Closed +3pts (Rs.+3)",
+  "log": [
+    {
+      "time": "06:40:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:40:30) \u2014 waiting"
+    },
+    {
+      "time": "06:45:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:45:30) \u2014 waiting"
+    },
+    {
+      "time": "06:50:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:50:30) \u2014 waiting"
+    },
+    {
+      "time": "06:55:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:55:30) \u2014 waiting"
+    },
+    {
+      "time": "07:00:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:00:30) \u2014 waiting"
+    },
+    {
+      "time": "07:05:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:05:30) \u2014 waiting"
+    },
+    {
+      "time": "07:10:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:10:30) \u2014 waiting"
+    },
+    {
+      "time": "07:15:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:15:30) \u2014 waiting"
+    },
+    {
+      "time": "07:20:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:20:30) \u2014 waiting"
+    },
+    {
+      "time": "07:25:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:25:30) \u2014 waiting"
+    },
+    {
+      "time": "07:30:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:30:30) \u2014 waiting"
+    },
+    {
+      "time": "07:35:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:35:30) \u2014 waiting"
+    },
+    {
+      "time": "07:40:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:40:30) \u2014 waiting"
+    },
+    {
+      "time": "07:45:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:45:30) \u2014 waiting"
+    },
+    {
+      "time": "07:50:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:50:30) \u2014 waiting"
+    },
+    {
+      "time": "07:55:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:55:30) \u2014 waiting"
+    },
+    {
+      "time": "08:00:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:00:30) \u2014 waiting"
+    },
+    {
+      "time": "08:05:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:05:30) \u2014 waiting"
+    },
+    {
+      "time": "08:10:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:10:30) \u2014 waiting"
+    },
+    {
+      "time": "08:15:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:15:30) \u2014 waiting"
+    },
+    {
+      "time": "08:20:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:20:30) \u2014 waiting"
+    },
+    {
+      "time": "08:25:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:25:30) \u2014 waiting"
+    },
+    {
+      "time": "08:30:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:30:30) \u2014 waiting"
+    },
+    {
+      "time": "08:35:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:35:30) \u2014 waiting"
+    },
+    {
+      "time": "08:40:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:40:30) \u2014 waiting"
+    },
+    {
+      "time": "08:45:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:45:30) \u2014 waiting"
+    },
+    {
+      "time": "08:50:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:50:30) \u2014 waiting"
+    },
+    {
+      "time": "08:55:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:55:30) \u2014 waiting"
+    },
+    {
+      "time": "09:00:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:00:30) \u2014 waiting"
+    },
+    {
+      "time": "09:05:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:05:30) \u2014 waiting"
+    },
+    {
+      "time": "09:10:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:10:30) \u2014 waiting"
+    },
+    {
+      "time": "09:15:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:15:30) \u2014 waiting"
+    },
+    {
+      "time": "09:20:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,088.00"
+    },
+    {
+      "time": "09:20:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:25:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,085.90"
+    },
+    {
+      "time": "09:25:32",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:30:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,081.10"
+    },
+    {
+      "time": "09:30:48",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:36:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,082.30"
+    },
+    {
+      "time": "09:36:16",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:41:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,084.90"
+    },
+    {
+      "time": "09:41:18",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:46:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,083.70"
+    },
+    {
+      "time": "09:46:18",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:51:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,086.40"
+    },
+    {
+      "time": "09:51:19",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:56:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,087.00"
+    },
+    {
+      "time": "09:56:20",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:01:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,087.10"
+    },
+    {
+      "time": "10:01:21",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:06:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,089.90"
+    },
+    {
+      "time": "10:06:23",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:11:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,100.00"
+    },
+    {
+      "time": "10:11:23",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:16:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,097.20"
+    },
+    {
+      "time": "10:16:24",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:21:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,096.20"
+    },
+    {
+      "time": "10:21:25",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:26:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,095.60"
+    },
+    {
+      "time": "10:26:27",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:31:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,097.90"
+    },
+    {
+      "time": "10:31:28",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:36:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,096.30"
+    },
+    {
+      "time": "10:36:29",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:41:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,093.70"
+    },
+    {
+      "time": "10:41:30",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:46:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,095.00"
+    },
+    {
+      "time": "10:46:31",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:51:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,096.50"
+    },
+    {
+      "time": "10:51:31",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:56:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,093.50"
+    },
+    {
+      "time": "10:56:32",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:01:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,098.70"
+    },
+    {
+      "time": "11:01:33",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:06:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,103.90"
+    },
+    {
+      "time": "11:06:35",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:11:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,102.50"
+    },
+    {
+      "time": "11:11:36",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:16:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,106.50"
+    },
+    {
+      "time": "11:16:37",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:21:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,102.90"
+    },
+    {
+      "time": "11:21:38",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:26:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,104.30"
+    },
+    {
+      "time": "11:26:39",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:31:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,110.00"
+    },
+    {
+      "time": "11:31:40",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:36:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,110.80"
+    },
+    {
+      "time": "11:36:43",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:41:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,112.70"
+    },
+    {
+      "time": "11:41:44",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:46:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,111.20"
+    },
+    {
+      "time": "11:46:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:51:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,109.70"
+    },
+    {
+      "time": "11:51:46",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:56:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,107.80"
+    },
+    {
+      "time": "11:56:48",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:01:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,107.90"
+    },
+    {
+      "time": "12:01:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:06:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HINDUNILVR | LTP: 2,107.70"
+    },
+    {
+      "time": "12:06:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260602_111945",
+      "date": "2026-06-02",
+      "time": "11:19:45",
+      "strategy": "GAP_AND_GO",
+      "instrument": "HINDUNILVR",
+      "direction": "SHORT",
+      "entry": 2076.6,
+      "target": 1999.67,
+      "stop_loss": 2111.91,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2095.2,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -18.6,
+      "pnl_rs": -18.6,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_121625",
+      "date": "2026-06-03",
+      "time": "12:16:25",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "HINDUNILVR",
+      "direction": "SHORT",
+      "entry": 2085.4,
+      "target": 1938.2,
+      "stop_loss": 2129.2,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2082.3,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 3.1,
+      "pnl_rs": 3.1,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

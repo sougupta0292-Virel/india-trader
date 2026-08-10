@@ -1,0 +1,481 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 0,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:13",
+  "last_signal": "\u2014",
+  "last_action": "\u2014",
+  "log": [
+    {
+      "time": "09:53:17",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | TATAMOTORS | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "09:54:33",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "09:59:37",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:04:40",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:09:55",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:15:00",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:20:04",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:25:09",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:30:14",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:35:20",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:40:24",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:45:29",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:50:33",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:55:37",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:00:41",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:05:45",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:10:50",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:15:55",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:20:59",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:26:04",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:31:09",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:36:13",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:41:17",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:46:21",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:51:25",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:56:30",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:01:34",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:06:42",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:11:47",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:16:51",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:21:55",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:26:59",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:32:06",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:37:10",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:42:14",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:47:18",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:52:23",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "12:57:26",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:02:30",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:07:34",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:12:38",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:17:41",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:22:45",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:27:51",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:32:55",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:38:00",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:43:05",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:48:10",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:53:15",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "13:58:19",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:03:24",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:08:28",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:13:32",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:18:36",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:23:40",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:28:45",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:33:49",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:38:53",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:43:57",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:49:02",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:54:06",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:59:10",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "15:04:15",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "15:09:19",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "15:14:23",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "15:19:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:19:23) \u2014 waiting"
+    },
+    {
+      "time": "15:24:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:24:23) \u2014 waiting"
+    },
+    {
+      "time": "15:29:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:29:23) \u2014 waiting"
+    },
+    {
+      "time": "15:34:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:34:23) \u2014 waiting"
+    },
+    {
+      "time": "15:39:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:39:23) \u2014 waiting"
+    },
+    {
+      "time": "15:44:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:44:23) \u2014 waiting"
+    },
+    {
+      "time": "15:49:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:49:23) \u2014 waiting"
+    },
+    {
+      "time": "15:54:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:54:23) \u2014 waiting"
+    },
+    {
+      "time": "15:59:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:59:23) \u2014 waiting"
+    },
+    {
+      "time": "16:04:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:04:23) \u2014 waiting"
+    },
+    {
+      "time": "16:09:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:09:23) \u2014 waiting"
+    },
+    {
+      "time": "16:14:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:14:23) \u2014 waiting"
+    },
+    {
+      "time": "16:19:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:19:23) \u2014 waiting"
+    },
+    {
+      "time": "16:24:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:24:23) \u2014 waiting"
+    },
+    {
+      "time": "16:29:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:29:23) \u2014 waiting"
+    },
+    {
+      "time": "16:34:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:34:23) \u2014 waiting"
+    },
+    {
+      "time": "16:39:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:39:23) \u2014 waiting"
+    },
+    {
+      "time": "16:44:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:44:23) \u2014 waiting"
+    },
+    {
+      "time": "16:49:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:49:23) \u2014 waiting"
+    },
+    {
+      "time": "16:54:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:54:23) \u2014 waiting"
+    },
+    {
+      "time": "16:59:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:59:23) \u2014 waiting"
+    },
+    {
+      "time": "17:04:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:04:23) \u2014 waiting"
+    },
+    {
+      "time": "17:09:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:09:23) \u2014 waiting"
+    },
+    {
+      "time": "17:14:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:14:23) \u2014 waiting"
+    },
+    {
+      "time": "17:19:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:19:23) \u2014 waiting"
+    },
+    {
+      "time": "17:24:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:24:23) \u2014 waiting"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | TATAMOTORS | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:13) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

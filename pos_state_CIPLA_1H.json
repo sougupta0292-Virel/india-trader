@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 7,
+  "winning": 0,
+  "total_pnl": -35.30002441406259,
+  "last_scan": "02:47:59",
+  "last_signal": "No signal",
+  "last_action": "Closed -21pts (Rs.-21)",
+  "log": [
+    {
+      "time": "06:32:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:32:06) \u2014 waiting"
+    },
+    {
+      "time": "06:37:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:37:06) \u2014 waiting"
+    },
+    {
+      "time": "06:42:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:42:06) \u2014 waiting"
+    },
+    {
+      "time": "06:47:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:47:06) \u2014 waiting"
+    },
+    {
+      "time": "06:52:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:52:06) \u2014 waiting"
+    },
+    {
+      "time": "06:57:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:57:06) \u2014 waiting"
+    },
+    {
+      "time": "07:02:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:02:06) \u2014 waiting"
+    },
+    {
+      "time": "07:07:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:07:06) \u2014 waiting"
+    },
+    {
+      "time": "07:12:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:12:06) \u2014 waiting"
+    },
+    {
+      "time": "07:17:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:17:06) \u2014 waiting"
+    },
+    {
+      "time": "07:22:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:22:06) \u2014 waiting"
+    },
+    {
+      "time": "07:27:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:27:06) \u2014 waiting"
+    },
+    {
+      "time": "07:32:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:32:06) \u2014 waiting"
+    },
+    {
+      "time": "07:37:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:37:06) \u2014 waiting"
+    },
+    {
+      "time": "07:42:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:42:06) \u2014 waiting"
+    },
+    {
+      "time": "07:47:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:47:06) \u2014 waiting"
+    },
+    {
+      "time": "07:52:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:52:06) \u2014 waiting"
+    },
+    {
+      "time": "07:57:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:57:06) \u2014 waiting"
+    },
+    {
+      "time": "08:02:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:02:06) \u2014 waiting"
+    },
+    {
+      "time": "08:07:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:07:06) \u2014 waiting"
+    },
+    {
+      "time": "08:12:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:12:06) \u2014 waiting"
+    },
+    {
+      "time": "08:17:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:06) \u2014 waiting"
+    },
+    {
+      "time": "08:22:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:06) \u2014 waiting"
+    },
+    {
+      "time": "08:27:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:06) \u2014 waiting"
+    },
+    {
+      "time": "08:32:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:06) \u2014 waiting"
+    },
+    {
+      "time": "08:37:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:06) \u2014 waiting"
+    },
+    {
+      "time": "08:42:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:06) \u2014 waiting"
+    },
+    {
+      "time": "08:47:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:06) \u2014 waiting"
+    },
+    {
+      "time": "08:52:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:06) \u2014 waiting"
+    },
+    {
+      "time": "08:57:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:06) \u2014 waiting"
+    },
+    {
+      "time": "09:02:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:06) \u2014 waiting"
+    },
+    {
+      "time": "09:07:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:06) \u2014 waiting"
+    },
+    {
+      "time": "09:12:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:06) \u2014 waiting"
+    },
+    {
+      "time": "09:17:06",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:06) \u2014 waiting"
+    },
+    {
+      "time": "09:22:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,394.80"
+    },
+    {
+      "time": "09:22:08",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:27:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,392.40"
+    },
+    {
+      "time": "09:27:10",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:33:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,391.50"
+    },
+    {
+      "time": "09:33:14",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:39:24",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "09:44:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,394.90"
+    },
+    {
+      "time": "09:44:25",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:49:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,392.00"
+    },
+    {
+      "time": "09:49:26",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:54:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.90"
+    },
+    {
+      "time": "09:54:26",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:59:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,391.00"
+    },
+    {
+      "time": "09:59:27",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:04:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,391.90"
+    },
+    {
+      "time": "10:04:28",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:09:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,391.10"
+    },
+    {
+      "time": "10:09:29",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:14:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,390.90"
+    },
+    {
+      "time": "10:14:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:19:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.90"
+    },
+    {
+      "time": "10:19:32",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:24:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,387.90"
+    },
+    {
+      "time": "10:24:33",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:29:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,390.60"
+    },
+    {
+      "time": "10:29:34",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:34:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,388.70"
+    },
+    {
+      "time": "10:34:35",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:39:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,384.60"
+    },
+    {
+      "time": "10:39:36",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:44:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,385.00"
+    },
+    {
+      "time": "10:44:37",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:49:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,384.70"
+    },
+    {
+      "time": "10:49:38",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:54:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,383.80"
+    },
+    {
+      "time": "10:54:38",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:59:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,387.20"
+    },
+    {
+      "time": "10:59:39",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:04:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,387.70"
+    },
+    {
+      "time": "11:04:40",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:09:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,387.80"
+    },
+    {
+      "time": "11:09:41",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:14:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.80"
+    },
+    {
+      "time": "11:14:42",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:19:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.50"
+    },
+    {
+      "time": "11:19:43",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:24:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.70"
+    },
+    {
+      "time": "11:24:44",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:29:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.60"
+    },
+    {
+      "time": "11:29:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:34:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.70"
+    },
+    {
+      "time": "11:34:47",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:39:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.00"
+    },
+    {
+      "time": "11:39:47",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:44:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,388.20"
+    },
+    {
+      "time": "11:44:48",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:49:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,388.40"
+    },
+    {
+      "time": "11:49:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:54:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,387.10"
+    },
+    {
+      "time": "11:54:51",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:59:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,387.20"
+    },
+    {
+      "time": "11:59:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:04:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning CIPLA | LTP: 1,389.00"
+    },
+    {
+      "time": "12:04:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "02:47:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:47:59) \u2014 waiting"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260602_111525",
+      "date": "2026-06-02",
+      "time": "11:15:25",
+      "strategy": "GAP_AND_GO",
+      "instrument": "CIPLA",
+      "direction": "SHORT",
+      "entry": 1365.8,
+      "target": 1301.95,
+      "stop_loss": 1397.88,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1379.9,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -14.1,
+      "pnl_rs": -14.1,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_111732",
+      "date": "2026-06-03",
+      "time": "11:17:32",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "CIPLA",
+      "direction": "SHORT",
+      "entry": 1377.8,
+      "target": 1325.1,
+      "stop_loss": 1405.7,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1399.0,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -21.2,
+      "pnl_rs": -21.2,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-06"
+}

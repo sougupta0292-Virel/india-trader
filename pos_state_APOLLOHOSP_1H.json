@@ -1,0 +1,589 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 4,
+  "winning": 1,
+  "total_pnl": -64.0,
+  "last_scan": "12:06:08",
+  "last_signal": "LONG @ 8,266",
+  "last_action": "Closed -34pts (Rs.-34)",
+  "log": [
+    {
+      "time": "06:32:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:32:32) \u2014 waiting"
+    },
+    {
+      "time": "06:37:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:37:32) \u2014 waiting"
+    },
+    {
+      "time": "06:42:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:42:32) \u2014 waiting"
+    },
+    {
+      "time": "06:47:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:47:32) \u2014 waiting"
+    },
+    {
+      "time": "06:52:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:52:32) \u2014 waiting"
+    },
+    {
+      "time": "06:57:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:57:32) \u2014 waiting"
+    },
+    {
+      "time": "07:02:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:02:32) \u2014 waiting"
+    },
+    {
+      "time": "07:07:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:07:32) \u2014 waiting"
+    },
+    {
+      "time": "07:12:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:12:32) \u2014 waiting"
+    },
+    {
+      "time": "07:17:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:17:32) \u2014 waiting"
+    },
+    {
+      "time": "07:22:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:22:32) \u2014 waiting"
+    },
+    {
+      "time": "07:27:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:27:32) \u2014 waiting"
+    },
+    {
+      "time": "07:32:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:32:32) \u2014 waiting"
+    },
+    {
+      "time": "07:37:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:37:32) \u2014 waiting"
+    },
+    {
+      "time": "07:42:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:42:32) \u2014 waiting"
+    },
+    {
+      "time": "07:47:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:47:32) \u2014 waiting"
+    },
+    {
+      "time": "07:52:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:52:32) \u2014 waiting"
+    },
+    {
+      "time": "07:57:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:57:32) \u2014 waiting"
+    },
+    {
+      "time": "08:02:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:02:32) \u2014 waiting"
+    },
+    {
+      "time": "08:07:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:07:32) \u2014 waiting"
+    },
+    {
+      "time": "08:12:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:12:32) \u2014 waiting"
+    },
+    {
+      "time": "08:17:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:32) \u2014 waiting"
+    },
+    {
+      "time": "08:22:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:32) \u2014 waiting"
+    },
+    {
+      "time": "08:27:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:32) \u2014 waiting"
+    },
+    {
+      "time": "08:32:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:32) \u2014 waiting"
+    },
+    {
+      "time": "08:37:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:32) \u2014 waiting"
+    },
+    {
+      "time": "08:42:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:32) \u2014 waiting"
+    },
+    {
+      "time": "08:47:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:32) \u2014 waiting"
+    },
+    {
+      "time": "08:52:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:32) \u2014 waiting"
+    },
+    {
+      "time": "08:57:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:32) \u2014 waiting"
+    },
+    {
+      "time": "09:02:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:32) \u2014 waiting"
+    },
+    {
+      "time": "09:07:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:32) \u2014 waiting"
+    },
+    {
+      "time": "09:12:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:32) \u2014 waiting"
+    },
+    {
+      "time": "09:17:32",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:32) \u2014 waiting"
+    },
+    {
+      "time": "09:22:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,316.00"
+    },
+    {
+      "time": "09:22:33",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:27:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,314.00"
+    },
+    {
+      "time": "09:27:34",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:33:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,302.00"
+    },
+    {
+      "time": "09:33:58",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:40:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,301.00"
+    },
+    {
+      "time": "09:40:35",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:45:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,325.00"
+    },
+    {
+      "time": "09:45:36",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:50:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,315.00"
+    },
+    {
+      "time": "09:50:37",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:55:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,311.00"
+    },
+    {
+      "time": "09:55:38",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:00:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,304.00"
+    },
+    {
+      "time": "10:00:39",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:05:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,291.00"
+    },
+    {
+      "time": "10:05:40",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:10:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,310.00"
+    },
+    {
+      "time": "10:10:41",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:15:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,315.00"
+    },
+    {
+      "time": "10:15:42",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:20:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,301.00"
+    },
+    {
+      "time": "10:20:43",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:25:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,292.00"
+    },
+    {
+      "time": "10:25:44",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:30:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,278.00"
+    },
+    {
+      "time": "10:30:45",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:35:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,282.50"
+    },
+    {
+      "time": "10:35:46",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:40:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,269.00"
+    },
+    {
+      "time": "10:40:48",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:45:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,268.50"
+    },
+    {
+      "time": "10:45:50",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:50:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,268.50"
+    },
+    {
+      "time": "10:50:51",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:55:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,266.00"
+    },
+    {
+      "time": "10:55:52",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:00:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,280.00"
+    },
+    {
+      "time": "11:00:53",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:05:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,271.00"
+    },
+    {
+      "time": "11:05:54",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:10:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,269.00"
+    },
+    {
+      "time": "11:10:55",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:15:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,253.00"
+    },
+    {
+      "time": "11:15:56",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:20:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,249.00"
+    },
+    {
+      "time": "11:20:58",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:25:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,255.00"
+    },
+    {
+      "time": "11:25:58",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:31:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,265.00"
+    },
+    {
+      "time": "11:31:01",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:36:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,258.50"
+    },
+    {
+      "time": "11:36:02",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:41:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,260.50"
+    },
+    {
+      "time": "11:41:03",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:46:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,265.50"
+    },
+    {
+      "time": "11:46:04",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:51:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,263.50"
+    },
+    {
+      "time": "11:51:05",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:56:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,260.00"
+    },
+    {
+      "time": "11:56:07",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "12:01:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,261.00"
+    },
+    {
+      "time": "12:01:08",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "12:06:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning APOLLOHOSP | LTP: 8,272.00"
+    },
+    {
+      "time": "12:06:09",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260526_095736",
+      "date": "2026-05-26",
+      "time": "09:57:36",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "APOLLOHOSP",
+      "direction": "LONG",
+      "entry": 8355.0,
+      "target": 8600.0,
+      "stop_loss": 8315.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 8312.5,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -42.5,
+      "pnl_rs": -42.5,
+      "paper": true
+    },
+    {
+      "id": "POS_20260529_094728",
+      "date": "2026-05-29",
+      "time": "09:47:28",
+      "strategy": "VWAP_TREND",
+      "instrument": "APOLLOHOSP",
+      "direction": "SHORT",
+      "entry": 8255.5,
+      "target": 8151.6,
+      "stop_loss": 8307.45,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 8316.5,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -61.0,
+      "pnl_rs": -61.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260602_111543",
+      "date": "2026-06-02",
+      "time": "11:15:43",
+      "strategy": "5EMA",
+      "instrument": "APOLLOHOSP",
+      "direction": "LONG",
+      "entry": 8011.0,
+      "target": 8287.5,
+      "stop_loss": 7899.5,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 8084.0,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 73.0,
+      "pnl_rs": 73.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_131802",
+      "date": "2026-06-03",
+      "time": "13:18:02",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "APOLLOHOSP",
+      "direction": "LONG",
+      "entry": 8266.5,
+      "target": 8517.5,
+      "stop_loss": 8233.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 8233.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -33.5,
+      "pnl_rs": -33.5,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

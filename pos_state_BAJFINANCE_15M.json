@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 7,
+  "winning": 0,
+  "total_pnl": -20.0,
+  "last_scan": "12:04:59",
+  "last_signal": "No signal",
+  "last_action": "Closed -4pts (Rs.-4)",
+  "log": [
+    {
+      "time": "13:39:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJFINANCE | Entry: 871 | LTP: 876 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "13:54:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 874.90"
+    },
+    {
+      "time": "13:54:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJFINANCE | Entry: 871 | LTP: 875 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:09:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 875.95"
+    },
+    {
+      "time": "14:09:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJFINANCE | Entry: 871 | LTP: 876 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:24:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 875.85"
+    },
+    {
+      "time": "14:24:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJFINANCE | Entry: 871 | LTP: 876 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:39:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 876.10"
+    },
+    {
+      "time": "14:39:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJFINANCE | Entry: 871 | LTP: 876 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:54:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 875.55"
+    },
+    {
+      "time": "14:54:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJFINANCE | Entry: 871 | LTP: 876 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "15:09:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 873.00"
+    },
+    {
+      "time": "15:09:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJFINANCE | Entry: 871 | LTP: 873 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:24:25",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed SHORT BAJFINANCE | Entry: 871 \u2192 Exit: 876 | PnL: -4pts (Rs.-4) | EOD_SQUAREOFF"
+    },
+    {
+      "time": "15:39:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:39:25) \u2014 waiting"
+    },
+    {
+      "time": "15:54:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:54:25) \u2014 waiting"
+    },
+    {
+      "time": "16:09:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:09:25) \u2014 waiting"
+    },
+    {
+      "time": "16:24:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:24:25) \u2014 waiting"
+    },
+    {
+      "time": "16:39:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:39:25) \u2014 waiting"
+    },
+    {
+      "time": "16:54:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:54:25) \u2014 waiting"
+    },
+    {
+      "time": "17:09:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:09:25) \u2014 waiting"
+    },
+    {
+      "time": "17:24:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:24:25) \u2014 waiting"
+    },
+    {
+      "time": "19:33:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:33:36) \u2014 waiting"
+    },
+    {
+      "time": "19:48:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:48:36) \u2014 waiting"
+    },
+    {
+      "time": "20:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:03:37) \u2014 waiting"
+    },
+    {
+      "time": "20:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:18:37) \u2014 waiting"
+    },
+    {
+      "time": "20:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:33:37) \u2014 waiting"
+    },
+    {
+      "time": "20:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:48:37) \u2014 waiting"
+    },
+    {
+      "time": "21:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:03:37) \u2014 waiting"
+    },
+    {
+      "time": "21:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:18:37) \u2014 waiting"
+    },
+    {
+      "time": "21:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:33:37) \u2014 waiting"
+    },
+    {
+      "time": "21:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:48:37) \u2014 waiting"
+    },
+    {
+      "time": "22:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:03:37) \u2014 waiting"
+    },
+    {
+      "time": "22:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:18:37) \u2014 waiting"
+    },
+    {
+      "time": "22:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:33:37) \u2014 waiting"
+    },
+    {
+      "time": "22:48:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:48:36) \u2014 waiting"
+    },
+    {
+      "time": "23:03:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:03:36) \u2014 waiting"
+    },
+    {
+      "time": "23:18:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:18:36) \u2014 waiting"
+    },
+    {
+      "time": "23:33:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:33:36) \u2014 waiting"
+    },
+    {
+      "time": "23:48:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:48:36) \u2014 waiting"
+    },
+    {
+      "time": "00:03:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:03:36) \u2014 waiting"
+    },
+    {
+      "time": "00:18:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:18:36) \u2014 waiting"
+    },
+    {
+      "time": "00:33:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:33:36) \u2014 waiting"
+    },
+    {
+      "time": "00:48:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:48:36) \u2014 waiting"
+    },
+    {
+      "time": "01:03:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:03:36) \u2014 waiting"
+    },
+    {
+      "time": "01:18:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:18:36) \u2014 waiting"
+    },
+    {
+      "time": "01:33:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:33:36) \u2014 waiting"
+    },
+    {
+      "time": "01:48:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:48:36) \u2014 waiting"
+    },
+    {
+      "time": "02:03:36",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:03:36) \u2014 waiting"
+    },
+    {
+      "time": "02:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:18:37) \u2014 waiting"
+    },
+    {
+      "time": "02:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:33:37) \u2014 waiting"
+    },
+    {
+      "time": "02:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:48:37) \u2014 waiting"
+    },
+    {
+      "time": "03:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:03:37) \u2014 waiting"
+    },
+    {
+      "time": "03:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:18:37) \u2014 waiting"
+    },
+    {
+      "time": "03:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:33:37) \u2014 waiting"
+    },
+    {
+      "time": "03:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:48:37) \u2014 waiting"
+    },
+    {
+      "time": "04:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:03:37) \u2014 waiting"
+    },
+    {
+      "time": "04:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:18:37) \u2014 waiting"
+    },
+    {
+      "time": "04:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:33:37) \u2014 waiting"
+    },
+    {
+      "time": "04:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:48:37) \u2014 waiting"
+    },
+    {
+      "time": "05:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:03:37) \u2014 waiting"
+    },
+    {
+      "time": "05:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:18:37) \u2014 waiting"
+    },
+    {
+      "time": "05:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:33:37) \u2014 waiting"
+    },
+    {
+      "time": "05:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:48:37) \u2014 waiting"
+    },
+    {
+      "time": "06:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:03:37) \u2014 waiting"
+    },
+    {
+      "time": "06:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:18:37) \u2014 waiting"
+    },
+    {
+      "time": "06:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:33:37) \u2014 waiting"
+    },
+    {
+      "time": "06:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:48:37) \u2014 waiting"
+    },
+    {
+      "time": "07:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:03:37) \u2014 waiting"
+    },
+    {
+      "time": "07:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:18:37) \u2014 waiting"
+    },
+    {
+      "time": "07:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:37) \u2014 waiting"
+    },
+    {
+      "time": "07:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:48:37) \u2014 waiting"
+    },
+    {
+      "time": "08:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:03:37) \u2014 waiting"
+    },
+    {
+      "time": "08:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:37) \u2014 waiting"
+    },
+    {
+      "time": "08:33:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:37) \u2014 waiting"
+    },
+    {
+      "time": "08:48:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:37) \u2014 waiting"
+    },
+    {
+      "time": "09:03:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:37) \u2014 waiting"
+    },
+    {
+      "time": "09:18:37",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:37) \u2014 waiting"
+    },
+    {
+      "time": "09:34:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 885.10"
+    },
+    {
+      "time": "09:34:50",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:49:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 887.80"
+    },
+    {
+      "time": "09:49:51",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:04:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 899.15"
+    },
+    {
+      "time": "10:04:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:19:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 905.55"
+    },
+    {
+      "time": "10:19:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:34:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 905.45"
+    },
+    {
+      "time": "10:34:54",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:49:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 899.60"
+    },
+    {
+      "time": "10:49:55",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:04:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 908.60"
+    },
+    {
+      "time": "11:04:56",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:19:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 904.80"
+    },
+    {
+      "time": "11:19:57",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:34:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 903.75"
+    },
+    {
+      "time": "11:34:58",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.9 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:49:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 903.00"
+    },
+    {
+      "time": "11:49:59",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:05:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJFINANCE | LTP: 902.00"
+    },
+    {
+      "time": "12:05:00",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260602_105959",
+      "date": "2026-06-02",
+      "time": "10:59:59",
+      "strategy": "GAP_AND_GO",
+      "instrument": "BAJFINANCE",
+      "direction": "SHORT",
+      "entry": 866.5,
+      "target": 848.42,
+      "stop_loss": 883.11,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 882.0,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -15.5,
+      "pnl_rs": -15.5,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_103026",
+      "date": "2026-06-03",
+      "time": "10:30:26",
+      "strategy": "GAP_AND_GO",
+      "instrument": "BAJFINANCE",
+      "direction": "SHORT",
+      "entry": 871.0,
+      "target": 846.12,
+      "stop_loss": 883.14,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 875.5,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -4.5,
+      "pnl_rs": -4.5,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

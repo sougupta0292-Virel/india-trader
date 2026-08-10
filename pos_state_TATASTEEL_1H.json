@@ -1,0 +1,535 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 1,
+  "total_trades": 3,
+  "winning": 0,
+  "total_pnl": -1.3299993896484352,
+  "last_scan": "12:08:56",
+  "last_signal": "No signal",
+  "last_action": "Closed -1pts (Rs.-1)",
+  "log": [
+    {
+      "time": "08:36:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:36:49) \u2014 waiting"
+    },
+    {
+      "time": "08:41:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:41:49) \u2014 waiting"
+    },
+    {
+      "time": "08:46:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:46:49) \u2014 waiting"
+    },
+    {
+      "time": "08:51:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:51:49) \u2014 waiting"
+    },
+    {
+      "time": "08:56:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:56:49) \u2014 waiting"
+    },
+    {
+      "time": "09:01:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:01:49) \u2014 waiting"
+    },
+    {
+      "time": "09:06:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:06:49) \u2014 waiting"
+    },
+    {
+      "time": "09:11:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:11:49) \u2014 waiting"
+    },
+    {
+      "time": "09:16:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:16:49) \u2014 waiting"
+    },
+    {
+      "time": "09:21:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.79"
+    },
+    {
+      "time": "09:21:51",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:26:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.28"
+    },
+    {
+      "time": "09:26:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:32:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.59"
+    },
+    {
+      "time": "09:32:38",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.7 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:38:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.45"
+    },
+    {
+      "time": "09:38:19",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:43:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.97"
+    },
+    {
+      "time": "09:43:20",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:48:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.41"
+    },
+    {
+      "time": "09:48:21",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:53:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.70"
+    },
+    {
+      "time": "09:53:23",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:58:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.75"
+    },
+    {
+      "time": "09:58:24",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:03:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.10"
+    },
+    {
+      "time": "10:03:25",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:08:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.50"
+    },
+    {
+      "time": "10:08:26",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:13:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 208.24"
+    },
+    {
+      "time": "10:13:27",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:18:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.99"
+    },
+    {
+      "time": "10:18:28",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:18:28",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9208 \u2014 skipped."
+    },
+    {
+      "time": "10:23:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.49"
+    },
+    {
+      "time": "10:23:29",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:23:29",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9207 \u2014 skipped."
+    },
+    {
+      "time": "10:28:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.56"
+    },
+    {
+      "time": "10:28:30",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:28:30",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9208 \u2014 skipped."
+    },
+    {
+      "time": "10:33:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.80"
+    },
+    {
+      "time": "10:33:31",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:33:31",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9208 \u2014 skipped."
+    },
+    {
+      "time": "10:38:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.92"
+    },
+    {
+      "time": "10:38:32",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:38:32",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9207 \u2014 skipped."
+    },
+    {
+      "time": "10:43:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.24"
+    },
+    {
+      "time": "10:43:33",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:43:33",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "10:48:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 205.79"
+    },
+    {
+      "time": "10:48:34",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:48:34",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "10:53:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.25"
+    },
+    {
+      "time": "10:53:35",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:53:36",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "10:58:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.30"
+    },
+    {
+      "time": "10:58:37",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "10:58:37",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "11:03:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.95"
+    },
+    {
+      "time": "11:03:39",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "11:03:39",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9207 \u2014 skipped."
+    },
+    {
+      "time": "11:08:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.98"
+    },
+    {
+      "time": "11:08:40",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "11:08:41",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9207 \u2014 skipped."
+    },
+    {
+      "time": "11:13:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.89"
+    },
+    {
+      "time": "11:13:41",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 184 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "11:13:42",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9207 \u2014 skipped."
+    },
+    {
+      "time": "11:18:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.89"
+    },
+    {
+      "time": "11:18:43",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:18:43",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9207 \u2014 skipped."
+    },
+    {
+      "time": "11:23:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.30"
+    },
+    {
+      "time": "11:23:44",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:23:44",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "11:28:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.69"
+    },
+    {
+      "time": "11:28:45",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:28:45",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9207 \u2014 skipped."
+    },
+    {
+      "time": "11:33:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.66"
+    },
+    {
+      "time": "11:33:48",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:33:48",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9207 \u2014 skipped."
+    },
+    {
+      "time": "11:38:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.10"
+    },
+    {
+      "time": "11:38:49",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:38:49",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "11:43:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.27"
+    },
+    {
+      "time": "11:43:50",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:43:50",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "11:48:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.28"
+    },
+    {
+      "time": "11:48:52",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:48:52",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "11:53:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.05"
+    },
+    {
+      "time": "11:53:53",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:53:53",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "11:58:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.02"
+    },
+    {
+      "time": "11:58:54",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "11:58:54",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "12:03:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.09"
+    },
+    {
+      "time": "12:03:55",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "12:03:56",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    },
+    {
+      "time": "12:08:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.04"
+    },
+    {
+      "time": "12:08:57",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 207 | Target: 182 | SL: 219 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 209"
+    },
+    {
+      "time": "12:08:57",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9206 \u2014 skipped."
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260603_101659",
+      "date": "2026-06-03",
+      "time": "10:16:59",
+      "strategy": "GAP_AND_GO",
+      "instrument": "TATASTEEL",
+      "direction": "SHORT",
+      "entry": 209.06,
+      "target": 186.18,
+      "stop_loss": 220.25,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 210.39,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -1.33,
+      "pnl_rs": -1.33,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

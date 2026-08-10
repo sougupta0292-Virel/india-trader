@@ -1,0 +1,537 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 16,
+  "winning": 1,
+  "total_pnl": 43.0,
+  "last_scan": "01:45:13",
+  "last_signal": "SHORT @ 12,983",
+  "last_action": "Opened SHORT MARUTI",
+  "log": [
+    {
+      "time": "13:39:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:40:14",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,040.00"
+    },
+    {
+      "time": "13:40:14",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:41:15",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,041.00"
+    },
+    {
+      "time": "13:41:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:42:16",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,035.00"
+    },
+    {
+      "time": "13:42:16",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:43:17",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,036.00"
+    },
+    {
+      "time": "13:43:17",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:44:18",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,042.00"
+    },
+    {
+      "time": "13:44:18",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:45:19",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,044.00"
+    },
+    {
+      "time": "13:45:19",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.7 < 1.8 — skipped"
+    },
+    {
+      "time": "13:50:21",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,040.00"
+    },
+    {
+      "time": "13:50:21",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.9 < 1.8 — skipped"
+    },
+    {
+      "time": "13:55:22",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,020.00"
+    },
+    {
+      "time": "13:55:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:56:23",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,028.00"
+    },
+    {
+      "time": "13:56:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:57:24",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,028.00"
+    },
+    {
+      "time": "13:57:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:58:25",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,028.00"
+    },
+    {
+      "time": "13:58:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "13:59:26",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,029.00"
+    },
+    {
+      "time": "13:59:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:00:28",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,036.00"
+    },
+    {
+      "time": "14:00:28",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.9 < 1.8 — skipped"
+    },
+    {
+      "time": "14:05:28",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,019.00"
+    },
+    {
+      "time": "14:05:29",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: LONG MARUTI | Entry: 13,022 | Target: 13,057 | SL: 13,007 | R:R 1:2.3 | NSE open drive LONG | Drive 35pts"
+    },
+    {
+      "time": "14:05:29",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: LONG MARUTI @ 13,019"
+    },
+    {
+      "time": "14:10:30",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,042.00"
+    },
+    {
+      "time": "14:10:30",
+      "level": "INFO",
+      "message": "📊 LONG MARUTI | Entry: 13,019 | LTP: 13,042 | Unrealized: +23pts (Rs.+23)"
+    },
+    {
+      "time": "14:10:30",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:15:31",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,037.00"
+    },
+    {
+      "time": "14:15:31",
+      "level": "INFO",
+      "message": "📊 LONG MARUTI | Entry: 13,019 | LTP: 13,037 | Unrealized: +18pts (Rs.+18)"
+    },
+    {
+      "time": "14:15:31",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.8 < 1.8 — skipped"
+    },
+    {
+      "time": "14:20:32",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,025.00"
+    },
+    {
+      "time": "14:20:32",
+      "level": "INFO",
+      "message": "📊 LONG MARUTI | Entry: 13,019 | LTP: 13,025 | Unrealized: +6pts (Rs.+6)"
+    },
+    {
+      "time": "14:20:32",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.9 < 1.8 — skipped"
+    },
+    {
+      "time": "14:25:33",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 13,013.00"
+    },
+    {
+      "time": "14:25:33",
+      "level": "INFO",
+      "message": "📊 LONG MARUTI | Entry: 13,019 | LTP: 13,013 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "14:25:33",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.1 < 1.8 — skipped"
+    },
+    {
+      "time": "14:30:34",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,995.00"
+    },
+    {
+      "time": "14:30:34",
+      "level": "INFO",
+      "message": "📊 LONG MARUTI | Entry: 13,019 | LTP: 12,995 | Unrealized: -24pts (Rs.-24)"
+    },
+    {
+      "time": "14:30:34",
+      "level": "TRADE",
+      "message": "❌ LOSS: Closed LONG MARUTI | Entry: 13,019 → Exit: 12,995 | PnL: -24pts (Rs.-24) | STOP_LOSS"
+    },
+    {
+      "time": "14:30:35",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.7 < 1.8 — skipped"
+    },
+    {
+      "time": "14:35:35",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,996.00"
+    },
+    {
+      "time": "14:35:36",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT MARUTI | Entry: 13,000 | Target: 12,936 | SL: 13,032 | R:R 1:2.0 | Gap+Go SHORT | Gap -44.8% | 9EMA 13022"
+    },
+    {
+      "time": "14:35:36",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT MARUTI @ 12,996"
+    },
+    {
+      "time": "14:40:37",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,990.00"
+    },
+    {
+      "time": "14:40:37",
+      "level": "INFO",
+      "message": "📊 SHORT MARUTI | Entry: 12,996 | LTP: 12,990 | Unrealized: +6pts (Rs.+6)"
+    },
+    {
+      "time": "14:40:37",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.2 < 1.8 — skipped"
+    },
+    {
+      "time": "14:45:38",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,983.00"
+    },
+    {
+      "time": "14:45:38",
+      "level": "INFO",
+      "message": "📊 SHORT MARUTI | Entry: 12,996 | LTP: 12,983 | Unrealized: +13pts (Rs.+13)"
+    },
+    {
+      "time": "14:45:38",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT MARUTI | Entry: 12,978 | Target: 12,897 | SL: 13,018 | R:R 1:2.0 | Gap+Go SHORT | Gap -44.8% | 9EMA 13008"
+    },
+    {
+      "time": "14:45:38",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT MARUTI @ 12,983"
+    },
+    {
+      "time": "14:50:38",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,996.00"
+    },
+    {
+      "time": "14:50:38",
+      "level": "INFO",
+      "message": "📊 SHORT MARUTI | Entry: 12,983 | LTP: 12,996 | Unrealized: -13pts (Rs.-13)"
+    },
+    {
+      "time": "14:50:39",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.4 < 1.8 — skipped"
+    },
+    {
+      "time": "14:55:39",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,997.00"
+    },
+    {
+      "time": "14:55:39",
+      "level": "INFO",
+      "message": "📊 SHORT MARUTI | Entry: 12,983 | LTP: 12,997 | Unrealized: -14pts (Rs.-14)"
+    },
+    {
+      "time": "14:55:40",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.4 < 1.8 — skipped"
+    },
+    {
+      "time": "15:00:42",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,996.00"
+    },
+    {
+      "time": "15:00:42",
+      "level": "INFO",
+      "message": "📊 SHORT MARUTI | Entry: 12,983 | LTP: 12,996 | Unrealized: -13pts (Rs.-13)"
+    },
+    {
+      "time": "15:00:42",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.4 < 1.8 — skipped"
+    },
+    {
+      "time": "15:05:43",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,985.00"
+    },
+    {
+      "time": "15:05:43",
+      "level": "INFO",
+      "message": "📊 SHORT MARUTI | Entry: 12,983 | LTP: 12,985 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:05:43",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.4 < 1.8 — skipped"
+    },
+    {
+      "time": "15:10:44",
+      "level": "INFO",
+      "message": "🔍 Scanning MARUTI | LTP: 12,980.00"
+    },
+    {
+      "time": "15:10:44",
+      "level": "INFO",
+      "message": "📊 SHORT MARUTI | Entry: 12,983 | LTP: 12,980 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "15:10:44",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:15:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:15:44) — waiting"
+    },
+    {
+      "time": "15:20:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:20:44) — waiting"
+    },
+    {
+      "time": "15:25:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:25:44) — waiting"
+    },
+    {
+      "time": "15:30:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:30:44) — waiting"
+    },
+    {
+      "time": "15:35:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:35:44) — waiting"
+    },
+    {
+      "time": "15:40:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:40:44) — waiting"
+    },
+    {
+      "time": "15:45:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:45:44) — waiting"
+    },
+    {
+      "time": "15:50:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:50:44) — waiting"
+    },
+    {
+      "time": "15:55:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:55:44) — waiting"
+    },
+    {
+      "time": "16:00:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:00:44) — waiting"
+    },
+    {
+      "time": "16:05:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:05:44) — waiting"
+    },
+    {
+      "time": "16:10:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:10:44) — waiting"
+    },
+    {
+      "time": "16:15:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:15:44) — waiting"
+    },
+    {
+      "time": "16:20:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:20:44) — waiting"
+    },
+    {
+      "time": "16:25:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:25:44) — waiting"
+    },
+    {
+      "time": "16:30:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:30:44) — waiting"
+    },
+    {
+      "time": "16:35:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:35:44) — waiting"
+    },
+    {
+      "time": "16:40:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:40:44) — waiting"
+    },
+    {
+      "time": "16:45:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:45:44) — waiting"
+    },
+    {
+      "time": "16:50:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:50:44) — waiting"
+    },
+    {
+      "time": "16:55:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:55:44) — waiting"
+    },
+    {
+      "time": "17:00:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:00:44) — waiting"
+    },
+    {
+      "time": "17:05:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:05:44) — waiting"
+    },
+    {
+      "time": "17:10:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:10:44) — waiting"
+    },
+    {
+      "time": "17:15:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:15:44) — waiting"
+    },
+    {
+      "time": "17:20:44",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:20:44) — waiting"
+    },
+    {
+      "time": "17:24:29",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | MARUTI | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:13) — waiting"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260522_101351",
+      "date": "2026-05-22",
+      "time": "10:13:51",
+      "strategy": "GAP_AND_GO",
+      "instrument": "MARUTI",
+      "direction": "SHORT",
+      "entry": 13038.0,
+      "target": 12996.82,
+      "stop_loss": 13069.09,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 12995.0,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 43.0,
+      "pnl_rs": 43.0,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 1,
+  "losses": 0
+}

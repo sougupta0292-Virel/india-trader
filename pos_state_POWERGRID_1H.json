@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 18,
+  "winning": 2,
+  "total_pnl": 4.7500183105469205,
+  "last_scan": "02:47:55",
+  "last_signal": "No signal",
+  "last_action": "Closed +2pts (Rs.+2)",
+  "log": [
+    {
+      "time": "06:47:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:47:21) \u2014 waiting"
+    },
+    {
+      "time": "06:52:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:52:21) \u2014 waiting"
+    },
+    {
+      "time": "06:57:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:57:21) \u2014 waiting"
+    },
+    {
+      "time": "07:02:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:02:21) \u2014 waiting"
+    },
+    {
+      "time": "07:07:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:07:21) \u2014 waiting"
+    },
+    {
+      "time": "07:12:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:12:21) \u2014 waiting"
+    },
+    {
+      "time": "07:17:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:17:21) \u2014 waiting"
+    },
+    {
+      "time": "07:22:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:22:21) \u2014 waiting"
+    },
+    {
+      "time": "07:27:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:27:21) \u2014 waiting"
+    },
+    {
+      "time": "07:32:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:32:21) \u2014 waiting"
+    },
+    {
+      "time": "07:37:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:37:21) \u2014 waiting"
+    },
+    {
+      "time": "07:42:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:42:21) \u2014 waiting"
+    },
+    {
+      "time": "07:47:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:47:21) \u2014 waiting"
+    },
+    {
+      "time": "07:52:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:52:21) \u2014 waiting"
+    },
+    {
+      "time": "07:57:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:57:21) \u2014 waiting"
+    },
+    {
+      "time": "08:02:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:02:21) \u2014 waiting"
+    },
+    {
+      "time": "08:07:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:07:21) \u2014 waiting"
+    },
+    {
+      "time": "08:12:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:12:21) \u2014 waiting"
+    },
+    {
+      "time": "08:17:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:21) \u2014 waiting"
+    },
+    {
+      "time": "08:22:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:21) \u2014 waiting"
+    },
+    {
+      "time": "08:27:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:21) \u2014 waiting"
+    },
+    {
+      "time": "08:32:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:21) \u2014 waiting"
+    },
+    {
+      "time": "08:37:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:21) \u2014 waiting"
+    },
+    {
+      "time": "08:42:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:21) \u2014 waiting"
+    },
+    {
+      "time": "08:47:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:21) \u2014 waiting"
+    },
+    {
+      "time": "08:52:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:21) \u2014 waiting"
+    },
+    {
+      "time": "08:57:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:21) \u2014 waiting"
+    },
+    {
+      "time": "09:02:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:21) \u2014 waiting"
+    },
+    {
+      "time": "09:07:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:21) \u2014 waiting"
+    },
+    {
+      "time": "09:12:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:21) \u2014 waiting"
+    },
+    {
+      "time": "09:17:21",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:21) \u2014 waiting"
+    },
+    {
+      "time": "09:22:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 283.90"
+    },
+    {
+      "time": "09:22:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:27:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.00"
+    },
+    {
+      "time": "09:27:23",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:33:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 283.80"
+    },
+    {
+      "time": "09:33:25",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:39:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 283.15"
+    },
+    {
+      "time": "09:39:15",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG POWERGRID | Entry: 3,025 | Target: 3,087 | SL: 2,994 | R:R 1:2.0 | Pre-market break LONG | PM H 3,004 | Range 31pts"
+    },
+    {
+      "time": "09:39:16",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG POWERGRID @ 283"
+    },
+    {
+      "time": "09:44:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.35"
+    },
+    {
+      "time": "09:44:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG POWERGRID | Entry: 283 | LTP: 285 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "09:44:17",
+      "level": "TRADE",
+      "message": "\u2705 WIN: Closed LONG POWERGRID | Entry: 283 \u2192 Exit: 285 | PnL: +2pts (Rs.+2) | STOP_LOSS"
+    },
+    {
+      "time": "09:49:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.05"
+    },
+    {
+      "time": "09:49:18",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:54:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.15"
+    },
+    {
+      "time": "09:54:20",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:59:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.95"
+    },
+    {
+      "time": "09:59:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:04:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.65"
+    },
+    {
+      "time": "10:04:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:09:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.75"
+    },
+    {
+      "time": "10:09:24",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:14:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.65"
+    },
+    {
+      "time": "10:14:27",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:19:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.65"
+    },
+    {
+      "time": "10:19:28",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:24:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.85"
+    },
+    {
+      "time": "10:24:29",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:29:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.95"
+    },
+    {
+      "time": "10:29:30",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:34:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.70"
+    },
+    {
+      "time": "10:34:33",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:39:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 283.80"
+    },
+    {
+      "time": "10:39:34",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:44:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 283.90"
+    },
+    {
+      "time": "10:44:35",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:49:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 283.90"
+    },
+    {
+      "time": "10:49:36",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:54:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.20"
+    },
+    {
+      "time": "10:54:37",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:59:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.05"
+    },
+    {
+      "time": "10:59:38",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:04:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.70"
+    },
+    {
+      "time": "11:04:38",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:09:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.45"
+    },
+    {
+      "time": "11:09:39",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:14:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.10"
+    },
+    {
+      "time": "11:14:40",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:19:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.80"
+    },
+    {
+      "time": "11:19:41",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:24:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 284.50"
+    },
+    {
+      "time": "11:24:42",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:29:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.65"
+    },
+    {
+      "time": "11:29:43",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:34:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.95"
+    },
+    {
+      "time": "11:34:44",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:39:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.50"
+    },
+    {
+      "time": "11:39:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:44:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.60"
+    },
+    {
+      "time": "11:44:46",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:49:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.75"
+    },
+    {
+      "time": "11:49:47",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:54:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.50"
+    },
+    {
+      "time": "11:54:48",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:59:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 285.05"
+    },
+    {
+      "time": "11:59:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:04:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning POWERGRID | LTP: 286.15"
+    },
+    {
+      "time": "12:04:50",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "02:47:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:47:55) \u2014 waiting"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260604_115722",
+      "date": "2026-06-04",
+      "time": "11:57:22",
+      "strategy": "VWAP_TREND",
+      "instrument": "POWERGRID",
+      "direction": "LONG",
+      "entry": 282.4,
+      "target": 301.1,
+      "stop_loss": 273.05,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 284.95,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 2.55,
+      "pnl_rs": 2.55,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_093916",
+      "date": "2026-06-05",
+      "time": "09:39:16",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "POWERGRID",
+      "direction": "LONG",
+      "entry": 283.15,
+      "target": 3086.8,
+      "stop_loss": 2994.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 285.35,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 2.2,
+      "pnl_rs": 2.2,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-06"
+}

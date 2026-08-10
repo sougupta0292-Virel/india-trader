@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 13,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:13",
+  "last_signal": "SHORT @ 949",
+  "last_action": "Opened SHORT SBIN",
+  "log": [
+    {
+      "time": "14:28:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 950.60"
+    },
+    {
+      "time": "14:28:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 952 | LTP: 951 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:28:21",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:29:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 950.50"
+    },
+    {
+      "time": "14:29:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 952 | LTP: 950 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:29:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:30:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.40"
+    },
+    {
+      "time": "14:30:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 952 | LTP: 949 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:30:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:31:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.50"
+    },
+    {
+      "time": "14:31:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 952 | LTP: 950 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:31:24",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SBIN | Entry: 950 | Target: 924 | SL: 962 | R:R 1:2.0 | VWAP trend SHORT | EMA5=950 VWAP=952 | Vol spike"
+    },
+    {
+      "time": "14:31:24",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SBIN @ 950"
+    },
+    {
+      "time": "14:36:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.80"
+    },
+    {
+      "time": "14:36:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 950 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:36:25",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SBIN | Entry: 950 | Target: 927 | SL: 961 | R:R 1:2.0 | Gap+Go SHORT | Gap -96.0% | 9EMA 951"
+    },
+    {
+      "time": "14:36:25",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SBIN @ 950"
+    },
+    {
+      "time": "14:41:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.70"
+    },
+    {
+      "time": "14:41:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 950 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:41:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.40"
+    },
+    {
+      "time": "14:42:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:42:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.10"
+    },
+    {
+      "time": "14:43:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:43:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 948.60"
+    },
+    {
+      "time": "14:44:29",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:44:29",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 948.70"
+    },
+    {
+      "time": "14:45:30",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:45:31",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.30"
+    },
+    {
+      "time": "14:46:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:46:32",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.00"
+    },
+    {
+      "time": "14:47:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:47:33",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.10"
+    },
+    {
+      "time": "14:48:34",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:48:34",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.30"
+    },
+    {
+      "time": "14:49:35",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:49:35",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.20"
+    },
+    {
+      "time": "14:50:36",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:50:36",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.60"
+    },
+    {
+      "time": "14:55:37",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 950 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:55:37",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.10"
+    },
+    {
+      "time": "15:00:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:00:39",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.30"
+    },
+    {
+      "time": "15:01:41",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:01:41",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:02:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 948.50"
+    },
+    {
+      "time": "15:02:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 948 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:02:43",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:03:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 948.70"
+    },
+    {
+      "time": "15:03:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 950 | LTP: 949 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:03:44",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SBIN | Entry: 949 | Target: 924 | SL: 961 | R:R 1:2.0 | VWAP trend SHORT | EMA5=949 VWAP=951 | Vol spike"
+    },
+    {
+      "time": "15:03:44",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SBIN @ 949"
+    },
+    {
+      "time": "15:08:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 948.90"
+    },
+    {
+      "time": "15:08:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 949 | LTP: 949 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:08:45",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SBIN | Entry: 949 | Target: 926 | SL: 960 | R:R 1:2.0 | Gap+Go SHORT | Gap -96.0% | 9EMA 950"
+    },
+    {
+      "time": "15:08:45",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SBIN @ 949"
+    },
+    {
+      "time": "15:13:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SBIN | LTP: 949.30"
+    },
+    {
+      "time": "15:13:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SBIN | Entry: 949 | LTP: 949 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:13:46",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SBIN | Entry: 948 | Target: 926 | SL: 959 | R:R 1:2.0 | Gap+Go SHORT | Gap -96.0% | 9EMA 949"
+    },
+    {
+      "time": "15:13:46",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SBIN @ 949"
+    },
+    {
+      "time": "15:18:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:18:46) \u2014 waiting"
+    },
+    {
+      "time": "15:23:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:23:46) \u2014 waiting"
+    },
+    {
+      "time": "15:28:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:28:46) \u2014 waiting"
+    },
+    {
+      "time": "15:33:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:33:46) \u2014 waiting"
+    },
+    {
+      "time": "15:38:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:38:46) \u2014 waiting"
+    },
+    {
+      "time": "15:43:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:43:46) \u2014 waiting"
+    },
+    {
+      "time": "15:48:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:48:46) \u2014 waiting"
+    },
+    {
+      "time": "15:53:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:53:46) \u2014 waiting"
+    },
+    {
+      "time": "15:58:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:58:46) \u2014 waiting"
+    },
+    {
+      "time": "16:03:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:03:46) \u2014 waiting"
+    },
+    {
+      "time": "16:08:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:08:46) \u2014 waiting"
+    },
+    {
+      "time": "16:13:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:13:46) \u2014 waiting"
+    },
+    {
+      "time": "16:18:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:18:46) \u2014 waiting"
+    },
+    {
+      "time": "16:23:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:23:46) \u2014 waiting"
+    },
+    {
+      "time": "16:28:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:28:46) \u2014 waiting"
+    },
+    {
+      "time": "16:33:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:33:46) \u2014 waiting"
+    },
+    {
+      "time": "16:38:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:38:46) \u2014 waiting"
+    },
+    {
+      "time": "16:43:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:43:46) \u2014 waiting"
+    },
+    {
+      "time": "16:48:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:48:46) \u2014 waiting"
+    },
+    {
+      "time": "16:53:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:53:46) \u2014 waiting"
+    },
+    {
+      "time": "16:58:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:58:46) \u2014 waiting"
+    },
+    {
+      "time": "17:03:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:03:46) \u2014 waiting"
+    },
+    {
+      "time": "17:08:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:08:46) \u2014 waiting"
+    },
+    {
+      "time": "17:13:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:13:46) \u2014 waiting"
+    },
+    {
+      "time": "17:18:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:18:46) \u2014 waiting"
+    },
+    {
+      "time": "17:23:46",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:23:46) \u2014 waiting"
+    },
+    {
+      "time": "17:24:29",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | SBIN | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:13) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

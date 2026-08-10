@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 9,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:13",
+  "last_signal": "SHORT @ 1,870",
+  "last_action": "Opened SHORT BHARTIARTL",
+  "log": [
+    {
+      "time": "14:32:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.40"
+    },
+    {
+      "time": "14:32:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,873 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "14:32:21",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,874.20"
+    },
+    {
+      "time": "14:33:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:33:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,874.60"
+    },
+    {
+      "time": "14:34:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,875 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:34:24",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:35:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,874.70"
+    },
+    {
+      "time": "14:35:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,875 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:35:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:36:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,874.10"
+    },
+    {
+      "time": "14:36:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:36:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,874.70"
+    },
+    {
+      "time": "14:37:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,875 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:37:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.80"
+    },
+    {
+      "time": "14:38:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:38:29",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.80"
+    },
+    {
+      "time": "14:39:29",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:39:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.80"
+    },
+    {
+      "time": "14:40:30",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:40:31",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.80"
+    },
+    {
+      "time": "14:41:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:41:32",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.00"
+    },
+    {
+      "time": "14:42:33",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,873 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "14:42:34",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.60"
+    },
+    {
+      "time": "14:43:34",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:43:35",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.30"
+    },
+    {
+      "time": "14:44:35",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,873 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "14:44:36",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,872.80"
+    },
+    {
+      "time": "14:45:37",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,873 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "14:45:37",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.70"
+    },
+    {
+      "time": "14:46:37",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:46:38",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,874.10"
+    },
+    {
+      "time": "14:47:38",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:47:39",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,874.60"
+    },
+    {
+      "time": "14:48:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,875 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:48:40",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,875.00"
+    },
+    {
+      "time": "14:49:41",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,875 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:49:41",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,874.70"
+    },
+    {
+      "time": "14:50:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,875 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:50:42",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,873.60"
+    },
+    {
+      "time": "14:55:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,878 | LTP: 1,874 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:55:44",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT BHARTIARTL | Entry: 1,874 | Target: 1,852 | SL: 1,885 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.1% | 9EMA 1875"
+    },
+    {
+      "time": "14:55:44",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT BHARTIARTL @ 1,874"
+    },
+    {
+      "time": "15:00:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,872.50"
+    },
+    {
+      "time": "15:00:45",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,874 | LTP: 1,872 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:00:45",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:05:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,869.60"
+    },
+    {
+      "time": "15:05:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,874 | LTP: 1,870 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "15:05:46",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT BHARTIARTL | Entry: 1,870 | Target: 1,842 | SL: 1,883 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.1% | 9EMA 1873"
+    },
+    {
+      "time": "15:05:46",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT BHARTIARTL @ 1,870"
+    },
+    {
+      "time": "15:10:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BHARTIARTL | LTP: 1,870.20"
+    },
+    {
+      "time": "15:10:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BHARTIARTL | Entry: 1,870 | LTP: 1,870 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:10:47",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:15:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:47) \u2014 waiting"
+    },
+    {
+      "time": "15:20:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:47) \u2014 waiting"
+    },
+    {
+      "time": "15:25:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:47) \u2014 waiting"
+    },
+    {
+      "time": "15:30:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:47) \u2014 waiting"
+    },
+    {
+      "time": "15:35:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:47) \u2014 waiting"
+    },
+    {
+      "time": "15:40:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:47) \u2014 waiting"
+    },
+    {
+      "time": "15:45:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:47) \u2014 waiting"
+    },
+    {
+      "time": "15:50:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:47) \u2014 waiting"
+    },
+    {
+      "time": "15:55:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:47) \u2014 waiting"
+    },
+    {
+      "time": "16:00:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:47) \u2014 waiting"
+    },
+    {
+      "time": "16:05:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:47) \u2014 waiting"
+    },
+    {
+      "time": "16:10:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:47) \u2014 waiting"
+    },
+    {
+      "time": "16:15:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:47) \u2014 waiting"
+    },
+    {
+      "time": "16:20:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:47) \u2014 waiting"
+    },
+    {
+      "time": "16:25:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:47) \u2014 waiting"
+    },
+    {
+      "time": "16:30:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:47) \u2014 waiting"
+    },
+    {
+      "time": "16:35:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:47) \u2014 waiting"
+    },
+    {
+      "time": "16:40:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:47) \u2014 waiting"
+    },
+    {
+      "time": "16:45:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:47) \u2014 waiting"
+    },
+    {
+      "time": "16:50:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:47) \u2014 waiting"
+    },
+    {
+      "time": "16:55:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:47) \u2014 waiting"
+    },
+    {
+      "time": "17:00:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:47) \u2014 waiting"
+    },
+    {
+      "time": "17:05:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:47) \u2014 waiting"
+    },
+    {
+      "time": "17:10:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:47) \u2014 waiting"
+    },
+    {
+      "time": "17:15:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:47) \u2014 waiting"
+    },
+    {
+      "time": "17:20:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:47) \u2014 waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | BHARTIARTL | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:13) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 7,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:13",
+  "last_signal": "SHORT @ 203",
+  "last_action": "Opened SHORT WIPRO",
+  "log": [
+    {
+      "time": "14:26:02",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "14:31:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 204.66"
+    },
+    {
+      "time": "14:31:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 205 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:31:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:32:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 204.60"
+    },
+    {
+      "time": "14:32:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 205 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:32:06",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 204.71"
+    },
+    {
+      "time": "14:33:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 205 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:33:07",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 204.75"
+    },
+    {
+      "time": "14:34:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 205 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:34:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:35:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 204.26"
+    },
+    {
+      "time": "14:35:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:35:09",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT WIPRO | Entry: 204 | Target: 184 | SL: 215 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 205"
+    },
+    {
+      "time": "14:35:09",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT WIPRO @ 204"
+    },
+    {
+      "time": "14:40:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 204.09"
+    },
+    {
+      "time": "14:40:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:40:10",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT WIPRO | Entry: 204 | Target: 183 | SL: 214 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 204"
+    },
+    {
+      "time": "14:40:10",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT WIPRO @ 204"
+    },
+    {
+      "time": "14:45:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.75"
+    },
+    {
+      "time": "14:45:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:45:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.76"
+    },
+    {
+      "time": "14:46:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:46:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.60"
+    },
+    {
+      "time": "14:47:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:47:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.77"
+    },
+    {
+      "time": "14:48:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:48:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.65"
+    },
+    {
+      "time": "14:49:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:49:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.79"
+    },
+    {
+      "time": "14:50:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:50:17",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:51:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.76"
+    },
+    {
+      "time": "14:51:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:51:19",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:52:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.75"
+    },
+    {
+      "time": "14:52:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:52:21",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:53:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.79"
+    },
+    {
+      "time": "14:53:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:53:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:54:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.95"
+    },
+    {
+      "time": "14:54:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:54:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:55:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.50"
+    },
+    {
+      "time": "14:55:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 204 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:55:24",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 202.97"
+    },
+    {
+      "time": "15:00:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 203 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:00:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.26"
+    },
+    {
+      "time": "15:01:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 203 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:01:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:02:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 202.95"
+    },
+    {
+      "time": "15:02:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 204 | LTP: 203 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:02:29",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT WIPRO | Entry: 203 | Target: 180 | SL: 214 | R:R 1:2.0 | VWAP trend SHORT | EMA5=203 VWAP=204 | Vol spike"
+    },
+    {
+      "time": "15:02:29",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT WIPRO @ 203"
+    },
+    {
+      "time": "15:07:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.19"
+    },
+    {
+      "time": "15:07:29",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 203 | LTP: 203 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:07:30",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT WIPRO | Entry: 203 | Target: 182 | SL: 214 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 204"
+    },
+    {
+      "time": "15:07:30",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT WIPRO @ 203"
+    },
+    {
+      "time": "15:12:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 203.35"
+    },
+    {
+      "time": "15:12:30",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 203 | LTP: 203 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:12:31",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:17:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:17:31) \u2014 waiting"
+    },
+    {
+      "time": "15:22:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:22:31) \u2014 waiting"
+    },
+    {
+      "time": "15:27:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:27:31) \u2014 waiting"
+    },
+    {
+      "time": "15:32:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:32:31) \u2014 waiting"
+    },
+    {
+      "time": "15:37:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:37:31) \u2014 waiting"
+    },
+    {
+      "time": "15:42:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:42:31) \u2014 waiting"
+    },
+    {
+      "time": "15:47:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:47:31) \u2014 waiting"
+    },
+    {
+      "time": "15:52:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:52:31) \u2014 waiting"
+    },
+    {
+      "time": "15:57:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:57:31) \u2014 waiting"
+    },
+    {
+      "time": "16:02:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:02:31) \u2014 waiting"
+    },
+    {
+      "time": "16:07:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:07:31) \u2014 waiting"
+    },
+    {
+      "time": "16:12:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:12:31) \u2014 waiting"
+    },
+    {
+      "time": "16:17:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:17:31) \u2014 waiting"
+    },
+    {
+      "time": "16:22:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:22:31) \u2014 waiting"
+    },
+    {
+      "time": "16:27:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:27:31) \u2014 waiting"
+    },
+    {
+      "time": "16:32:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:32:31) \u2014 waiting"
+    },
+    {
+      "time": "16:37:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:37:31) \u2014 waiting"
+    },
+    {
+      "time": "16:42:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:42:31) \u2014 waiting"
+    },
+    {
+      "time": "16:47:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:47:31) \u2014 waiting"
+    },
+    {
+      "time": "16:52:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:52:31) \u2014 waiting"
+    },
+    {
+      "time": "16:57:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:57:31) \u2014 waiting"
+    },
+    {
+      "time": "17:02:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:02:31) \u2014 waiting"
+    },
+    {
+      "time": "17:07:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:07:31) \u2014 waiting"
+    },
+    {
+      "time": "17:12:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:12:31) \u2014 waiting"
+    },
+    {
+      "time": "17:17:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:17:31) \u2014 waiting"
+    },
+    {
+      "time": "17:22:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:22:31) \u2014 waiting"
+    },
+    {
+      "time": "17:25:02",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | WIPRO | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:13) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

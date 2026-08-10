@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 5,
+  "winning": 1,
+  "total_pnl": 0.45000610351564774,
+  "last_scan": "12:08:48",
+  "last_signal": "No signal",
+  "last_action": "Opened SHORT KOTAKBANK",
+  "log": [
+    {
+      "time": "06:41:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:41:31) \u2014 waiting"
+    },
+    {
+      "time": "06:46:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:46:31) \u2014 waiting"
+    },
+    {
+      "time": "06:51:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:51:31) \u2014 waiting"
+    },
+    {
+      "time": "06:56:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:56:31) \u2014 waiting"
+    },
+    {
+      "time": "07:01:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:01:31) \u2014 waiting"
+    },
+    {
+      "time": "07:06:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:06:31) \u2014 waiting"
+    },
+    {
+      "time": "07:11:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:11:31) \u2014 waiting"
+    },
+    {
+      "time": "07:16:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:16:31) \u2014 waiting"
+    },
+    {
+      "time": "07:21:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:21:31) \u2014 waiting"
+    },
+    {
+      "time": "07:26:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:26:31) \u2014 waiting"
+    },
+    {
+      "time": "07:31:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:31:31) \u2014 waiting"
+    },
+    {
+      "time": "07:36:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:36:31) \u2014 waiting"
+    },
+    {
+      "time": "07:41:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:41:31) \u2014 waiting"
+    },
+    {
+      "time": "07:46:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:46:31) \u2014 waiting"
+    },
+    {
+      "time": "07:51:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:51:31) \u2014 waiting"
+    },
+    {
+      "time": "07:56:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:56:31) \u2014 waiting"
+    },
+    {
+      "time": "08:01:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:01:31) \u2014 waiting"
+    },
+    {
+      "time": "08:06:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:06:31) \u2014 waiting"
+    },
+    {
+      "time": "08:11:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:11:31) \u2014 waiting"
+    },
+    {
+      "time": "08:16:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:16:31) \u2014 waiting"
+    },
+    {
+      "time": "08:21:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:21:31) \u2014 waiting"
+    },
+    {
+      "time": "08:26:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:26:31) \u2014 waiting"
+    },
+    {
+      "time": "08:31:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:31:31) \u2014 waiting"
+    },
+    {
+      "time": "08:36:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:36:31) \u2014 waiting"
+    },
+    {
+      "time": "08:41:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:41:31) \u2014 waiting"
+    },
+    {
+      "time": "08:46:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:46:31) \u2014 waiting"
+    },
+    {
+      "time": "08:51:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:51:31) \u2014 waiting"
+    },
+    {
+      "time": "08:56:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:56:31) \u2014 waiting"
+    },
+    {
+      "time": "09:01:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:01:31) \u2014 waiting"
+    },
+    {
+      "time": "09:06:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:06:31) \u2014 waiting"
+    },
+    {
+      "time": "09:11:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:11:31) \u2014 waiting"
+    },
+    {
+      "time": "09:16:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:16:31) \u2014 waiting"
+    },
+    {
+      "time": "09:21:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.05"
+    },
+    {
+      "time": "09:21:33",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:26:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.50"
+    },
+    {
+      "time": "09:26:35",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:32:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.15"
+    },
+    {
+      "time": "09:32:24",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:38:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.80"
+    },
+    {
+      "time": "09:38:11",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:43:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.45"
+    },
+    {
+      "time": "09:43:16",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:48:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.25"
+    },
+    {
+      "time": "09:48:18",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:53:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.80"
+    },
+    {
+      "time": "09:53:19",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:58:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.00"
+    },
+    {
+      "time": "09:58:20",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:03:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.45"
+    },
+    {
+      "time": "10:03:21",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:08:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.80"
+    },
+    {
+      "time": "10:08:23",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:13:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.95"
+    },
+    {
+      "time": "10:13:24",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:18:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.25"
+    },
+    {
+      "time": "10:18:25",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:23:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.80"
+    },
+    {
+      "time": "10:23:26",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:28:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.85"
+    },
+    {
+      "time": "10:28:27",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:33:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.30"
+    },
+    {
+      "time": "10:33:28",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:38:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.45"
+    },
+    {
+      "time": "10:38:29",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:43:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.00"
+    },
+    {
+      "time": "10:43:30",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:48:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.15"
+    },
+    {
+      "time": "10:48:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:53:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.05"
+    },
+    {
+      "time": "10:53:32",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:58:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.40"
+    },
+    {
+      "time": "10:58:33",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:03:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.20"
+    },
+    {
+      "time": "11:03:34",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:08:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.80"
+    },
+    {
+      "time": "11:08:35",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:13:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.60"
+    },
+    {
+      "time": "11:13:36",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:18:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.60"
+    },
+    {
+      "time": "11:18:37",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:23:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.20"
+    },
+    {
+      "time": "11:23:38",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:28:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.20"
+    },
+    {
+      "time": "11:28:39",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:33:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.85"
+    },
+    {
+      "time": "11:33:41",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:38:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 379.55"
+    },
+    {
+      "time": "11:38:42",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:43:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.10"
+    },
+    {
+      "time": "11:43:43",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:48:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.35"
+    },
+    {
+      "time": "11:48:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:53:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 381.05"
+    },
+    {
+      "time": "11:53:46",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:58:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.55"
+    },
+    {
+      "time": "11:58:47",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:03:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.85"
+    },
+    {
+      "time": "12:03:48",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:08:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning KOTAKBANK | LTP: 380.85"
+    },
+    {
+      "time": "12:08:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260522_135555",
+      "date": "2026-05-22",
+      "time": "13:55:55",
+      "strategy": "GAP_AND_GO",
+      "instrument": "KOTAKBANK",
+      "direction": "SHORT",
+      "entry": 385.6,
+      "target": 1856.49,
+      "stop_loss": 1888.61,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 385.15,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 0.45,
+      "pnl_rs": 0.45,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_092429",
+      "date": "2026-05-28",
+      "time": "09:24:29",
+      "strategy": "VWAP_TREND",
+      "instrument": "KOTAKBANK",
+      "direction": "LONG",
+      "entry": 389.4,
+      "target": 2333.82,
+      "stop_loss": 2263.59,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 389.4,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

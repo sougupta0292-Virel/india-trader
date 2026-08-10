@@ -1,0 +1,518 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 16,
+  "winning": 0,
+  "total_pnl": 0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 4,966",
+  "last_action": "Opened SHORT HEROMOTOCO",
+  "log": [
+    {
+      "time": "14:22:19",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.9 < 1.8 — skipped"
+    },
+    {
+      "time": "14:27:19",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,995.00"
+    },
+    {
+      "time": "14:27:19",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,995 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:27:20",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:32:20",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,997.00"
+    },
+    {
+      "time": "14:32:20",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,997 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "14:32:21",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:21",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,996.50"
+    },
+    {
+      "time": "14:33:21",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,996 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "14:33:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:23",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,996.50"
+    },
+    {
+      "time": "14:34:23",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,996 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "14:34:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:35:24",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,991.50"
+    },
+    {
+      "time": "14:35:24",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,992 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:35:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:36:25",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,994.50"
+    },
+    {
+      "time": "14:36:25",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,994 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:36:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:26",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,995.50"
+    },
+    {
+      "time": "14:37:26",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,996 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:37:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:28",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,994.00"
+    },
+    {
+      "time": "14:38:28",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,994 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:38:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:29",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,992.50"
+    },
+    {
+      "time": "14:39:29",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,992 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:39:29",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:30",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,989.50"
+    },
+    {
+      "time": "14:40:30",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,990 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:40:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:31",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,987.50"
+    },
+    {
+      "time": "14:41:31",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,988 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:41:31",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:32",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,986.00"
+    },
+    {
+      "time": "14:42:32",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,986 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:42:33",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:34",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,975.50"
+    },
+    {
+      "time": "14:43:34",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,990 | LTP: 4,976 | Unrealized: +15pts (Rs.+15)"
+    },
+    {
+      "time": "14:43:34",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT HEROMOTOCO | Entry: 4,976 | Target: 4,908 | SL: 5,009 | R:R 1:2.0 | VWAP trend SHORT | EMA5=4,988 VWAP=4,999 | Vol spike"
+    },
+    {
+      "time": "14:43:34",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT HEROMOTOCO @ 4,976"
+    },
+    {
+      "time": "14:48:35",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,975.00"
+    },
+    {
+      "time": "14:48:35",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,976 | LTP: 4,975 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:48:35",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT HEROMOTOCO | Entry: 4,973 | Target: 4,916 | SL: 5,001 | R:R 1:2.0 | Gap+Go SHORT | Gap -78.9% | 9EMA 4991"
+    },
+    {
+      "time": "14:48:35",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT HEROMOTOCO @ 4,975"
+    },
+    {
+      "time": "14:53:35",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,975.50"
+    },
+    {
+      "time": "14:53:35",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,975 | LTP: 4,976 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:53:36",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:58:37",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,970.50"
+    },
+    {
+      "time": "14:58:37",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,975 | LTP: 4,970 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:58:37",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:59:38",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,972.00"
+    },
+    {
+      "time": "14:59:38",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,975 | LTP: 4,972 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:59:39",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:00:41",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,963.50"
+    },
+    {
+      "time": "15:00:41",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,975 | LTP: 4,964 | Unrealized: +12pts (Rs.+12)"
+    },
+    {
+      "time": "15:00:41",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:43",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,958.00"
+    },
+    {
+      "time": "15:01:43",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,975 | LTP: 4,958 | Unrealized: +17pts (Rs.+17)"
+    },
+    {
+      "time": "15:01:43",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:02:44",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,959.00"
+    },
+    {
+      "time": "15:02:44",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,975 | LTP: 4,959 | Unrealized: +16pts (Rs.+16)"
+    },
+    {
+      "time": "15:02:44",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT HEROMOTOCO | Entry: 4,958 | Target: 4,870 | SL: 5,003 | R:R 1:2.0 | VWAP trend SHORT | EMA5=4,971 VWAP=4,993 | Vol spike"
+    },
+    {
+      "time": "15:02:44",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT HEROMOTOCO @ 4,959"
+    },
+    {
+      "time": "15:07:45",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,966.00"
+    },
+    {
+      "time": "15:07:45",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,959 | LTP: 4,966 | Unrealized: -7pts (Rs.-7)"
+    },
+    {
+      "time": "15:07:45",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT HEROMOTOCO | Entry: 4,960 | Target: 4,905 | SL: 4,988 | R:R 1:2.0 | Gap+Go SHORT | Gap -78.8% | 9EMA 4978"
+    },
+    {
+      "time": "15:07:45",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT HEROMOTOCO @ 4,966"
+    },
+    {
+      "time": "15:12:46",
+      "level": "INFO",
+      "message": "🔍 Scanning HEROMOTOCO | LTP: 4,966.50"
+    },
+    {
+      "time": "15:12:46",
+      "level": "INFO",
+      "message": "📊 SHORT HEROMOTOCO | Entry: 4,966 | LTP: 4,966 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:12:46",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:17:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:17:46) — waiting"
+    },
+    {
+      "time": "15:22:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:22:46) — waiting"
+    },
+    {
+      "time": "15:27:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:27:46) — waiting"
+    },
+    {
+      "time": "15:32:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:32:46) — waiting"
+    },
+    {
+      "time": "15:37:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:37:46) — waiting"
+    },
+    {
+      "time": "15:42:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:42:46) — waiting"
+    },
+    {
+      "time": "15:47:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:47:46) — waiting"
+    },
+    {
+      "time": "15:52:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:52:46) — waiting"
+    },
+    {
+      "time": "15:57:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:57:46) — waiting"
+    },
+    {
+      "time": "16:02:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:02:46) — waiting"
+    },
+    {
+      "time": "16:07:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:07:46) — waiting"
+    },
+    {
+      "time": "16:12:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:12:46) — waiting"
+    },
+    {
+      "time": "16:17:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:17:46) — waiting"
+    },
+    {
+      "time": "16:22:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:22:46) — waiting"
+    },
+    {
+      "time": "16:27:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:27:46) — waiting"
+    },
+    {
+      "time": "16:32:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:32:46) — waiting"
+    },
+    {
+      "time": "16:37:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:37:46) — waiting"
+    },
+    {
+      "time": "16:42:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:42:46) — waiting"
+    },
+    {
+      "time": "16:47:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:47:46) — waiting"
+    },
+    {
+      "time": "16:52:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:52:46) — waiting"
+    },
+    {
+      "time": "16:57:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:57:46) — waiting"
+    },
+    {
+      "time": "17:02:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:02:46) — waiting"
+    },
+    {
+      "time": "17:07:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:07:46) — waiting"
+    },
+    {
+      "time": "17:12:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:12:46) — waiting"
+    },
+    {
+      "time": "17:17:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:17:46) — waiting"
+    },
+    {
+      "time": "17:22:46",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:22:46) — waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | HEROMOTOCO | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:15) — waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 0,
+  "losses": 0
+}

@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 4,
+  "winning": 0,
+  "total_pnl": -2.4000244140625,
+  "last_scan": "12:08:12",
+  "last_signal": "No signal",
+  "last_action": "Closed -2pts (Rs.-2)",
+  "log": [
+    {
+      "time": "06:41:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:41:31) \u2014 waiting"
+    },
+    {
+      "time": "06:46:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:46:31) \u2014 waiting"
+    },
+    {
+      "time": "06:51:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:51:31) \u2014 waiting"
+    },
+    {
+      "time": "06:56:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:56:31) \u2014 waiting"
+    },
+    {
+      "time": "07:01:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:01:31) \u2014 waiting"
+    },
+    {
+      "time": "07:06:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:06:31) \u2014 waiting"
+    },
+    {
+      "time": "07:11:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:11:31) \u2014 waiting"
+    },
+    {
+      "time": "07:16:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:16:31) \u2014 waiting"
+    },
+    {
+      "time": "07:21:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:21:31) \u2014 waiting"
+    },
+    {
+      "time": "07:26:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:26:31) \u2014 waiting"
+    },
+    {
+      "time": "07:31:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:31:31) \u2014 waiting"
+    },
+    {
+      "time": "07:36:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:36:31) \u2014 waiting"
+    },
+    {
+      "time": "07:41:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:41:31) \u2014 waiting"
+    },
+    {
+      "time": "07:46:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:46:31) \u2014 waiting"
+    },
+    {
+      "time": "07:51:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:51:31) \u2014 waiting"
+    },
+    {
+      "time": "07:56:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:56:31) \u2014 waiting"
+    },
+    {
+      "time": "08:01:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:01:31) \u2014 waiting"
+    },
+    {
+      "time": "08:06:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:06:31) \u2014 waiting"
+    },
+    {
+      "time": "08:11:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:11:31) \u2014 waiting"
+    },
+    {
+      "time": "08:16:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:16:31) \u2014 waiting"
+    },
+    {
+      "time": "08:21:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:21:31) \u2014 waiting"
+    },
+    {
+      "time": "08:26:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:26:31) \u2014 waiting"
+    },
+    {
+      "time": "08:31:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:31:31) \u2014 waiting"
+    },
+    {
+      "time": "08:36:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:36:31) \u2014 waiting"
+    },
+    {
+      "time": "08:41:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:41:31) \u2014 waiting"
+    },
+    {
+      "time": "08:46:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:46:31) \u2014 waiting"
+    },
+    {
+      "time": "08:51:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:51:31) \u2014 waiting"
+    },
+    {
+      "time": "08:56:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:56:31) \u2014 waiting"
+    },
+    {
+      "time": "09:01:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:01:31) \u2014 waiting"
+    },
+    {
+      "time": "09:06:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:06:31) \u2014 waiting"
+    },
+    {
+      "time": "09:11:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:11:31) \u2014 waiting"
+    },
+    {
+      "time": "09:16:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:16:31) \u2014 waiting"
+    },
+    {
+      "time": "09:21:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,255.10"
+    },
+    {
+      "time": "09:21:33",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:26:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,253.70"
+    },
+    {
+      "time": "09:26:34",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:32:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,255.60"
+    },
+    {
+      "time": "09:32:11",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:37:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,255.40"
+    },
+    {
+      "time": "09:37:43",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:42:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,255.90"
+    },
+    {
+      "time": "09:42:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:47:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,256.00"
+    },
+    {
+      "time": "09:47:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:52:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,256.40"
+    },
+    {
+      "time": "09:52:46",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:57:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,256.70"
+    },
+    {
+      "time": "09:57:47",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:02:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,256.40"
+    },
+    {
+      "time": "10:02:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:07:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,258.30"
+    },
+    {
+      "time": "10:07:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:12:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,260.70"
+    },
+    {
+      "time": "10:12:50",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:17:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,264.20"
+    },
+    {
+      "time": "10:17:51",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:22:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,263.70"
+    },
+    {
+      "time": "10:22:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:27:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,270.20"
+    },
+    {
+      "time": "10:27:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:32:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,269.50"
+    },
+    {
+      "time": "10:32:54",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:37:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,257.20"
+    },
+    {
+      "time": "10:37:55",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:42:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,255.50"
+    },
+    {
+      "time": "10:42:56",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:47:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,255.00"
+    },
+    {
+      "time": "10:47:56",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:52:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,259.30"
+    },
+    {
+      "time": "10:52:57",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:57:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,260.10"
+    },
+    {
+      "time": "10:57:58",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:02:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,263.20"
+    },
+    {
+      "time": "11:02:59",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:08:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,264.40"
+    },
+    {
+      "time": "11:08:00",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:13:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,267.30"
+    },
+    {
+      "time": "11:13:01",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:18:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,265.20"
+    },
+    {
+      "time": "11:18:02",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:23:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,262.50"
+    },
+    {
+      "time": "11:23:03",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:28:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,263.00"
+    },
+    {
+      "time": "11:28:04",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:33:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,262.90"
+    },
+    {
+      "time": "11:33:05",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:38:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,264.00"
+    },
+    {
+      "time": "11:38:07",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:43:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,266.00"
+    },
+    {
+      "time": "11:43:08",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:48:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,266.60"
+    },
+    {
+      "time": "11:48:09",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:53:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,264.20"
+    },
+    {
+      "time": "11:53:10",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:58:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,263.40"
+    },
+    {
+      "time": "11:58:11",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:03:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,265.20"
+    },
+    {
+      "time": "12:03:12",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:08:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning AXISBANK | LTP: 1,265.50"
+    },
+    {
+      "time": "12:08:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260602_111957",
+      "date": "2026-06-02",
+      "time": "11:19:57",
+      "strategy": "GAP_AND_GO",
+      "instrument": "AXISBANK",
+      "direction": "SHORT",
+      "entry": 1251.7,
+      "target": 1196.69,
+      "stop_loss": 1281.75,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1252.0,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -0.3,
+      "pnl_rs": -0.3,
+      "paper": true
+    },
+    {
+      "id": "POS_20260604_110626",
+      "date": "2026-06-04",
+      "time": "11:06:26",
+      "strategy": "VWAP_TREND",
+      "instrument": "AXISBANK",
+      "direction": "SHORT",
+      "entry": 1250.8,
+      "target": 1219.57,
+      "stop_loss": 1266.41,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1252.9,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -2.1,
+      "pnl_rs": -2.1,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

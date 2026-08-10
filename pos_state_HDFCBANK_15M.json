@@ -1,0 +1,535 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 1,
+  "total_trades": 5,
+  "winning": 0,
+  "total_pnl": -13.0999755859375,
+  "last_scan": "12:05:13",
+  "last_signal": "No signal",
+  "last_action": "Closed -13pts (Rs.-13)",
+  "log": [
+    {
+      "time": "13:39:31",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 744 | LTP: 752 | Unrealized: -8pts (Rs.-8)"
+    },
+    {
+      "time": "13:54:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 751.95"
+    },
+    {
+      "time": "13:54:31",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 744 | LTP: 752 | Unrealized: -8pts (Rs.-8)"
+    },
+    {
+      "time": "14:09:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 754.70"
+    },
+    {
+      "time": "14:09:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 744 | LTP: 755 | Unrealized: -11pts (Rs.-11)"
+    },
+    {
+      "time": "14:24:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 754.35"
+    },
+    {
+      "time": "14:24:33",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 744 | LTP: 754 | Unrealized: -11pts (Rs.-11)"
+    },
+    {
+      "time": "14:39:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 756.85"
+    },
+    {
+      "time": "14:39:34",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 744 | LTP: 757 | Unrealized: -13pts (Rs.-13)"
+    },
+    {
+      "time": "14:39:34",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed SHORT HDFCBANK | Entry: 744 \u2192 Exit: 757 | PnL: -13pts (Rs.-13) | STOP_LOSS"
+    },
+    {
+      "time": "14:54:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 754.00"
+    },
+    {
+      "time": "14:54:34",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "15:09:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 755.20"
+    },
+    {
+      "time": "15:09:35",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:39:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:39:35) \u2014 waiting"
+    },
+    {
+      "time": "15:54:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:54:35) \u2014 waiting"
+    },
+    {
+      "time": "16:09:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:09:35) \u2014 waiting"
+    },
+    {
+      "time": "16:24:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:24:35) \u2014 waiting"
+    },
+    {
+      "time": "16:39:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:39:35) \u2014 waiting"
+    },
+    {
+      "time": "16:54:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:54:35) \u2014 waiting"
+    },
+    {
+      "time": "17:09:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:09:35) \u2014 waiting"
+    },
+    {
+      "time": "17:24:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:24:35) \u2014 waiting"
+    },
+    {
+      "time": "19:33:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:33:47) \u2014 waiting"
+    },
+    {
+      "time": "19:48:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:48:47) \u2014 waiting"
+    },
+    {
+      "time": "20:03:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:03:47) \u2014 waiting"
+    },
+    {
+      "time": "20:18:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:18:47) \u2014 waiting"
+    },
+    {
+      "time": "20:33:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:33:47) \u2014 waiting"
+    },
+    {
+      "time": "20:48:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:48:47) \u2014 waiting"
+    },
+    {
+      "time": "21:03:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:03:47) \u2014 waiting"
+    },
+    {
+      "time": "21:18:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:18:47) \u2014 waiting"
+    },
+    {
+      "time": "21:33:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:33:47) \u2014 waiting"
+    },
+    {
+      "time": "21:48:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:48:47) \u2014 waiting"
+    },
+    {
+      "time": "22:03:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:03:47) \u2014 waiting"
+    },
+    {
+      "time": "22:18:47",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:18:47) \u2014 waiting"
+    },
+    {
+      "time": "22:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:33:48) \u2014 waiting"
+    },
+    {
+      "time": "22:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:48:48) \u2014 waiting"
+    },
+    {
+      "time": "23:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:03:48) \u2014 waiting"
+    },
+    {
+      "time": "23:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:18:48) \u2014 waiting"
+    },
+    {
+      "time": "23:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:33:48) \u2014 waiting"
+    },
+    {
+      "time": "23:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:48:48) \u2014 waiting"
+    },
+    {
+      "time": "00:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:03:48) \u2014 waiting"
+    },
+    {
+      "time": "00:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:18:48) \u2014 waiting"
+    },
+    {
+      "time": "00:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:33:48) \u2014 waiting"
+    },
+    {
+      "time": "00:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:48:48) \u2014 waiting"
+    },
+    {
+      "time": "01:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:03:48) \u2014 waiting"
+    },
+    {
+      "time": "01:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:18:48) \u2014 waiting"
+    },
+    {
+      "time": "01:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:33:48) \u2014 waiting"
+    },
+    {
+      "time": "01:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:48:48) \u2014 waiting"
+    },
+    {
+      "time": "02:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:03:48) \u2014 waiting"
+    },
+    {
+      "time": "02:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:18:48) \u2014 waiting"
+    },
+    {
+      "time": "02:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:33:48) \u2014 waiting"
+    },
+    {
+      "time": "02:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:48:48) \u2014 waiting"
+    },
+    {
+      "time": "03:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:03:48) \u2014 waiting"
+    },
+    {
+      "time": "03:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:18:48) \u2014 waiting"
+    },
+    {
+      "time": "03:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:33:48) \u2014 waiting"
+    },
+    {
+      "time": "03:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:48:48) \u2014 waiting"
+    },
+    {
+      "time": "04:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:03:48) \u2014 waiting"
+    },
+    {
+      "time": "04:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:18:48) \u2014 waiting"
+    },
+    {
+      "time": "04:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:33:48) \u2014 waiting"
+    },
+    {
+      "time": "04:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:48:48) \u2014 waiting"
+    },
+    {
+      "time": "05:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:03:48) \u2014 waiting"
+    },
+    {
+      "time": "05:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:18:48) \u2014 waiting"
+    },
+    {
+      "time": "05:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:33:48) \u2014 waiting"
+    },
+    {
+      "time": "05:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:48:48) \u2014 waiting"
+    },
+    {
+      "time": "06:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:03:48) \u2014 waiting"
+    },
+    {
+      "time": "06:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:18:48) \u2014 waiting"
+    },
+    {
+      "time": "06:33:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:33:48) \u2014 waiting"
+    },
+    {
+      "time": "06:48:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:48:48) \u2014 waiting"
+    },
+    {
+      "time": "07:03:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:03:48) \u2014 waiting"
+    },
+    {
+      "time": "07:18:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:18:48) \u2014 waiting"
+    },
+    {
+      "time": "07:33:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:49) \u2014 waiting"
+    },
+    {
+      "time": "07:48:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:48:49) \u2014 waiting"
+    },
+    {
+      "time": "08:03:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:03:49) \u2014 waiting"
+    },
+    {
+      "time": "08:18:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:49) \u2014 waiting"
+    },
+    {
+      "time": "08:33:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:49) \u2014 waiting"
+    },
+    {
+      "time": "08:48:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:49) \u2014 waiting"
+    },
+    {
+      "time": "09:03:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:49) \u2014 waiting"
+    },
+    {
+      "time": "09:18:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:49) \u2014 waiting"
+    },
+    {
+      "time": "09:34:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 757.00"
+    },
+    {
+      "time": "09:35:03",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:50:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 754.65"
+    },
+    {
+      "time": "09:50:04",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:05:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 755.75"
+    },
+    {
+      "time": "10:05:05",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:20:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 755.60"
+    },
+    {
+      "time": "10:20:06",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:35:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 754.05"
+    },
+    {
+      "time": "10:35:07",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:50:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 752.65"
+    },
+    {
+      "time": "10:50:09",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:05:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 754.20"
+    },
+    {
+      "time": "11:05:09",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:20:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 753.90"
+    },
+    {
+      "time": "11:20:10",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:35:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 751.95"
+    },
+    {
+      "time": "11:35:12",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:50:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 751.50"
+    },
+    {
+      "time": "11:50:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:05:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 751.55"
+    },
+    {
+      "time": "12:05:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260603_121540",
+      "date": "2026-06-03",
+      "time": "12:15:40",
+      "strategy": "GAP_AND_GO",
+      "instrument": "HDFCBANK",
+      "direction": "SHORT",
+      "entry": 743.75,
+      "target": 719.85,
+      "stop_loss": 755.62,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 756.85,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -13.1,
+      "pnl_rs": -13.1,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 6,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:13",
+  "last_signal": "SHORT @ 1,174",
+  "last_action": "Opened SHORT INFY",
+  "log": [
+    {
+      "time": "14:10:56",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:15:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,175.50"
+    },
+    {
+      "time": "14:15:57",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,177 | LTP: 1,176 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:15:57",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:16:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,175.40"
+    },
+    {
+      "time": "14:16:58",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,177 | LTP: 1,175 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:16:58",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:17:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,175.30"
+    },
+    {
+      "time": "14:17:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,177 | LTP: 1,175 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:17:59",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:19:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,175.80"
+    },
+    {
+      "time": "14:19:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,177 | LTP: 1,176 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:19:00",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:20:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,176.20"
+    },
+    {
+      "time": "14:20:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,177 | LTP: 1,176 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:20:03",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:25:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,176.90"
+    },
+    {
+      "time": "14:25:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,177 | LTP: 1,177 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:25:04",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:30:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.50"
+    },
+    {
+      "time": "14:30:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,177 | LTP: 1,174 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:30:06",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT INFY | Entry: 1,175 | Target: 1,152 | SL: 1,186 | R:R 1:2.0 | Gap+Go SHORT | Gap -95.0% | 9EMA 1176"
+    },
+    {
+      "time": "14:30:06",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT INFY @ 1,174"
+    },
+    {
+      "time": "14:35:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,175.00"
+    },
+    {
+      "time": "14:35:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,175 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:35:07",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:40:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.70"
+    },
+    {
+      "time": "14:40:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,175 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:40:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.80"
+    },
+    {
+      "time": "14:41:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,175 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:41:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.80"
+    },
+    {
+      "time": "14:42:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,175 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:42:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,173.90"
+    },
+    {
+      "time": "14:43:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,174 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:43:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,173.90"
+    },
+    {
+      "time": "14:44:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,174 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:44:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.50"
+    },
+    {
+      "time": "14:45:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,174 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:45:17",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.30"
+    },
+    {
+      "time": "14:46:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,174 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:46:18",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.10"
+    },
+    {
+      "time": "14:47:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,174 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:47:20",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,175.40"
+    },
+    {
+      "time": "14:48:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,175 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:48:21",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,175.50"
+    },
+    {
+      "time": "14:49:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,176 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:49:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,176.00"
+    },
+    {
+      "time": "14:50:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,176 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:50:23",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,177.10"
+    },
+    {
+      "time": "14:55:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,177 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:55:24",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,175.20"
+    },
+    {
+      "time": "15:00:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,175 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:00:27",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:05:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.30"
+    },
+    {
+      "time": "15:05:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,174 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:05:28",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:10:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,174.70"
+    },
+    {
+      "time": "15:10:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INFY | Entry: 1,174 | LTP: 1,175 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:10:28",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:15:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:28) \u2014 waiting"
+    },
+    {
+      "time": "15:20:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:28) \u2014 waiting"
+    },
+    {
+      "time": "15:25:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:28) \u2014 waiting"
+    },
+    {
+      "time": "15:30:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:28) \u2014 waiting"
+    },
+    {
+      "time": "15:35:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:28) \u2014 waiting"
+    },
+    {
+      "time": "15:40:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:28) \u2014 waiting"
+    },
+    {
+      "time": "15:45:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:28) \u2014 waiting"
+    },
+    {
+      "time": "15:50:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:28) \u2014 waiting"
+    },
+    {
+      "time": "15:55:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:28) \u2014 waiting"
+    },
+    {
+      "time": "16:00:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:28) \u2014 waiting"
+    },
+    {
+      "time": "16:05:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:28) \u2014 waiting"
+    },
+    {
+      "time": "16:10:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:28) \u2014 waiting"
+    },
+    {
+      "time": "16:15:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:28) \u2014 waiting"
+    },
+    {
+      "time": "16:20:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:28) \u2014 waiting"
+    },
+    {
+      "time": "16:25:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:29) \u2014 waiting"
+    },
+    {
+      "time": "16:30:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:29) \u2014 waiting"
+    },
+    {
+      "time": "16:35:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:29) \u2014 waiting"
+    },
+    {
+      "time": "16:40:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:29) \u2014 waiting"
+    },
+    {
+      "time": "16:45:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:29) \u2014 waiting"
+    },
+    {
+      "time": "16:50:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:29) \u2014 waiting"
+    },
+    {
+      "time": "16:55:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:29) \u2014 waiting"
+    },
+    {
+      "time": "17:00:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:29) \u2014 waiting"
+    },
+    {
+      "time": "17:05:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:29) \u2014 waiting"
+    },
+    {
+      "time": "17:10:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:29) \u2014 waiting"
+    },
+    {
+      "time": "17:15:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:29) \u2014 waiting"
+    },
+    {
+      "time": "17:20:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:29) \u2014 waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | INFY | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:13) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

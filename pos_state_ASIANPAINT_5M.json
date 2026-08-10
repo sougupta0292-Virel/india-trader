@@ -1,0 +1,518 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 11,
+  "winning": 0,
+  "total_pnl": 0,
+  "last_scan": "01:45:14",
+  "last_signal": "SHORT @ 2,637",
+  "last_action": "Opened SHORT ASIANPAINT",
+  "log": [
+    {
+      "time": "14:24:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:09",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.90"
+    },
+    {
+      "time": "14:25:09",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,657 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:25:09",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:30:10",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,653.70"
+    },
+    {
+      "time": "14:30:10",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,654 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:30:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:31:11",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,657.00"
+    },
+    {
+      "time": "14:31:11",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,657 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:31:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:32:12",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.90"
+    },
+    {
+      "time": "14:32:12",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,657 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:32:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:14",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,657.00"
+    },
+    {
+      "time": "14:33:14",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,657 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:33:14",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:15",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,657.90"
+    },
+    {
+      "time": "14:34:15",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,658 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:34:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:35:16",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,657.10"
+    },
+    {
+      "time": "14:35:16",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,657 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:35:17",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:40:18",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.30"
+    },
+    {
+      "time": "14:40:18",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:40:18",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:19",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,655.80"
+    },
+    {
+      "time": "14:41:19",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:41:19",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:20",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.40"
+    },
+    {
+      "time": "14:42:20",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:42:20",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:21",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.60"
+    },
+    {
+      "time": "14:43:21",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,657 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:43:21",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:22",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.00"
+    },
+    {
+      "time": "14:44:22",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:44:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:24",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,654.20"
+    },
+    {
+      "time": "14:45:24",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,654 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:45:24",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:25",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.00"
+    },
+    {
+      "time": "14:46:25",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:46:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:26",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,655.90"
+    },
+    {
+      "time": "14:47:26",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:47:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:27",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.00"
+    },
+    {
+      "time": "14:48:27",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:48:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:27",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,656.00"
+    },
+    {
+      "time": "14:49:27",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:49:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:28",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,655.70"
+    },
+    {
+      "time": "14:50:28",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,656 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:50:28",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:55:29",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,648.30"
+    },
+    {
+      "time": "14:55:29",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,652 | LTP: 2,648 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:55:29",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT ASIANPAINT | Entry: 2,650 | Target: 2,620 | SL: 2,665 | R:R 1:2.0 | Gap+Go SHORT | Gap -88.7% | 9EMA 2655"
+    },
+    {
+      "time": "14:55:29",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT ASIANPAINT @ 2,648"
+    },
+    {
+      "time": "15:00:32",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,638.60"
+    },
+    {
+      "time": "15:00:32",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,648 | LTP: 2,639 | Unrealized: +10pts (Rs.+10)"
+    },
+    {
+      "time": "15:00:32",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT ASIANPAINT | Entry: 2,642 | Target: 2,601 | SL: 2,662 | R:R 1:2.0 | Gap+Go SHORT | Gap -88.8% | 9EMA 2652"
+    },
+    {
+      "time": "15:00:32",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT ASIANPAINT @ 2,639"
+    },
+    {
+      "time": "15:05:34",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,641.70"
+    },
+    {
+      "time": "15:05:34",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,639 | LTP: 2,642 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:05:35",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT ASIANPAINT | Entry: 2,641 | Target: 2,603 | SL: 2,660 | R:R 1:2.0 | Gap+Go SHORT | Gap -88.8% | 9EMA 2650"
+    },
+    {
+      "time": "15:05:35",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT ASIANPAINT @ 2,642"
+    },
+    {
+      "time": "15:10:35",
+      "level": "INFO",
+      "message": "🔍 Scanning ASIANPAINT | LTP: 2,636.60"
+    },
+    {
+      "time": "15:10:35",
+      "level": "INFO",
+      "message": "📊 SHORT ASIANPAINT | Entry: 2,642 | LTP: 2,637 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "15:10:35",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT ASIANPAINT | Entry: 2,639 | Target: 2,601 | SL: 2,658 | R:R 1:2.0 | Gap+Go SHORT | Gap -88.8% | 9EMA 2648"
+    },
+    {
+      "time": "15:10:35",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT ASIANPAINT @ 2,637"
+    },
+    {
+      "time": "15:15:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:15:36) — waiting"
+    },
+    {
+      "time": "15:20:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:20:36) — waiting"
+    },
+    {
+      "time": "15:25:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:25:36) — waiting"
+    },
+    {
+      "time": "15:30:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:30:36) — waiting"
+    },
+    {
+      "time": "15:35:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:35:36) — waiting"
+    },
+    {
+      "time": "15:40:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:40:36) — waiting"
+    },
+    {
+      "time": "15:45:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:45:36) — waiting"
+    },
+    {
+      "time": "15:50:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:50:36) — waiting"
+    },
+    {
+      "time": "15:55:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:55:36) — waiting"
+    },
+    {
+      "time": "16:00:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:00:36) — waiting"
+    },
+    {
+      "time": "16:05:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:05:36) — waiting"
+    },
+    {
+      "time": "16:10:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:10:36) — waiting"
+    },
+    {
+      "time": "16:15:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:15:36) — waiting"
+    },
+    {
+      "time": "16:20:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:20:36) — waiting"
+    },
+    {
+      "time": "16:25:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:25:36) — waiting"
+    },
+    {
+      "time": "16:30:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:30:36) — waiting"
+    },
+    {
+      "time": "16:35:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:35:36) — waiting"
+    },
+    {
+      "time": "16:40:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:40:36) — waiting"
+    },
+    {
+      "time": "16:45:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:45:36) — waiting"
+    },
+    {
+      "time": "16:50:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:50:36) — waiting"
+    },
+    {
+      "time": "16:55:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:55:36) — waiting"
+    },
+    {
+      "time": "17:00:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:00:36) — waiting"
+    },
+    {
+      "time": "17:05:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:05:36) — waiting"
+    },
+    {
+      "time": "17:10:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:10:36) — waiting"
+    },
+    {
+      "time": "17:15:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:15:36) — waiting"
+    },
+    {
+      "time": "17:20:36",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:20:36) — waiting"
+    },
+    {
+      "time": "17:24:27",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | ASIANPAINT | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:14) — waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 0,
+  "losses": 0
+}

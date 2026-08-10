@@ -1,0 +1,518 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 8,
+  "winning": 0,
+  "total_pnl": 0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 4,293",
+  "last_action": "Opened SHORT TRENT",
+  "log": [
+    {
+      "time": "14:04:11",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,299.30"
+    },
+    {
+      "time": "14:04:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:05:12",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,290.00"
+    },
+    {
+      "time": "14:05:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:06:13",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,291.30"
+    },
+    {
+      "time": "14:06:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:07:14",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,299.00"
+    },
+    {
+      "time": "14:07:14",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:08:14",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,302.00"
+    },
+    {
+      "time": "14:08:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:09:16",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,305.20"
+    },
+    {
+      "time": "14:09:16",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:10:17",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,303.00"
+    },
+    {
+      "time": "14:10:17",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:15:18",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,306.00"
+    },
+    {
+      "time": "14:15:18",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:20:18",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,310.30"
+    },
+    {
+      "time": "14:20:19",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:25:20",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,307.00"
+    },
+    {
+      "time": "14:25:21",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.9 < 1.8 — skipped"
+    },
+    {
+      "time": "14:30:21",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,301.80"
+    },
+    {
+      "time": "14:30:21",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.8 < 1.8 — skipped"
+    },
+    {
+      "time": "14:35:22",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,302.60"
+    },
+    {
+      "time": "14:35:23",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:40:24",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,291.30"
+    },
+    {
+      "time": "14:40:24",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: LONG TRENT | Entry: 4,291 | Target: 4,335 | SL: 4,278 | R:R 1:3.4 | Pre-market break LONG | PM H 4,288 | Range 22pts"
+    },
+    {
+      "time": "14:40:24",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: LONG TRENT @ 4,291"
+    },
+    {
+      "time": "14:45:25",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,287.90"
+    },
+    {
+      "time": "14:45:25",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,291 | LTP: 4,288 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:45:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:26",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,293.90"
+    },
+    {
+      "time": "14:46:26",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,291 | LTP: 4,294 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:46:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:27",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,290.70"
+    },
+    {
+      "time": "14:47:27",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,291 | LTP: 4,291 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:47:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:28",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,292.30"
+    },
+    {
+      "time": "14:48:28",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,291 | LTP: 4,292 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:48:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:29",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,299.00"
+    },
+    {
+      "time": "14:49:29",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,291 | LTP: 4,299 | Unrealized: +8pts (Rs.+8)"
+    },
+    {
+      "time": "14:49:29",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:30",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,301.40"
+    },
+    {
+      "time": "14:50:30",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,291 | LTP: 4,301 | Unrealized: +10pts (Rs.+10)"
+    },
+    {
+      "time": "14:50:30",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.9 < 1.8 — skipped"
+    },
+    {
+      "time": "14:55:31",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,299.00"
+    },
+    {
+      "time": "14:55:31",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,291 | LTP: 4,299 | Unrealized: +8pts (Rs.+8)"
+    },
+    {
+      "time": "14:55:31",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: LONG TRENT | Entry: 4,296 | Target: 4,327 | SL: 4,284 | R:R 1:2.5 | Pre-market break LONG | PM H 4,294 | Range 15pts"
+    },
+    {
+      "time": "14:55:31",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: LONG TRENT @ 4,299"
+    },
+    {
+      "time": "15:00:33",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,294.40"
+    },
+    {
+      "time": "15:00:33",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,299 | LTP: 4,294 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "15:00:34",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:05:35",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,292.90"
+    },
+    {
+      "time": "15:05:35",
+      "level": "INFO",
+      "message": "📊 LONG TRENT | Entry: 4,299 | LTP: 4,293 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "15:05:35",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT TRENT | Entry: 4,295 | Target: 4,269 | SL: 4,307 | R:R 1:2.0 | Gap+Go SHORT | Gap -81.9% | 9EMA 4297"
+    },
+    {
+      "time": "15:05:35",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT TRENT @ 4,293"
+    },
+    {
+      "time": "15:10:36",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,294.10"
+    },
+    {
+      "time": "15:10:36",
+      "level": "INFO",
+      "message": "📊 SHORT TRENT | Entry: 4,293 | LTP: 4,294 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:10:36",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:11:37",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,292.70"
+    },
+    {
+      "time": "15:11:37",
+      "level": "INFO",
+      "message": "📊 SHORT TRENT | Entry: 4,293 | LTP: 4,293 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:11:37",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:12:38",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,293.80"
+    },
+    {
+      "time": "15:12:38",
+      "level": "INFO",
+      "message": "📊 SHORT TRENT | Entry: 4,293 | LTP: 4,294 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:12:38",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:13:39",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,293.10"
+    },
+    {
+      "time": "15:13:39",
+      "level": "INFO",
+      "message": "📊 SHORT TRENT | Entry: 4,293 | LTP: 4,293 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:13:39",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:14:40",
+      "level": "INFO",
+      "message": "🔍 Scanning TRENT | LTP: 4,295.80"
+    },
+    {
+      "time": "15:14:40",
+      "level": "INFO",
+      "message": "📊 SHORT TRENT | Entry: 4,293 | LTP: 4,296 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:14:40",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:15:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:15:40) — waiting"
+    },
+    {
+      "time": "15:20:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:20:40) — waiting"
+    },
+    {
+      "time": "15:25:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:25:40) — waiting"
+    },
+    {
+      "time": "15:30:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:30:40) — waiting"
+    },
+    {
+      "time": "15:35:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:35:40) — waiting"
+    },
+    {
+      "time": "15:40:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:40:40) — waiting"
+    },
+    {
+      "time": "15:45:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:45:40) — waiting"
+    },
+    {
+      "time": "15:50:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:50:40) — waiting"
+    },
+    {
+      "time": "15:55:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:55:40) — waiting"
+    },
+    {
+      "time": "16:00:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:00:40) — waiting"
+    },
+    {
+      "time": "16:05:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:05:40) — waiting"
+    },
+    {
+      "time": "16:10:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:10:40) — waiting"
+    },
+    {
+      "time": "16:15:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:15:40) — waiting"
+    },
+    {
+      "time": "16:20:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:20:40) — waiting"
+    },
+    {
+      "time": "16:25:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:25:40) — waiting"
+    },
+    {
+      "time": "16:30:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:30:40) — waiting"
+    },
+    {
+      "time": "16:35:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:35:40) — waiting"
+    },
+    {
+      "time": "16:40:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:40:40) — waiting"
+    },
+    {
+      "time": "16:45:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:45:40) — waiting"
+    },
+    {
+      "time": "16:50:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:50:40) — waiting"
+    },
+    {
+      "time": "16:55:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:55:40) — waiting"
+    },
+    {
+      "time": "17:00:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:00:40) — waiting"
+    },
+    {
+      "time": "17:05:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:05:40) — waiting"
+    },
+    {
+      "time": "17:10:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:10:40) — waiting"
+    },
+    {
+      "time": "17:15:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:15:40) — waiting"
+    },
+    {
+      "time": "17:20:40",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:20:40) — waiting"
+    },
+    {
+      "time": "17:25:02",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | TRENT | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:15) — waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 0,
+  "losses": 0
+}

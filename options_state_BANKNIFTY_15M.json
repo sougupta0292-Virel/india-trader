@@ -1,0 +1,536 @@
+{
+  "status": "RUNNING",
+  "trades_today": 1,
+  "total_trades": 1,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "18:31:30",
+  "last_signal": "LONG 55400CE",
+  "last_action": "Bought 55400CE @ Rs.181",
+  "log": [
+    {
+      "time": "13:06:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.173 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "13:06:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.173 | PnL: -4.8% (Rs.-306) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "13:21:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,910.70"
+    },
+    {
+      "time": "13:21:57",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "13:21:57",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -4.9% (Rs.-312) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "13:36:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,888.30"
+    },
+    {
+      "time": "13:36:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "13:36:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-315) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "13:52:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,824.45"
+    },
+    {
+      "time": "13:52:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "13:52:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-320) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "14:07:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,882.20"
+    },
+    {
+      "time": "14:07:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "14:07:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-315) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "14:22:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,880.50"
+    },
+    {
+      "time": "14:22:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "14:22:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-315) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "14:37:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,778.85"
+    },
+    {
+      "time": "14:37:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "14:37:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.1% (Rs.-327) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "18:38:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "18:53:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "19:08:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "19:23:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "19:38:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "19:53:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "20:08:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "20:23:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "20:38:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "20:53:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "21:08:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "21:23:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "21:38:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "21:53:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "22:08:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "22:23:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "22:38:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "22:53:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "23:08:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "23:23:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "23:38:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "23:53:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "00:08:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "00:23:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "00:38:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "09:26:29",
+      "level": "INFO",
+      "message": "Options bot STARTED | BANKNIFTY 15M"
+    },
+    {
+      "time": "09:27:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "09:27:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "09:27:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "09:42:07",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f No data \u2014 retrying"
+    },
+    {
+      "time": "09:57:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "09:57:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "09:57:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "10:12:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "10:12:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "10:12:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "10:27:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "10:27:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "10:27:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "10:42:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "10:42:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "10:42:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "10:57:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "10:57:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "10:57:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "11:12:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "11:12:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "11:12:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "11:27:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "11:27:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "11:27:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "11:42:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "11:42:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "11:42:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "11:57:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "11:57:40",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "11:57:40",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "12:12:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "12:12:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "12:12:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "12:27:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "12:27:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "12:27:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "12:42:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "12:42:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "12:42:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "12:57:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "12:57:48",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "12:57:48",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "13:12:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "13:12:49",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "13:12:49",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "13:27:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "13:27:51",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "13:27:51",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "13:42:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Options scan | BANKNIFTY spot: Rs.54,853.85"
+    },
+    {
+      "time": "13:42:53",
+      "level": "INFO",
+      "message": "\ud83d\udcca Estimated option price: Rs.172 (NSE + Angel unavailable)"
+    },
+    {
+      "time": "13:42:53",
+      "level": "INFO",
+      "message": "\ud83d\udcca [NSE] 55400CE | Entry: Rs.181 | Now: Rs.172 | PnL: -5.0% (Rs.-318) | SL@Rs.109 Target@Rs.326"
+    },
+    {
+      "time": "18:16:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "18:31:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": {
+    "id": "OPT_20260526_101559",
+    "date": "2026-05-26",
+    "time": "10:15:59",
+    "instrument": "BANKNIFTY",
+    "direction": "LONG",
+    "option_type": "CE",
+    "strike": 55400,
+    "expiry": "27MAY2026",
+    "entry_premium": 181.36,
+    "target_premium": 326.45,
+    "sl_premium": 108.82,
+    "qty": 35,
+    "spot_entry": 55407.3515625,
+    "strategy": "EMA_PULLBACK",
+    "status": "OPEN",
+    "exit_premium": 0.0,
+    "exit_reason": "",
+    "pnl_pts": 0.0,
+    "pnl_rs": 0.0,
+    "paper": true
+  },
+  "date": "2026-05-28"
+}

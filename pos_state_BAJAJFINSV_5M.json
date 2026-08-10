@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 8,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 1,766",
+  "last_action": "Opened SHORT BAJAJFINSV",
+  "log": [
+    {
+      "time": "14:24:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,768.00"
+    },
+    {
+      "time": "14:24:54",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,768 | LTP: 1,768 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:24:55",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,768.40"
+    },
+    {
+      "time": "14:25:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,768 | LTP: 1,768 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:25:57",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT BAJAJFINSV | Entry: 1,768 | Target: 1,744 | SL: 1,780 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.5% | 9EMA 1770"
+    },
+    {
+      "time": "14:25:57",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT BAJAJFINSV @ 1,768"
+    },
+    {
+      "time": "14:30:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.80"
+    },
+    {
+      "time": "14:30:58",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,768 | LTP: 1,766 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:30:58",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT BAJAJFINSV | Entry: 1,767 | Target: 1,741 | SL: 1,780 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.5% | 9EMA 1770"
+    },
+    {
+      "time": "14:30:58",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT BAJAJFINSV @ 1,766"
+    },
+    {
+      "time": "14:35:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,766.70"
+    },
+    {
+      "time": "14:35:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,766 | LTP: 1,767 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:35:59",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT BAJAJFINSV | Entry: 1,767 | Target: 1,742 | SL: 1,779 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.5% | 9EMA 1769"
+    },
+    {
+      "time": "14:35:59",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT BAJAJFINSV @ 1,767"
+    },
+    {
+      "time": "14:41:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,767.10"
+    },
+    {
+      "time": "14:41:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,767 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:41:00",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.60"
+    },
+    {
+      "time": "14:42:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,766 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:42:02",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.00"
+    },
+    {
+      "time": "14:43:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,765 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:43:03",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,764.40"
+    },
+    {
+      "time": "14:44:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,764 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:44:04",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.50"
+    },
+    {
+      "time": "14:45:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,766 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:45:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,767.40"
+    },
+    {
+      "time": "14:46:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,767 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:46:07",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,766.80"
+    },
+    {
+      "time": "14:47:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,767 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:47:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,766.60"
+    },
+    {
+      "time": "14:48:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,767 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:48:09",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,766.50"
+    },
+    {
+      "time": "14:49:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,766 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:49:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,766.50"
+    },
+    {
+      "time": "14:50:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,766 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:50:12",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,766.30"
+    },
+    {
+      "time": "14:55:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,767 | LTP: 1,766 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:55:13",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT BAJAJFINSV | Entry: 1,766 | Target: 1,744 | SL: 1,777 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.5% | 9EMA 1767"
+    },
+    {
+      "time": "14:55:13",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT BAJAJFINSV @ 1,766"
+    },
+    {
+      "time": "15:00:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,766.10"
+    },
+    {
+      "time": "15:00:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,766 | LTP: 1,766 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:00:14",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.20"
+    },
+    {
+      "time": "15:01:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,766 | LTP: 1,765 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:01:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:02:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.90"
+    },
+    {
+      "time": "15:02:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,766 | LTP: 1,766 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:02:16",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:03:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.70"
+    },
+    {
+      "time": "15:03:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,766 | LTP: 1,766 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:03:17",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:04:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,766.40"
+    },
+    {
+      "time": "15:04:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,766 | LTP: 1,766 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:04:18",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:05:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.10"
+    },
+    {
+      "time": "15:05:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,766 | LTP: 1,765 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:05:19",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:10:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning BAJAJFINSV | LTP: 1,765.90"
+    },
+    {
+      "time": "15:10:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT BAJAJFINSV | Entry: 1,766 | LTP: 1,766 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:10:20",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT BAJAJFINSV | Entry: 1,765 | Target: 1,742 | SL: 1,776 | R:R 1:2.0 | Gap+Go SHORT | Gap -92.5% | 9EMA 1766"
+    },
+    {
+      "time": "15:10:20",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT BAJAJFINSV @ 1,766"
+    },
+    {
+      "time": "15:15:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:20) \u2014 waiting"
+    },
+    {
+      "time": "15:20:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:20) \u2014 waiting"
+    },
+    {
+      "time": "15:25:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:20) \u2014 waiting"
+    },
+    {
+      "time": "15:30:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:20) \u2014 waiting"
+    },
+    {
+      "time": "15:35:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:20) \u2014 waiting"
+    },
+    {
+      "time": "15:40:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:20) \u2014 waiting"
+    },
+    {
+      "time": "15:45:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:20) \u2014 waiting"
+    },
+    {
+      "time": "15:50:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:20) \u2014 waiting"
+    },
+    {
+      "time": "15:55:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:20) \u2014 waiting"
+    },
+    {
+      "time": "16:00:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:20) \u2014 waiting"
+    },
+    {
+      "time": "16:05:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:20) \u2014 waiting"
+    },
+    {
+      "time": "16:10:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:20) \u2014 waiting"
+    },
+    {
+      "time": "16:15:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:20) \u2014 waiting"
+    },
+    {
+      "time": "16:20:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:20) \u2014 waiting"
+    },
+    {
+      "time": "16:25:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:20) \u2014 waiting"
+    },
+    {
+      "time": "16:30:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:20) \u2014 waiting"
+    },
+    {
+      "time": "16:35:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:20) \u2014 waiting"
+    },
+    {
+      "time": "16:40:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:20) \u2014 waiting"
+    },
+    {
+      "time": "16:45:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:20) \u2014 waiting"
+    },
+    {
+      "time": "16:50:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:20) \u2014 waiting"
+    },
+    {
+      "time": "16:55:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:20) \u2014 waiting"
+    },
+    {
+      "time": "17:00:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:20) \u2014 waiting"
+    },
+    {
+      "time": "17:05:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:20) \u2014 waiting"
+    },
+    {
+      "time": "17:10:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:20) \u2014 waiting"
+    },
+    {
+      "time": "17:15:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:20) \u2014 waiting"
+    },
+    {
+      "time": "17:20:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:20) \u2014 waiting"
+    },
+    {
+      "time": "17:24:27",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | BAJAJFINSV | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:15) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

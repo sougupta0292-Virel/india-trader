@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 5,
+  "winning": 0,
+  "total_pnl": -82.89980468750036,
+  "last_scan": "02:48:19",
+  "last_signal": "No signal",
+  "last_action": "Closed -4pts (Rs.-4)",
+  "log": [
+    {
+      "time": "08:17:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:27) \u2014 waiting"
+    },
+    {
+      "time": "08:22:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:27) \u2014 waiting"
+    },
+    {
+      "time": "08:27:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:27) \u2014 waiting"
+    },
+    {
+      "time": "08:32:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:27) \u2014 waiting"
+    },
+    {
+      "time": "08:37:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:27) \u2014 waiting"
+    },
+    {
+      "time": "08:42:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:27) \u2014 waiting"
+    },
+    {
+      "time": "08:47:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:27) \u2014 waiting"
+    },
+    {
+      "time": "08:52:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:27) \u2014 waiting"
+    },
+    {
+      "time": "08:57:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:27) \u2014 waiting"
+    },
+    {
+      "time": "09:02:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:27) \u2014 waiting"
+    },
+    {
+      "time": "09:07:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:27) \u2014 waiting"
+    },
+    {
+      "time": "09:12:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:27) \u2014 waiting"
+    },
+    {
+      "time": "09:17:27",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:27) \u2014 waiting"
+    },
+    {
+      "time": "09:22:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,860.00"
+    },
+    {
+      "time": "09:22:28",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:27:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,850.50"
+    },
+    {
+      "time": "09:27:29",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:33:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,835.70"
+    },
+    {
+      "time": "09:33:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:39:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,824.00"
+    },
+    {
+      "time": "09:39:31",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 1,383 | Target: 1,356 | SL: 1,396 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.1% | 9EMA 1386"
+    },
+    {
+      "time": "09:39:31",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT HEROMOTOCO @ 4,824"
+    },
+    {
+      "time": "09:44:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,827.90"
+    },
+    {
+      "time": "09:44:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HEROMOTOCO | Entry: 4,824 | LTP: 4,828 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "09:44:32",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed SHORT HEROMOTOCO | Entry: 4,824 \u2192 Exit: 4,828 | PnL: -4pts (Rs.-4) | STOP_LOSS"
+    },
+    {
+      "time": "09:49:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,815.90"
+    },
+    {
+      "time": "09:49:33",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:54:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,812.60"
+    },
+    {
+      "time": "09:54:34",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:59:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,809.60"
+    },
+    {
+      "time": "09:59:35",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:04:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,814.00"
+    },
+    {
+      "time": "10:04:36",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:09:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,826.40"
+    },
+    {
+      "time": "10:09:38",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:14:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,830.80"
+    },
+    {
+      "time": "10:14:39",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:19:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,829.90"
+    },
+    {
+      "time": "10:19:40",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "10:19:42",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,830 \u2014 skipped."
+    },
+    {
+      "time": "10:24:43",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "10:29:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,825.50"
+    },
+    {
+      "time": "10:29:44",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "10:29:44",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,826 \u2014 skipped."
+    },
+    {
+      "time": "10:34:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,827.00"
+    },
+    {
+      "time": "10:34:45",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "10:34:45",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,827 \u2014 skipped."
+    },
+    {
+      "time": "10:39:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,807.00"
+    },
+    {
+      "time": "10:39:47",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "10:39:47",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,807 \u2014 skipped."
+    },
+    {
+      "time": "10:44:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,803.00"
+    },
+    {
+      "time": "10:44:49",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "10:44:49",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,803 \u2014 skipped."
+    },
+    {
+      "time": "10:49:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,806.40"
+    },
+    {
+      "time": "10:49:50",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "10:49:50",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,806 \u2014 skipped."
+    },
+    {
+      "time": "10:54:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,816.90"
+    },
+    {
+      "time": "10:54:51",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "10:54:51",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,817 \u2014 skipped."
+    },
+    {
+      "time": "10:59:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,826.70"
+    },
+    {
+      "time": "10:59:52",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "10:59:53",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,827 \u2014 skipped."
+    },
+    {
+      "time": "11:04:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,842.00"
+    },
+    {
+      "time": "11:04:53",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "11:04:54",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,842 \u2014 skipped."
+    },
+    {
+      "time": "11:09:55",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "11:14:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,844.70"
+    },
+    {
+      "time": "11:14:56",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,828 | Target: 4,726 | SL: 4,851 | R:R 1:4.5 | Pre-market break SHORT | PM L 4,841 | Range 51pts"
+    },
+    {
+      "time": "11:14:56",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,845 \u2014 skipped."
+    },
+    {
+      "time": "11:19:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,841.60"
+    },
+    {
+      "time": "11:19:57",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "11:19:58",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,842 \u2014 skipped."
+    },
+    {
+      "time": "11:24:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,834.60"
+    },
+    {
+      "time": "11:24:59",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "11:24:59",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,835 \u2014 skipped."
+    },
+    {
+      "time": "11:30:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,836.30"
+    },
+    {
+      "time": "11:30:00",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "11:30:01",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,836 \u2014 skipped."
+    },
+    {
+      "time": "11:35:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,836.20"
+    },
+    {
+      "time": "11:35:03",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "11:35:03",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,836 \u2014 skipped."
+    },
+    {
+      "time": "11:40:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,837.00"
+    },
+    {
+      "time": "11:40:04",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "11:40:04",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,837 \u2014 skipped."
+    },
+    {
+      "time": "11:45:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,839.70"
+    },
+    {
+      "time": "11:45:06",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "11:45:06",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,840 \u2014 skipped."
+    },
+    {
+      "time": "11:50:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,842.00"
+    },
+    {
+      "time": "11:50:07",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "11:50:08",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,842 \u2014 skipped."
+    },
+    {
+      "time": "11:55:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,842.80"
+    },
+    {
+      "time": "11:55:09",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "11:55:10",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,843 \u2014 skipped."
+    },
+    {
+      "time": "12:00:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,838.20"
+    },
+    {
+      "time": "12:00:10",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "12:00:11",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,838 \u2014 skipped."
+    },
+    {
+      "time": "12:05:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HEROMOTOCO | LTP: 4,859.80"
+    },
+    {
+      "time": "12:05:12",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HEROMOTOCO | Entry: 4,845 | Target: 4,777 | SL: 4,866 | R:R 1:3.2 | Pre-market break SHORT | PM L 4,856 | Range 34pts"
+    },
+    {
+      "time": "12:05:13",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b94,860 \u2014 skipped."
+    },
+    {
+      "time": "02:48:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:48:19) \u2014 waiting"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260603_111736",
+      "date": "2026-06-03",
+      "time": "11:17:36",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "HEROMOTOCO",
+      "direction": "SHORT",
+      "entry": 4819.9,
+      "target": 4567.0,
+      "stop_loss": 4886.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 4898.9,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -79.0,
+      "pnl_rs": -79.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_093931",
+      "date": "2026-06-05",
+      "time": "09:39:31",
+      "strategy": "GAP_AND_GO",
+      "instrument": "HEROMOTOCO",
+      "direction": "SHORT",
+      "entry": 4824.0,
+      "target": 1356.27,
+      "stop_loss": 1396.21,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 4827.9,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -3.9,
+      "pnl_rs": -3.9,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-06"
+}

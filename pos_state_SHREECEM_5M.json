@@ -1,0 +1,555 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 16,
+  "winning": 2,
+  "total_pnl": 110.0,
+  "last_scan": "01:45:15",
+  "last_signal": "LONG @ 24,865",
+  "last_action": "Closed -55pts (Rs.-55)",
+  "log": [
+    {
+      "time": "13:16:29",
+      "level": "TRADE",
+      "message": "✅ WIN: Closed LONG SHREECEM | Entry: 24,800 → Exit: 24,890 | PnL: +90pts (Rs.+90) | TARGET_HIT"
+    },
+    {
+      "time": "13:16:30",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.3 < 1.8 — skipped"
+    },
+    {
+      "time": "13:21:30",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,920.00"
+    },
+    {
+      "time": "13:21:30",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT SHREECEM | Entry: 24,920 | Target: 24,808 | SL: 24,940 | R:R 1:5.6 | Vol climax SHORT | 2.6x avg vol"
+    },
+    {
+      "time": "13:21:30",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT SHREECEM @ 24,920"
+    },
+    {
+      "time": "13:26:31",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,900.00"
+    },
+    {
+      "time": "13:26:31",
+      "level": "INFO",
+      "message": "📊 SHORT SHREECEM | Entry: 24,920 | LTP: 24,900 | Unrealized: +20pts (Rs.+20)"
+    },
+    {
+      "time": "13:26:31",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.1 < 1.8 — skipped"
+    },
+    {
+      "time": "13:31:32",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,910.00"
+    },
+    {
+      "time": "13:31:32",
+      "level": "INFO",
+      "message": "📊 SHORT SHREECEM | Entry: 24,920 | LTP: 24,910 | Unrealized: +10pts (Rs.+10)"
+    },
+    {
+      "time": "13:31:33",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.9 < 1.8 — skipped"
+    },
+    {
+      "time": "13:36:33",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,890.00"
+    },
+    {
+      "time": "13:36:33",
+      "level": "INFO",
+      "message": "📊 SHORT SHREECEM | Entry: 24,920 | LTP: 24,890 | Unrealized: +30pts (Rs.+30)"
+    },
+    {
+      "time": "13:36:34",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.5 < 1.8 — skipped"
+    },
+    {
+      "time": "13:41:34",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,900.00"
+    },
+    {
+      "time": "13:41:34",
+      "level": "INFO",
+      "message": "📊 SHORT SHREECEM | Entry: 24,920 | LTP: 24,900 | Unrealized: +20pts (Rs.+20)"
+    },
+    {
+      "time": "13:41:34",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: LONG SHREECEM | Entry: 24,885 | Target: 24,923 | SL: 24,866 | R:R 1:2.0 | Gap+Go LONG | Gap 4.7% | 9EMA 24876"
+    },
+    {
+      "time": "13:41:34",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: LONG SHREECEM @ 24,900"
+    },
+    {
+      "time": "13:46:35",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,860.00"
+    },
+    {
+      "time": "13:46:35",
+      "level": "INFO",
+      "message": "📊 LONG SHREECEM | Entry: 24,900 | LTP: 24,860 | Unrealized: -40pts (Rs.-40)"
+    },
+    {
+      "time": "13:46:35",
+      "level": "TRADE",
+      "message": "❌ LOSS: Closed LONG SHREECEM | Entry: 24,900 → Exit: 24,860 | PnL: -40pts (Rs.-40) | STOP_LOSS"
+    },
+    {
+      "time": "13:46:36",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.1 < 1.8 — skipped"
+    },
+    {
+      "time": "13:51:36",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,900.00"
+    },
+    {
+      "time": "13:51:37",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.8 < 1.8 — skipped"
+    },
+    {
+      "time": "13:56:37",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,865.00"
+    },
+    {
+      "time": "13:56:38",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.2 < 1.8 — skipped"
+    },
+    {
+      "time": "14:01:39",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,855.00"
+    },
+    {
+      "time": "14:01:39",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.1 < 1.8 — skipped"
+    },
+    {
+      "time": "14:06:40",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,810.00"
+    },
+    {
+      "time": "14:06:40",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT SHREECEM | Entry: 24,810 | Target: 24,706 | SL: 24,862 | R:R 1:2.0 | VWAP trend SHORT | EMA5=24,837 VWAP=24,852 | Vol spike"
+    },
+    {
+      "time": "14:06:40",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT SHREECEM @ 24,810"
+    },
+    {
+      "time": "14:11:41",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,845.00"
+    },
+    {
+      "time": "14:11:41",
+      "level": "INFO",
+      "message": "📊 SHORT SHREECEM | Entry: 24,810 | LTP: 24,845 | Unrealized: -35pts (Rs.-35)"
+    },
+    {
+      "time": "14:11:42",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.3 < 1.8 — skipped"
+    },
+    {
+      "time": "14:16:43",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,875.00"
+    },
+    {
+      "time": "14:16:43",
+      "level": "INFO",
+      "message": "📊 SHORT SHREECEM | Entry: 24,810 | LTP: 24,875 | Unrealized: -65pts (Rs.-65)"
+    },
+    {
+      "time": "14:16:43",
+      "level": "TRADE",
+      "message": "❌ LOSS: Closed SHORT SHREECEM | Entry: 24,810 → Exit: 24,875 | PnL: -65pts (Rs.-65) | STOP_LOSS"
+    },
+    {
+      "time": "14:16:43",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.1 < 1.8 — skipped"
+    },
+    {
+      "time": "14:21:44",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,855.00"
+    },
+    {
+      "time": "14:21:44",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:22:45",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,875.00"
+    },
+    {
+      "time": "14:22:46",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:23:46",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,855.00"
+    },
+    {
+      "time": "14:23:47",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:24:48",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,850.00"
+    },
+    {
+      "time": "14:24:49",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:49",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,850.00"
+    },
+    {
+      "time": "14:25:50",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.2 < 1.8 — skipped"
+    },
+    {
+      "time": "14:30:50",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,865.00"
+    },
+    {
+      "time": "14:30:50",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: LONG SHREECEM | Entry: 24,860 | Target: 24,950 | SL: 24,835 | R:R 1:3.6 | Pre-market break LONG | PM H 24,845 | Range 45pts"
+    },
+    {
+      "time": "14:30:50",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: LONG SHREECEM @ 24,865"
+    },
+    {
+      "time": "14:35:51",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,880.00"
+    },
+    {
+      "time": "14:35:51",
+      "level": "INFO",
+      "message": "📊 LONG SHREECEM | Entry: 24,865 | LTP: 24,880 | Unrealized: +15pts (Rs.+15)"
+    },
+    {
+      "time": "14:35:51",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.8 < 1.8 — skipped"
+    },
+    {
+      "time": "14:40:52",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,895.00"
+    },
+    {
+      "time": "14:40:52",
+      "level": "INFO",
+      "message": "📊 LONG SHREECEM | Entry: 24,865 | LTP: 24,895 | Unrealized: +30pts (Rs.+30)"
+    },
+    {
+      "time": "14:40:52",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.1 < 1.8 — skipped"
+    },
+    {
+      "time": "14:45:52",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,850.00"
+    },
+    {
+      "time": "14:45:52",
+      "level": "INFO",
+      "message": "📊 LONG SHREECEM | Entry: 24,865 | LTP: 24,850 | Unrealized: -15pts (Rs.-15)"
+    },
+    {
+      "time": "14:45:53",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.7 < 1.8 — skipped"
+    },
+    {
+      "time": "14:50:54",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,810.00"
+    },
+    {
+      "time": "14:50:54",
+      "level": "INFO",
+      "message": "📊 LONG SHREECEM | Entry: 24,865 | LTP: 24,810 | Unrealized: -55pts (Rs.-55)"
+    },
+    {
+      "time": "14:50:54",
+      "level": "TRADE",
+      "message": "❌ LOSS: Closed LONG SHREECEM | Entry: 24,865 → Exit: 24,810 | PnL: -55pts (Rs.-55) | STOP_LOSS"
+    },
+    {
+      "time": "14:50:54",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.1 < 1.8 — skipped"
+    },
+    {
+      "time": "14:55:54",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,815.00"
+    },
+    {
+      "time": "14:55:55",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.1 < 1.8 — skipped"
+    },
+    {
+      "time": "15:00:55",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,765.00"
+    },
+    {
+      "time": "15:00:56",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.1 < 1.8 — skipped"
+    },
+    {
+      "time": "15:05:56",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,775.00"
+    },
+    {
+      "time": "15:05:57",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.1 < 1.8 — skipped"
+    },
+    {
+      "time": "15:10:57",
+      "level": "INFO",
+      "message": "🔍 Scanning SHREECEM | LTP: 24,750.00"
+    },
+    {
+      "time": "15:10:58",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.1 < 1.8 — skipped"
+    },
+    {
+      "time": "15:15:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:15:58) — waiting"
+    },
+    {
+      "time": "15:20:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:20:58) — waiting"
+    },
+    {
+      "time": "15:25:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:25:58) — waiting"
+    },
+    {
+      "time": "15:30:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:30:58) — waiting"
+    },
+    {
+      "time": "15:35:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:35:58) — waiting"
+    },
+    {
+      "time": "15:40:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:40:58) — waiting"
+    },
+    {
+      "time": "15:45:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:45:58) — waiting"
+    },
+    {
+      "time": "15:50:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:50:58) — waiting"
+    },
+    {
+      "time": "15:55:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:55:58) — waiting"
+    },
+    {
+      "time": "16:00:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:00:58) — waiting"
+    },
+    {
+      "time": "16:05:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:05:58) — waiting"
+    },
+    {
+      "time": "16:10:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:10:58) — waiting"
+    },
+    {
+      "time": "16:15:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:15:58) — waiting"
+    },
+    {
+      "time": "16:20:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:20:58) — waiting"
+    },
+    {
+      "time": "16:25:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:25:58) — waiting"
+    },
+    {
+      "time": "16:30:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:30:58) — waiting"
+    },
+    {
+      "time": "16:35:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:35:58) — waiting"
+    },
+    {
+      "time": "16:40:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:40:58) — waiting"
+    },
+    {
+      "time": "16:45:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:45:58) — waiting"
+    },
+    {
+      "time": "16:50:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:50:58) — waiting"
+    },
+    {
+      "time": "16:55:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:55:58) — waiting"
+    },
+    {
+      "time": "17:00:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:00:58) — waiting"
+    },
+    {
+      "time": "17:05:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:05:58) — waiting"
+    },
+    {
+      "time": "17:10:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:10:58) — waiting"
+    },
+    {
+      "time": "17:15:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:15:58) — waiting"
+    },
+    {
+      "time": "17:20:58",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:20:58) — waiting"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | SHREECEM | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:15) — waiting"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260522_123520",
+      "date": "2026-05-22",
+      "time": "12:35:20",
+      "strategy": "GAP_AND_GO",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 24795.0,
+      "target": 24797.65,
+      "stop_loss": 24756.17,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 24815.0,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 20.0,
+      "pnl_rs": 20.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260522_130125",
+      "date": "2026-05-22",
+      "time": "13:01:25",
+      "strategy": "GAP_AND_GO",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 24800.0,
+      "target": 24889.67,
+      "stop_loss": 24792.67,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 24890.0,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 90.0,
+      "pnl_rs": 90.0,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 2,
+  "losses": 0
+}

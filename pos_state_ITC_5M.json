@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 16,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 302",
+  "last_action": "Opened SHORT ITC",
+  "log": [
+    {
+      "time": "14:20:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 303.30"
+    },
+    {
+      "time": "14:20:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 304 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:20:56",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:25:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 303.60"
+    },
+    {
+      "time": "14:25:58",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 304 | LTP: 304 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:25:58",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:31:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 303.25"
+    },
+    {
+      "time": "14:31:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 304 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:31:00",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 303 | Target: 281 | SL: 314 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.7% | 9EMA 304"
+    },
+    {
+      "time": "14:31:00",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ITC @ 303"
+    },
+    {
+      "time": "14:36:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 303.00"
+    },
+    {
+      "time": "14:36:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:36:02",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.95"
+    },
+    {
+      "time": "14:37:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:37:04",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 303.00"
+    },
+    {
+      "time": "14:38:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:38:04",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.90"
+    },
+    {
+      "time": "14:39:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:39:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 303.00"
+    },
+    {
+      "time": "14:40:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:40:06",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.95"
+    },
+    {
+      "time": "14:41:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:41:09",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.70"
+    },
+    {
+      "time": "14:42:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:42:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.65"
+    },
+    {
+      "time": "14:43:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:43:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.95"
+    },
+    {
+      "time": "14:44:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:44:14",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.65"
+    },
+    {
+      "time": "14:45:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:45:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.65"
+    },
+    {
+      "time": "14:46:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:46:16",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.55"
+    },
+    {
+      "time": "14:47:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:47:17",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.50"
+    },
+    {
+      "time": "14:48:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 302 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:48:18",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.50"
+    },
+    {
+      "time": "14:49:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 302 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:49:19",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 302 | Target: 280 | SL: 314 | R:R 1:2.0 | VWAP trend SHORT | EMA5=303 VWAP=304 | Vol spike"
+    },
+    {
+      "time": "14:49:19",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ITC @ 302"
+    },
+    {
+      "time": "14:54:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.60"
+    },
+    {
+      "time": "14:54:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 302 | LTP: 303 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:54:21",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 303 | Target: 282 | SL: 313 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.7% | 9EMA 303"
+    },
+    {
+      "time": "14:54:21",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ITC @ 303"
+    },
+    {
+      "time": "14:59:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.60"
+    },
+    {
+      "time": "14:59:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 303 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:59:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:00:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.50"
+    },
+    {
+      "time": "15:00:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 302 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:00:25",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:05:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 302.15"
+    },
+    {
+      "time": "15:05:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 303 | LTP: 302 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:05:26",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 302 | Target: 281 | SL: 313 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.7% | 9EMA 303"
+    },
+    {
+      "time": "15:05:26",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ITC @ 302"
+    },
+    {
+      "time": "15:10:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 301.70"
+    },
+    {
+      "time": "15:10:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ITC | Entry: 302 | LTP: 302 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:10:28",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 302 | Target: 280 | SL: 313 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.7% | 9EMA 303"
+    },
+    {
+      "time": "15:10:28",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ITC @ 302"
+    },
+    {
+      "time": "15:15:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:28) \u2014 waiting"
+    },
+    {
+      "time": "15:20:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:28) \u2014 waiting"
+    },
+    {
+      "time": "15:25:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:28) \u2014 waiting"
+    },
+    {
+      "time": "15:30:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:28) \u2014 waiting"
+    },
+    {
+      "time": "15:35:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:28) \u2014 waiting"
+    },
+    {
+      "time": "15:40:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:28) \u2014 waiting"
+    },
+    {
+      "time": "15:45:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:28) \u2014 waiting"
+    },
+    {
+      "time": "15:50:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:28) \u2014 waiting"
+    },
+    {
+      "time": "15:55:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:28) \u2014 waiting"
+    },
+    {
+      "time": "16:00:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:28) \u2014 waiting"
+    },
+    {
+      "time": "16:05:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:28) \u2014 waiting"
+    },
+    {
+      "time": "16:10:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:28) \u2014 waiting"
+    },
+    {
+      "time": "16:15:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:28) \u2014 waiting"
+    },
+    {
+      "time": "16:20:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:28) \u2014 waiting"
+    },
+    {
+      "time": "16:25:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:28) \u2014 waiting"
+    },
+    {
+      "time": "16:30:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:28) \u2014 waiting"
+    },
+    {
+      "time": "16:35:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:28) \u2014 waiting"
+    },
+    {
+      "time": "16:40:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:28) \u2014 waiting"
+    },
+    {
+      "time": "16:45:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:28) \u2014 waiting"
+    },
+    {
+      "time": "16:50:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:28) \u2014 waiting"
+    },
+    {
+      "time": "16:55:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:28) \u2014 waiting"
+    },
+    {
+      "time": "17:00:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:28) \u2014 waiting"
+    },
+    {
+      "time": "17:05:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:28) \u2014 waiting"
+    },
+    {
+      "time": "17:10:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:28) \u2014 waiting"
+    },
+    {
+      "time": "17:15:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:28) \u2014 waiting"
+    },
+    {
+      "time": "17:20:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:28) \u2014 waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | ITC | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:15) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

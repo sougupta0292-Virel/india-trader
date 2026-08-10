@@ -1,0 +1,607 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 3,
+  "total_trades": 19,
+  "winning": 1,
+  "total_pnl": -3.8499816894531023,
+  "last_scan": "12:06:30",
+  "last_signal": "No signal",
+  "last_action": "Closed +0pts (Rs.+0)",
+  "log": [
+    {
+      "time": "07:23:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:23:24) \u2014 waiting"
+    },
+    {
+      "time": "07:28:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:28:24) \u2014 waiting"
+    },
+    {
+      "time": "07:33:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:24) \u2014 waiting"
+    },
+    {
+      "time": "07:38:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:38:24) \u2014 waiting"
+    },
+    {
+      "time": "07:43:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:43:24) \u2014 waiting"
+    },
+    {
+      "time": "07:48:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:48:24) \u2014 waiting"
+    },
+    {
+      "time": "07:53:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:53:24) \u2014 waiting"
+    },
+    {
+      "time": "07:58:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:58:24) \u2014 waiting"
+    },
+    {
+      "time": "08:03:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:03:24) \u2014 waiting"
+    },
+    {
+      "time": "08:08:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:08:24) \u2014 waiting"
+    },
+    {
+      "time": "08:13:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:13:24) \u2014 waiting"
+    },
+    {
+      "time": "08:18:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:24) \u2014 waiting"
+    },
+    {
+      "time": "08:23:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:23:24) \u2014 waiting"
+    },
+    {
+      "time": "08:28:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:28:24) \u2014 waiting"
+    },
+    {
+      "time": "08:33:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:24) \u2014 waiting"
+    },
+    {
+      "time": "08:38:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:38:24) \u2014 waiting"
+    },
+    {
+      "time": "08:43:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:43:24) \u2014 waiting"
+    },
+    {
+      "time": "08:48:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:24) \u2014 waiting"
+    },
+    {
+      "time": "08:53:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:53:24) \u2014 waiting"
+    },
+    {
+      "time": "08:58:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:58:24) \u2014 waiting"
+    },
+    {
+      "time": "09:03:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:24) \u2014 waiting"
+    },
+    {
+      "time": "09:08:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:08:25) \u2014 waiting"
+    },
+    {
+      "time": "09:13:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:13:25) \u2014 waiting"
+    },
+    {
+      "time": "09:18:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:25) \u2014 waiting"
+    },
+    {
+      "time": "09:23:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.50"
+    },
+    {
+      "time": "09:23:26",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:28:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.90"
+    },
+    {
+      "time": "09:28:27",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:34:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.05"
+    },
+    {
+      "time": "09:34:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:40:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.20"
+    },
+    {
+      "time": "09:40:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:45:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.30"
+    },
+    {
+      "time": "09:45:54",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:50:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.20"
+    },
+    {
+      "time": "09:50:55",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:55:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.05"
+    },
+    {
+      "time": "09:55:56",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:00:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.95"
+    },
+    {
+      "time": "10:00:57",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:05:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.80"
+    },
+    {
+      "time": "10:05:58",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:10:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.05"
+    },
+    {
+      "time": "10:10:59",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:16:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.15"
+    },
+    {
+      "time": "10:16:00",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:21:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.95"
+    },
+    {
+      "time": "10:21:01",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:26:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.10"
+    },
+    {
+      "time": "10:26:03",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:31:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.75"
+    },
+    {
+      "time": "10:31:04",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:36:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.55"
+    },
+    {
+      "time": "10:36:05",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:41:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.20"
+    },
+    {
+      "time": "10:41:06",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:46:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 278.90"
+    },
+    {
+      "time": "10:46:07",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:51:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.00"
+    },
+    {
+      "time": "10:51:10",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:56:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 278.50"
+    },
+    {
+      "time": "10:56:11",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:01:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 278.90"
+    },
+    {
+      "time": "11:01:12",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:06:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.45"
+    },
+    {
+      "time": "11:06:13",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:11:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.25"
+    },
+    {
+      "time": "11:11:14",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:16:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.50"
+    },
+    {
+      "time": "11:16:15",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:16:15",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9280 \u2014 skipped."
+    },
+    {
+      "time": "11:21:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.30"
+    },
+    {
+      "time": "11:21:16",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:21:16",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9279 \u2014 skipped."
+    },
+    {
+      "time": "11:26:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.45"
+    },
+    {
+      "time": "11:26:17",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:26:17",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9279 \u2014 skipped."
+    },
+    {
+      "time": "11:31:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.70"
+    },
+    {
+      "time": "11:31:19",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:31:19",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9280 \u2014 skipped."
+    },
+    {
+      "time": "11:36:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.00"
+    },
+    {
+      "time": "11:36:20",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:36:20",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9280 \u2014 skipped."
+    },
+    {
+      "time": "11:41:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.00"
+    },
+    {
+      "time": "11:41:22",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:41:22",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9280 \u2014 skipped."
+    },
+    {
+      "time": "11:46:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.05"
+    },
+    {
+      "time": "11:46:23",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:46:24",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9280 \u2014 skipped."
+    },
+    {
+      "time": "11:51:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.55"
+    },
+    {
+      "time": "11:51:25",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:51:25",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9280 \u2014 skipped."
+    },
+    {
+      "time": "11:56:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.70"
+    },
+    {
+      "time": "11:56:27",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "11:56:27",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9280 \u2014 skipped."
+    },
+    {
+      "time": "12:01:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 279.65"
+    },
+    {
+      "time": "12:01:30",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ITC | Entry: 279 | Target: 259 | SL: 290 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 280"
+    },
+    {
+      "time": "12:01:30",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b9280 \u2014 skipped."
+    },
+    {
+      "time": "12:06:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ITC | LTP: 280.05"
+    },
+    {
+      "time": "12:06:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260528_095504",
+      "date": "2026-05-28",
+      "time": "09:55:04",
+      "strategy": "VWAP_TREND",
+      "instrument": "ITC",
+      "direction": "SHORT",
+      "entry": 292.25,
+      "target": 1453.0,
+      "stop_loss": 1490.65,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 292.25,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260529_095740",
+      "date": "2026-05-29",
+      "time": "09:57:40",
+      "strategy": "VWAP_TREND",
+      "instrument": "ITC",
+      "direction": "SHORT",
+      "entry": 289.05,
+      "target": 54247.39,
+      "stop_loss": 55088.76,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 289.15,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": -0.1,
+      "pnl_rs": -0.1,
+      "paper": true
+    },
+    {
+      "id": "POS_20260602_110054",
+      "date": "2026-06-02",
+      "time": "11:00:54",
+      "strategy": "GAP_AND_GO",
+      "instrument": "ITC",
+      "direction": "SHORT",
+      "entry": 279.9,
+      "target": 254.36,
+      "stop_loss": 292.37,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 283.35,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -3.45,
+      "pnl_rs": -3.45,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_134840",
+      "date": "2026-06-03",
+      "time": "13:48:40",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ITC",
+      "direction": "LONG",
+      "entry": 278.4,
+      "target": 4418.6,
+      "stop_loss": 4245.8,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 278.1,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -0.3,
+      "pnl_rs": -0.3,
+      "paper": true
+    },
+    {
+      "id": "POS_20260604_101234",
+      "date": "2026-06-04",
+      "time": "10:12:34",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ITC",
+      "direction": "LONG",
+      "entry": 278.7,
+      "target": 55418.55,
+      "stop_loss": 54222.15,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 278.7,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

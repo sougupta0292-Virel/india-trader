@@ -1,0 +1,588 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 7,
+  "winning": 1,
+  "total_pnl": -43.0,
+  "last_scan": "02:47:25",
+  "last_signal": "SHORT @ 11,020",
+  "last_action": "Opened SHORT ULTRACEMCO",
+  "log": [
+    {
+      "time": "06:41:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:41:48) \u2014 waiting"
+    },
+    {
+      "time": "06:46:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:46:48) \u2014 waiting"
+    },
+    {
+      "time": "06:51:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:51:48) \u2014 waiting"
+    },
+    {
+      "time": "06:56:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:56:48) \u2014 waiting"
+    },
+    {
+      "time": "07:01:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:01:49) \u2014 waiting"
+    },
+    {
+      "time": "07:06:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:06:49) \u2014 waiting"
+    },
+    {
+      "time": "07:11:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:11:49) \u2014 waiting"
+    },
+    {
+      "time": "07:16:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:16:49) \u2014 waiting"
+    },
+    {
+      "time": "07:21:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:21:49) \u2014 waiting"
+    },
+    {
+      "time": "07:26:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:26:49) \u2014 waiting"
+    },
+    {
+      "time": "07:31:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:31:49) \u2014 waiting"
+    },
+    {
+      "time": "07:36:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:36:49) \u2014 waiting"
+    },
+    {
+      "time": "07:41:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:41:49) \u2014 waiting"
+    },
+    {
+      "time": "07:46:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:46:49) \u2014 waiting"
+    },
+    {
+      "time": "07:51:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:51:49) \u2014 waiting"
+    },
+    {
+      "time": "07:56:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:56:49) \u2014 waiting"
+    },
+    {
+      "time": "08:01:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:01:49) \u2014 waiting"
+    },
+    {
+      "time": "08:06:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:06:49) \u2014 waiting"
+    },
+    {
+      "time": "08:11:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:11:49) \u2014 waiting"
+    },
+    {
+      "time": "08:16:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:16:49) \u2014 waiting"
+    },
+    {
+      "time": "08:21:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:21:49) \u2014 waiting"
+    },
+    {
+      "time": "08:26:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:26:49) \u2014 waiting"
+    },
+    {
+      "time": "08:31:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:31:49) \u2014 waiting"
+    },
+    {
+      "time": "08:36:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:36:49) \u2014 waiting"
+    },
+    {
+      "time": "08:41:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:41:49) \u2014 waiting"
+    },
+    {
+      "time": "08:46:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:46:49) \u2014 waiting"
+    },
+    {
+      "time": "08:51:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:51:49) \u2014 waiting"
+    },
+    {
+      "time": "08:56:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:56:49) \u2014 waiting"
+    },
+    {
+      "time": "09:01:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:01:49) \u2014 waiting"
+    },
+    {
+      "time": "09:06:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:06:49) \u2014 waiting"
+    },
+    {
+      "time": "09:11:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:11:49) \u2014 waiting"
+    },
+    {
+      "time": "09:16:49",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:16:49) \u2014 waiting"
+    },
+    {
+      "time": "09:21:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 11,020.00"
+    },
+    {
+      "time": "09:21:51",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ULTRACEMCO | Entry: 10,997 | Target: 10,787 | SL: 11,095 | R:R 1:2.1 | Pre-market break SHORT | PM L 11,085 | Range 105pts"
+    },
+    {
+      "time": "09:21:51",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ULTRACEMCO @ 11,020"
+    },
+    {
+      "time": "09:26:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,992.00"
+    },
+    {
+      "time": "09:26:52",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,992 | Unrealized: +28pts (Rs.+28)"
+    },
+    {
+      "time": "09:33:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,997.00"
+    },
+    {
+      "time": "09:33:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,997 | Unrealized: +23pts (Rs.+23)"
+    },
+    {
+      "time": "09:38:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,970.00"
+    },
+    {
+      "time": "09:38:51",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,970 | Unrealized: +50pts (Rs.+50)"
+    },
+    {
+      "time": "09:43:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,994.00"
+    },
+    {
+      "time": "09:43:52",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,994 | Unrealized: +26pts (Rs.+26)"
+    },
+    {
+      "time": "09:48:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,972.00"
+    },
+    {
+      "time": "09:48:53",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,972 | Unrealized: +48pts (Rs.+48)"
+    },
+    {
+      "time": "09:53:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,983.00"
+    },
+    {
+      "time": "09:53:54",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,983 | Unrealized: +37pts (Rs.+37)"
+    },
+    {
+      "time": "09:58:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,987.00"
+    },
+    {
+      "time": "09:58:55",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,987 | Unrealized: +33pts (Rs.+33)"
+    },
+    {
+      "time": "10:03:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,994.00"
+    },
+    {
+      "time": "10:03:57",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,994 | Unrealized: +26pts (Rs.+26)"
+    },
+    {
+      "time": "10:08:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,983.00"
+    },
+    {
+      "time": "10:08:58",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,983 | Unrealized: +37pts (Rs.+37)"
+    },
+    {
+      "time": "10:13:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,974.00"
+    },
+    {
+      "time": "10:13:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,974 | Unrealized: +46pts (Rs.+46)"
+    },
+    {
+      "time": "10:19:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,967.00"
+    },
+    {
+      "time": "10:19:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,967 | Unrealized: +53pts (Rs.+53)"
+    },
+    {
+      "time": "10:24:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,970.00"
+    },
+    {
+      "time": "10:24:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,970 | Unrealized: +50pts (Rs.+50)"
+    },
+    {
+      "time": "10:29:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,966.00"
+    },
+    {
+      "time": "10:29:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,966 | Unrealized: +54pts (Rs.+54)"
+    },
+    {
+      "time": "10:34:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,973.00"
+    },
+    {
+      "time": "10:34:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,973 | Unrealized: +47pts (Rs.+47)"
+    },
+    {
+      "time": "10:39:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,920.00"
+    },
+    {
+      "time": "10:39:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,920 | Unrealized: +100pts (Rs.+100)"
+    },
+    {
+      "time": "10:44:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,911.00"
+    },
+    {
+      "time": "10:44:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,911 | Unrealized: +109pts (Rs.+109)"
+    },
+    {
+      "time": "10:49:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,916.00"
+    },
+    {
+      "time": "10:49:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,916 | Unrealized: +104pts (Rs.+104)"
+    },
+    {
+      "time": "10:54:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,929.00"
+    },
+    {
+      "time": "10:54:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,929 | Unrealized: +91pts (Rs.+91)"
+    },
+    {
+      "time": "10:59:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,937.00"
+    },
+    {
+      "time": "10:59:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,937 | Unrealized: +83pts (Rs.+83)"
+    },
+    {
+      "time": "11:04:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,970.00"
+    },
+    {
+      "time": "11:04:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,970 | Unrealized: +50pts (Rs.+50)"
+    },
+    {
+      "time": "11:09:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,982.00"
+    },
+    {
+      "time": "11:09:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,982 | Unrealized: +38pts (Rs.+38)"
+    },
+    {
+      "time": "11:14:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,978.00"
+    },
+    {
+      "time": "11:14:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,978 | Unrealized: +42pts (Rs.+42)"
+    },
+    {
+      "time": "11:19:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,969.00"
+    },
+    {
+      "time": "11:19:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,969 | Unrealized: +51pts (Rs.+51)"
+    },
+    {
+      "time": "11:24:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,965.00"
+    },
+    {
+      "time": "11:24:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,965 | Unrealized: +55pts (Rs.+55)"
+    },
+    {
+      "time": "11:29:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,972.00"
+    },
+    {
+      "time": "11:29:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,972 | Unrealized: +48pts (Rs.+48)"
+    },
+    {
+      "time": "11:34:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,971.00"
+    },
+    {
+      "time": "11:34:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,971 | Unrealized: +49pts (Rs.+49)"
+    },
+    {
+      "time": "11:39:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,962.00"
+    },
+    {
+      "time": "11:39:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,962 | Unrealized: +58pts (Rs.+58)"
+    },
+    {
+      "time": "11:44:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,966.00"
+    },
+    {
+      "time": "11:44:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,966 | Unrealized: +54pts (Rs.+54)"
+    },
+    {
+      "time": "11:49:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,980.00"
+    },
+    {
+      "time": "11:49:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,980 | Unrealized: +40pts (Rs.+40)"
+    },
+    {
+      "time": "11:54:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,964.00"
+    },
+    {
+      "time": "11:54:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,964 | Unrealized: +56pts (Rs.+56)"
+    },
+    {
+      "time": "11:59:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,952.00"
+    },
+    {
+      "time": "11:59:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,952 | Unrealized: +68pts (Rs.+68)"
+    },
+    {
+      "time": "12:04:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ULTRACEMCO | LTP: 10,962.00"
+    },
+    {
+      "time": "12:04:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ULTRACEMCO | Entry: 11,020 | LTP: 10,962 | Unrealized: +58pts (Rs.+58)"
+    },
+    {
+      "time": "02:47:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:47:25) \u2014 waiting"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260529_094000",
+      "date": "2026-05-29",
+      "time": "09:40:00",
+      "strategy": "VWAP_TREND",
+      "instrument": "ULTRACEMCO",
+      "direction": "LONG",
+      "entry": 11731.0,
+      "target": 11847.8,
+      "stop_loss": 11672.6,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 11661.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -70.0,
+      "pnl_rs": -70.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260529_100505",
+      "date": "2026-05-29",
+      "time": "10:05:05",
+      "strategy": "VWAP_TREND",
+      "instrument": "ULTRACEMCO",
+      "direction": "SHORT",
+      "entry": 11660.0,
+      "target": 11601.9,
+      "stop_loss": 11689.05,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 11700.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -40.0,
+      "pnl_rs": -40.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260604_100133",
+      "date": "2026-06-04",
+      "time": "10:01:33",
+      "strategy": "VWAP_TREND",
+      "instrument": "ULTRACEMCO",
+      "direction": "SHORT",
+      "entry": 11065.0,
+      "target": 10884.9,
+      "stop_loss": 11162.55,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 10998.0,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 67.0,
+      "pnl_rs": 67.0,
+      "paper": true
+    }
+  ],
+  "open_trade": {
+    "id": "POS_20260605_092151",
+    "date": "2026-06-05",
+    "time": "09:21:51",
+    "strategy": "PREMARKET_BREAK",
+    "instrument": "ULTRACEMCO",
+    "direction": "SHORT",
+    "entry": 11020.0,
+    "target": 10787.0,
+    "stop_loss": 11095.0,
+    "qty": 1,
+    "status": "OPEN",
+    "exit_price": 0.0,
+    "exit_reason": "",
+    "pnl_pts": 0.0,
+    "pnl_rs": 0.0,
+    "paper": true
+  },
+  "date": "2026-06-06"
+}

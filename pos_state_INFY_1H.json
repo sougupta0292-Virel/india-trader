@@ -1,0 +1,535 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 1,
+  "total_trades": 31,
+  "winning": 0,
+  "total_pnl": -23.600048828124955,
+  "last_scan": "12:07:29",
+  "last_signal": "No signal",
+  "last_action": "Closed -24pts (Rs.-24)",
+  "log": [
+    {
+      "time": "06:41:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:41:19) \u2014 waiting"
+    },
+    {
+      "time": "06:46:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:46:19) \u2014 waiting"
+    },
+    {
+      "time": "06:51:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:51:19) \u2014 waiting"
+    },
+    {
+      "time": "06:56:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:56:19) \u2014 waiting"
+    },
+    {
+      "time": "07:01:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:01:19) \u2014 waiting"
+    },
+    {
+      "time": "07:06:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:06:19) \u2014 waiting"
+    },
+    {
+      "time": "07:11:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:11:19) \u2014 waiting"
+    },
+    {
+      "time": "07:16:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:16:19) \u2014 waiting"
+    },
+    {
+      "time": "07:21:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:21:19) \u2014 waiting"
+    },
+    {
+      "time": "07:26:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:26:20) \u2014 waiting"
+    },
+    {
+      "time": "07:31:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:31:20) \u2014 waiting"
+    },
+    {
+      "time": "07:36:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:36:20) \u2014 waiting"
+    },
+    {
+      "time": "07:41:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:41:20) \u2014 waiting"
+    },
+    {
+      "time": "07:46:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:46:20) \u2014 waiting"
+    },
+    {
+      "time": "07:51:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:51:20) \u2014 waiting"
+    },
+    {
+      "time": "07:56:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:56:20) \u2014 waiting"
+    },
+    {
+      "time": "08:01:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:01:20) \u2014 waiting"
+    },
+    {
+      "time": "08:06:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:06:20) \u2014 waiting"
+    },
+    {
+      "time": "08:11:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:11:20) \u2014 waiting"
+    },
+    {
+      "time": "08:16:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:16:20) \u2014 waiting"
+    },
+    {
+      "time": "08:21:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:21:20) \u2014 waiting"
+    },
+    {
+      "time": "08:26:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:26:20) \u2014 waiting"
+    },
+    {
+      "time": "08:31:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:31:20) \u2014 waiting"
+    },
+    {
+      "time": "08:36:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:36:20) \u2014 waiting"
+    },
+    {
+      "time": "08:41:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:41:20) \u2014 waiting"
+    },
+    {
+      "time": "08:46:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:46:20) \u2014 waiting"
+    },
+    {
+      "time": "08:51:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:51:20) \u2014 waiting"
+    },
+    {
+      "time": "08:56:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:56:20) \u2014 waiting"
+    },
+    {
+      "time": "09:01:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:01:20) \u2014 waiting"
+    },
+    {
+      "time": "09:06:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:06:20) \u2014 waiting"
+    },
+    {
+      "time": "09:11:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:11:20) \u2014 waiting"
+    },
+    {
+      "time": "09:16:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:16:20) \u2014 waiting"
+    },
+    {
+      "time": "09:21:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,210.00"
+    },
+    {
+      "time": "09:21:21",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:26:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,208.30"
+    },
+    {
+      "time": "09:26:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:31:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,207.80"
+    },
+    {
+      "time": "09:31:37",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:36:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,207.00"
+    },
+    {
+      "time": "09:36:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:41:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,207.00"
+    },
+    {
+      "time": "09:41:56",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:46:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,209.60"
+    },
+    {
+      "time": "09:46:57",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:51:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,210.00"
+    },
+    {
+      "time": "09:51:58",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:56:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,209.90"
+    },
+    {
+      "time": "09:56:59",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:01:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,207.00"
+    },
+    {
+      "time": "10:02:00",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:07:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,206.80"
+    },
+    {
+      "time": "10:07:01",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:12:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,208.70"
+    },
+    {
+      "time": "10:12:02",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:17:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,209.50"
+    },
+    {
+      "time": "10:17:02",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:22:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,206.30"
+    },
+    {
+      "time": "10:22:04",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:27:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,206.50"
+    },
+    {
+      "time": "10:27:08",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:32:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,205.40"
+    },
+    {
+      "time": "10:32:09",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:37:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,202.60"
+    },
+    {
+      "time": "10:37:12",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:42:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,205.00"
+    },
+    {
+      "time": "10:42:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:47:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,204.40"
+    },
+    {
+      "time": "10:47:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:52:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,202.60"
+    },
+    {
+      "time": "10:52:14",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:57:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,202.90"
+    },
+    {
+      "time": "10:57:15",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:02:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,203.50"
+    },
+    {
+      "time": "11:02:16",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:07:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,205.10"
+    },
+    {
+      "time": "11:07:17",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:12:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,202.80"
+    },
+    {
+      "time": "11:12:18",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:17:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,202.50"
+    },
+    {
+      "time": "11:17:19",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:22:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,200.80"
+    },
+    {
+      "time": "11:22:20",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:27:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,201.00"
+    },
+    {
+      "time": "11:27:21",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:32:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,202.70"
+    },
+    {
+      "time": "11:32:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:37:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,203.60"
+    },
+    {
+      "time": "11:37:24",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:42:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,203.50"
+    },
+    {
+      "time": "11:42:25",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:47:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,203.70"
+    },
+    {
+      "time": "11:47:25",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:52:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,202.80"
+    },
+    {
+      "time": "11:52:27",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:57:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,202.20"
+    },
+    {
+      "time": "11:57:28",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:02:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,201.40"
+    },
+    {
+      "time": "12:02:29",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:07:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INFY | LTP: 1,201.30"
+    },
+    {
+      "time": "12:07:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260603_111617",
+      "date": "2026-06-03",
+      "time": "11:16:17",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "INFY",
+      "direction": "LONG",
+      "entry": 1225.8,
+      "target": 1318.0,
+      "stop_loss": 1190.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1202.2,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -23.6,
+      "pnl_rs": -23.6,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 6,
+  "winning": 2,
+  "total_pnl": 41.60004882812518,
+  "last_scan": "12:05:00",
+  "last_signal": "No signal",
+  "last_action": "Closed +4pts (Rs.+4)",
+  "log": [
+    {
+      "time": "13:54:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HCLTECH | Entry: 1,208 | LTP: 1,167 | Unrealized: +41pts (Rs.+41)"
+    },
+    {
+      "time": "14:09:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,168.80"
+    },
+    {
+      "time": "14:09:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HCLTECH | Entry: 1,208 | LTP: 1,169 | Unrealized: +40pts (Rs.+40)"
+    },
+    {
+      "time": "14:24:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,168.70"
+    },
+    {
+      "time": "14:24:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HCLTECH | Entry: 1,208 | LTP: 1,169 | Unrealized: +40pts (Rs.+40)"
+    },
+    {
+      "time": "14:39:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,170.80"
+    },
+    {
+      "time": "14:39:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HCLTECH | Entry: 1,208 | LTP: 1,171 | Unrealized: +38pts (Rs.+38)"
+    },
+    {
+      "time": "14:54:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,171.50"
+    },
+    {
+      "time": "14:54:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HCLTECH | Entry: 1,208 | LTP: 1,172 | Unrealized: +37pts (Rs.+37)"
+    },
+    {
+      "time": "15:09:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,166.00"
+    },
+    {
+      "time": "15:09:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HCLTECH | Entry: 1,208 | LTP: 1,166 | Unrealized: +42pts (Rs.+42)"
+    },
+    {
+      "time": "15:24:29",
+      "level": "TRADE",
+      "message": "\u2705 WIN: Closed SHORT HCLTECH | Entry: 1,208 \u2192 Exit: 1,171 | PnL: +37pts (Rs.+37) | EOD_SQUAREOFF"
+    },
+    {
+      "time": "15:39:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:39:29) \u2014 waiting"
+    },
+    {
+      "time": "15:54:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:54:29) \u2014 waiting"
+    },
+    {
+      "time": "16:09:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:09:29) \u2014 waiting"
+    },
+    {
+      "time": "16:24:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:24:29) \u2014 waiting"
+    },
+    {
+      "time": "16:39:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:39:29) \u2014 waiting"
+    },
+    {
+      "time": "16:54:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:54:29) \u2014 waiting"
+    },
+    {
+      "time": "17:09:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:09:29) \u2014 waiting"
+    },
+    {
+      "time": "17:24:29",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:24:29) \u2014 waiting"
+    },
+    {
+      "time": "19:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:33:40) \u2014 waiting"
+    },
+    {
+      "time": "19:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:48:40) \u2014 waiting"
+    },
+    {
+      "time": "20:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:03:40) \u2014 waiting"
+    },
+    {
+      "time": "20:18:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:18:40) \u2014 waiting"
+    },
+    {
+      "time": "20:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:33:40) \u2014 waiting"
+    },
+    {
+      "time": "20:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:48:40) \u2014 waiting"
+    },
+    {
+      "time": "21:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:03:40) \u2014 waiting"
+    },
+    {
+      "time": "21:18:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:18:40) \u2014 waiting"
+    },
+    {
+      "time": "21:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:33:40) \u2014 waiting"
+    },
+    {
+      "time": "21:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:48:40) \u2014 waiting"
+    },
+    {
+      "time": "22:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:03:40) \u2014 waiting"
+    },
+    {
+      "time": "22:18:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:18:40) \u2014 waiting"
+    },
+    {
+      "time": "22:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:33:40) \u2014 waiting"
+    },
+    {
+      "time": "22:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:48:40) \u2014 waiting"
+    },
+    {
+      "time": "23:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:03:40) \u2014 waiting"
+    },
+    {
+      "time": "23:18:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:18:40) \u2014 waiting"
+    },
+    {
+      "time": "23:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:33:40) \u2014 waiting"
+    },
+    {
+      "time": "23:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:48:40) \u2014 waiting"
+    },
+    {
+      "time": "00:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:03:40) \u2014 waiting"
+    },
+    {
+      "time": "00:18:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:18:40) \u2014 waiting"
+    },
+    {
+      "time": "00:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:33:40) \u2014 waiting"
+    },
+    {
+      "time": "00:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:48:40) \u2014 waiting"
+    },
+    {
+      "time": "01:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:03:40) \u2014 waiting"
+    },
+    {
+      "time": "01:18:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:18:40) \u2014 waiting"
+    },
+    {
+      "time": "01:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:33:40) \u2014 waiting"
+    },
+    {
+      "time": "01:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:48:40) \u2014 waiting"
+    },
+    {
+      "time": "02:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:03:40) \u2014 waiting"
+    },
+    {
+      "time": "02:18:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:18:40) \u2014 waiting"
+    },
+    {
+      "time": "02:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:33:40) \u2014 waiting"
+    },
+    {
+      "time": "02:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:48:40) \u2014 waiting"
+    },
+    {
+      "time": "03:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:03:40) \u2014 waiting"
+    },
+    {
+      "time": "03:18:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:18:40) \u2014 waiting"
+    },
+    {
+      "time": "03:33:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:33:40) \u2014 waiting"
+    },
+    {
+      "time": "03:48:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:48:40) \u2014 waiting"
+    },
+    {
+      "time": "04:03:40",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:03:40) \u2014 waiting"
+    },
+    {
+      "time": "04:18:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:18:41) \u2014 waiting"
+    },
+    {
+      "time": "04:33:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:33:41) \u2014 waiting"
+    },
+    {
+      "time": "04:48:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:48:41) \u2014 waiting"
+    },
+    {
+      "time": "05:03:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:03:41) \u2014 waiting"
+    },
+    {
+      "time": "05:18:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:18:41) \u2014 waiting"
+    },
+    {
+      "time": "05:33:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:33:41) \u2014 waiting"
+    },
+    {
+      "time": "05:48:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:48:41) \u2014 waiting"
+    },
+    {
+      "time": "06:03:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:03:41) \u2014 waiting"
+    },
+    {
+      "time": "06:18:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:18:41) \u2014 waiting"
+    },
+    {
+      "time": "06:33:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:33:41) \u2014 waiting"
+    },
+    {
+      "time": "06:48:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:48:41) \u2014 waiting"
+    },
+    {
+      "time": "07:03:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:03:41) \u2014 waiting"
+    },
+    {
+      "time": "07:18:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:18:41) \u2014 waiting"
+    },
+    {
+      "time": "07:33:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:41) \u2014 waiting"
+    },
+    {
+      "time": "07:48:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:48:41) \u2014 waiting"
+    },
+    {
+      "time": "08:03:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:03:41) \u2014 waiting"
+    },
+    {
+      "time": "08:18:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:41) \u2014 waiting"
+    },
+    {
+      "time": "08:33:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:41) \u2014 waiting"
+    },
+    {
+      "time": "08:48:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:41) \u2014 waiting"
+    },
+    {
+      "time": "09:03:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:41) \u2014 waiting"
+    },
+    {
+      "time": "09:18:41",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:41) \u2014 waiting"
+    },
+    {
+      "time": "09:34:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,163.40"
+    },
+    {
+      "time": "09:34:51",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HCLTECH | Entry: 195 | Target: 161 | SL: 212 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 202"
+    },
+    {
+      "time": "09:34:51",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT HCLTECH @ 1,163"
+    },
+    {
+      "time": "09:49:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,159.10"
+    },
+    {
+      "time": "09:49:52",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HCLTECH | Entry: 1,163 | LTP: 1,159 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "09:49:52",
+      "level": "TRADE",
+      "message": "\u2705 WIN: Closed SHORT HCLTECH | Entry: 1,163 \u2192 Exit: 1,159 | PnL: +4pts (Rs.+4) | STOP_LOSS"
+    },
+    {
+      "time": "10:04:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,160.00"
+    },
+    {
+      "time": "10:04:53",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:19:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,162.40"
+    },
+    {
+      "time": "10:19:54",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.5 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:34:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,158.00"
+    },
+    {
+      "time": "10:34:55",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:49:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,154.40"
+    },
+    {
+      "time": "10:49:56",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:04:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,155.30"
+    },
+    {
+      "time": "11:04:57",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:19:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,154.60"
+    },
+    {
+      "time": "11:19:58",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:34:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,155.20"
+    },
+    {
+      "time": "11:34:59",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:50:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,155.40"
+    },
+    {
+      "time": "11:50:00",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "12:05:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HCLTECH | LTP: 1,152.80"
+    },
+    {
+      "time": "12:05:01",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260603_093025",
+      "date": "2026-06-03",
+      "time": "09:30:25",
+      "strategy": "GAP_AND_GO",
+      "instrument": "HCLTECH",
+      "direction": "SHORT",
+      "entry": 1208.4,
+      "target": 1139.66,
+      "stop_loss": 1245.62,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1171.1,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 37.3,
+      "pnl_rs": 37.3,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_093451",
+      "date": "2026-06-05",
+      "time": "09:34:51",
+      "strategy": "GAP_AND_GO",
+      "instrument": "HCLTECH",
+      "direction": "SHORT",
+      "entry": 1163.4,
+      "target": 160.7,
+      "stop_loss": 212.45,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1159.1,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 4.3,
+      "pnl_rs": 4.3,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

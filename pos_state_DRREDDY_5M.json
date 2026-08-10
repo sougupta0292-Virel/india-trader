@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 11,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:14",
+  "last_signal": "SHORT @ 1,306",
+  "last_action": "Opened SHORT DRREDDY",
+  "log": [
+    {
+      "time": "14:17:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,315.10"
+    },
+    {
+      "time": "14:17:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,314 | LTP: 1,315 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:17:32",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:18:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,315.10"
+    },
+    {
+      "time": "14:18:33",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,314 | LTP: 1,315 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:18:33",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:19:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,315.00"
+    },
+    {
+      "time": "14:19:34",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,314 | LTP: 1,315 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:19:34",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:20:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,315.10"
+    },
+    {
+      "time": "14:20:36",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,314 | LTP: 1,315 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:20:37",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT DRREDDY | Entry: 1,315 | Target: 1,294 | SL: 1,326 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.5% | 9EMA 1316"
+    },
+    {
+      "time": "14:20:37",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT DRREDDY @ 1,315"
+    },
+    {
+      "time": "14:25:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,315.70"
+    },
+    {
+      "time": "14:25:38",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,315 | LTP: 1,316 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:25:38",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:30:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,315.40"
+    },
+    {
+      "time": "14:30:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,315 | LTP: 1,315 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:30:39",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:31:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,316.90"
+    },
+    {
+      "time": "14:31:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,315 | LTP: 1,317 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:31:40",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:32:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,317.00"
+    },
+    {
+      "time": "14:32:40",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,315 | LTP: 1,317 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:32:41",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,316.10"
+    },
+    {
+      "time": "14:33:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,315 | LTP: 1,316 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:33:42",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,316.70"
+    },
+    {
+      "time": "14:34:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,315 | LTP: 1,317 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:34:43",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:35:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,316.20"
+    },
+    {
+      "time": "14:35:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,315 | LTP: 1,316 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:35:44",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:40:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,311.60"
+    },
+    {
+      "time": "14:40:45",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,315 | LTP: 1,312 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:40:46",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT DRREDDY | Entry: 1,315 | Target: 1,294 | SL: 1,326 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1316"
+    },
+    {
+      "time": "14:40:46",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT DRREDDY @ 1,312"
+    },
+    {
+      "time": "14:45:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,312.20"
+    },
+    {
+      "time": "14:45:47",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,312 | LTP: 1,312 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:45:47",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT DRREDDY | Entry: 1,311 | Target: 1,284 | SL: 1,325 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1315"
+    },
+    {
+      "time": "14:45:47",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT DRREDDY @ 1,312"
+    },
+    {
+      "time": "14:50:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,309.60"
+    },
+    {
+      "time": "14:50:48",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,312 | LTP: 1,310 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:50:48",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT DRREDDY | Entry: 1,310 | Target: 1,282 | SL: 1,324 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1314"
+    },
+    {
+      "time": "14:50:48",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT DRREDDY @ 1,310"
+    },
+    {
+      "time": "14:55:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,310.30"
+    },
+    {
+      "time": "14:55:48",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,310 | LTP: 1,310 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:55:49",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:56:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,310.30"
+    },
+    {
+      "time": "14:56:49",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,310 | LTP: 1,310 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:56:49",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:57:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,310.00"
+    },
+    {
+      "time": "14:57:50",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,310 | LTP: 1,310 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:57:50",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:58:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,310.90"
+    },
+    {
+      "time": "14:58:51",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,310 | LTP: 1,311 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:58:51",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:59:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,311.60"
+    },
+    {
+      "time": "14:59:52",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,310 | LTP: 1,312 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:59:52",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:00:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,307.70"
+    },
+    {
+      "time": "15:00:53",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,310 | LTP: 1,308 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:00:53",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:05:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,306.30"
+    },
+    {
+      "time": "15:05:54",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,310 | LTP: 1,306 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "15:05:54",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT DRREDDY | Entry: 1,306 | Target: 1,275 | SL: 1,321 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.4% | 9EMA 1311"
+    },
+    {
+      "time": "15:05:54",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT DRREDDY @ 1,306"
+    },
+    {
+      "time": "15:10:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning DRREDDY | LTP: 1,306.90"
+    },
+    {
+      "time": "15:10:55",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT DRREDDY | Entry: 1,306 | LTP: 1,307 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:10:55",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:15:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:55) \u2014 waiting"
+    },
+    {
+      "time": "15:20:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:55) \u2014 waiting"
+    },
+    {
+      "time": "15:25:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:55) \u2014 waiting"
+    },
+    {
+      "time": "15:30:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:55) \u2014 waiting"
+    },
+    {
+      "time": "15:35:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:55) \u2014 waiting"
+    },
+    {
+      "time": "15:40:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:55) \u2014 waiting"
+    },
+    {
+      "time": "15:45:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:55) \u2014 waiting"
+    },
+    {
+      "time": "15:50:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:55) \u2014 waiting"
+    },
+    {
+      "time": "15:55:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:55) \u2014 waiting"
+    },
+    {
+      "time": "16:00:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:55) \u2014 waiting"
+    },
+    {
+      "time": "16:05:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:55) \u2014 waiting"
+    },
+    {
+      "time": "16:10:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:55) \u2014 waiting"
+    },
+    {
+      "time": "16:15:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:55) \u2014 waiting"
+    },
+    {
+      "time": "16:20:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:55) \u2014 waiting"
+    },
+    {
+      "time": "16:25:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:55) \u2014 waiting"
+    },
+    {
+      "time": "16:30:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:55) \u2014 waiting"
+    },
+    {
+      "time": "16:35:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:55) \u2014 waiting"
+    },
+    {
+      "time": "16:40:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:55) \u2014 waiting"
+    },
+    {
+      "time": "16:45:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:55) \u2014 waiting"
+    },
+    {
+      "time": "16:50:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:55) \u2014 waiting"
+    },
+    {
+      "time": "16:55:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:55) \u2014 waiting"
+    },
+    {
+      "time": "17:00:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:55) \u2014 waiting"
+    },
+    {
+      "time": "17:05:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:55) \u2014 waiting"
+    },
+    {
+      "time": "17:10:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:55) \u2014 waiting"
+    },
+    {
+      "time": "17:15:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:55) \u2014 waiting"
+    },
+    {
+      "time": "17:20:55",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:55) \u2014 waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | DRREDDY | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:14) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

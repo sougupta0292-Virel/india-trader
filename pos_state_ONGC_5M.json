@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 12,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:14",
+  "last_signal": "SHORT @ 290",
+  "last_action": "Opened SHORT ONGC",
+  "log": [
+    {
+      "time": "14:12:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:12:59",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:18:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.25"
+    },
+    {
+      "time": "14:18:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:18:00",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:19:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.20"
+    },
+    {
+      "time": "14:19:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:19:01",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:20:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.25"
+    },
+    {
+      "time": "14:20:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:20:03",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:21:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.15"
+    },
+    {
+      "time": "14:21:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:21:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:22:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.10"
+    },
+    {
+      "time": "14:22:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:22:06",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:23:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.20"
+    },
+    {
+      "time": "14:23:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:23:07",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:24:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.20"
+    },
+    {
+      "time": "14:24:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:24:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.05"
+    },
+    {
+      "time": "14:25:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:25:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:26:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.05"
+    },
+    {
+      "time": "14:26:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:26:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:27:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.00"
+    },
+    {
+      "time": "14:27:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:27:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:28:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 291.00"
+    },
+    {
+      "time": "14:28:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:28:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:29:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.85"
+    },
+    {
+      "time": "14:29:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 291 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:29:14",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:30:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.35"
+    },
+    {
+      "time": "14:30:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 291 | LTP: 290 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:30:15",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ONGC | Entry: 290 | Target: 269 | SL: 301 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 291"
+    },
+    {
+      "time": "14:30:15",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ONGC @ 290"
+    },
+    {
+      "time": "14:35:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.20"
+    },
+    {
+      "time": "14:35:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 290 | LTP: 290 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:35:16",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ONGC | Entry: 290 | Target: 269 | SL: 301 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 291"
+    },
+    {
+      "time": "14:35:16",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ONGC @ 290"
+    },
+    {
+      "time": "14:40:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.25"
+    },
+    {
+      "time": "14:40:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 290 | LTP: 290 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:40:18",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:45:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.05"
+    },
+    {
+      "time": "14:45:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 290 | LTP: 290 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:45:19",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ONGC | Entry: 290 | Target: 269 | SL: 301 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 291"
+    },
+    {
+      "time": "14:45:19",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ONGC @ 290"
+    },
+    {
+      "time": "14:50:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.00"
+    },
+    {
+      "time": "14:50:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 290 | LTP: 290 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:50:20",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ONGC | Entry: 290 | Target: 269 | SL: 301 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 291"
+    },
+    {
+      "time": "14:50:20",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ONGC @ 290"
+    },
+    {
+      "time": "14:55:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.40"
+    },
+    {
+      "time": "14:55:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 290 | LTP: 290 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:55:22",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.20"
+    },
+    {
+      "time": "15:00:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 290 | LTP: 290 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:00:24",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ONGC | Entry: 290 | Target: 270 | SL: 300 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 290"
+    },
+    {
+      "time": "15:00:24",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ONGC @ 290"
+    },
+    {
+      "time": "15:05:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.20"
+    },
+    {
+      "time": "15:05:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 290 | LTP: 290 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:05:25",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT ONGC | Entry: 290 | Target: 270 | SL: 300 | R:R 1:2.0 | Gap+Go SHORT | Gap -98.8% | 9EMA 290"
+    },
+    {
+      "time": "15:05:25",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT ONGC @ 290"
+    },
+    {
+      "time": "15:10:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ONGC | LTP: 290.25"
+    },
+    {
+      "time": "15:10:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT ONGC | Entry: 290 | LTP: 290 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:10:26",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:15:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:26) \u2014 waiting"
+    },
+    {
+      "time": "15:20:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:26) \u2014 waiting"
+    },
+    {
+      "time": "15:25:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:26) \u2014 waiting"
+    },
+    {
+      "time": "15:30:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:26) \u2014 waiting"
+    },
+    {
+      "time": "15:35:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:26) \u2014 waiting"
+    },
+    {
+      "time": "15:40:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:26) \u2014 waiting"
+    },
+    {
+      "time": "15:45:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:26) \u2014 waiting"
+    },
+    {
+      "time": "15:50:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:26) \u2014 waiting"
+    },
+    {
+      "time": "15:55:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:26) \u2014 waiting"
+    },
+    {
+      "time": "16:00:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:26) \u2014 waiting"
+    },
+    {
+      "time": "16:05:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:26) \u2014 waiting"
+    },
+    {
+      "time": "16:10:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:26) \u2014 waiting"
+    },
+    {
+      "time": "16:15:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:26) \u2014 waiting"
+    },
+    {
+      "time": "16:20:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:26) \u2014 waiting"
+    },
+    {
+      "time": "16:25:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:26) \u2014 waiting"
+    },
+    {
+      "time": "16:30:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:26) \u2014 waiting"
+    },
+    {
+      "time": "16:35:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:26) \u2014 waiting"
+    },
+    {
+      "time": "16:40:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:26) \u2014 waiting"
+    },
+    {
+      "time": "16:45:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:26) \u2014 waiting"
+    },
+    {
+      "time": "16:50:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:26) \u2014 waiting"
+    },
+    {
+      "time": "16:55:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:26) \u2014 waiting"
+    },
+    {
+      "time": "17:00:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:26) \u2014 waiting"
+    },
+    {
+      "time": "17:05:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:26) \u2014 waiting"
+    },
+    {
+      "time": "17:10:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:26) \u2014 waiting"
+    },
+    {
+      "time": "17:15:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:26) \u2014 waiting"
+    },
+    {
+      "time": "17:20:26",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:26) \u2014 waiting"
+    },
+    {
+      "time": "17:24:29",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | ONGC | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:14) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

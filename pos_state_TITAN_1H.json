@@ -1,0 +1,535 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 1,
+  "total_trades": 26,
+  "winning": 0,
+  "total_pnl": -56.2001953125,
+  "last_scan": "12:08:24",
+  "last_signal": "SHORT @ 4,058",
+  "last_action": "Closed -56pts (Rs.-56)",
+  "log": [
+    {
+      "time": "06:36:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:36:34) \u2014 waiting"
+    },
+    {
+      "time": "06:41:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:41:34) \u2014 waiting"
+    },
+    {
+      "time": "06:46:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:46:34) \u2014 waiting"
+    },
+    {
+      "time": "06:51:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:51:34) \u2014 waiting"
+    },
+    {
+      "time": "06:56:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:56:34) \u2014 waiting"
+    },
+    {
+      "time": "07:01:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:01:34) \u2014 waiting"
+    },
+    {
+      "time": "07:06:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:06:35) \u2014 waiting"
+    },
+    {
+      "time": "07:11:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:11:35) \u2014 waiting"
+    },
+    {
+      "time": "07:16:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:16:35) \u2014 waiting"
+    },
+    {
+      "time": "07:21:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:21:35) \u2014 waiting"
+    },
+    {
+      "time": "07:26:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:26:35) \u2014 waiting"
+    },
+    {
+      "time": "07:31:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:31:35) \u2014 waiting"
+    },
+    {
+      "time": "07:36:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:36:35) \u2014 waiting"
+    },
+    {
+      "time": "07:41:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:41:35) \u2014 waiting"
+    },
+    {
+      "time": "07:46:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:46:35) \u2014 waiting"
+    },
+    {
+      "time": "07:51:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:51:35) \u2014 waiting"
+    },
+    {
+      "time": "07:56:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:56:35) \u2014 waiting"
+    },
+    {
+      "time": "08:01:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:01:35) \u2014 waiting"
+    },
+    {
+      "time": "08:06:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:06:35) \u2014 waiting"
+    },
+    {
+      "time": "08:11:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:11:35) \u2014 waiting"
+    },
+    {
+      "time": "08:16:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:16:35) \u2014 waiting"
+    },
+    {
+      "time": "08:21:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:21:35) \u2014 waiting"
+    },
+    {
+      "time": "08:26:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:26:35) \u2014 waiting"
+    },
+    {
+      "time": "08:31:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:31:35) \u2014 waiting"
+    },
+    {
+      "time": "08:36:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:36:35) \u2014 waiting"
+    },
+    {
+      "time": "08:41:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:41:35) \u2014 waiting"
+    },
+    {
+      "time": "08:46:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:46:35) \u2014 waiting"
+    },
+    {
+      "time": "08:51:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:51:35) \u2014 waiting"
+    },
+    {
+      "time": "08:56:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:56:35) \u2014 waiting"
+    },
+    {
+      "time": "09:01:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:01:35) \u2014 waiting"
+    },
+    {
+      "time": "09:06:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:06:35) \u2014 waiting"
+    },
+    {
+      "time": "09:11:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:11:35) \u2014 waiting"
+    },
+    {
+      "time": "09:16:35",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:16:35) \u2014 waiting"
+    },
+    {
+      "time": "09:21:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,244.80"
+    },
+    {
+      "time": "09:21:36",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:26:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,256.40"
+    },
+    {
+      "time": "09:26:37",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:31:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,251.00"
+    },
+    {
+      "time": "09:31:58",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:37:54",
+      "level": "WARNING",
+      "message": "\u26a0\ufe0f No live data \u2014 retrying"
+    },
+    {
+      "time": "09:42:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,267.40"
+    },
+    {
+      "time": "09:42:57",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:47:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,255.70"
+    },
+    {
+      "time": "09:47:58",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:52:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,248.90"
+    },
+    {
+      "time": "09:52:59",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:57:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,246.90"
+    },
+    {
+      "time": "09:57:59",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:03:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,243.40"
+    },
+    {
+      "time": "10:03:00",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:08:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,249.20"
+    },
+    {
+      "time": "10:08:01",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:13:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,256.40"
+    },
+    {
+      "time": "10:13:02",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.4 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:18:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,245.90"
+    },
+    {
+      "time": "10:18:03",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:23:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,240.60"
+    },
+    {
+      "time": "10:23:04",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:28:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,252.70"
+    },
+    {
+      "time": "10:28:05",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:33:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,252.10"
+    },
+    {
+      "time": "10:33:06",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:38:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,241.00"
+    },
+    {
+      "time": "10:38:07",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:43:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,234.60"
+    },
+    {
+      "time": "10:43:08",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:48:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,238.60"
+    },
+    {
+      "time": "10:48:09",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:53:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,240.00"
+    },
+    {
+      "time": "10:53:10",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:58:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,243.10"
+    },
+    {
+      "time": "10:58:11",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:03:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,248.90"
+    },
+    {
+      "time": "11:03:12",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:08:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,251.30"
+    },
+    {
+      "time": "11:08:13",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:13:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,254.60"
+    },
+    {
+      "time": "11:13:14",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.8 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:18:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,253.00"
+    },
+    {
+      "time": "11:18:15",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:23:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,254.10"
+    },
+    {
+      "time": "11:23:16",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:28:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,252.10"
+    },
+    {
+      "time": "11:28:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:33:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,252.20"
+    },
+    {
+      "time": "11:33:18",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:38:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,246.20"
+    },
+    {
+      "time": "11:38:19",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:43:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,245.00"
+    },
+    {
+      "time": "11:43:20",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:48:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,242.50"
+    },
+    {
+      "time": "11:48:21",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:53:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,243.00"
+    },
+    {
+      "time": "11:53:22",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:58:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,233.20"
+    },
+    {
+      "time": "11:58:23",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "12:03:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,235.90"
+    },
+    {
+      "time": "12:03:24",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "12:08:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TITAN | LTP: 4,235.10"
+    },
+    {
+      "time": "12:08:25",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.6 < 1.8 \u2014 skipped"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260603_092139",
+      "date": "2026-06-03",
+      "time": "09:21:39",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "TITAN",
+      "direction": "SHORT",
+      "entry": 4058.0,
+      "target": 3978.5,
+      "stop_loss": 4105.2,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 4114.2,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -56.2,
+      "pnl_rs": -56.2,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

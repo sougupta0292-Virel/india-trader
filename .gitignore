@@ -1,0 +1,23 @@
+# Credentials — never commit these
+angel_token.json
+.env
+.env.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Streamlit local secrets (real values — use Streamlit Cloud dashboard instead)
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+Daily reports/
+results/

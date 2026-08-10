@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 10,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 908",
+  "last_action": "Opened SHORT INDUSINDBK",
+  "log": [
+    {
+      "time": "14:23:50",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 911 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:23:50",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:24:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 910.85"
+    },
+    {
+      "time": "14:24:51",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 911 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:24:51",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.95"
+    },
+    {
+      "time": "14:25:52",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 909 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:25:53",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:30:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 907.90"
+    },
+    {
+      "time": "14:30:54",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 908 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:30:54",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:31:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.60"
+    },
+    {
+      "time": "14:31:55",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 909 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:31:55",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:32:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 909.10"
+    },
+    {
+      "time": "14:32:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 909 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:32:57",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.45"
+    },
+    {
+      "time": "14:33:57",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 908 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:33:58",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.15"
+    },
+    {
+      "time": "14:34:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 908 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:34:59",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:36:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.75"
+    },
+    {
+      "time": "14:36:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 909 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:36:01",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.45"
+    },
+    {
+      "time": "14:37:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 908 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:37:02",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 907.50"
+    },
+    {
+      "time": "14:38:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 908 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:38:03",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 907.05"
+    },
+    {
+      "time": "14:39:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 907 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:39:04",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 907.25"
+    },
+    {
+      "time": "14:40:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 907 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:40:06",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 907.50"
+    },
+    {
+      "time": "14:41:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 908 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:41:07",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 907.10"
+    },
+    {
+      "time": "14:42:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 907 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:42:09",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 906.90"
+    },
+    {
+      "time": "14:43:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 907 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:43:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 905.80"
+    },
+    {
+      "time": "14:44:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 906 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "14:44:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 905.95"
+    },
+    {
+      "time": "14:45:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 910 | LTP: 906 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "14:45:12",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT INDUSINDBK | Entry: 906 | Target: 881 | SL: 919 | R:R 1:2.0 | Gap+Go SHORT | Gap -96.1% | 9EMA 909"
+    },
+    {
+      "time": "14:45:12",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT INDUSINDBK @ 906"
+    },
+    {
+      "time": "14:50:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 907.35"
+    },
+    {
+      "time": "14:50:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 906 | LTP: 907 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:50:14",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.10"
+    },
+    {
+      "time": "14:55:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 906 | LTP: 908 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:55:15",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.80"
+    },
+    {
+      "time": "15:00:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 906 | LTP: 909 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:00:16",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:05:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.20"
+    },
+    {
+      "time": "15:05:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 906 | LTP: 908 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:05:17",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT INDUSINDBK | Entry: 908 | Target: 888 | SL: 918 | R:R 1:2.0 | Gap+Go SHORT | Gap -96.1% | 9EMA 908"
+    },
+    {
+      "time": "15:05:17",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT INDUSINDBK @ 908"
+    },
+    {
+      "time": "15:10:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning INDUSINDBK | LTP: 908.40"
+    },
+    {
+      "time": "15:10:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT INDUSINDBK | Entry: 908 | LTP: 908 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:10:18",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT INDUSINDBK | Entry: 908 | Target: 887 | SL: 918 | R:R 1:2.0 | Gap+Go SHORT | Gap -96.1% | 9EMA 908"
+    },
+    {
+      "time": "15:10:18",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT INDUSINDBK @ 908"
+    },
+    {
+      "time": "15:15:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:18) \u2014 waiting"
+    },
+    {
+      "time": "15:20:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:18) \u2014 waiting"
+    },
+    {
+      "time": "15:25:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:18) \u2014 waiting"
+    },
+    {
+      "time": "15:30:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:18) \u2014 waiting"
+    },
+    {
+      "time": "15:35:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:18) \u2014 waiting"
+    },
+    {
+      "time": "15:40:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:18) \u2014 waiting"
+    },
+    {
+      "time": "15:45:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:18) \u2014 waiting"
+    },
+    {
+      "time": "15:50:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:18) \u2014 waiting"
+    },
+    {
+      "time": "15:55:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:18) \u2014 waiting"
+    },
+    {
+      "time": "16:00:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:18) \u2014 waiting"
+    },
+    {
+      "time": "16:05:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:18) \u2014 waiting"
+    },
+    {
+      "time": "16:10:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:18) \u2014 waiting"
+    },
+    {
+      "time": "16:15:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:18) \u2014 waiting"
+    },
+    {
+      "time": "16:20:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:18) \u2014 waiting"
+    },
+    {
+      "time": "16:25:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:18) \u2014 waiting"
+    },
+    {
+      "time": "16:30:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:18) \u2014 waiting"
+    },
+    {
+      "time": "16:35:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:18) \u2014 waiting"
+    },
+    {
+      "time": "16:40:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:18) \u2014 waiting"
+    },
+    {
+      "time": "16:45:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:18) \u2014 waiting"
+    },
+    {
+      "time": "16:50:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:18) \u2014 waiting"
+    },
+    {
+      "time": "16:55:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:18) \u2014 waiting"
+    },
+    {
+      "time": "17:00:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:18) \u2014 waiting"
+    },
+    {
+      "time": "17:05:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:18) \u2014 waiting"
+    },
+    {
+      "time": "17:10:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:18) \u2014 waiting"
+    },
+    {
+      "time": "17:15:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:18) \u2014 waiting"
+    },
+    {
+      "time": "17:20:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:18) \u2014 waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | INDUSINDBK | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:15) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

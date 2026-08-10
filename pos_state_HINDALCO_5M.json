@@ -1,0 +1,518 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 10,
+  "winning": 0,
+  "total_pnl": 0,
+  "last_scan": "01:45:14",
+  "last_signal": "LONG @ 1,106",
+  "last_action": "Opened LONG HINDALCO",
+  "log": [
+    {
+      "time": "14:15:09",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:20:11",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,101.10"
+    },
+    {
+      "time": "14:20:11",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,102 | LTP: 1,101 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:20:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:21:13",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,100.40"
+    },
+    {
+      "time": "14:21:13",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,102 | LTP: 1,100 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:21:14",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:22:15",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,102.00"
+    },
+    {
+      "time": "14:22:15",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,102 | LTP: 1,102 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:22:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:23:16",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,103.50"
+    },
+    {
+      "time": "14:23:16",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,102 | LTP: 1,104 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:23:16",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:24:17",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,103.90"
+    },
+    {
+      "time": "14:24:17",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,102 | LTP: 1,104 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:24:17",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: LONG HINDALCO | Entry: 1,104 | Target: 1,135 | SL: 1,088 | R:R 1:2.0 | VWAP trend LONG | EMA5=1,102 VWAP=1,098 | Vol spike"
+    },
+    {
+      "time": "14:24:17",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: LONG HINDALCO @ 1,104"
+    },
+    {
+      "time": "14:29:18",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,104.90"
+    },
+    {
+      "time": "14:29:18",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,105 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:29:18",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.1 < 1.8 — skipped"
+    },
+    {
+      "time": "14:34:19",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,104.40"
+    },
+    {
+      "time": "14:34:19",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,104 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:34:19",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:39:20",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,105.10"
+    },
+    {
+      "time": "14:39:20",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,105 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:39:20",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.3 < 1.8 — skipped"
+    },
+    {
+      "time": "14:44:22",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,105.50"
+    },
+    {
+      "time": "14:44:22",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,106 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:44:23",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:49:24",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,106.70"
+    },
+    {
+      "time": "14:49:24",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,107 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:49:24",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:54:25",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,105.40"
+    },
+    {
+      "time": "14:54:25",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,105 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:54:25",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:59:27",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,106.60"
+    },
+    {
+      "time": "14:59:27",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,107 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:59:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:00:30",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,106.10"
+    },
+    {
+      "time": "15:00:30",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,106 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:00:31",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:05:32",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,104.40"
+    },
+    {
+      "time": "15:05:32",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,104 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:05:32",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:06:33",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,103.30"
+    },
+    {
+      "time": "15:06:33",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,103 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:06:33",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:07:34",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,103.70"
+    },
+    {
+      "time": "15:07:34",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,104 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:07:34",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:08:35",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,104.20"
+    },
+    {
+      "time": "15:08:35",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,104 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:08:35",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:09:36",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,104.20"
+    },
+    {
+      "time": "15:09:36",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,104 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:09:36",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:10:37",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,105.40"
+    },
+    {
+      "time": "15:10:37",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,105 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:10:37",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:11:38",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,105.40"
+    },
+    {
+      "time": "15:11:38",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,105 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:11:38",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:12:39",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,105.50"
+    },
+    {
+      "time": "15:12:39",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,106 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:12:39",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:13:40",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,105.80"
+    },
+    {
+      "time": "15:13:40",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,106 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:13:40",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:14:40",
+      "level": "INFO",
+      "message": "🔍 Scanning HINDALCO | LTP: 1,106.30"
+    },
+    {
+      "time": "15:14:40",
+      "level": "INFO",
+      "message": "📊 LONG HINDALCO | Entry: 1,104 | LTP: 1,106 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:14:41",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: LONG HINDALCO | Entry: 1,106 | Target: 1,133 | SL: 1,093 | R:R 1:2.0 | VWAP trend LONG | EMA5=1,105 VWAP=1,103 | Vol spike"
+    },
+    {
+      "time": "15:14:41",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: LONG HINDALCO @ 1,106"
+    },
+    {
+      "time": "15:19:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:19:41) — waiting"
+    },
+    {
+      "time": "15:24:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:24:41) — waiting"
+    },
+    {
+      "time": "15:29:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:29:41) — waiting"
+    },
+    {
+      "time": "15:34:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:34:41) — waiting"
+    },
+    {
+      "time": "15:39:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:39:41) — waiting"
+    },
+    {
+      "time": "15:44:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:44:41) — waiting"
+    },
+    {
+      "time": "15:49:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:49:41) — waiting"
+    },
+    {
+      "time": "15:54:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:54:41) — waiting"
+    },
+    {
+      "time": "15:59:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:59:41) — waiting"
+    },
+    {
+      "time": "16:04:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:04:41) — waiting"
+    },
+    {
+      "time": "16:09:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:09:41) — waiting"
+    },
+    {
+      "time": "16:14:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:14:41) — waiting"
+    },
+    {
+      "time": "16:19:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:19:41) — waiting"
+    },
+    {
+      "time": "16:24:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:24:41) — waiting"
+    },
+    {
+      "time": "16:29:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:29:41) — waiting"
+    },
+    {
+      "time": "16:34:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:34:41) — waiting"
+    },
+    {
+      "time": "16:39:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:39:41) — waiting"
+    },
+    {
+      "time": "16:44:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:44:41) — waiting"
+    },
+    {
+      "time": "16:49:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:49:41) — waiting"
+    },
+    {
+      "time": "16:54:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:54:41) — waiting"
+    },
+    {
+      "time": "16:59:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:59:41) — waiting"
+    },
+    {
+      "time": "17:04:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:04:41) — waiting"
+    },
+    {
+      "time": "17:09:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:09:41) — waiting"
+    },
+    {
+      "time": "17:14:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:14:41) — waiting"
+    },
+    {
+      "time": "17:19:41",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:19:41) — waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | HINDALCO | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:14) — waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 0,
+  "losses": 0
+}

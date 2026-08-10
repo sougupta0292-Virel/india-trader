@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 11,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 1,191",
+  "last_action": "Opened SHORT TATACONSUM",
+  "log": [
+    {
+      "time": "14:15:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,199 | LTP: 1,196 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:15:57",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATACONSUM | Entry: 1,195 | Target: 1,172 | SL: 1,207 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.9% | 9EMA 1197"
+    },
+    {
+      "time": "14:15:57",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TATACONSUM @ 1,196"
+    },
+    {
+      "time": "14:20:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,193.80"
+    },
+    {
+      "time": "14:20:57",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,196 | LTP: 1,194 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:20:57",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:21:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,194.30"
+    },
+    {
+      "time": "14:21:58",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,196 | LTP: 1,194 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:21:58",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:22:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,194.80"
+    },
+    {
+      "time": "14:22:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,196 | LTP: 1,195 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:23:00",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:24:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,194.80"
+    },
+    {
+      "time": "14:24:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,196 | LTP: 1,195 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:24:01",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,194.00"
+    },
+    {
+      "time": "14:25:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,196 | LTP: 1,194 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:25:02",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:26:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,193.90"
+    },
+    {
+      "time": "14:26:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,196 | LTP: 1,194 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:26:03",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:31:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,192.90"
+    },
+    {
+      "time": "14:31:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,196 | LTP: 1,193 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:31:06",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATACONSUM | Entry: 1,192 | Target: 1,165 | SL: 1,205 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.9% | 9EMA 1195"
+    },
+    {
+      "time": "14:31:06",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TATACONSUM @ 1,193"
+    },
+    {
+      "time": "14:36:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,193.60"
+    },
+    {
+      "time": "14:36:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,193 | LTP: 1,194 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:36:07",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:41:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,193.90"
+    },
+    {
+      "time": "14:41:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,193 | LTP: 1,194 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:41:09",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,193.90"
+    },
+    {
+      "time": "14:42:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,193 | LTP: 1,194 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:42:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,194.00"
+    },
+    {
+      "time": "14:43:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,193 | LTP: 1,194 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:43:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,194.00"
+    },
+    {
+      "time": "14:44:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,193 | LTP: 1,194 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:44:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,193.60"
+    },
+    {
+      "time": "14:45:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,193 | LTP: 1,194 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:45:14",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:50:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,192.00"
+    },
+    {
+      "time": "14:50:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,193 | LTP: 1,192 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:50:16",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATACONSUM | Entry: 1,192 | Target: 1,168 | SL: 1,204 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.9% | 9EMA 1194"
+    },
+    {
+      "time": "14:50:16",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TATACONSUM @ 1,192"
+    },
+    {
+      "time": "14:55:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,193.20"
+    },
+    {
+      "time": "14:55:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,192 | LTP: 1,193 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:55:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,192.10"
+    },
+    {
+      "time": "15:00:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,192 | LTP: 1,192 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:00:18",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,191.00"
+    },
+    {
+      "time": "15:01:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,192 | LTP: 1,191 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:01:19",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:02:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,191.20"
+    },
+    {
+      "time": "15:02:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,192 | LTP: 1,191 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:02:20",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:03:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,191.70"
+    },
+    {
+      "time": "15:03:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,192 | LTP: 1,192 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:03:21",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATACONSUM | Entry: 1,192 | Target: 1,165 | SL: 1,205 | R:R 1:2.0 | VWAP trend SHORT | EMA5=1,193 VWAP=1,195 | Vol spike"
+    },
+    {
+      "time": "15:03:21",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TATACONSUM @ 1,192"
+    },
+    {
+      "time": "15:08:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,192.00"
+    },
+    {
+      "time": "15:08:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,192 | LTP: 1,192 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "15:08:22",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATACONSUM | Entry: 1,192 | Target: 1,169 | SL: 1,203 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.9% | 9EMA 1193"
+    },
+    {
+      "time": "15:08:22",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TATACONSUM @ 1,192"
+    },
+    {
+      "time": "15:13:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,191.40"
+    },
+    {
+      "time": "15:13:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATACONSUM | Entry: 1,192 | LTP: 1,191 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "15:13:23",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATACONSUM | Entry: 1,192 | Target: 1,170 | SL: 1,203 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.9% | 9EMA 1193"
+    },
+    {
+      "time": "15:13:23",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TATACONSUM @ 1,191"
+    },
+    {
+      "time": "15:18:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:18:23) \u2014 waiting"
+    },
+    {
+      "time": "15:23:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:23:23) \u2014 waiting"
+    },
+    {
+      "time": "15:28:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:28:23) \u2014 waiting"
+    },
+    {
+      "time": "15:33:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:33:23) \u2014 waiting"
+    },
+    {
+      "time": "15:38:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:38:23) \u2014 waiting"
+    },
+    {
+      "time": "15:43:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:43:23) \u2014 waiting"
+    },
+    {
+      "time": "15:48:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:48:23) \u2014 waiting"
+    },
+    {
+      "time": "15:53:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:53:23) \u2014 waiting"
+    },
+    {
+      "time": "15:58:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:58:23) \u2014 waiting"
+    },
+    {
+      "time": "16:03:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:03:23) \u2014 waiting"
+    },
+    {
+      "time": "16:08:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:08:23) \u2014 waiting"
+    },
+    {
+      "time": "16:13:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:13:23) \u2014 waiting"
+    },
+    {
+      "time": "16:18:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:18:23) \u2014 waiting"
+    },
+    {
+      "time": "16:23:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:23:23) \u2014 waiting"
+    },
+    {
+      "time": "16:28:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:28:23) \u2014 waiting"
+    },
+    {
+      "time": "16:33:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:33:23) \u2014 waiting"
+    },
+    {
+      "time": "16:38:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:38:23) \u2014 waiting"
+    },
+    {
+      "time": "16:43:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:43:23) \u2014 waiting"
+    },
+    {
+      "time": "16:48:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:48:23) \u2014 waiting"
+    },
+    {
+      "time": "16:53:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:53:23) \u2014 waiting"
+    },
+    {
+      "time": "16:58:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:58:23) \u2014 waiting"
+    },
+    {
+      "time": "17:03:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:03:23) \u2014 waiting"
+    },
+    {
+      "time": "17:08:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:08:23) \u2014 waiting"
+    },
+    {
+      "time": "17:13:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:13:23) \u2014 waiting"
+    },
+    {
+      "time": "17:18:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:18:23) \u2014 waiting"
+    },
+    {
+      "time": "17:23:23",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:23:23) \u2014 waiting"
+    },
+    {
+      "time": "17:24:29",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | TATACONSUM | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:15) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

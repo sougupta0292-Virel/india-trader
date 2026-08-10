@@ -1,0 +1,1056 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 3,
+  "total_trades": 62,
+  "winning": 2,
+  "total_pnl": 575.0,
+  "last_scan": "12:06:23",
+  "last_signal": "SHORT @ 24,495",
+  "last_action": "Opened SHORT SHREECEM",
+  "log": [
+    {
+      "time": "06:37:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:37:33) \u2014 waiting"
+    },
+    {
+      "time": "06:42:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:42:33) \u2014 waiting"
+    },
+    {
+      "time": "06:47:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:47:33) \u2014 waiting"
+    },
+    {
+      "time": "06:52:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:52:33) \u2014 waiting"
+    },
+    {
+      "time": "06:57:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:57:33) \u2014 waiting"
+    },
+    {
+      "time": "07:02:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:02:33) \u2014 waiting"
+    },
+    {
+      "time": "07:07:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:07:33) \u2014 waiting"
+    },
+    {
+      "time": "07:12:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:12:33) \u2014 waiting"
+    },
+    {
+      "time": "07:17:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:17:33) \u2014 waiting"
+    },
+    {
+      "time": "07:22:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:22:33) \u2014 waiting"
+    },
+    {
+      "time": "07:27:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:27:33) \u2014 waiting"
+    },
+    {
+      "time": "07:32:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:32:33) \u2014 waiting"
+    },
+    {
+      "time": "07:37:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:37:33) \u2014 waiting"
+    },
+    {
+      "time": "07:42:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:42:33) \u2014 waiting"
+    },
+    {
+      "time": "07:47:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:47:33) \u2014 waiting"
+    },
+    {
+      "time": "07:52:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:52:33) \u2014 waiting"
+    },
+    {
+      "time": "07:57:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:57:33) \u2014 waiting"
+    },
+    {
+      "time": "08:02:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:02:33) \u2014 waiting"
+    },
+    {
+      "time": "08:07:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:07:33) \u2014 waiting"
+    },
+    {
+      "time": "08:12:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:12:33) \u2014 waiting"
+    },
+    {
+      "time": "08:17:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:33) \u2014 waiting"
+    },
+    {
+      "time": "08:22:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:33) \u2014 waiting"
+    },
+    {
+      "time": "08:27:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:34) \u2014 waiting"
+    },
+    {
+      "time": "08:32:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:34) \u2014 waiting"
+    },
+    {
+      "time": "08:37:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:34) \u2014 waiting"
+    },
+    {
+      "time": "08:42:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:34) \u2014 waiting"
+    },
+    {
+      "time": "08:47:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:34) \u2014 waiting"
+    },
+    {
+      "time": "08:52:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:34) \u2014 waiting"
+    },
+    {
+      "time": "08:57:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:34) \u2014 waiting"
+    },
+    {
+      "time": "09:02:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:34) \u2014 waiting"
+    },
+    {
+      "time": "09:07:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:34) \u2014 waiting"
+    },
+    {
+      "time": "09:12:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:34) \u2014 waiting"
+    },
+    {
+      "time": "09:17:34",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:34) \u2014 waiting"
+    },
+    {
+      "time": "09:22:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,495.00"
+    },
+    {
+      "time": "09:22:35",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT SHREECEM | Entry: 24,495 | Target: 24,035 | SL: 24,680 | R:R 1:2.5 | Pre-market break SHORT | PM L 24,670 | Range 230pts"
+    },
+    {
+      "time": "09:22:35",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT SHREECEM @ 24,495"
+    },
+    {
+      "time": "09:27:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,480.00"
+    },
+    {
+      "time": "09:27:35",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,480 | Unrealized: +15pts (Rs.+15)"
+    },
+    {
+      "time": "09:35:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,445.00"
+    },
+    {
+      "time": "09:35:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,445 | Unrealized: +50pts (Rs.+50)"
+    },
+    {
+      "time": "09:41:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,425.00"
+    },
+    {
+      "time": "09:41:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,425 | Unrealized: +70pts (Rs.+70)"
+    },
+    {
+      "time": "09:46:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,455.00"
+    },
+    {
+      "time": "09:46:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,455 | Unrealized: +40pts (Rs.+40)"
+    },
+    {
+      "time": "09:51:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,430.00"
+    },
+    {
+      "time": "09:51:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,430 | Unrealized: +65pts (Rs.+65)"
+    },
+    {
+      "time": "09:56:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,410.00"
+    },
+    {
+      "time": "09:56:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,410 | Unrealized: +85pts (Rs.+85)"
+    },
+    {
+      "time": "10:01:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,430.00"
+    },
+    {
+      "time": "10:01:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,430 | Unrealized: +65pts (Rs.+65)"
+    },
+    {
+      "time": "10:06:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,455.00"
+    },
+    {
+      "time": "10:06:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,455 | Unrealized: +40pts (Rs.+40)"
+    },
+    {
+      "time": "10:11:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,540.00"
+    },
+    {
+      "time": "10:11:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,540 | Unrealized: -45pts (Rs.-45)"
+    },
+    {
+      "time": "10:16:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,490.00"
+    },
+    {
+      "time": "10:16:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,490 | Unrealized: +5pts (Rs.+5)"
+    },
+    {
+      "time": "10:21:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,480.00"
+    },
+    {
+      "time": "10:21:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,480 | Unrealized: +15pts (Rs.+15)"
+    },
+    {
+      "time": "10:26:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,420.00"
+    },
+    {
+      "time": "10:26:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,420 | Unrealized: +75pts (Rs.+75)"
+    },
+    {
+      "time": "10:31:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,405.00"
+    },
+    {
+      "time": "10:31:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,405 | Unrealized: +90pts (Rs.+90)"
+    },
+    {
+      "time": "10:36:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,305.00"
+    },
+    {
+      "time": "10:36:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,305 | Unrealized: +190pts (Rs.+190)"
+    },
+    {
+      "time": "10:41:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,255.00"
+    },
+    {
+      "time": "10:41:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,255 | Unrealized: +240pts (Rs.+240)"
+    },
+    {
+      "time": "10:46:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,245.00"
+    },
+    {
+      "time": "10:46:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,245 | Unrealized: +250pts (Rs.+250)"
+    },
+    {
+      "time": "10:51:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,325.00"
+    },
+    {
+      "time": "10:51:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,325 | Unrealized: +170pts (Rs.+170)"
+    },
+    {
+      "time": "10:56:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,290.00"
+    },
+    {
+      "time": "10:56:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,290 | Unrealized: +205pts (Rs.+205)"
+    },
+    {
+      "time": "11:01:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,355.00"
+    },
+    {
+      "time": "11:01:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,355 | Unrealized: +140pts (Rs.+140)"
+    },
+    {
+      "time": "11:06:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,360.00"
+    },
+    {
+      "time": "11:06:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,360 | Unrealized: +135pts (Rs.+135)"
+    },
+    {
+      "time": "11:11:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,340.00"
+    },
+    {
+      "time": "11:11:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,340 | Unrealized: +155pts (Rs.+155)"
+    },
+    {
+      "time": "11:16:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,360.00"
+    },
+    {
+      "time": "11:16:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,360 | Unrealized: +135pts (Rs.+135)"
+    },
+    {
+      "time": "11:21:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,360.00"
+    },
+    {
+      "time": "11:21:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,360 | Unrealized: +135pts (Rs.+135)"
+    },
+    {
+      "time": "11:26:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,395.00"
+    },
+    {
+      "time": "11:26:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,395 | Unrealized: +100pts (Rs.+100)"
+    },
+    {
+      "time": "11:31:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,405.00"
+    },
+    {
+      "time": "11:31:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,405 | Unrealized: +90pts (Rs.+90)"
+    },
+    {
+      "time": "11:36:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,400.00"
+    },
+    {
+      "time": "11:36:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,400 | Unrealized: +95pts (Rs.+95)"
+    },
+    {
+      "time": "11:41:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,400.00"
+    },
+    {
+      "time": "11:41:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,400 | Unrealized: +95pts (Rs.+95)"
+    },
+    {
+      "time": "11:46:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,420.00"
+    },
+    {
+      "time": "11:46:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,420 | Unrealized: +75pts (Rs.+75)"
+    },
+    {
+      "time": "11:51:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,450.00"
+    },
+    {
+      "time": "11:51:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,450 | Unrealized: +45pts (Rs.+45)"
+    },
+    {
+      "time": "11:56:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,415.00"
+    },
+    {
+      "time": "11:56:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,415 | Unrealized: +80pts (Rs.+80)"
+    },
+    {
+      "time": "12:01:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,360.00"
+    },
+    {
+      "time": "12:01:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,360 | Unrealized: +135pts (Rs.+135)"
+    },
+    {
+      "time": "12:06:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning SHREECEM | LTP: 24,400.00"
+    },
+    {
+      "time": "12:06:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT SHREECEM | Entry: 24,495 | LTP: 24,400 | Unrealized: +95pts (Rs.+95)"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260528_092455",
+      "date": "2026-05-28",
+      "time": "09:24:55",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_093501",
+      "date": "2026-05-28",
+      "time": "09:35:01",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_094504",
+      "date": "2026-05-28",
+      "time": "09:45:04",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_095506",
+      "date": "2026-05-28",
+      "time": "09:55:06",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_100509",
+      "date": "2026-05-28",
+      "time": "10:05:09",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_101513",
+      "date": "2026-05-28",
+      "time": "10:15:13",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_102517",
+      "date": "2026-05-28",
+      "time": "10:25:17",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_103524",
+      "date": "2026-05-28",
+      "time": "10:35:24",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_104528",
+      "date": "2026-05-28",
+      "time": "10:45:28",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_105530",
+      "date": "2026-05-28",
+      "time": "10:55:30",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_110533",
+      "date": "2026-05-28",
+      "time": "11:05:33",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_111536",
+      "date": "2026-05-28",
+      "time": "11:15:36",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_112539",
+      "date": "2026-05-28",
+      "time": "11:25:39",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_113542",
+      "date": "2026-05-28",
+      "time": "11:35:42",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_114545",
+      "date": "2026-05-28",
+      "time": "11:45:45",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_115550",
+      "date": "2026-05-28",
+      "time": "11:55:50",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_120552",
+      "date": "2026-05-28",
+      "time": "12:05:52",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_121555",
+      "date": "2026-05-28",
+      "time": "12:15:55",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_122600",
+      "date": "2026-05-28",
+      "time": "12:26:00",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_123602",
+      "date": "2026-05-28",
+      "time": "12:36:02",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_124605",
+      "date": "2026-05-28",
+      "time": "12:46:05",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_125609",
+      "date": "2026-05-28",
+      "time": "12:56:09",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_130611",
+      "date": "2026-05-28",
+      "time": "13:06:11",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_131614",
+      "date": "2026-05-28",
+      "time": "13:16:14",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_132619",
+      "date": "2026-05-28",
+      "time": "13:26:19",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260528_133621",
+      "date": "2026-05-28",
+      "time": "13:36:21",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25365.0,
+      "target": 26055.0,
+      "stop_loss": 25365.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25365.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260529_092507",
+      "date": "2026-05-29",
+      "time": "09:25:07",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 25430.0,
+      "target": 25810.0,
+      "stop_loss": 25370.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25340.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -90.0,
+      "pnl_rs": -90.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260602_121635",
+      "date": "2026-06-02",
+      "time": "12:16:35",
+      "strategy": "5EMA",
+      "instrument": "SHREECEM",
+      "direction": "LONG",
+      "entry": 24745.0,
+      "target": 25165.0,
+      "stop_loss": 24645.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 25180.0,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 435.0,
+      "pnl_rs": 435.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_092214",
+      "date": "2026-06-03",
+      "time": "09:22:14",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "SHREECEM",
+      "direction": "SHORT",
+      "entry": 24730.0,
+      "target": 24415.0,
+      "stop_loss": 25040.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 24500.0,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 230.0,
+      "pnl_rs": 230.0,
+      "paper": true
+    }
+  ],
+  "open_trade": {
+    "id": "POS_20260605_092235",
+    "date": "2026-06-05",
+    "time": "09:22:35",
+    "strategy": "PREMARKET_BREAK",
+    "instrument": "SHREECEM",
+    "direction": "SHORT",
+    "entry": 24495.0,
+    "target": 24035.0,
+    "stop_loss": 24680.0,
+    "qty": 1,
+    "status": "OPEN",
+    "exit_price": 0.0,
+    "exit_reason": "",
+    "pnl_pts": 0.0,
+    "pnl_rs": 0.0,
+    "paper": true
+  },
+  "date": "2026-06-05"
+}

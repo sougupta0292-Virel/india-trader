@@ -1,0 +1,25 @@
+{
+  "status": "RUNNING",
+  "trades_today": 0,
+  "total_trades": 0,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:16",
+  "last_signal": "\u2014",
+  "last_action": "\u2014",
+  "log": [
+    {
+      "time": "01:45:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours \u2014 waiting"
+    },
+    {
+      "time": "01:45:16",
+      "level": "INFO",
+      "message": "Options bot STARTED | SENSEX 1H"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-22"
+}

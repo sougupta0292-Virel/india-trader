@@ -1,0 +1,2464 @@
+"""
+India Trader v3 — Replica of US Stocks Bot
+White/Blue theme · Angel One · NSE/BSE · Nifty · BankNifty · Sensex
+"""
+import sys, os
+sys.path.insert(0, os.path.dirname(__file__))
+import json, glob as _glob_mod
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+from datetime import datetime, date, time, timezone, timedelta
+from collections import defaultdict
+
+# ── Backend imports ────────────────────────────────────────────────────────────
+try:
+    from strategy_engine import GlobalCuesEngine, OIAnalyser, FibonacciEngine, SignalGenerator
+    STRATEGY_ENGINE_OK = True
+except Exception:
+    STRATEGY_ENGINE_OK = False
+
+try:
+    from backtester import Backtester, FibOIBacktester, IntraHunterBacktester, PerIndexBacktester, SubasishBacktester, IntraDay5MinBacktester, BtResult
+    BT_OK = True
+except Exception:
+    BT_OK = False
+
+try:
+    from india_all_strategies_engine import (
+        MultiTFScanner, MultiTFBacktester,
+        TF_STRATEGIES, STRATEGY_DESCRIPTIONS, INDEX_UNIVERSE,
+        StratBtResult, StratTrade
+    )
+    MULTI_TF_OK = True
+except Exception as _mte:
+    MULTI_TF_OK = False
+    TF_STRATEGIES = {"5M": [], "15M": [], "1H": [], "4H": []}
+    STRATEGY_DESCRIPTIONS = {}
+
+try:
+    from pos_auto_trader import POSAutoTrader, POSState, POSTrade
+    POS_OK = True
+except Exception:
+    POS_OK = False
+
+try:
+    from options_auto_trader import OptionsAutoTrader, OptionsState, OptionTrade
+    OPT_OK = True
+except Exception:
+    OPT_OK = False
+
+try:
+    from angel_one import AngelOneClient
+    ANGEL_OK = True
+except Exception:
+    ANGEL_OK = True
+    class AngelOneClient:
+        def __init__(self, **kw): pass
+        def connect(self): return False, "pip install smartapi-python pyotp"
+        def get_funds(self): return {}
+        def get_quote(self, s): return {}
+        def get_option_chain(self, s): return {}
+
+try:
+    from vwap_cpr import CPRCalculator, VWAPCalculator
+    VWAP_OK = True
+except Exception:
+    VWAP_OK = False
+
+_IST = timezone(timedelta(hours=5, minutes=30))
+_APP_DIR = os.path.dirname(os.path.abspath(__file__))
+_RESULTS_DIR = os.path.join(_APP_DIR, "results")
+
+# ── NSE instruments ────────────────────────────────────────────────────────────
+NSE_INDICES   = ["NIFTY", "BANKNIFTY", "SENSEX"]
+NSE_LOT_SIZE  = {"NIFTY": 75, "BANKNIFTY": 35, "SENSEX": 20}
+NSE_YF_MAP    = {"NIFTY": "^NSEI", "BANKNIFTY": "^NSEBANK", "SENSEX": "^BSESN", "INDIAVIX": "^INDIAVIX"}
+NSE_TOP_STOCKS = [
+    "RELIANCE","TCS","INFY","HDFCBANK","ICICIBANK","SBIN","WIPRO","BHARTIARTL",
+    "ITC","KOTAKBANK","LT","AXISBANK","BAJFINANCE","HINDUNILVR","MARUTI",
+    "SUNPHARMA","TECHM","ASIANPAINT","TITAN","ULTRACEMCO",
+    "ONGC","POWERGRID","NTPC","COALINDIA","BAJAJFINSV","ADANIPORTS","GRASIM",
+    "M&M","HCLTECH","TATAMOTORS","TATASTEEL","JSWSTEEL","INDUSINDBK","HINDALCO",
+    "DRREDDY","CIPLA","DIVISLAB","EICHERMOT","HEROMOTOCO","APOLLOHOSP",
+    "BRITANNIA","NESTLEIND","TATACONSUM","BPCL","LTIM","HDFCLIFE","SBILIFE",
+    "BAJAJ-AUTO","UPL","ADANIENT"
+]
+# Add .NS suffix mapping for yfinance
+for _s in NSE_TOP_STOCKS:
+    if _s not in NSE_YF_MAP:
+        NSE_YF_MAP[_s] = _s + ".NS"
+TV_MAP = {"NIFTY": "NSE:NIFTY", "BANKNIFTY": "NSE:BANKNIFTY", "SENSEX": "BSE:SENSEX"}
+
+# ── Page config ────────────────────────────────────────────────────────────────
+st.set_page_config(page_title="India Trader v3", page_icon="🇮🇳", layout="wide", initial_sidebar_state="expanded")
+
+# ── White/Blue theme (same as US app) ─────────────────────────────────────────
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;600;700&display=swap');
+html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+.stApp { background-color: #f0f6ff; color: #1e293b; }
+.main .block-container { padding: 1.2rem 2rem; max-width: 1500px; }
+[data-testid="stSidebar"] { background: #e8efff; border-right: 2px solid #c5d5f0; }
+[data-testid="stSidebar"] .block-container { padding: 1rem; }
+[data-testid="stSidebar"] * { color: #1e293b !important; }
+.stTabs [data-baseweb="tab-list"] { background: #dde9ff; border-radius: 10px; padding: 4px; gap: 4px; }
+.stTabs [data-baseweb="tab"] { color: #5a72a0; font-family:'JetBrains Mono'; font-size:12px; border-radius:8px; padding:6px 14px; }
+.stTabs [aria-selected="true"] { color:#1d4ed8 !important; background:#ffffff; font-weight:700; }
+.stButton > button { font-family:'JetBrains Mono'; border-radius:8px; color:#1e293b; }
+.stButton > button[kind="primary"] { background: linear-gradient(135deg,#1d4ed8,#3b82f6); border:none; color:#fff !important; font-weight:700; }
+div[data-testid="stMetricValue"] { font-family:'JetBrains Mono'; color:#1e293b; }
+.mcard { background:#ffffff; border:1px solid #dde9ff; border-radius:10px; padding:14px; box-shadow:0 2px 8px rgba(29,78,216,0.08); }
+.mlbl  { color:#5a72a0; font-size:10px; letter-spacing:1.5px; text-transform:uppercase; font-family:'JetBrains Mono'; }
+.mval  { font-size:22px; font-weight:700; font-family:'JetBrains Mono'; color:#1e293b; margin-top:4px; }
+div.stAlert { border-radius:8px; }
+hr { border-color:#e0e9ff !important; }
+.stMarkdown p { color:#1e293b; }
+input, textarea, select { background:#ffffff !important; color:#1e293b !important; border:1px solid #c5d5f0 !important; }
+</style>
+""", unsafe_allow_html=True)
+
+# ── Load env ───────────────────────────────────────────────────────────────────
+def _load_env():
+    for name in ['.env', '.env.txt']:
+        ep = os.path.join(_APP_DIR, name)
+        if os.path.exists(ep):
+            with open(ep) as f:
+                for line in f:
+                    line = line.strip()
+                    if line and '=' in line and not line.startswith('#'):
+                        k, _, v = line.partition('=')
+                        os.environ[k.strip()] = v.strip()
+_load_env()
+
+# ── Session state ──────────────────────────────────────────────────────────────
+_SS_DEFAULTS = {
+    'angel_client': None, 'angel_connected': False, 'angel_funds': {},
+    'spot': 0.0, 'prev_high': 0.0, 'prev_low': 0.0, 'prev_close': 24480.0,
+    'day_high': 0.0, 'day_low': 0.0,
+    'global_bias': 'NEUTRAL', 'global_score': 5.0,
+    'oi_df': None, 'oi_signal': None, 'oi_source': 'Simulated',
+    'cpr': None, 'vwap': None, 'signal': None, 'cues': None,
+    'pos_trader': None, 'pos_state': None,
+    'opt_trader': None,
+    'bt_result_pos': None, 'bt_5min': {}, 'bt_per_index': {},
+    'ticker_prices': {},
+}
+for _k, _v in _SS_DEFAULTS.items():
+    if _k not in st.session_state:
+        st.session_state[_k] = _v
+
+# ── Helpers ────────────────────────────────────────────────────────────────────
+def _ist_now(): return datetime.now(_IST)
+def _market_open():
+    t = _ist_now().time()
+    return time(9, 15) <= t <= time(15, 30)
+
+def fetch_nse_live_data(symbol="NIFTY"):
+    import yfinance as yf
+    ticker = NSE_YF_MAP.get(symbol, "^NSEI")
+    try:
+        tk   = yf.Ticker(ticker)
+        hist = tk.history(period="5d", interval="1d")
+        if len(hist) >= 2:
+            prev = hist.iloc[-2]; curr = hist.iloc[-1]
+            return {
+                'spot':       round(float(curr['Close']), 2),
+                'prev_high':  round(float(prev['High']), 2),
+                'prev_low':   round(float(prev['Low']), 2),
+                'prev_close': round(float(prev['Close']), 2),
+                'prev_open':  round(float(prev['Open']), 2),
+                'change_pct': round((float(curr['Close'])-float(prev['Close']))/float(prev['Close'])*100, 2),
+                'day_high':   round(float(curr['High']), 2),
+                'day_low':    round(float(curr['Low']), 2),
+            }
+    except Exception:
+        pass
+    return None
+
+@st.cache_data(ttl=60, show_spinner=False)
+def _fetch_nse_ticker_prices(symbols):
+    import yfinance as _yf
+    result = {}
+    for sym in symbols:
+        ticker = NSE_YF_MAP.get(sym, sym)
+        try:
+            fi = _yf.Ticker(ticker).fast_info
+            lp = float(fi.last_price or 0)
+            pc = float(fi.regular_market_previous_close or lp)
+            chg = ((lp - pc) / pc * 100) if pc > 0 else 0.0
+            result[sym] = (lp, chg)
+        except Exception:
+            result[sym] = (0.0, 0.0)
+    return result
+
+def _all_trades():
+    trades = []
+    for pf in sorted(_glob_mod.glob(os.path.join(_RESULTS_DIR, "trades_*.json"))):
+        try:
+            with open(pf, encoding='utf-8') as fh:
+                trades.extend(json.load(fh))
+        except Exception:
+            pass
+    return trades
+
+def _trade_entry(t):
+    return float(t.get('Entry ₹', t.get('entry_price', t.get('entry', 0))) or 0)
+
+def _trade_exit(t):
+    return float(t.get('Exit ₹', t.get('exit_price', t.get('exit', 0))) or 0)
+
+def _trade_net_pnl(t):
+    return float(t.get('Net PnL ₹', t.get('net_pnl', 0)) or 0)
+
+def _trade_charges(t):
+    return float(t.get('Charges ₹', t.get('charges', 0)) or 0)
+
+def _trade_gross_pnl(t):
+    return _trade_net_pnl(t) + _trade_charges(t)
+
+def _trade_pnl_pct(t):
+    return float(t.get('PnL %', t.get('pnl_pct', 0)) or 0)
+
+def _trade_tf(t):
+    seg = t.get('Segment', '')
+    for tf in ['4h','1h','15m','5m','4H','1H','15M','5M']:
+        if tf.lower() in seg.lower():
+            return tf.upper().replace('M','m').replace('H','h')
+    return t.get('tf', t.get('timeframe', '5m'))
+
+def _tv_link(sym):
+    mapped = TV_MAP.get(sym, f"NSE:{sym}")
+    tf_int = "5"
+    return f"https://www.tradingview.com/chart/?symbol={mapped}&interval={tf_int}"
+
+def _india_charges_estimate(seg, qty, entry):
+    """Estimate India charges if not already in trade record."""
+    seg_lo = (seg or '').lower()
+    broker = 20.0  # flat ₹20 per side (Angel One)
+    if 'opt' in seg_lo:
+        # Options: ₹20 × 2 + STT 0.05% of sell premium + exchange charges
+        return round(broker * 2 + entry * qty * 0.0005 + entry * qty * 0.0005, 2)
+    elif 'fut' in seg_lo:
+        # Futures: ₹20 × 2 + STT 0.01% sell side + exchange 0.002%
+        notional = entry * qty
+        return round(broker * 2 + notional * 0.0001 + notional * 0.00002, 2)
+    else:
+        # Equity intraday: ₹20 × 2 + STT 0.025% sell
+        return round(broker * 2 + entry * qty * 0.00025, 2)
+
+# ── Strategy map for banners ───────────────────────────────────────────────────
+_IND_SM = {
+    "Equity": {
+        "5m":  ["PPT Fibonacci","PPT Gap Fill","PPT Tail Rev","9/20 EMA Pullback",
+                "5 EMA Cross","VWAP Reclaim","Round Number","Gap and Go","ORB Breakout"],
+        "15m": ["Bull Flag","Bear Flag","Ascending Triangle","Double Bottom","Double Top",
+                "Head & Shoulders","Cup & Handle","PPT Fibonacci","PPT Gap Fill",
+                "9/20 EMA Pullback","VWAP CPR","RSI Divergence","Bollinger Squeeze","Inside Candle"],
+        "1h":  ["Trend Following","Mean Reversion","Breakout Momentum","Momentum Swing","Swing High/Low",
+                "PPT Fibonacci","VWAP CPR","EMA Stack","RSI Divergence","MACD Histogram",
+                "Bollinger Bands","Volume Surge","Support Bounce","Earnings Momentum",
+                "Fabio Daily","Supertrend Signal","Volume Profile POC","AI Narrative","Relative Strength","MA Crossover","Mean Reversion"],
+        "4h":  ["Trend Following","Mean Reversion","Breakout Momentum","Momentum Swing","Swing High/Low",
+                "PPT Fibonacci","VWAP CPR","EMA Stack","RSI Divergence","MACD Histogram",
+                "Bollinger Bands","Volume Surge","Support Bounce","Fabio Daily",
+                "Supertrend Signal","Volume Profile POC","AI Narrative","Relative Strength","MA Crossover","Inside Day","Mean Reversion"],
+    },
+    "Options": {
+        "5m":  ["ATM Call Momentum","ATM Put Momentum","ORB Option Play","VWAP CE/PE"],
+        "15m": ["Bull Call Spread","Bear Put Spread","Vertical Credit Spread",
+                "Synthetic Long","Gamma Scalp","Calendar Spread"],
+        "1h":  ["Iron Condor","Iron Butterfly","Long Butterfly","Broken Wing Butterfly",
+                "Long Straddle","Short Straddle","Long Strangle","Short Strangle",
+                "Jade Lizard","Bull Call Spread","Bear Put Spread","Collar Strategy",
+                "Protective Put","Ratio Spread","Risk Reversal","LEAPS Bull Call","Wheel Strategy"],
+        "4h":  ["Iron Condor","Iron Butterfly","Short Straddle","Short Strangle",
+                "Jade Lizard","Covered Call","Cash Secured Put","Calendar Spread",
+                "Diagonal Spread","Put Skew Trade","Wheel Strategy","Poor Man Covered Call",
+                "Risk Reversal","Broken Wing Butterfly","Long Butterfly","LEAPS Bull Call","Ratio Spread"],
+    },
+    "Futures": {
+        "5m":  ["ORB Nifty","Gift Nifty Break","Nifty Momentum Scalp","PPT Fibonacci",
+                "VWAP Reclaim","Gap Fill","Reversal at VWAP","RTH Open Drive"],
+        "15m": ["ORB 15M","EMA Pullback","Bollinger Squeeze","VWAP CPR","Inside Candle",
+                "Nifty Gap Fill","Lunch Hour Fade","Power Hour Breakout",
+                "BankNifty Momentum","Sensex Divergence","Cumulative Delta Divergence"],
+        "1h":  ["EMA Trend","Momentum Swing","RSI Divergence","Breakout Momentum",
+                "Market Profile TPO","Nifty 50 EMA","BankNifty Relative Strength",
+                "Volume Node Rejection","Fibonacci Cluster","Nifty Trend Follow","India VIX Reversal"],
+        "4h":  ["Swing EMA","Fib Swing","RSI Reversal","Trend Continuation","Nifty Inside Day",
+                "MNF/MBNF Swing","FII DII Flow","India VIX Spike","Budget Event Play",
+                "Volume Profile TPO","Fibonacci Cluster"],
+    },
+}
+
+def _make_tf_banner(segment, color=None, label=None):
+    _colors = {"Equity":"#16a34a","Options":"#d97706","Futures":"#7c3aed","Stocks":"#1d4ed8"}
+    if color is None: color = _colors.get(segment, "#1d4ed8")
+    if label is None: label = segment
+    sm = _IND_SM.get(segment, {})
+    _tf_labels = {"5m":"5-Min (Scalp)","15m":"15-Min (Intraday)","1h":"1-Hour (Swing)","4h":"4-Hour (Position)"}
+    _tf_bg     = {"5m":"#fef9c3","15m":"#fde68a","1h":"#fcd34d","4h":"#f59e0b"}
+    cells = ""
+    for _btf in ["5m","15m","1h","4h"]:
+        _strats = sm.get(_btf, [])
+        _cnt = len(_strats)
+        if _cnt == 0: continue
+        _chips = "".join(
+            f'<span style="background:#fff8;color:{color};border:1px solid {color}44;'
+            f'padding:1px 6px;border-radius:8px;margin:1px 2px;font-size:9px">{_s}</span>'
+            for _s in _strats[:6]
+        )
+        if _cnt > 6:
+            _chips += (f'<span style="background:{color}22;color:{color};'
+                       f'padding:1px 6px;border-radius:8px;margin:1px 2px;font-size:9px">'
+                       f'+{_cnt-6} more</span>')
+        cells += (
+            f'<div style="flex:1;background:{_tf_bg[_btf]}20;border:1px solid {color}33;'
+            f'border-radius:6px;padding:6px 8px;min-width:0">'
+            f'<div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">'
+            f'<span style="background:{color};color:#fff;padding:1px 8px;border-radius:10px;'
+            f'font-size:10px;font-weight:700">{_cnt}</span>'
+            f'<span style="font-size:9px;font-weight:700;color:{color}">{_tf_labels[_btf]}</span>'
+            f'</div><div style="display:flex;flex-wrap:wrap;gap:2px">{_chips}</div></div>'
+        )
+    return (
+        f'<div style="background:linear-gradient(135deg,{color}11,{color}22);'
+        f'border:2px solid {color}55;border-radius:10px;padding:10px 12px;'
+        f'margin-bottom:12px;font-family:JetBrains Mono">'
+        f'<div style="font-size:11px;font-weight:700;color:{color};margin-bottom:8px">'
+        f'{label} — Strategies active across all timeframes</div>'
+        f'<div style="display:flex;gap:8px;flex-wrap:wrap">{cells}</div></div>'
+    )
+
+
+# ── 16-column P&L table renderer ───────────────────────────────────────────────
+def _render_pnl_table(trades, key_prefix="ind"):
+    if not trades:
+        st.info("No trades to display.")
+        return
+    _sorted = sorted(trades, key=lambda t: (t.get('Date',''), t.get('Entry Time','')), reverse=True)
+    rows_html = ""
+    for t in _sorted[:500]:
+        net   = _trade_net_pnl(t)
+        gross = _trade_gross_pnl(t)
+        chg   = _trade_charges(t)
+        pct   = _trade_pnl_pct(t)
+        ent   = _trade_entry(t)
+        ext   = _trade_exit(t)
+        sym   = t.get('Symbol', '—')
+        seg   = t.get('Segment', '—')
+        tf    = _trade_tf(t)
+        d     = t.get('Direction', '—')
+        strat = t.get('Strategy', '—')
+        reason= t.get('Exit Reason', '—')
+        entry_t = t.get('Entry Time', '—')
+        exit_t  = t.get('Exit Time', '—')
+        date_s  = t.get('Date', '—')
+        tv_url  = _tv_link(sym)
+        win = net >= 0
+        bg  = "#f0fdf4" if win else "#fff1f2"
+        nc  = "#166534" if win else "#991b1b"
+        dc  = "#1d4ed8" if d == "LONG" else "#dc2626"
+        try: date_lbl = datetime.strptime(date_s, '%Y-%m-%d').strftime('%d %b')
+        except: date_lbl = date_s
+        rows_html += (
+            f'<tr style="background:{bg};border-bottom:1px solid #e0e9ff;font-size:10px">'
+            f'<td style="padding:5px 8px;color:#1e293b;white-space:nowrap;font-weight:600">{date_lbl}</td>'
+            f'<td style="padding:5px 8px;color:#5a72a0">{entry_t}</td>'
+            f'<td style="padding:5px 8px;color:#5a72a0">{exit_t}</td>'
+            f'<td style="padding:5px 8px;color:#1d4ed8;font-weight:700">{sym}</td>'
+            f'<td style="padding:5px 8px;color:#5a72a0">{seg}</td>'
+            f'<td style="padding:5px 8px;color:#5a72a0">{tf}</td>'
+            f'<td style="padding:5px 8px;color:{dc};font-weight:700">{d}</td>'
+            f'<td style="padding:5px 8px;color:#1e293b">{strat}</td>'
+            f'<td style="padding:5px 8px;font-family:JetBrains Mono">{"₹{:,.0f}".format(ent) if ent else "—"}</td>'
+            f'<td style="padding:5px 8px;font-family:JetBrains Mono">{"₹{:,.0f}".format(ext) if ext else "—"}</td>'
+            f'<td style="padding:5px 8px;color:{nc};font-weight:600">{pct:+.2f}%</td>'
+            f'<td style="padding:5px 8px;color:{nc};font-weight:600">₹{gross:+,.0f}</td>'
+            f'<td style="padding:5px 8px;color:#64748b">₹{chg:,.0f}</td>'
+            f'<td style="padding:5px 8px;color:{nc};font-weight:800;font-size:11px">₹{net:+,.0f}</td>'
+            f'<td style="padding:5px 8px;color:#5a72a0;font-size:9px">{reason}</td>'
+            f'<td style="padding:5px 8px"><a href="{tv_url}" target="_blank" style="color:#1d4ed8;font-size:9px;text-decoration:none">📈 TV</a></td>'
+            f'</tr>'
+        )
+    st.markdown(
+        '<div style="overflow-x:auto">'
+        '<table style="width:100%;border-collapse:collapse;font-family:JetBrains Mono">'
+        '<thead><tr style="background:#dde9ff;border-bottom:2px solid #1d4ed8">'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px;white-space:nowrap">DATE</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px;white-space:nowrap">ENTRY</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px;white-space:nowrap">EXIT</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">SYMBOL</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">SEGMENT</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">TF</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">DIR</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">STRATEGY</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">ENTRY ₹</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">EXIT ₹</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">PNL%</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">GROSS ₹</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">CHARGES</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px;font-weight:800">NET P/L</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">EXIT REASON</th>'
+        '<th style="padding:6px 8px;color:#1d4ed8;text-align:left;font-size:10px">CHART</th>'
+        '</tr></thead><tbody>' + rows_html + '</tbody></table></div>',
+        unsafe_allow_html=True)
+
+def _render_daily_summary(trades, key_prefix="ind_ds"):
+    if not trades:
+        st.info("No trades to summarise.")
+        return
+    daily = defaultdict(lambda: {"trades":0,"invested":0.0,"gross":0.0,"charges":0.0,"net":0.0})
+    for t in trades:
+        d    = t.get('Date','-')
+        ent  = _trade_entry(t)
+        net  = _trade_net_pnl(t)
+        chg  = _trade_charges(t)
+        gross= _trade_gross_pnl(t)
+        seg  = t.get('Segment','')
+        seg_lo = seg.lower()
+        qty  = float(t.get('qty', t.get('lot_size', NSE_LOT_SIZE.get(t.get('Symbol','NIFTY'), 75))) or 75)
+        inv  = ent * qty
+        daily[d]["trades"]   += 1
+        daily[d]["invested"] += inv
+        daily[d]["gross"]    += gross
+        daily[d]["charges"]  += chg
+        daily[d]["net"]      += net
+
+    sorted_days = sorted(daily.items(), key=lambda x: x[0], reverse=True)
+    gt_inv  = sum(v["invested"] for v in daily.values())
+    gt_net  = sum(v["net"]      for v in daily.values())
+    gt_chg  = sum(v["charges"]  for v in daily.values())
+    gt_ret  = (gt_net / gt_inv * 100) if gt_inv > 0 else 0.0
+    gt_gross= sum(v["gross"]    for v in daily.values())
+
+    st.markdown(
+        f'<div style="background:#fef9c3;border:2px solid #eab308;border-radius:8px;'
+        f'padding:10px 16px;margin-bottom:10px;font-family:JetBrains Mono;'
+        f'display:flex;gap:24px;flex-wrap:wrap">'
+        f'<div><div style="font-size:9px;color:#78350f;font-weight:700">TOTAL INVESTED</div>'
+        f'<div style="font-size:20px;font-weight:700;color:#1e293b">₹{gt_inv:,.0f}</div></div>'
+        f'<div><div style="font-size:9px;color:#78350f;font-weight:700">GROSS P&L</div>'
+        f'<div style="font-size:20px;font-weight:700;color:{"#166534" if gt_gross>=0 else "#991b1b"}">₹{gt_gross:+,.0f}</div></div>'
+        f'<div><div style="font-size:9px;color:#78350f;font-weight:700">TOTAL CHARGES</div>'
+        f'<div style="font-size:20px;font-weight:700;color:#64748b">₹{gt_chg:,.0f}</div></div>'
+        f'<div><div style="font-size:9px;color:#78350f;font-weight:700">NET P&L</div>'
+        f'<div style="font-size:20px;font-weight:700;color:{"#166534" if gt_net>=0 else "#991b1b"}">₹{gt_net:+,.0f}</div></div>'
+        f'<div><div style="font-size:9px;color:#78350f;font-weight:700">NET RETURN</div>'
+        f'<div style="font-size:20px;font-weight:700;color:{"#166534" if gt_ret>=0 else "#991b1b"}">{gt_ret:+.3f}%</div></div>'
+        f'</div>',
+        unsafe_allow_html=True)
+
+    rows_html = ""
+    for date_s, dv in sorted_days:
+        try: dlbl = datetime.strptime(date_s,'%Y-%m-%d').strftime('%d %b %Y')
+        except: dlbl = date_s
+        ret  = (dv["net"] / dv["invested"] * 100) if dv["invested"] > 0 else 0.0
+        win  = dv["net"] >= 0
+        rbg  = "#f0fdf4" if win else "#fff1f2"
+        rc   = "#166534" if win else "#991b1b"
+        rows_html += (
+            f'<tr style="background:{rbg};border-bottom:1px solid #fde68a">'
+            f'<td style="padding:6px 10px;font-weight:700;color:#78350f;white-space:nowrap">{dlbl}</td>'
+            f'<td style="padding:6px 10px;text-align:center;color:#1e293b">{dv["trades"]}</td>'
+            f'<td style="padding:6px 10px;color:#1d4ed8;font-weight:600">₹{dv["invested"]:,.0f}</td>'
+            f'<td style="padding:6px 10px;color:{rc};font-weight:600">₹{dv["gross"]:+,.0f}</td>'
+            f'<td style="padding:6px 10px;color:#64748b">₹{dv["charges"]:,.2f}</td>'
+            f'<td style="padding:6px 10px;color:{rc};font-weight:800;font-size:13px">₹{dv["net"]:+,.0f}</td>'
+            f'<td style="padding:6px 10px;color:{rc};font-weight:700">{ret:+.3f}%</td>'
+            f'</tr>'
+        )
+    st.markdown(
+        '<div style="overflow-x:auto">'
+        '<table style="width:100%;border-collapse:collapse;font-family:JetBrains Mono;font-size:11px">'
+        '<thead><tr style="background:#fef08a;border-bottom:2px solid #d97706">'
+        '<th style="padding:7px 10px;color:#78350f;text-align:left;font-size:10px">DATE</th>'
+        '<th style="padding:7px 10px;color:#78350f;text-align:center;font-size:10px">TRADES</th>'
+        '<th style="padding:7px 10px;color:#1d4ed8;text-align:left;font-size:10px">INVESTED ₹</th>'
+        '<th style="padding:7px 10px;color:#78350f;text-align:left;font-size:10px">GROSS P&L</th>'
+        '<th style="padding:7px 10px;color:#64748b;text-align:left;font-size:10px">CHARGES</th>'
+        '<th style="padding:7px 10px;color:#78350f;text-align:left;font-size:10px;font-weight:800">NET P/L</th>'
+        '<th style="padding:7px 10px;color:#78350f;text-align:left;font-size:10px">RETURN %</th>'
+        '</tr></thead><tbody>' + rows_html + '</tbody></table></div>',
+        unsafe_allow_html=True)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SIDEBAR — Angel One Connection
+# ─────────────────────────────────────────────────────────────────────────────
+with st.sidebar:
+    # ── Bot count for title badge ─────────────────────────────────────────────
+    _n_eq_bots  = len(st.session_state.get('ind_eq_bots',  {}))
+    _n_fut_bots = len(st.session_state.get('ind_fut_bots', {}))
+    _n_opt_bots = len(st.session_state.get('ind_opt_bots', {}))
+    _n_all_bots = _n_eq_bots + _n_fut_bots + _n_opt_bots
+
+    # ── Index ticker cards (Nifty / BankNifty / Sensex / VIX) ────────────────
+    _sb_idx_syms   = ["NIFTY","BANKNIFTY","SENSEX","INDIAVIX"]
+    _sb_idx_labels = {"NIFTY":"Nifty 50","BANKNIFTY":"Bank Nifty","SENSEX":"Sensex","INDIAVIX":"India VIX"}
+    _sb_idx_prices = _fetch_nse_ticker_prices(tuple(_sb_idx_syms))
+
+    _sb_idx_html = '<div style="display:flex;gap:6px;flex-wrap:nowrap;overflow-x:auto;padding:4px 0;margin-bottom:4px">'
+    for _si in _sb_idx_syms:
+        _sip, _sic = _sb_idx_prices.get(_si, (0.0, 0.0))
+        _sicc = "#16a34a" if _sic >= 0 else "#dc2626"
+        _sibg = "#f0fdf4" if _sic >= 0 else "#fff1f2"
+        _siarr = "+" if _sic >= 0 else ""
+        _silbl = _sb_idx_labels.get(_si, _si)
+        _sb_idx_html += (
+            f'<div style="background:{_sibg};border:1px solid {_sicc}44;border-radius:8px;'
+            f'padding:4px 8px;white-space:nowrap;font-family:JetBrains Mono;min-width:90px;flex-shrink:0">'
+            f'<div style="font-size:8px;color:#64748b;font-weight:600">{_silbl}</div>'
+            f'<div style="font-size:12px;font-weight:700;color:#1e293b">'
+            f'{"" if _sip == 0 else ("Rs{:,.0f}".format(_sip) if _si != "INDIAVIX" else "{:.2f}".format(_sip))}</div>'
+            f'<div style="font-size:9px;font-weight:700;color:{_sicc}">{_siarr}{_sic:.2f}%</div>'
+            f'</div>'
+        )
+    _sb_idx_html += '</div>'
+    st.markdown(_sb_idx_html, unsafe_allow_html=True)
+
+    # ── Scrolling marquee: SCANNING Nifty 50 ─────────────────────────────────
+    _sb_eq_prices  = _fetch_nse_ticker_prices(tuple(NSE_TOP_STOCKS))
+    _sb_mq_items   = []
+    for _smq in NSE_TOP_STOCKS:
+        _smqp, _smqc = _sb_eq_prices.get(_smq, (0.0, 0.0))
+        _smqcc = "#16a34a" if _smqc >= 0 else "#dc2626"
+        _smqarr = "+" if _smqc >= 0 else ""
+        _smqprice = "Rs{:,.0f}".format(_smqp) if _smqp > 0 else "--"
+        _sb_mq_items.append(
+            f'<span style="margin:0 14px;white-space:nowrap">'
+            f'<span style="color:#60a5fa;font-weight:700">{_smq}</span>'
+            f'&nbsp;<span style="color:#e2e8f0">{_smqprice}</span>'
+            f'&nbsp;<span style="color:{_smqcc};font-size:10px">{_smqarr}{_smqc:.2f}%</span>'
+            f'</span><span style="color:#475569;margin:0 2px">|</span>'
+        )
+    _sb_mq_content = ''.join(_sb_mq_items)
+    _sb_mq_full    = _sb_mq_content + _sb_mq_content
+    _sb_scroll_dur = max(60, len(NSE_TOP_STOCKS) * 3)
+    st.markdown(
+        f'<div style="background:#1e293b;border-radius:8px;padding:5px 10px;'
+        f'margin-bottom:8px;overflow:hidden">'
+        f'<div style="display:flex;align-items:center;gap:6px">'
+        f'<span style="background:#1d4ed8;color:#fff;font-size:8px;font-weight:700;'
+        f'padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0;'
+        f'font-family:JetBrains Mono">SCANNING {len(NSE_TOP_STOCKS)} STOCKS</span>'
+        f'<div style="overflow:hidden;flex:1">'
+        f'<div style="display:inline-flex;animation:marquee_sb {_sb_scroll_dur}s linear infinite;'
+        f'font-family:JetBrains Mono;font-size:10px">'
+        f'{_sb_mq_full}'
+        f'</div></div></div></div>'
+        f'<style>@keyframes marquee_sb{{0%{{transform:translateX(0)}}100%{{transform:translateX(-50%)}}}}</style>',
+        unsafe_allow_html=True)
+
+    # ── Heading + live badge ──────────────────────────────────────────────────
+    if _n_all_bots > 0:
+        _live_badge = f'  <span style="background:#16a34a;color:#fff;border-radius:10px;padding:2px 8px;font-size:11px"> {_n_all_bots} LIVE * RUNNING</span>'
+    else:
+        _live_badge = ""
+    st.markdown(f'<div style="color:#1d4ed8;font-size:20px;font-weight:700;font-family:JetBrains Mono">INDIA TRADER {_live_badge}</div>', unsafe_allow_html=True)
+    st.markdown('<div style="color:#64748b;font-size:11px;margin-bottom:8px">India Trader | PPT * EMA * Bollinger * VWAP * 4 Timeframes</div>', unsafe_allow_html=True)
+
+    # ── Market status ─────────────────────────────────────────────────────────
+    _ist_now2 = _ist_now()
+    _mkt_open = _market_open()
+    _ist_ts   = _ist_now2.strftime('%d %b %H:%M IST')
+    _mkt_c    = "#166534" if _mkt_open else "#d97706"
+    _mkt_lbl  = "MARKET OPEN" if _mkt_open else ("PRE-OPEN" if _ist_now2.time() < __import__('datetime').time(9,15) else "AFTER-HOURS")
+    st.markdown(
+        f'<div style="background:#ffffff;border:1px solid #dde9ff;border-radius:8px;'
+        f'padding:8px 12px;margin-bottom:10px;font-family:JetBrains Mono">'
+        f'<span style="color:{_mkt_c};font-size:12px;font-weight:700"> - {_mkt_lbl}</span>'
+        f'<span style="color:#64748b;font-size:10px;float:right">{_ist_ts}</span></div>',
+        unsafe_allow_html=True)
+
+    # ── Angel One connection ──────────────────────────────────────────────────
+    _ao_connected = st.session_state.angel_connected
+    _ao_c   = "#166534" if _ao_connected else "#dc2626"
+    _ao_lbl = "CONNECTED" if _ao_connected else "DISCONNECTED"
+    st.markdown(f'<div style="font-family:JetBrains Mono;font-size:11px;color:{_ao_c};margin-bottom:4px">Angel One: {_ao_lbl}</div>', unsafe_allow_html=True)
+
+    if not _ao_connected:
+        if st.button("Connect Angel One", type="primary", use_container_width=True):
+            try:
+                _c = AngelOneClient(
+                    api_key=os.getenv('ANGEL_API_KEY',''),
+                    client_id=os.getenv('ANGEL_CLIENT_ID',''),
+                    mpin=os.getenv('ANGEL_MPIN',''),
+                    totp_key=os.getenv('ANGEL_TOTP_KEY','')
+                )
+                _ok, _msg = _c.connect()
+                if _ok:
+                    st.session_state.angel_client    = _c
+                    st.session_state.angel_connected = True
+                    st.session_state.angel_funds     = _c.get_funds()
+                    st.success("Connected!")
+                    st.rerun()
+                else:
+                    st.error(f"Failed: {_msg}")
+            except Exception as _ae:
+                st.error(str(_ae))
+    else:
+        if st.button("Disconnect", use_container_width=True):
+            st.session_state.angel_client    = None
+            st.session_state.angel_connected = False
+            st.session_state.angel_funds     = {}
+            st.rerun()
+        _funds = st.session_state.angel_funds
+        if _funds:
+            st.markdown(f'<div style="font-family:JetBrains Mono;font-size:11px;color:#5a72a0">Available: Rs{float(_funds.get("availablecash",0)):,.0f}</div>', unsafe_allow_html=True)
+
+    # ── Bot status card ───────────────────────────────────────────────────────
+    if _n_all_bots > 0:
+        _eq_alive  = sum(1 for b in st.session_state.get('ind_eq_bots',{}).values()  if b is not None and getattr(b,'_running',False))
+        _fut_alive = sum(1 for b in st.session_state.get('ind_fut_bots',{}).values() if b is not None and getattr(b,'_running',False))
+        _opt_alive = sum(1 for b in st.session_state.get('ind_opt_bots',{}).values() if b is not None and getattr(b,'_running',False))
+        _total_alive = _eq_alive + _fut_alive + _opt_alive
+        st.markdown(
+            f'<div style="background:#f0fdf4;border:2px solid #16a34a;border-radius:10px;'
+            f'padding:10px 14px;margin-bottom:8px;font-family:JetBrains Mono;font-size:11px">'
+            f'<div style="font-size:13px;font-weight:700;color:#15803d"> LIVE AND RUNNING  *  {_total_alive} active threads</div>'
+            f'<div style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap">'
+            f'<span style="background:#dcfce7;color:#166534;padding:2px 8px;border-radius:8px;font-weight:700"> Equity: {_eq_alive} bots (5m + 15m)</span>'
+            f'<span style="background:#dcfce7;color:#166534;padding:2px 8px;border-radius:8px;font-weight:700"> Futures: {_fut_alive} bots (15m + 1h)</span>'
+            f'<span style="background:#dcfce7;color:#166534;padding:2px 8px;border-radius:8px;font-weight:700"> Options: {_opt_alive} bots</span>'
+            f'</div>'
+            f'<div style="margin-top:5px;color:#64748b;font-size:10px">Each bot = 1 symbol - 1 timeframe * scanning all enabled strategies every interval</div>'
+            f'</div>', unsafe_allow_html=True)
+    else:
+        st.markdown(
+            '<div style="background:#f8faff;border:2px solid #e2e8f0;border-radius:10px;'
+            'padding:10px 14px;margin-bottom:8px;font-family:JetBrains Mono;font-size:11px">'
+            '<div style="font-size:13px;font-weight:700;color:#dc2626"> NOT RUNNING</div>'
+            '<div style="color:#64748b;margin-top:4px">Click START below to launch all bots.</div>'
+            '<div style="color:#64748b;font-size:10px;margin-top:4px">Auto-starts at 9:15 AM IST if app is open</div>'
+            '</div>', unsafe_allow_html=True)
+
+    # ── ONE-CLICK START ───────────────────────────────────────────────────────
+    if st.button("- START - Connect & Run All India Bots", type="primary", use_container_width=True):
+        with st.spinner("Launching all India bots..."):
+            # Start equity bots (Nifty 50 stocks, 5m + 15m)
+            if POS_OK:
+                _ebd = dict(st.session_state.get('ind_eq_bots', {}))
+                for _esym in NSE_INDICES:
+                    for _etf in ["5M","15M"]:
+                        _ek = f"{_esym}_{_etf}"
+                        if _ek not in _ebd:
+                            try:
+                                _eb = POSAutoTrader(instrument=_esym, timeframe=_etf,
+                                    qty=NSE_LOT_SIZE.get(_esym,75),
+                                    paper_trade=st.session_state.get('sb_paper_mode',True))
+                                _eb.start(); _ebd[_ek] = _eb
+                            except Exception: pass
+                st.session_state.ind_eq_bots = _ebd
+                # Start futures bots (15m + 1h)
+                _fbd = dict(st.session_state.get('ind_fut_bots', {}))
+                for _fsym in NSE_INDICES:
+                    for _ftf in ["15M","1H"]:
+                        _fk = f"{_fsym}_FUT_{_ftf}"
+                        if _fk not in _fbd:
+                            try:
+                                _fb = POSAutoTrader(instrument=_fsym, timeframe=_ftf,
+                                    qty=NSE_LOT_SIZE.get(_fsym,75),
+                                    paper_trade=st.session_state.get('sb_paper_mode',True))
+                                _fb.start(); _fbd[_fk] = _fb
+                            except Exception: pass
+                st.session_state.ind_fut_bots = _fbd
+            _n_started = len(st.session_state.get('ind_eq_bots',{})) + len(st.session_state.get('ind_fut_bots',{}))
+            st.success(f"Done! {_n_started} bots started | Bias: {st.session_state.get('global_bias','NEUTRAL')}")
+            st.rerun()
+
+    # ── Trade Settings ────────────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("**(TM) Trade Settings**")
+    _sb_paper = st.toggle("Paper Trade Mode", value=True, key="sb_paper_mode")
+    _sb_paper_c   = "#d97706" if not _sb_paper else "#166534"
+    _sb_paper_lbl = "PAPER (simulated)" if _sb_paper else "LIVE (real orders via Angel One)"
+    st.markdown(f'<div style="font-family:JetBrains Mono;font-size:10px;color:{_sb_paper_c};margin-bottom:4px">{_sb_paper_lbl}</div>', unsafe_allow_html=True)
+    st.markdown('<div style="font-size:10px;color:#64748b;margin-top:-4px">Options always paper trade</div>', unsafe_allow_html=True)
+
+    # ── Active Timeframes ─────────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("** Active Timeframes**")
+    _all_ind_bots = {}
+    _all_ind_bots.update(st.session_state.get('ind_eq_bots',  {}))
+    _all_ind_bots.update(st.session_state.get('ind_fut_bots', {}))
+    _all_ind_bots.update(st.session_state.get('ind_opt_bots', {}))
+    _ind_tf_status = {
+        "5M":  any("_5M" in k for k in _all_ind_bots),
+        "15M": any("_15M" in k for k in _all_ind_bots),
+        "1H":  any("_1H" in k for k in _all_ind_bots),
+        "4H":  any("_4H" in k for k in _all_ind_bots),
+    }
+    _ind_tf_strats = {
+        "5M":  ["ORB Breakout","5 EMA Cross","VWAP Bounce","PPT Fibonacci","Gap Fill","Tail Reversal","VWAP Reclaim"],
+        "15M": ["ORB 15M","EMA Pullback","Bollinger Squeeze","Support Bounce","Inside Candle","VWAP CPR"],
+        "1H":  ["EMA Trend","Momentum Swing","RSI Divergence","Breakout Momentum","Mean Reversion"],
+        "4H":  ["Swing EMA","Fib Swing","RSI Reversal","Trend Continuation","Cup & Handle"],
+    }
+    _all_tf_running = all(_ind_tf_status.values())
+    if _all_tf_running:
+        st.markdown(
+            '<div style="background:#f0fdf4;border:1px solid #86efac;border-radius:6px;'
+            'padding:4px 10px;font-family:JetBrains Mono;font-size:10px;color:#15803d;'
+            'font-weight:700;text-align:center;margin-bottom:6px">ALL TIMEFRAMES RUNNING</div>',
+            unsafe_allow_html=True)
+    for _itfk, _itfon in _ind_tf_status.items():
+        _idotc = "#16a34a" if _itfon else "#dc2626"
+        _ilbl  = "RUNNING" if _itfon else "STOPPED"
+        _ibg   = "#f0fdf4" if _itfon else "#fff1f2"
+        _ibc   = "#86efac" if _itfon else "#fca5a5"
+        st.markdown(
+            f'<div style="background:{_ibg};border:1px solid {_ibc};border-radius:6px;'
+            f'padding:5px 10px;margin-bottom:3px;display:flex;justify-content:space-between;align-items:center">'
+            f'<span style="font-family:JetBrains Mono;font-size:12px;font-weight:700">'
+            f'<span style="color:{_idotc}">&#9679;</span> {_itfk}</span>'
+            f'<span style="font-size:10px;color:{_idotc};font-family:JetBrains Mono">{_ilbl}</span></div>',
+            unsafe_allow_html=True)
+        _isnames = _ind_tf_strats.get(_itfk, [])
+        st.markdown(
+            '<div style="font-size:9px;color:#64748b;font-family:JetBrains Mono;'
+            f'padding:1px 10px 4px 22px">{" * ".join(_isnames)}</div>',
+            unsafe_allow_html=True)
+
+    st.markdown("---")
+    if st.button("Refresh All Data", type="primary", use_container_width=True):
+        with st.spinner("Fetching NSE data..."):
+            for _sym in NSE_INDICES:
+                _ld = fetch_nse_live_data(_sym)
+                if _ld and _sym == "NIFTY":
+                    st.session_state.spot       = _ld['spot']
+                    st.session_state.prev_high  = _ld['prev_high']
+                    st.session_state.prev_low   = _ld['prev_low']
+                    st.session_state.prev_close = _ld['prev_close']
+                    st.session_state.day_high   = _ld.get('day_high', _ld['spot']*1.01)
+                    st.session_state.day_low    = _ld.get('day_low',  _ld['spot']*0.99)
+        if STRATEGY_ENGINE_OK:
+            try:
+                cues = GlobalCuesEngine.fetch_global_cues()
+                gb, gs, _ = GlobalCuesEngine.compute_global_bias(cues)
+                st.session_state.global_bias  = gb
+                st.session_state.global_score = gs
+                st.session_state.cues         = cues
+            except Exception: pass
+        st.success(f"Refreshed! Nifty: Rs{st.session_state.spot:,.0f}")
+        st.rerun()
+
+    # Auto-connect Angel One if market open and env keys set
+    if _mkt_open and not st.session_state.angel_connected and os.getenv('ANGEL_API_KEY'):
+        try:
+            _ac = AngelOneClient(
+                api_key=os.getenv('ANGEL_API_KEY',''),
+                client_id=os.getenv('ANGEL_CLIENT_ID',''),
+                mpin=os.getenv('ANGEL_MPIN',''),
+                totp_key=os.getenv('ANGEL_TOTP_KEY','')
+            )
+            _aok, _ = _ac.connect()
+            if _aok:
+                st.session_state.angel_client    = _ac
+                st.session_state.angel_connected = True
+                st.session_state.angel_funds     = _ac.get_funds()
+        except Exception: pass
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# MAIN TABS
+# ─────────────────────────────────────────────────────────────────────────────
+_tabs = st.tabs(["Signals", "Auto Trade", "All Strategies", "P&L Summary", "Settings"])
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 0 — SIGNALS
+# ═══════════════════════════════════════════════════════════════════════════════
+with _tabs[0]:
+    st.markdown(f'<div style="color:#1d4ed8;font-size:20px;font-weight:700;font-family:JetBrains Mono">India Signals</div>', unsafe_allow_html=True)
+    instrument = st.radio("Index", NSE_INDICES, horizontal=True, key="sig_instrument")
+
+    # Live index cards
+    _idx_prices = _fetch_nse_ticker_prices(tuple(NSE_INDICES))
+    _sc1, _sc2, _sc3 = st.columns(3)
+    for _scol, _ssym in zip([_sc1, _sc2, _sc3], NSE_INDICES):
+        _sp, _spc = _idx_prices.get(_ssym, (0.0, 0.0))
+        _scc = "#166534" if _spc >= 0 else "#991b1b"
+        _sbg = "#f0fdf4" if _spc >= 0 else "#fff1f2"
+        _lot = NSE_LOT_SIZE.get(_ssym, 75)
+        with _scol:
+            st.markdown(
+                f'<div class="mcard" style="text-align:center;border-color:{_scc}44">'
+                f'<div class="mlbl">{_ssym}</div>'
+                f'<div class="mval" style="color:#1d4ed8">{"₹{:,.2f}".format(_sp) if _sp else "—"}</div>'
+                f'<div style="color:{_scc};font-size:12px;font-weight:700;font-family:JetBrains Mono">{"+" if _spc>=0 else ""}{_spc:.2f}%</div>'
+                f'<div style="color:#5a72a0;font-size:9px;font-family:JetBrains Mono;margin-top:4px">Lot: {_lot} | <a href="{_tv_link(_ssym)}" target="_blank" style="color:#1d4ed8">TradingView</a></div>'
+                f'</div>',
+                unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    # Signal generator
+    if STRATEGY_ENGINE_OK:
+        _spot = st.session_state.spot
+        _ph   = st.session_state.prev_high
+        _pl   = st.session_state.prev_low
+        _pc2  = st.session_state.prev_close
+        _gb   = st.session_state.global_bias
+        _gs   = st.session_state.global_score
+
+        if _spot > 0 and _ph > 0:
+            try:
+                _sig = SignalGenerator.generate_signal(
+                    instrument=instrument,
+                    spot_price=_spot,
+                    prev_high=_ph, prev_low=_pl,
+                    first_candle={'open':_pc2,'high':st.session_state.day_high or _spot*1.01,
+                                  'low':st.session_state.day_low or _spot*0.99,'close':_spot,'volume':1000000},
+                    oi_signal=st.session_state.oi_signal,
+                    global_bias=_gb, global_score=_gs,
+                    vix=14.0, is_expiry=False
+                )
+                st.session_state.signal = _sig
+            except Exception: _sig = st.session_state.signal
+        else:
+            _sig = st.session_state.signal
+
+        if _sig:
+            _sig_c  = "#16a34a" if getattr(_sig,'direction','') == "LONG" else "#dc2626"
+            _sig_bg = "#f0fdf4" if getattr(_sig,'direction','') == "LONG" else "#fff1f2"
+            _sig_lbl= "LONG — BUY CALL" if getattr(_sig,'direction','') == "LONG" else "SHORT — BUY PUT"
+            st.markdown(
+                f'<div style="background:{_sig_bg};border:2px solid {_sig_c};border-radius:10px;'
+                f'padding:18px;font-family:JetBrains Mono;margin-bottom:10px">'
+                f'<div style="color:{_sig_c};font-size:18px;font-weight:700">{_sig_lbl} — {instrument}</div>'
+                f'<div style="color:#5a72a0;font-size:11px;margin-top:4px">'
+                f'Score: {getattr(_sig,"confluence_score",0)}/10 | Bias: {_gb} ({_gs:.1f})</div>'
+                f'<hr style="border-color:#e0e9ff;margin:10px 0">'
+                f'<div style="display:flex;gap:24px;flex-wrap:wrap">'
+                f'<div><div style="color:#5a72a0;font-size:9px">ENTRY</div><div style="font-size:16px;font-weight:700">₹{getattr(_sig,"entry_price",0):,.0f}</div></div>'
+                f'<div><div style="color:#5a72a0;font-size:9px">TARGET 1</div><div style="font-size:16px;font-weight:700;color:#166534">₹{getattr(_sig,"target_1",0):,.0f}</div></div>'
+                f'<div><div style="color:#5a72a0;font-size:9px">STOP LOSS</div><div style="font-size:16px;font-weight:700;color:#dc2626">₹{getattr(_sig,"stop_loss",0):,.0f}</div></div>'
+                f'</div>'
+                f'<div style="color:#5a72a0;font-size:11px;margin-top:8px">{getattr(_sig,"reason","")[:120]}</div>'
+                f'</div>',
+                unsafe_allow_html=True)
+        else:
+            st.info("No signal yet — click 'Refresh All Data' in the sidebar to fetch live data.")
+    else:
+        st.info("Strategy engine not available. Check strategy_engine.py.")
+
+    st.markdown("---")
+
+    # Global cues summary
+    _cues = st.session_state.get('cues')
+    _col_gc1, _col_gc2 = st.columns([2,1])
+    with _col_gc1:
+        st.markdown("**Global Cues**")
+        if _cues:
+            _cue_html = '<div style="display:flex;gap:8px;flex-wrap:wrap">'
+            for _cue_item in (_cues if isinstance(_cues, list) else []):
+                _name  = getattr(_cue_item,'name','') if hasattr(_cue_item,'name') else str(_cue_item)[:20]
+                _cv    = getattr(_cue_item,'value',None) or (dict(_cue_item).get('change_pct',0) if isinstance(_cue_item,dict) else 0)
+                try: _cv = float(_cv)
+                except: _cv = 0.0
+                _cc    = "#16a34a" if _cv >= 0 else "#dc2626"
+                _cbg   = "#f0fdf4" if _cv >= 0 else "#fff1f2"
+                _cue_html += (
+                    f'<div style="background:{_cbg};border:1px solid {_cc}44;border-radius:6px;padding:4px 10px;font-family:JetBrains Mono">'
+                    f'<div style="font-size:9px;color:#5a72a0">{_name}</div>'
+                    f'<div style="font-size:12px;font-weight:700;color:{_cc}">{"+" if _cv>=0 else ""}{_cv:.2f}%</div>'
+                    f'</div>'
+                )
+            _cue_html += '</div>'
+            st.markdown(_cue_html, unsafe_allow_html=True)
+        else:
+            st.caption("No cues data — click Refresh.")
+
+    with _col_gc2:
+        _gb2 = st.session_state.global_bias
+        _gs2 = st.session_state.global_score
+        _gbc = "#16a34a" if _gb2 == "BULLISH" else "#dc2626" if _gb2 == "BEARISH" else "#64748b"
+        st.markdown(
+            f'<div class="mcard" style="text-align:center;border-color:{_gbc}44">'
+            f'<div class="mlbl">Global Bias</div>'
+            f'<div style="font-size:18px;font-weight:700;color:{_gbc};font-family:JetBrains Mono">{_gb2}</div>'
+            f'<div style="font-size:12px;color:#5a72a0;font-family:JetBrains Mono">Score: {_gs2:.1f}/10</div>'
+            f'</div>',
+            unsafe_allow_html=True)
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 1 — AUTO TRADE
+# ═══════════════════════════════════════════════════════════════════════════════
+with _tabs[1]:
+    _at_tabs = st.tabs(["P&L Dashboard", "Futures (Nifty/BN/Sensex)", "Options (Nifty/BN/Sensex)", "Nifty 50 Stocks"])
+
+    # ── AT Sub-tab 0: P&L Dashboard ───────────────────────────────────────────
+    with _at_tabs[0]:
+        import glob as _dp_glob, io as _dp_io, csv as _dp_csv, os as _dp_os
+        from collections import defaultdict as _dp_dd
+
+        # ── Reports folder: auto-save ─────────────────────────────────────────
+        _REPORTS_DIR2 = _RESULTS_DIR
+        os.makedirs(_REPORTS_DIR2, exist_ok=True)
+
+        def _autosave_trades(trades):
+            if not trades: return
+            try:
+                _today2 = date.today().isoformat()
+                _jpath  = os.path.join(_REPORTS_DIR2, f"trades_{_today2}.json")
+                _cpath  = os.path.join(_REPORTS_DIR2, f"trades_{_today2}.csv")
+                with open(_jpath, 'w', encoding='utf-8') as _jf:
+                    import json as _jmod; _jmod.dump(trades, _jf, indent=2, ensure_ascii=False, default=str)
+                df_save = pd.DataFrame(trades)
+                df_save.to_csv(_cpath, index=False)
+            except Exception: pass
+
+        # ── Charge calculator (Angel One India) ───────────────────────────────
+        def _dp_ind_charges(seg, qty, entry_price, exit_price=0, symbol=''):
+            """
+            Angel One India charges — corrected formula including lot sizes.
+            Brokerage : Rs20 flat per executed order = Rs40 per trade (entry+exit)
+            STT       : Futures = 0.01% on sell turnover (lot-size adjusted)
+                        Options = 0.05% on sell premium
+                        Equity  = 0.025% on sell side (intraday)
+            NSE Trans : 0.00193% of total turnover (Futures/Options)
+                        0.00325% of total turnover (Equity)
+            SEBI      : 0.0001% of turnover
+            GST       : 18% on (brokerage + transaction + SEBI)
+            Stamp duty: 0.002% on buy-side (Equity) / 0.002% Futures / 0.003% Options
+            """
+            seg = str(seg).upper()
+            qty  = max(int(qty or 1), 1)
+            ep   = float(entry_price or 0)
+            xp   = float(exit_price or ep)
+
+            # Lot-size: always apply for known index symbols (qty = num lots for index, shares for equity)
+            _LOT = {"NIFTY":75,"BANKNIFTY":35,"SENSEX":20}
+            _sym_up = str(symbol).upper().replace(' ','')
+            _base_sym = _sym_up.replace('CE','').replace('PE','').rstrip('0123456789')
+            lot_size  = _LOT.get(_base_sym, _LOT.get(_sym_up, 1))
+            actual_qty = qty * lot_size  # index=lots*lot_size; equity lot_size=1
+
+            buy_to    = ep * actual_qty
+            sell_to   = xp * actual_qty
+            turnover  = buy_to + sell_to
+            brokerage = 40.0  # Rs20 × 2
+
+            if 'OPT' in seg or _sym_up.endswith('CE') or _sym_up.endswith('PE'):
+                stt       = sell_to * 0.0005                  # 0.05% sell premium
+                trans     = turnover * 0.00053                 # NSE Options: 0.053% of premium
+                sebi      = turnover * 0.000001
+                stamp     = buy_to  * 0.00003                  # 0.003% buy side
+                gst_base  = brokerage + trans + sebi
+                charges   = brokerage + stt + trans + sebi + stamp + gst_base * 0.18
+            elif 'FUT' in seg or 'FUTURE' in seg:
+                stt       = sell_to * 0.0001                   # 0.01% sell side
+                trans     = turnover * 0.0000193               # NSE Futures transaction
+                sebi      = turnover * 0.000001
+                stamp     = buy_to  * 0.00002                  # 0.002% buy side
+                gst_base  = brokerage + trans + sebi
+                charges   = brokerage + stt + trans + sebi + stamp + gst_base * 0.18
+            else:
+                # Equity intraday delivery
+                stt       = sell_to * 0.00025                  # 0.025% sell (intraday)
+                trans     = turnover * 0.0000325               # NSE Equity transaction
+                sebi      = turnover * 0.000001
+                stamp     = buy_to  * 0.00015                  # 0.015% buy side
+                gst_base  = brokerage + trans + sebi
+                charges   = brokerage + stt + trans + sebi + stamp + gst_base * 0.18
+            return round(charges, 2)
+
+        def _dp_get_charges(t):
+            """Use stored charge if reasonable, else recalculate with lot-size-aware formula."""
+            stored = float(t.get('Charges Rs', t.get('Charges ₹', t.get('charges', -1))) or -1)
+            seg = t.get('Segment', t.get('segment', 'Equity'))
+            sym = t.get('Symbol', t.get('symbol', ''))
+            qty = float(t.get('Qty', t.get('qty', t.get('contracts', 1))) or 1)
+            ep  = _trade_entry(t)
+            xp  = _trade_exit(t)
+            calc = _dp_ind_charges(seg, qty, ep, xp, symbol=sym)
+            # Accept stored only if non-zero and within 10x of calculated (sanity check)
+            if stored > 0 and stored < calc * 10:
+                return stored
+            return calc
+
+        def _dp_get_net(t):
+            gross = _trade_gross_pnl(t)
+            chg   = _dp_get_charges(t)
+            stored_net = float(t.get('Net PnL Rs', t.get('Net PnL ₹', t.get('net_pnl', None)) or 0)  )
+            # Recalculate net = gross - correct charges
+            return round(gross - chg, 2)
+
+        def _dp_get_invested(t):
+            seg = str(t.get('Segment', t.get('segment', 'Equity'))).upper()
+            qty = float(t.get('Qty', t.get('qty', t.get('contracts', 1))) or 1)
+            ep  = _trade_entry(t)
+            lot = 1
+            if 'NIFTY' in str(t.get('Symbol', t.get('symbol', ''))).upper() and 'BANK' not in str(t.get('Symbol', '')).upper():
+                lot = 75
+            elif 'BANKNIFTY' in str(t.get('Symbol', t.get('symbol', ''))).upper():
+                lot = 35
+            elif 'SENSEX' in str(t.get('Symbol', t.get('symbol', ''))).upper():
+                lot = 20
+            if 'FUT' in seg or 'FUTURE' in seg:
+                return round(ep * qty * lot * 0.1, 2)  # ~10% margin for futures
+            if 'OPT' in seg or seg in ('CE','PE'):
+                return round(ep * qty * lot, 2)  # premium outlay
+            return round(ep * qty, 2)
+
+        def _dp_exit_reason(t):
+            er = t.get('Exit Reason', t.get('exit_reason', ''))
+            if er: return str(er).upper()[:4]
+            net = _dp_get_net(t)
+            return 'TP' if net > 0 else 'SL'
+
+        def _dp_seg_clean(t):
+            seg = str(t.get('Segment', t.get('segment', 'Equity')))
+            if any(x in seg.upper() for x in ('OPT','CE','PE')): return 'Options'
+            if any(x in seg.upper() for x in ('FUT','FUTURE')): return 'Futures'
+            return 'Equity'
+
+        # ── Load all trades ───────────────────────────────────────────────────
+        _dp_all_raw = _all_trades()
+        _autosave_trades(_dp_all_raw)  # auto-save on every dashboard load
+
+        _dp_all_trades = []
+        _dp_syms = {"Equity": set(), "Futures": set(), "Options": set()}
+        for _t in _dp_all_raw:
+            _seg2 = _dp_seg_clean(_t)
+            _sym2 = _t.get('Symbol', _t.get('symbol', '?'))
+            _tf2  = _trade_tf(_t)
+            _t2   = dict(_t)
+            _t2['_seg'] = _seg2; _t2['_sym'] = _sym2; _t2['_tf'] = _tf2
+            _t2['_chg'] = _dp_get_charges(_t2)
+            _t2['_net'] = _dp_get_net(_t2)
+            _t2['_inv'] = _dp_get_invested(_t2)
+            _dp_all_trades.append(_t2)
+            _dp_syms[_seg2].add(_sym2)
+
+        # ── Segment totals ────────────────────────────────────────────────────
+        _dp_eq_pnl  = sum(t['_net'] for t in _dp_all_trades if t['_seg']=='Equity')
+        _dp_ft_pnl  = sum(t['_net'] for t in _dp_all_trades if t['_seg']=='Futures')
+        _dp_op_pnl  = sum(t['_net'] for t in _dp_all_trades if t['_seg']=='Options')
+        _dp_net_tot = _dp_eq_pnl + _dp_ft_pnl + _dp_op_pnl
+        _dp_n       = len(_dp_all_trades)
+        _dp_wins    = sum(1 for t in _dp_all_trades if t['_net'] > 0)
+        _dp_wr      = _dp_wins / _dp_n * 100 if _dp_n else 0
+        _dp_tc      = "#166534" if _dp_net_tot >= 0 else "#991b1b"
+        _dp_tbbg    = "#f0fdf4" if _dp_net_tot >= 0 else "#fff1f2"
+
+        # ── Reset button ──────────────────────────────────────────────────────
+        _rst_c1, _rst_c2 = st.columns([1, 5])
+        with _rst_c1:
+            if st.button("Reset All", type="secondary", key="ind_pnl_reset",
+                         help="Clears ALL trade history and P&L"):
+                for _rf in _glob_mod.glob(os.path.join(_APP_DIR, "pos_state_*.json")):
+                    try:
+                        import json as _jrst; _ss_r = _jrst.load(open(_rf, encoding='utf-8'))
+                        _ss_r['history'] = []; _ss_r['total_trades'] = 0
+                        _ss_r['winning'] = 0; _ss_r['total_pnl'] = 0.0; _ss_r['open_trade'] = None
+                        _jrst.dump(_ss_r, open(_rf,'w', encoding='utf-8'), indent=2)
+                    except: pass
+                st.success("All data reset!"); st.rerun()
+
+        # ── Big net banner ────────────────────────────────────────────────────
+        st.markdown(
+            f'<div style="background:{_dp_tbbg};border:2px solid {_dp_tc}33;border-radius:14px;'
+            f'padding:16px 22px;margin-bottom:14px;font-family:JetBrains Mono">'
+            f'<div style="font-size:11px;font-weight:700;color:{_dp_tc};margin-bottom:4px">'
+            f'P&L DASHBOARD - EQUITY * OPTIONS * FUTURES</div>'
+            f'<div style="font-size:36px;font-weight:700;color:{_dp_tc};line-height:1">'
+            f'Rs{_dp_net_tot:+,.2f} <span style="font-size:13px;color:#78350f">NET</span></div>'
+            f'<div style="color:#78350f;font-size:10px;margin-top:3px">'
+            f'{_dp_n} trades &nbsp;|&nbsp; {_dp_wins}W/{_dp_n-_dp_wins}L &nbsp;|&nbsp;'
+            f'<span style="color:{"#166534" if _dp_wr>=50 else "#991b1b"}">{_dp_wr:.1f}% win</span>'
+            f'</div></div>', unsafe_allow_html=True)
+
+        _dm1, _dm2, _dm3, _dm4 = st.columns(4)
+        _dm1.metric("Equity Net",  f"Rs{_dp_eq_pnl:+,.2f}")
+        _dm2.metric("Futures Net", f"Rs{_dp_ft_pnl:+,.2f}")
+        _dm3.metric("Options Net", f"Rs{_dp_op_pnl:+,.2f}")
+        _dm4.metric("Total Net",   f"Rs{_dp_net_tot:+,.2f}")
+
+        # ── Monitored symbol chips ─────────────────────────────────────────────
+        _all_eq_syms  = sorted(_dp_syms['Equity']  | set(NSE_TOP_STOCKS))
+        _all_fut_syms = sorted(_dp_syms['Futures'] | set(NSE_INDICES))
+        _all_opt_syms = sorted(_dp_syms['Options'] | {"NIFTY CE","NIFTY PE","BANKNIFTY CE","BANKNIFTY PE","SENSEX CE","SENSEX PE"})
+
+        def _dp_sym_chips(syms, bg, tc):
+            return ''.join(
+                f'<span style="background:{bg};color:{tc};padding:2px 8px;border-radius:8px;'
+                f'font-size:9px;font-weight:700;margin:2px;display:inline-block">{s}</span>'
+                for s in syms)
+
+        st.markdown(
+            f'<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;'
+            f'padding:8px 12px;margin-bottom:8px;font-family:JetBrains Mono">'
+            f'<div style="font-size:9px;font-weight:700;color:#64748b;margin-bottom:4px">MONITORED SYMBOLS</div>'
+            f'<div style="margin-bottom:4px"><span style="font-size:9px;color:#1d4ed8;font-weight:700;margin-right:6px">EQUITY({len(_all_eq_syms)})</span>'
+            f'{_dp_sym_chips(_all_eq_syms,"#dbeafe","#1d4ed8")}</div>'
+            f'<div style="margin-bottom:4px"><span style="font-size:9px;color:#7c3aed;font-weight:700;margin-right:6px">FUTURES({len(_all_fut_syms)})</span>'
+            f'{_dp_sym_chips(_all_fut_syms,"#ede9fe","#7c3aed")}</div>'
+            f'<div><span style="font-size:9px;color:#854d0e;font-weight:700;margin-right:6px">OPTIONS({len(_all_opt_syms)})</span>'
+            f'{_dp_sym_chips(_all_opt_syms,"#fef9c3","#854d0e")}</div>'
+            f'</div>', unsafe_allow_html=True)
+
+        # ── Open positions ─────────────────────────────────────────────────────
+        _st_files = _glob_mod.glob(os.path.join(_APP_DIR, "pos_state_*.json"))
+        _open_trades_list = []
+        if POS_OK:
+            _ist_t  = _ist_now()
+            _past_e = _ist_t.time() >= time(15, 15)
+            for _sf in _st_files:
+                _skey = os.path.basename(_sf).replace("pos_state_","").replace(".json","")
+                try:
+                    _sst = POSState.load(_skey)
+                    if _sst.open_trade:
+                        if _past_e:
+                            _sst.open_trade = None; _sst.status = "STOPPED"
+                            _sst.log_msg("EOD auto-close"); _sst.save(_skey)
+                        else:
+                            _open_trades_list.append((_skey, _sst))
+                except: pass
+        if _open_trades_list:
+            st.markdown("**Open Positions**")
+            for _okey, _ost2 in _open_trades_list:
+                _otr = _ost2.open_trade
+                _odc = "#16a34a" if _otr.direction == "LONG" else "#dc2626"
+                st.markdown(
+                    f'<div style="background:#fff;border:2px solid {_odc};border-radius:8px;'
+                    f'padding:10px 14px;margin:4px 0;font-family:JetBrains Mono;font-size:11px">'
+                    f'<span style="color:{_odc};font-weight:700">{_okey} — {_otr.direction} | {_otr.strategy}</span>'
+                    f'&nbsp;&nbsp;<span style="color:#5a72a0">Entry: Rs{_otr.entry:,.0f} | Target: Rs{_otr.target:,.0f} | SL: Rs{_otr.stop_loss:,.0f} | Qty: {_otr.qty}</span>'
+                    f'</div>', unsafe_allow_html=True)
+                if st.button(f"Force Close {_okey}", key=f"fc_{_okey}"):
+                    _ost2.open_trade = None; _ost2.status = "STOPPED"
+                    _ost2.log_msg("Force-closed"); _ost2.save(_okey)
+                    st.success(f"Closed {_okey}!"); st.rerun()
+            st.markdown("---")
+
+        # ── View toggle ───────────────────────────────────────────────────────
+        _dp_view = st.radio("View", ["Trade by Trade","Daily Summary"],
+                            horizontal=True, key="dp_view_ind", label_visibility="collapsed")
+
+        # ── Daily Summary ─────────────────────────────────────────────────────
+        if _dp_view == "Daily Summary":
+            _daily = _dp_dd(lambda: {"trades":0,"invested":0.0,"gross":0.0,"charges":0.0,"net":0.0,"wins":0})
+            for _t3 in _dp_all_trades:
+                _d3 = _t3.get('Date', _t3.get('date', date.today().isoformat()))
+                _daily[_d3]["trades"]   += 1
+                _daily[_d3]["invested"] += _t3['_inv']
+                _daily[_d3]["gross"]    += _trade_gross_pnl(_t3)
+                _daily[_d3]["charges"]  += _t3['_chg']
+                _daily[_d3]["net"]      += _t3['_net']
+                if _t3['_net'] > 0: _daily[_d3]["wins"] += 1
+
+            if not _daily:
+                st.info("No trades yet.")
+            else:
+                _ds_sorted = sorted(_daily.items(), key=lambda x: x[0], reverse=True)
+                _ds_html = (
+                    '<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;'
+                    'font-family:JetBrains Mono;font-size:11px">'
+                    '<thead><tr style="background:#1e293b;color:#fff">'
+                    '<th style="padding:8px 10px;text-align:left">Date</th>'
+                    '<th style="padding:8px 10px;text-align:center">Trades</th>'
+                    '<th style="padding:8px 10px;text-align:right">Invested Rs</th>'
+                    '<th style="padding:8px 10px;text-align:right">Gross P&L</th>'
+                    '<th style="padding:8px 10px;text-align:right">Charges</th>'
+                    '<th style="padding:8px 10px;text-align:right">Net P&L</th>'
+                    '<th style="padding:8px 10px;text-align:center">Win%</th>'
+                    '<th style="padding:8px 10px;text-align:right">Return%</th>'
+                    '</tr></thead><tbody>'
+                )
+                _ds_tot_inv = _ds_tot_net = _ds_tot_gross = _ds_tot_chg = _ds_tot_tr = _ds_tot_wins = 0
+                for _ddate, _dd in _ds_sorted:
+                    _dwin = _dd['wins']; _dtr = _dd['trades']
+                    _dwr  = _dwin / _dtr * 100 if _dtr else 0
+                    _dnet = _dd['net']; _dinv = _dd['invested']
+                    _dret = _dnet / _dinv * 100 if _dinv > 0 else 0.0
+                    _dnc  = "#166534" if _dnet >= 0 else "#991b1b"
+                    _drnc = "#166534" if _dret >= 0 else "#991b1b"
+                    try: _dlbl = datetime.strptime(_ddate, '%Y-%m-%d').strftime('%d %b %Y')
+                    except: _dlbl = _ddate
+                    _ds_html += (
+                        f'<tr style="border-bottom:1px solid #e2e8f0">'
+                        f'<td style="padding:6px 10px;font-weight:700">{_dlbl}</td>'
+                        f'<td style="padding:6px 10px;text-align:center">{_dtr}</td>'
+                        f'<td style="padding:6px 10px;text-align:right;color:#5a72a0">Rs{_dinv:,.0f}</td>'
+                        f'<td style="padding:6px 10px;text-align:right">Rs{_dd["gross"]:+,.2f}</td>'
+                        f'<td style="padding:6px 10px;text-align:right;color:#64748b">Rs{_dd["charges"]:,.2f}</td>'
+                        f'<td style="padding:6px 10px;text-align:right;font-weight:700;color:{_dnc}">Rs{_dnet:+,.2f}</td>'
+                        f'<td style="padding:6px 10px;text-align:center">{_dwr:.0f}%</td>'
+                        f'<td style="padding:6px 10px;text-align:right;font-weight:700;color:{_drnc}">{_dret:+.2f}%</td>'
+                        f'</tr>'
+                    )
+                    _ds_tot_inv += _dinv; _ds_tot_net += _dnet; _ds_tot_gross += _dd['gross']
+                    _ds_tot_chg += _dd['charges']; _ds_tot_tr += _dtr; _ds_tot_wins += _dwin
+                _ds_tot_nc  = "#166534" if _ds_tot_net >= 0 else "#991b1b"
+                _ds_tot_ret = _ds_tot_net / _ds_tot_inv * 100 if _ds_tot_inv > 0 else 0
+                _ds_html += (
+                    f'<tr style="background:#1e293b;color:#fff;font-weight:700">'
+                    f'<td style="padding:8px 10px">TOTAL</td>'
+                    f'<td style="padding:8px 10px;text-align:center">{_ds_tot_tr}</td>'
+                    f'<td style="padding:8px 10px;text-align:right">Rs{_ds_tot_inv:,.0f}</td>'
+                    f'<td style="padding:8px 10px;text-align:right">Rs{_ds_tot_gross:+,.2f}</td>'
+                    f'<td style="padding:8px 10px;text-align:right">Rs{_ds_tot_chg:,.2f}</td>'
+                    f'<td style="padding:8px 10px;text-align:right;color:{"#86efac" if _ds_tot_net>=0 else "#f87171"}">Rs{_ds_tot_net:+,.2f}</td>'
+                    f'<td style="padding:8px 10px;text-align:center">{_ds_tot_wins/_ds_tot_tr*100:.0f}% </td>'
+                    f'<td style="padding:8px 10px;text-align:right;color:{"#86efac" if _ds_tot_ret>=0 else "#f87171"}">{_ds_tot_ret:+.2f}%</td>'
+                    f'</tr></tbody></table></div>'
+                )
+                st.markdown(_ds_html, unsafe_allow_html=True)
+
+                # Export daily summary
+                st.markdown("")
+                _ds_exp_df = pd.DataFrame([
+                    {"Date":d,"Trades":v["trades"],"Invested Rs":round(v["invested"],2),
+                     "Gross P&L":round(v["gross"],2),"Charges Rs":round(v["charges"],2),
+                     "Net P&L":round(v["net"],2),"Win%":round(v["wins"]/v["trades"]*100,1) if v["trades"] else 0}
+                    for d,v in _ds_sorted
+                ])
+                _ds_csv = _ds_exp_df.to_csv(index=False)
+                st.download_button("Export Daily Summary CSV", _ds_csv,
+                    f"india_daily_summary_{date.today().isoformat()}.csv", "text/csv", key="dp_ds_exp")
+            st.stop()
+
+        # ── Filters ───────────────────────────────────────────────────────────
+        _dpf1, _dpf2, _dpf3, _dpf4, _dpf5, _dpf6 = st.columns(6)
+        with _dpf1: _dp_seg  = st.selectbox("Segment",   ["All","Equity","Futures","Options"], key="dp_seg_ind")
+        with _dpf2: _dp_tf   = st.selectbox("Timeframe", ["All","5m","15m","1h","4h"],         key="dp_tf_ind")
+        with _dpf3: _dp_dir  = st.selectbox("Direction", ["All","LONG","SHORT"],               key="dp_dir_ind")
+        with _dpf4: _dp_res  = st.selectbox("Result",    ["All","WIN","LOSS"],                 key="dp_res_ind")
+        with _dpf5: _dp_er   = st.selectbox("Exit",      ["All","TP","SL","EOD","MANUAL"],     key="dp_er_ind")
+        with _dpf6: _dp_syminp = st.text_input("Symbol", placeholder="NIFTY,RELIANCE...",     key="dp_sym_ind")
+
+        _dp_shown = _dp_all_trades[:]
+        if _dp_seg  != "All": _dp_shown = [t for t in _dp_shown if t['_seg'] == _dp_seg]
+        if _dp_tf   != "All": _dp_shown = [t for t in _dp_shown if t['_tf'].lower() == _dp_tf.lower()]
+        if _dp_dir  != "All": _dp_shown = [t for t in _dp_shown if t.get('Direction', t.get('direction','')) == _dp_dir]
+        if _dp_res == "WIN":  _dp_shown = [t for t in _dp_shown if t['_net'] > 0]
+        elif _dp_res == "LOSS": _dp_shown = [t for t in _dp_shown if t['_net'] <= 0]
+        if _dp_er  != "All": _dp_shown = [t for t in _dp_shown if _dp_exit_reason(t) == _dp_er]
+        if _dp_syminp.strip():
+            _dp_sym_set = {s.strip().upper() for s in _dp_syminp.split(',')}
+            _dp_shown = [t for t in _dp_shown if str(t.get('Symbol',t.get('symbol',''))).upper() in _dp_sym_set]
+
+        st.caption(f"Showing {len(_dp_shown)} of {len(_dp_all_trades)} trades")
+
+        # ── Trade table ───────────────────────────────────────────────────────
+        _dp_rows_html = ""
+        _dp_xl        = []
+
+        for _t in _dp_shown[:500]:
+            _seg3   = _t['_seg']; _sym3 = _t['_sym']; _tf3 = _t['_tf']
+            _dir3   = _t.get('Direction', _t.get('direction', '-'))
+            _strat3 = _t.get('Strategy', _t.get('strategy', '-')) or '-'
+            _ep3    = _trade_entry(_t); _xp3 = _trade_exit(_t)
+            _LOT3   = {'NIFTY':75,'BANKNIFTY':35,'SENSEX':20}
+            qty3    = float(_t.get('Qty', _t.get('qty', _t.get('contracts', 1))) or 1)
+            _sym3u  = str(_sym3).upper()
+            lot3    = _LOT3.get(_sym3u, 1)
+            actual_qty3 = qty3 * lot3 if (_ep3 > 1000 and lot3 > 1) else qty3
+            _gross3 = _trade_gross_pnl(_t)
+            _chg3   = _t['_chg']; _net3 = _t['_net']; _inv3 = _t['_inv']
+            _er3    = _dp_exit_reason(_t)
+            _pct3   = _trade_pnl_pct(_t)
+            _entry_t3 = str(_t.get('Entry Time', _t.get('time', '-')) or '-')[:5]
+            _exit_t3  = str(_t.get('Exit Time', _t.get('exit_time', '-')) or '-')[:5]
+            _date_s3  = _t.get('Date', _t.get('date', '-'))
+            try: _date_lbl3 = datetime.strptime(_date_s3, '%Y-%m-%d').strftime('%d %b')
+            except: _date_lbl3 = _date_s3
+
+            _is_win3  = _net3 > 0
+            _row_bg3  = "#f0fdf4" if _is_win3 else "#fff1f2"
+            _pnl_c3   = "#166534" if _is_win3 else "#991b1b"
+            _dir_bg3  = "#dcfce7" if _dir3=="LONG" else ("#fee2e2" if _dir3=="SHORT" else "#f1f5f9")
+            _dir_c3   = "#166534" if _dir3=="LONG" else ("#991b1b" if _dir3=="SHORT" else "#64748b")
+            _seg_bg3  = {"Equity":"#dbeafe","Futures":"#ede9fe","Options":"#fef9c3"}.get(_seg3,"#f1f5f9")
+            _seg_c3   = {"Equity":"#1d4ed8","Futures":"#7c3aed","Options":"#854d0e"}.get(_seg3,"#64748b")
+            _er_bg3   = "#dcfce7" if _er3=="TP" else "#fee2e2" if _er3=="SL" else "#fef9c3"
+            _er_c3    = "#166534" if _er3=="TP" else "#991b1b" if _er3=="SL" else "#854d0e"
+            _tv_url3  = _tv_link(_sym3)
+
+            _dp_rows_html += (
+                f'<tr style="background:{_row_bg3};border-bottom:1px solid #e0e9ff;font-size:10px">'
+                f'<td style="padding:5px 8px;white-space:nowrap;font-weight:600">{_date_lbl3}</td>'
+                f'<td style="padding:5px 8px;white-space:nowrap">{_entry_t3}</td>'
+                f'<td style="padding:5px 8px;white-space:nowrap">{_exit_t3}</td>'
+                f'<td style="padding:5px 8px"><span style="background:{_seg_bg3};color:{_seg_c3};padding:2px 6px;border-radius:4px;font-size:9px;font-weight:700">{_seg3[:3]}</span></td>'
+                f'<td style="padding:5px 8px;font-weight:700;color:#1d4ed8">'
+                f'<a href="{_tv_url3}" target="_blank" style="color:#1d4ed8;text-decoration:none">{_sym3}</a></td>'
+                f'<td style="padding:5px 8px;color:#64748b">{_tf3}</td>'
+                f'<td style="padding:5px 8px"><span style="background:{_dir_bg3};color:{_dir_c3};padding:2px 6px;border-radius:4px;font-size:9px;font-weight:700">{_dir3}</span></td>'
+                f'<td style="padding:5px 8px;color:#475569;max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="{_strat3}">{_strat3[:22]}</td>'
+                f'<td style="padding:5px 8px;text-align:right;color:#1d4ed8;font-weight:700">{int(qty3)}</td>'
+                f'<td style="padding:5px 8px;text-align:right">{int(actual_qty3)}</td>'
+                f'<td style="padding:5px 8px;text-align:right">Rs{_ep3:,.2f}</td>'
+                f'<td style="padding:5px 8px;text-align:right">Rs{_xp3:,.2f}</td>'
+                f'<td style="padding:5px 8px;text-align:right;color:#5a72a0">Rs{_inv3:,.0f}</td>'
+                f'<td style="padding:5px 8px;text-align:right">{_pct3:+.2f}%</td>'
+                f'<td style="padding:5px 8px;text-align:right">Rs{_gross3:+,.2f}</td>'
+                f'<td style="padding:5px 8px;text-align:right;color:#dc2626">Rs{_chg3:,.2f}</td>'
+                f'<td style="padding:5px 8px;text-align:right;font-weight:700;color:{_pnl_c3}">Rs{_net3:+,.2f}</td>'
+                f'<td style="padding:5px 8px"><span style="background:{_er_bg3};color:{_er_c3};padding:2px 6px;border-radius:4px;font-size:9px;font-weight:700">{_er3}</span></td>'
+                f'</tr>'
+            )
+            _dp_xl.append({
+                "Date":_date_s3,"Entry Time":_entry_t3,"Exit Time":_exit_t3,
+                "Segment":_seg3,"Symbol":_sym3,"TF":_tf3,"Direction":_dir3,"Strategy":_strat3,
+                "Lots":int(qty3),"Qty":int(actual_qty3),"Entry Rs":_ep3,"Exit Rs":_xp3,"Invested Rs":_inv3,"PnL%":_pct3,
+                "Gross P&L":_gross3,"Charges Rs":_chg3,"Net P&L":_net3,"Exit":_er3
+            })
+
+        _dp_table_html = (
+            '<div style="overflow-x:auto;max-height:520px;overflow-y:auto">'
+            '<table style="width:100%;border-collapse:collapse;font-family:JetBrains Mono">'
+            '<thead><tr style="background:#1e293b;color:#fff;font-size:10px;position:sticky;top:0">'
+            '<th style="padding:6px 8px;text-align:left;white-space:nowrap">Date</th>'
+            '<th style="padding:6px 8px;text-align:left;white-space:nowrap">Entry</th>'
+            '<th style="padding:6px 8px;text-align:left;white-space:nowrap">Exit</th>'
+            '<th style="padding:6px 8px">Seg</th>'
+            '<th style="padding:6px 8px">Symbol</th>'
+            '<th style="padding:6px 8px">TF</th>'
+            '<th style="padding:6px 8px">Dir</th>'
+            '<th style="padding:6px 8px;min-width:120px">Strategy</th>'
+            '<th style="padding:6px 8px;text-align:right">Lots</th>'
+            '<th style="padding:6px 8px;text-align:right">Qty</th>'
+            '<th style="padding:6px 8px;text-align:right">Entry Rs</th>'
+            '<th style="padding:6px 8px;text-align:right">Exit Rs</th>'
+            '<th style="padding:6px 8px;text-align:right">Invested</th>'
+            '<th style="padding:6px 8px;text-align:right">PnL%</th>'
+            '<th style="padding:6px 8px;text-align:right">Gross</th>'
+            '<th style="padding:6px 8px;text-align:right">Charges</th>'
+            '<th style="padding:6px 8px;text-align:right">Net P&L</th>'
+            '<th style="padding:6px 8px">Exit</th>'
+            '</tr></thead><tbody>'
+            + _dp_rows_html +
+            '</tbody></table></div>'
+        )
+        st.markdown(_dp_table_html, unsafe_allow_html=True)
+
+        # ── Export buttons ────────────────────────────────────────────────────
+        st.markdown("")
+        _exp1, _exp2, _exp3 = st.columns(3)
+        with _exp1:
+            if _dp_xl:
+                _csv_filt = pd.DataFrame(_dp_xl).to_csv(index=False)
+                st.download_button("Export Filtered CSV", _csv_filt,
+                    f"india_trades_filtered_{date.today().isoformat()}.csv", "text/csv", key="dp_dl_fil")
+        with _exp2:
+            if _dp_all_trades:
+                _csv_all = pd.DataFrame([{k:v for k,v in t.items() if not k.startswith('_')} for t in _dp_all_trades]).to_csv(index=False)
+                st.download_button("Export ALL Trades CSV", _csv_all,
+                    f"india_trades_all_{date.today().isoformat()}.csv", "text/csv", key="dp_dl_all")
+        with _exp3:
+            st.markdown(
+                f'<div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;'
+                f'padding:8px 12px;font-family:JetBrains Mono;font-size:10px;color:#166534">'
+                f'Auto-saved to: reports/trades_{date.today().isoformat()}.json + .csv</div>',
+                unsafe_allow_html=True)
+
+
+    # ── AT Sub-tab 1: Futures ──────────────────────────────────────────────────
+    with _at_tabs[1]:
+        # ── Strategy banner ───────────────────────────────────────────────────
+        st.markdown(_make_tf_banner("Futures", "#7c3aed", "Futures"), unsafe_allow_html=True)
+
+        # ── Bot status banner ─────────────────────────────────────────────────
+        _fut_alive2 = sum(1 for b in st.session_state.get('ind_fut_bots',{}).values() if b and getattr(b,'_running',False))
+        if _fut_alive2 > 0:
+            st.markdown(
+                f'<div style="background:linear-gradient(135deg,#3b0764,#7c3aed);color:#fff;'
+                f'border-radius:10px;padding:12px 18px;margin-bottom:12px;font-family:JetBrains Mono">'
+                f'<div style="font-size:15px;font-weight:700"> FUTURES LIVE — {_fut_alive2} bots active</div>'
+                f'<div style="font-size:11px;margin-top:4px;opacity:0.9">Nifty * BankNifty * Sensex | 15m + 1H | Paper: {"ON" if st.session_state.get("sb_paper_mode",True) else "LIVE"}</div>'
+                f'</div>', unsafe_allow_html=True)
+        else:
+            st.markdown(
+                '<div style="background:#faf5ff;border:2px solid #7c3aed;border-radius:10px;'
+                'padding:12px 18px;margin-bottom:12px;font-family:JetBrains Mono">'
+                '<div style="font-size:15px;font-weight:700;color:#7c3aed"> Futures Bots Not Running</div>'
+                '<div style="font-size:11px;color:#64748b;margin-top:4px">Click START in sidebar to launch all bots.</div>'
+                '</div>', unsafe_allow_html=True)
+
+        # ── Bot controls ──────────────────────────────────────────────────────
+        if not POS_OK:
+            st.error("pos_auto_trader.py not found.")
+        else:
+            _fat_c1, _fat_c2, _fat_c3 = st.columns(3)
+            with _fat_c1: _fat_inst = st.selectbox("Index", NSE_INDICES, key="fut_inst")
+            with _fat_c2: _fat_tf   = st.selectbox("Timeframe", ["5M","15M","1H","4H"], key="fut_tf")
+            with _fat_c3: _fat_qty  = st.number_input("Lot Qty", value=NSE_LOT_SIZE.get(_fat_inst if '_fat_inst' in dir() else 'NIFTY', 75), step=1, key="fut_qty")
+            _fat_paper = st.toggle("Paper Trade", value=True, key="fut_paper")
+
+            _fst_key = f"{_fat_inst}_{_fat_tf}"
+            try:   _fst = POSState.load(_fst_key)
+            except: _fst = POSState()
+
+            _fsc = {"RUNNING":"#7c3aed","STOPPED":"#dc2626","PAUSED":"#d97706"}.get(_fst.status,"#64748b")
+            st.markdown(
+                f'<div style="background:#fff;border:2px solid {_fsc};border-radius:10px;'
+                f'padding:14px;font-family:JetBrains Mono;margin-bottom:10px">'
+                f'<div style="color:{_fsc};font-size:16px;font-weight:700">{_fst.status} — {_fst_key}</div>'
+                f'<div style="color:#5a72a0;font-size:11px;margin-top:4px">'
+                f'Last scan: {_fst.last_scan or "—"} | Signal: {_fst.last_signal} | Action: {_fst.last_action}</div>'
+                f'</div>', unsafe_allow_html=True)
+
+            _fb1, _fb2 = st.columns(2)
+            with _fb1:
+                if st.button("Start Futures Bot", type="primary", use_container_width=True, key="fut_start"):
+                    try:
+                        _ftrader = POSAutoTrader(instrument=_fat_inst, timeframe=_fat_tf, qty=int(_fat_qty), paper_trade=_fat_paper)
+                        _ftrader.start()
+                        _fbd2 = dict(st.session_state.get('ind_fut_bots',{}))
+                        _fbd2[_fst_key] = _ftrader
+                        st.session_state.ind_fut_bots = _fbd2
+                        st.success(f"Started {_fst_key}!"); st.rerun()
+                    except Exception as _fe: st.error(f"Error: {_fe}")
+            with _fb2:
+                if st.button("Stop Futures Bot", use_container_width=True, key="fut_stop"):
+                    _fbd2 = dict(st.session_state.get('ind_fut_bots',{}))
+                    if _fst_key in _fbd2:
+                        try: _fbd2[_fst_key].stop()
+                        except: pass
+                        del _fbd2[_fst_key]
+                        st.session_state.ind_fut_bots = _fbd2
+                    try:
+                        _fst2b = POSState.load(_fst_key)
+                        _fst2b.status = "STOPPED"; _fst2b.log_msg("Stopped via dashboard"); _fst2b.save(_fst_key)
+                    except: pass
+                    st.rerun()
+
+        st.markdown("---")
+
+        # ── Activity Log — yellow/black theme ────────────────────────────────
+        st.markdown('<div style="color:#92400e;font-weight:700;font-family:JetBrains Mono;font-size:13px;margin-bottom:6px">Activity Log — All Timeframes (5m | 15m | 1H | 4H)</div>', unsafe_allow_html=True)
+        _fat_tf_tabs = st.tabs(["5m","15m","1H","4H","All"])
+        for _fat_ti, (_fat_tt, _fat_tfk) in enumerate(zip(_fat_tf_tabs[:4], ["5M","15M","1H","4H"])):
+            with _fat_tt:
+                _fat_log_entries = []
+                for _fat_sf in _glob_mod.glob(os.path.join(_APP_DIR, f"pos_state_*_{_fat_tfk}.json")):
+                    try:
+                        _fat_sk = os.path.basename(_fat_sf).replace("pos_state_","").replace(".json","")
+                        _fat_ss = POSState.load(_fat_sk)
+                        for _fat_le in getattr(_fat_ss,'log',[]):
+                            _fat_log_entries.append((_fat_sk, _fat_le))
+                    except: pass
+                if _fat_log_entries:
+                    _fat_log_html = '<div style="background:#f8fafc;border:1px solid #1d4ed8;border-radius:8px;padding:10px;max-height:220px;overflow-y:auto;font-family:JetBrains Mono;font-size:10px">'
+                    for _fat_lk, _fat_ll in reversed(_fat_log_entries[-40:]):
+                        _fat_lc = "#1d4ed8" if "SIGNAL" in str(_fat_ll).upper() or "ENTRY" in str(_fat_ll).upper() else "#166534" if "EXIT" in str(_fat_ll).upper() or "PROFIT" in str(_fat_ll).upper() else "#1e293b"
+                        _fat_log_html += f'<div style="color:{_fat_lc};padding:1px 0;border-bottom:1px solid #e2e8f0"><span style="color:#1d4ed8;font-weight:700;margin-right:6px">[{_fat_lk}]</span>{_fat_ll}</div>'
+                    _fat_log_html += '</div>'
+                    st.markdown(_fat_log_html, unsafe_allow_html=True)
+                else:
+                    st.markdown('<div style="background:#f8fafc;border:1px solid #dde9ff;border-radius:8px;padding:10px;font-family:JetBrains Mono;font-size:10px;color:#64748b">No futures activity on this timeframe yet.</div>', unsafe_allow_html=True)
+        with _fat_tf_tabs[4]:
+            _all_fut_trades = _all_trades()
+            if _all_fut_trades:
+                _fat_all_html = '<div style="background:#f8fafc;border:1px solid #1d4ed8;border-radius:8px;padding:10px;max-height:280px;overflow-y:auto;font-family:JetBrains Mono;font-size:10px">'
+                for _fat_at in reversed(_all_fut_trades[-50:]):
+                    _fat_at_pnl = _trade_net_pnl(_fat_at)
+                    _fat_at_pc  = "#166534" if _fat_at_pnl >= 0 else "#dc2626"
+                    _fat_all_html += (
+                        f'<div style="color:#e2e8f0;padding:2px 0;border-bottom:1px solid #e2e8f0">'
+                        f'<span style="color:#f59e0b">{_fat_at.get("Symbol","?")}</span>'
+                        f' {_fat_at.get("Direction","?")} '
+                        f'<span style="color:#475569">{_fat_at.get("Strategy","?")}</span>'
+                        f' <span style="color:{_fat_at_pc};font-weight:700">Rs{_fat_at_pnl:+,.0f}</span>'
+                        f'</div>'
+                    )
+                _fat_all_html += '</div>'
+                st.markdown(_fat_all_html, unsafe_allow_html=True)
+            else:
+                st.markdown('<div style="background:#f8fafc;border:1px solid #dde9ff;border-radius:8px;padding:10px;font-family:JetBrains Mono;font-size:10px;color:#64748b">No futures trade history yet.</div>', unsafe_allow_html=True)
+
+
+    with _at_tabs[2]:
+        # ── Strategy banner ───────────────────────────────────────────────────
+        st.markdown(_make_tf_banner("Options", "#d97706", "Options"), unsafe_allow_html=True)
+
+        # ── Bot status banner ─────────────────────────────────────────────────
+        _opt_alive2 = sum(1 for b in st.session_state.get('ind_opt_bots',{}).values() if b and getattr(b,'_running',False))
+        if _opt_alive2 > 0:
+            st.markdown(
+                f'<div style="background:linear-gradient(135deg,#78350f,#d97706);color:#fff;'
+                f'border-radius:10px;padding:12px 18px;margin-bottom:12px;font-family:JetBrains Mono">'
+                f'<div style="font-size:15px;font-weight:700"> OPTIONS LIVE — {_opt_alive2} bots active</div>'
+                f'<div style="font-size:11px;margin-top:4px;opacity:0.9">Nifty CE/PE * BankNifty CE/PE * Sensex CE/PE | Paper Trade always ON</div>'
+                f'</div>', unsafe_allow_html=True)
+        else:
+            st.markdown(
+                '<div style="background:#fffbeb;border:2px solid #d97706;border-radius:10px;'
+                'padding:12px 18px;margin-bottom:12px;font-family:JetBrains Mono">'
+                '<div style="font-size:15px;font-weight:700;color:#d97706"> Options Bots Not Running</div>'
+                '<div style="font-size:11px;color:#64748b;margin-top:4px">Options always paper trade. Click START in sidebar to launch.</div>'
+                '</div>', unsafe_allow_html=True)
+
+        # ── Bot controls ──────────────────────────────────────────────────────
+        _oat_c1, _oat_c2 = st.columns(2)
+        with _oat_c1: _oat_inst = st.selectbox("Index", NSE_INDICES, key="opt_inst")
+        with _oat_c2: _oat_tf   = st.selectbox("Timeframe", ["5M","15M","1H","4H"], key="opt_tf")
+        _oat_qty = st.number_input("Lot Qty", value=1, step=1, key="opt_qty", help="NIFTY=75 | BANKNIFTY=35 | SENSEX=20 per lot")
+
+        if OPT_OK:
+            try:   _ost2 = OptionsState.load(_oat_inst)
+            except: _ost2 = OptionsState()
+
+            _osc = {"RUNNING":"#d97706","STOPPED":"#dc2626","PAUSED":"#d97706"}.get(_ost2.status,"#64748b")
+            st.markdown(
+                f'<div style="background:#fff;border:2px solid {_osc};border-radius:10px;'
+                f'padding:14px;font-family:JetBrains Mono;margin-bottom:10px">'
+                f'<div style="color:{_osc};font-size:16px;font-weight:700">{_ost2.status} — Options {_oat_inst}</div>'
+                f'<div style="color:#5a72a0;font-size:11px;margin-top:4px">Last scan: {_ost2.last_scan or "—"} | Signal: {_ost2.last_signal}</div>'
+                f'</div>', unsafe_allow_html=True)
+
+            _ob1, _ob2 = st.columns(2)
+            with _ob1:
+                if st.button("Start Options Bot", type="primary", use_container_width=True, key="opt_start"):
+                    try:
+                        _otrader = OptionsAutoTrader(instrument=_oat_inst, timeframe=_oat_tf, qty=int(_oat_qty), paper_trade=True)
+                        _otrader.start()
+                        _obd2 = dict(st.session_state.get('ind_opt_bots',{}))
+                        _obd2[f"{_oat_inst}_{_oat_tf}"] = _otrader
+                        st.session_state.ind_opt_bots = _obd2
+                        st.session_state.opt_trader = _otrader
+                        st.success(f"Options bot started for {_oat_inst}!"); st.rerun()
+                    except Exception as _oe: st.error(f"Error: {_oe}")
+            with _ob2:
+                if st.button("Stop Options Bot", use_container_width=True, key="opt_stop"):
+                    if st.session_state.get('opt_trader'):
+                        try: st.session_state.opt_trader.stop()
+                        except: pass
+                    _obd2 = dict(st.session_state.get('ind_opt_bots',{}))
+                    _obd2 = {k:v for k,v in _obd2.items() if _oat_inst not in k}
+                    st.session_state.ind_opt_bots = _obd2
+                    st.rerun()
+
+            if _ost2.open_trade:
+                _otr2 = _ost2.open_trade
+                st.markdown(
+                    f'<div style="background:#fffbeb;border:2px solid #d97706;border-radius:8px;'
+                    f'padding:10px;font-family:JetBrains Mono;font-size:11px">'
+                    f'<span style="color:#92400e;font-weight:700">OPEN: {getattr(_otr2,"instrument","")} '
+                    f'{getattr(_otr2,"strike","")} {getattr(_otr2,"option_type","")}</span><br>'
+                    f'<span style="color:#5a72a0">Entry: Rs{getattr(_otr2,"entry_premium",0):.2f} | '
+                    f'Target: Rs{getattr(_otr2,"target_premium",0):.2f} | '
+                    f'SL: Rs{getattr(_otr2,"sl_premium",0):.2f} | Qty: {getattr(_otr2,"qty",0)}</span>'
+                    f'</div>', unsafe_allow_html=True)
+        else:
+            st.warning("options_auto_trader.py not found. Install to enable live options.")
+
+        st.markdown("---")
+
+        # ── Activity Log — yellow/black theme ────────────────────────────────
+        st.markdown('<div style="color:#92400e;font-weight:700;font-family:JetBrains Mono;font-size:13px;margin-bottom:6px">Options Activity Log — All Timeframes (5m | 15m | 1H | 4H)</div>', unsafe_allow_html=True)
+        _oat_tf_tabs = st.tabs(["5m","15m","1H","4H","All"])
+        for _oat_ti, (_oat_tt, _oat_tfk) in enumerate(zip(_oat_tf_tabs[:4], ["5M","15M","1H","4H"])):
+            with _oat_tt:
+                _oat_log = []
+                if OPT_OK:
+                    for _ons in NSE_INDICES:
+                        try:
+                            _oss2 = OptionsState.load(_ons)
+                            for _ole in getattr(_oss2,'log',[]):
+                                _oat_log.append((_ons, _ole))
+                        except: pass
+                if _oat_log:
+                    _oat_log_html = '<div style="background:#f8fafc;border:1px solid #1d4ed8;border-radius:8px;padding:10px;max-height:220px;overflow-y:auto;font-family:JetBrains Mono;font-size:10px">'
+                    for _oat_lk, _oat_ll in reversed(_oat_log[-40:]):
+                        _oat_lc = "#1d4ed8" if "SIGNAL" in str(_oat_ll).upper() else "#166534" if "EXIT" in str(_oat_ll).upper() else "#1e293b"
+                        _oat_log_html += f'<div style="color:{_oat_lc};padding:1px 0;border-bottom:1px solid #e2e8f0"><span style="color:#1d4ed8;font-weight:700;margin-right:6px">[{_oat_lk}]</span>{_oat_ll}</div>'
+                    _oat_log_html += '</div>'
+                    st.markdown(_oat_log_html, unsafe_allow_html=True)
+                else:
+                    st.markdown('<div style="background:#f8fafc;border:1px solid #dde9ff;border-radius:8px;padding:10px;font-family:JetBrains Mono;font-size:10px;color:#64748b">No options activity on this timeframe yet.</div>', unsafe_allow_html=True)
+        with _oat_tf_tabs[4]:
+            _all_opt_trades = [t for t in _all_trades() if 'OPT' in str(t.get('Segment',''))]
+            if _all_opt_trades:
+                _oat_all_html = '<div style="background:#f8fafc;border:1px solid #1d4ed8;border-radius:8px;padding:10px;max-height:280px;overflow-y:auto;font-family:JetBrains Mono;font-size:10px">'
+                for _oat_at in reversed(_all_opt_trades[-50:]):
+                    _oat_pnl = _trade_net_pnl(_oat_at)
+                    _oat_pc  = "#166534" if _oat_pnl >= 0 else "#dc2626"
+                    _oat_all_html += (
+                        f'<div style="color:#e2e8f0;padding:2px 0;border-bottom:1px solid #e2e8f0">'
+                        f'<span style="color:#fbbf24">{_oat_at.get("Symbol","?")} {_oat_at.get("Direction","?")}</span>'
+                        f' <span style="color:#475569">{_oat_at.get("Strategy","?")}</span>'
+                        f' <span style="color:{_oat_pc};font-weight:700">Rs{_oat_pnl:+,.0f}</span>'
+                        f'</div>'
+                    )
+                _oat_all_html += '</div>'
+                st.markdown(_oat_all_html, unsafe_allow_html=True)
+            else:
+                st.markdown('<div style="background:#f8fafc;border:1px solid #dde9ff;border-radius:8px;padding:10px;font-family:JetBrains Mono;font-size:10px;color:#64748b">No options trade history yet.</div>', unsafe_allow_html=True)
+
+
+    with _at_tabs[3]:
+        # ── Strategy banner ───────────────────────────────────────────────────
+        st.markdown(_make_tf_banner("Equity", "#1d4ed8", "Nifty 50 Equity"), unsafe_allow_html=True)
+
+        # ── Bot status ────────────────────────────────────────────────────────
+        _n50_alive2 = sum(1 for b in st.session_state.get('ind_eq_bots',{}).values() if b and getattr(b,'_running',False))
+        if _n50_alive2 > 0:
+            st.markdown(
+                f'<div style="background:linear-gradient(135deg,#1e3a8a,#1d4ed8);color:#fff;'
+                f'border-radius:10px;padding:12px 18px;margin-bottom:12px;font-family:JetBrains Mono">'
+                f'<div style="font-size:15px;font-weight:700"> EQUITY LIVE — {_n50_alive2} bots active</div>'
+                f'<div style="font-size:11px;margin-top:4px;opacity:0.9">Nifty 50 stocks | 5m + 15m + 1H + 4H | Paper: {"ON" if st.session_state.get("sb_paper_mode",True) else "LIVE"}</div>'
+                f'</div>', unsafe_allow_html=True)
+        else:
+            st.markdown(
+                '<div style="background:#eff6ff;border:2px solid #1d4ed8;border-radius:10px;'
+                'padding:12px 18px;margin-bottom:12px;font-family:JetBrains Mono">'
+                '<div style="font-size:15px;font-weight:700;color:#1d4ed8"> Equity Bots Not Running</div>'
+                '<div style="font-size:11px;color:#64748b;margin-top:4px">Select stock + TF below and click Start Bot, or use sidebar START.</div>'
+                '</div>', unsafe_allow_html=True)
+
+        # ── Bot controls ──────────────────────────────────────────────────────
+        _n50_c1, _n50_c2, _n50_c3 = st.columns(3)
+        with _n50_c1: _n50_sym = st.selectbox("Stock", NSE_TOP_STOCKS, key="n50_sym")
+        with _n50_c2: _n50_seg = st.selectbox("Segment", ["Equity","Futures","Options"], key="n50_seg")
+        with _n50_c3: _n50_tf  = st.radio("Timeframe", ["5M","15M","1H","4H"], horizontal=True, key="n50_tf")
+        _n50_lots = st.number_input("Lots / Qty", value=1, min_value=1, key="n50_lots")
+
+        _n50b1, _n50b2 = st.columns(2)
+        with _n50b1:
+            if st.button("Start Bot", type="primary", use_container_width=True, key="n50_start"):
+                if POS_OK:
+                    try:
+                        _n50bot = POSAutoTrader(instrument=_n50_sym, timeframe=_n50_tf,
+                                               qty=_n50_lots,
+                                               paper_trade=st.session_state.get('sb_paper_mode',True))
+                        _n50bot.start()
+                        _n50key = f"{_n50_sym}_{_n50_tf}"
+                        _bots_d = dict(st.session_state.get('ind_eq_bots',{}))
+                        _bots_d[_n50key] = _n50bot
+                        st.session_state.ind_eq_bots = _bots_d
+                        st.success(f"Started: {_n50_sym} {_n50_tf} {_n50_seg}"); st.rerun()
+                    except Exception as _n50e: st.error(str(_n50e))
+                else:
+                    st.info("Bot backend not loaded — paper mode simulation only")
+        with _n50b2:
+            if st.button("Stop Bot", use_container_width=True, key="n50_stop"):
+                _n50key = f"{_n50_sym}_{_n50_tf}"
+                _bots_d = dict(st.session_state.get('ind_eq_bots',{}))
+                if _n50key in _bots_d:
+                    try: _bots_d[_n50key].stop()
+                    except: pass
+                    del _bots_d[_n50key]
+                    st.session_state.ind_eq_bots = _bots_d
+                st.success(f"Stopped: {_n50key}"); st.rerun()
+
+        st.markdown("---")
+
+        # ── Nifty 50 price grid ───────────────────────────────────────────────
+        st.markdown('<div style="color:#1d4ed8;font-weight:700;font-family:JetBrains Mono;font-size:13px;margin-bottom:6px">Nifty 50 Universe — Live Prices</div>', unsafe_allow_html=True)
+        _n50_prices = _fetch_nse_ticker_prices(tuple(NSE_TOP_STOCKS))
+        _n50_running = set(st.session_state.get('ind_eq_bots',{}).keys())
+        _n50_cols = st.columns(5)
+        for _n50i, _n50s in enumerate(NSE_TOP_STOCKS):
+            _n50p, _n50c = _n50_prices.get(_n50s, (0.0, 0.0))
+            _n50cc = "#16a34a" if _n50c >= 0 else "#dc2626"
+            _n50arr = "+" if _n50c >= 0 else ""
+            _n50pstr = "Rs{:,.0f}".format(_n50p) if _n50p > 0 else "--"
+            _n50_is_running = any(_n50s in k for k in _n50_running)
+            _n50_border = "#16a34a" if _n50_is_running else "#dde9ff"
+            _n50_badge = ' <span style="background:#16a34a;color:#fff;border-radius:4px;padding:1px 4px;font-size:8px">RUN</span>' if _n50_is_running else ""
+            with _n50_cols[_n50i % 5]:
+                st.markdown(
+                    f'<div style="background:#fff;border:1px solid {_n50_border};border-radius:8px;'
+                    f'padding:8px 10px;margin:3px 0;font-family:JetBrains Mono">'
+                    f'<div style="color:#1d4ed8;font-weight:700;font-size:11px">{_n50s}{_n50_badge}</div>'
+                    f'<div style="color:#1e293b;font-size:12px;font-weight:700">{_n50pstr}</div>'
+                    f'<div style="color:{_n50cc};font-size:10px">{_n50arr}{_n50c:.2f}%</div>'
+                    f'</div>', unsafe_allow_html=True)
+
+        st.markdown("---")
+
+        # ── Activity Log — yellow/black theme ────────────────────────────────
+        st.markdown('<div style="color:#92400e;font-weight:700;font-family:JetBrains Mono;font-size:13px;margin-bottom:6px">Activity Log — All Timeframes (5m | 15m | 1H | 4H)</div>', unsafe_allow_html=True)
+        _n50_act_tabs = st.tabs(["5m Activity","15m Activity","1H Activity","4H Activity","All Activity"])
+        for _n50_ati, (_n50_att, _n50_attf) in enumerate(zip(_n50_act_tabs[:4], ["5M","15M","1H","4H"])):
+            with _n50_att:
+                _n50_log_entries = []
+                if POS_OK:
+                    for _n50_sf in _glob_mod.glob(os.path.join(_APP_DIR, f"pos_state_*_{_n50_attf}.json")):
+                        try:
+                            _n50_sk = os.path.basename(_n50_sf).replace("pos_state_","").replace(".json","")
+                            _n50_ss = POSState.load(_n50_sk)
+                            for _n50_le in getattr(_n50_ss,'log',[]):
+                                _n50_log_entries.append((_n50_sk, _n50_le))
+                        except: pass
+                if _n50_log_entries:
+                    _n50_log_html = '<div style="background:#f8fafc;border:1px solid #1d4ed8;border-radius:8px;padding:10px;max-height:220px;overflow-y:auto;font-family:JetBrains Mono;font-size:10px">'
+                    for _n50_lk, _n50_ll in reversed(_n50_log_entries[-40:]):
+                        _n50_lc = "#1d4ed8" if "SIGNAL" in str(_n50_ll).upper() or "ENTRY" in str(_n50_ll).upper() else "#166534" if "EXIT" in str(_n50_ll).upper() else "#1e293b"
+                        _n50_log_html += f'<div style="color:{_n50_lc};padding:1px 0;border-bottom:1px solid #e2e8f0"><span style="color:#1d4ed8;font-weight:700;margin-right:6px">[{_n50_lk}]</span>{_n50_ll}</div>'
+                    _n50_log_html += '</div>'
+                    st.markdown(_n50_log_html, unsafe_allow_html=True)
+                else:
+                    st.markdown(f'<div style="background:#f8fafc;border:1px solid #dde9ff;border-radius:8px;padding:10px;font-family:JetBrains Mono;font-size:10px;color:#64748b">No {_n50_attf} equity activity yet.</div>', unsafe_allow_html=True)
+        with _n50_act_tabs[4]:
+            _n50_all_t = _all_trades()
+            if _n50_all_t:
+                _n50_all_html = '<div style="background:#f8fafc;border:1px solid #1d4ed8;border-radius:8px;padding:10px;max-height:280px;overflow-y:auto;font-family:JetBrains Mono;font-size:10px">'
+                for _n50_at2 in reversed(_n50_all_t[-60:]):
+                    _n50_pnl2 = _trade_net_pnl(_n50_at2)
+                    _n50_pc2  = "#166534" if _n50_pnl2 >= 0 else "#dc2626"
+                    _n50_all_html += (
+                        f'<div style="color:#e2e8f0;padding:2px 0;border-bottom:1px solid #e2e8f0">'
+                        f'<span style="color:#f59e0b">{_n50_at2.get("Symbol","?")}</span>'
+                        f' {_n50_at2.get("Direction","?")} '
+                        f'<span style="color:#94a3b8">{_n50_at2.get("Strategy","?")}</span>'
+                        f' <span style="color:{_n50_pc2};font-weight:700">Rs{_n50_pnl2:+,.0f}</span>'
+                        f' <span style="color:#64748b;font-size:9px">{str(_n50_at2.get("Exit Time",""))[:16]}</span>'
+                        f'</div>'
+                    )
+                _n50_all_html += '</div>'
+                st.markdown(_n50_all_html, unsafe_allow_html=True)
+            else:
+                st.markdown('<div style="background:#f8fafc;border:1px solid #dde9ff;border-radius:8px;padding:10px;font-family:JetBrains Mono;font-size:10px;color:#64748b">No equity trade history yet.</div>', unsafe_allow_html=True)
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 2 — ALL STRATEGIES
+# ═══════════════════════════════════════════════════════════════════════════════
+with _tabs[2]:
+    # ──────────────────────────────────────────────────────────────────────────
+    # 82 India Strategies: Equity(30) · Options(27) · Futures(25)
+    # ──────────────────────────────────────────────────────────────────────────
+    _IND_ALL_STRATS = [
+        # ===== EQUITY (30) =====
+        {"col":"EQ","name":"PPT Fibonacci 61.8%","seg":"EQ · OPT · FUT","tfs":["5m","15m","1h","4h"],
+         "logic":"Gareth Soloway's primary setup. Price pulls back to 61.8% Fibonacci retracement of prior impulse. Works on Nifty/BankNifty/top stocks during trend continuation.",
+         "entry":"Enter at 61.8% Fib level with reversal candle confirmation (hammer/engulfing). Volume should contract at retracement.",
+         "sl_tgt":"SL: below 78.6% Fib | T1: prior high/low | T2: 100% Fib extension"},
+
+        {"col":"EQ","name":"PPT Gap Fill","seg":"EQ · FUT","tfs":["5m","15m"],
+         "logic":"Price gaps up/down at open. Gaps in Nifty/top stocks tend to fill within first 30-60 minutes of RTH (9:15-10:15 IST).",
+         "entry":"Enter fade of gap direction after first 5-min candle closes with reversal signal. Confirm with VWAP reclaim.",
+         "sl_tgt":"SL: beyond gap candle high/low | T1: VWAP | T2: prior day close (gap fill)"},
+
+        {"col":"EQ","name":"PPT Tail Reversal","seg":"EQ · OPT","tfs":["15m","1h"],
+         "logic":"Long candle wick (tail) rejecting key level: support, resistance, VWAP, or Fibonacci. Indicates trapped traders and reversal momentum.",
+         "entry":"Enter on next candle break of tail candle body. Require volume spike at tail candle.",
+         "sl_tgt":"SL: beyond tail tip | T1: 1:1 RR | T2: 1:2 RR"},
+
+        {"col":"EQ","name":"9/20 EMA Pullback","seg":"EQ · FUT","tfs":["5m","15m","1h"],
+         "logic":"Price above both 9 EMA and 20 EMA (uptrend) or below both (downtrend). Enter on pullback to 9 or 20 EMA with bounce candle.",
+         "entry":"Enter when price touches 9/20 EMA zone and shows reversal candle. EMA separation > 0.1% for valid trend.",
+         "sl_tgt":"SL: below 20 EMA (longs) / above 20 EMA (shorts) | T1: prior swing | T2: channel top/bottom"},
+
+        {"col":"EQ","name":"Opening Range Breakout","seg":"EQ · FUT","tfs":["5m","15m"],
+         "logic":"Define first 15-min or 30-min range (ORB). Breakout with volume above/below range signals day direction. High-probability on index heavy days.",
+         "entry":"Enter on break and close above/below ORB high/low. Volume must be 1.5x average. No entry after 11:00 IST.",
+         "sl_tgt":"SL: back inside ORB (< 0.3% retracement) | T1: 1x ORB size | T2: 2x ORB size"},
+
+        {"col":"EQ","name":"VWAP Reclaim","seg":"EQ · FUT","tfs":["5m","15m"],
+         "logic":"Price dips below VWAP then reclaims it — signals bulls regaining control. Powerful in first 2 hours of NSE session.",
+         "entry":"Enter long when price closes 5-min bar above VWAP after being below. Enter short on loss and fail-to-reclaim.",
+         "sl_tgt":"SL: 0.2% below VWAP (longs) | T1: yesterday high / round number | T2: ATH zone"},
+
+        {"col":"EQ","name":"Gap and Go","seg":"EQ","tfs":["5m"],
+         "logic":"Stock/index gaps up with strong volume and continues direction. Works best on Nifty stocks with gap > 0.5% on news/result catalyst.",
+         "entry":"Enter on first pullback candle after gap-up open holds 9 EMA. Entry must be within first 30 min.",
+         "sl_tgt":"SL: below gap candle low | T1: +1.5% from entry | T2: +3%"},
+
+        {"col":"EQ","name":"High of Day Break","seg":"EQ · FUT","tfs":["5m","15m"],
+         "logic":"Price consolidates then breaks to new intraday high with volume. Strong trending day signal used for momentum entries.",
+         "entry":"Enter on candle close above previous intraday HOD. Volume must be 2x recent bars.",
+         "sl_tgt":"SL: below HOD breakout candle | T1: HOD + 0.5% | T2: HOD + 1%"},
+
+        {"col":"EQ","name":"Pre-Market Range Break","seg":"EQ · FUT","tfs":["5m"],
+         "logic":"Use 9:00-9:15 IST pre-open price range. Breakout of this range after 9:15 open gives directional bias for entire session.",
+         "entry":"Enter on 5-min break above pre-open high or below pre-open low with volume.",
+         "sl_tgt":"SL: back inside pre-open range | T1: 2x pre-open range size | T2: prior day HOD/LOD"},
+
+        {"col":"EQ","name":"Scalp Reversal at S/R","seg":"EQ · OPT","tfs":["5m"],
+         "logic":"Price approaches major horizontal S/R (yesterday HOD/LOD, round numbers, weekly pivots) and shows 2-bar reversal pattern.",
+         "entry":"Enter on second reversal candle completion. Tight 0.2-0.3% stop.",
+         "sl_tgt":"SL: 0.25% beyond S/R level | T1: VWAP | T2: mid-range"},
+
+        {"col":"EQ","name":"Volume Climax Reversal","seg":"EQ · OPT","tfs":["5m","15m"],
+         "logic":"Exhaustion move: huge volume spike with wide-range candle at support/resistance. Indicates panic selling or euphoric buying near turn.",
+         "entry":"Enter counter-trend on next bar after volume climax bar. Confirm with inside bar or doji.",
+         "sl_tgt":"SL: beyond climax candle | T1: VWAP | T2: 50% of climax candle"},
+
+        {"col":"EQ","name":"Doji Reversal","seg":"EQ · OPT","tfs":["15m","1h"],
+         "logic":"Doji candle at S/R or VWAP after extended move signals indecision and potential reversal. More reliable on higher TF.",
+         "entry":"Enter in direction of break of doji high (long) or low (short) on confirming next candle.",
+         "sl_tgt":"SL: opposite end of doji body | T1: 1:1.5 RR | T2: 1:2 RR"},
+
+        {"col":"EQ","name":"3-Bar Reversal","seg":"EQ · FUT","tfs":["15m","1h"],
+         "logic":"Three consecutive bars in one direction followed by reversal candle. Pattern signals momentum exhaustion. NSE version works well post 10:30 IST.",
+         "entry":"Enter on break of reversal candle (4th bar) in opposite direction to the 3-bar move.",
+         "sl_tgt":"SL: beyond 3rd bar extreme | T1: start of 3-bar pattern | T2: prior structure"},
+
+        {"col":"EQ","name":"Bollinger Band Squeeze","seg":"EQ · FUT","tfs":["15m","1h"],
+         "logic":"BB bandwidth < 10% of 6-month average signals low-volatility squeeze. Breakout from squeeze tends to be explosive (Keltner squeeze indicator).",
+         "entry":"Enter on first close outside BB after squeeze. Direction = expansion direction.",
+         "sl_tgt":"SL: back inside BB middle | T1: outer BB expanded | T2: 2x ATR from entry"},
+
+        {"col":"EQ","name":"Inside Candle Breakout","seg":"EQ · FUT","tfs":["15m","1h","4h"],
+         "logic":"Inside candle (IB) within prior bar range signals coiling energy. Breakout of IB mother bar in trend direction = high-probability entry.",
+         "entry":"Enter on break of mother bar high (uptrend) or low (downtrend) after IB formation.",
+         "sl_tgt":"SL: opposite end of mother bar | T1: measured move (mother bar height) | T2: 2x measured move"},
+
+        {"col":"EQ","name":"Round Number","seg":"EQ · FUT","tfs":["5m","15m"],
+         "logic":"Round numbers (Nifty 22000/22500/23000, BankNifty 48000/50000) act as psychological S/R. Price reacts at these levels predictably.",
+         "entry":"Enter reversal at round number with 2-bar confirmation. Enter breakout on close 0.2% beyond round number.",
+         "sl_tgt":"SL: 0.3% beyond round number | T1: next round number zone | T2: 2x ATR"},
+
+        {"col":"EQ","name":"Momentum Swing","seg":"EQ · FUT","tfs":["1h","4h"],
+         "logic":"Strong trend day: price breaks prior day high/low in first hour. Enter swing in direction. Hold multi-day. Works on Nifty/Bank Nifty trending weeks.",
+         "entry":"Enter on pullback to 20 EMA during strong trend. Require RSI > 55 (longs) or RSI < 45 (shorts).",
+         "sl_tgt":"SL: below 50 EMA | T1: 1.5x ATR | T2: prior major swing"},
+
+        {"col":"EQ","name":"Support Bounce","seg":"EQ · OPT","tfs":["15m","1h"],
+         "logic":"Price approaches daily/weekly support with decreasing volume, then bounces. Support = prior swing low or demand zone from weekly chart.",
+         "entry":"Enter long on hammer/engulfing at support with volume. Confirm RSI not in oversold on 1H.",
+         "sl_tgt":"SL: 0.3% below support | T1: prior resistance | T2: weekly R1 pivot"},
+
+        {"col":"EQ","name":"MA Crossover 20/50","seg":"EQ · FUT","tfs":["1h","4h"],
+         "logic":"20 EMA crosses above/below 50 EMA signaling trend change. Lagging but reliable for swing entries. Used on daily for positional trades.",
+         "entry":"Enter on 20/50 crossover bar close in direction. Add on first pullback to crossed MAs.",
+         "sl_tgt":"SL: below 50 EMA | T1: 2x ATR | T2: Fibonacci projection"},
+
+        {"col":"EQ","name":"Fabio Daily (Value Area)","seg":"EQ · FUT","tfs":["1h","4h"],
+         "logic":"Fabio Ornellas' method: buy deep value in strong stock. Price pulls to 61.8-78.6% of weekly range. Not a reversal — a continuation entry.",
+         "entry":"Enter in direction of weekly trend on daily pullback to value zone (61.8-78.6% of prior week range).",
+         "sl_tgt":"SL: below 88.6% retracement | T1: prior week high | T2: Fibonacci extension 127%"},
+
+        {"col":"EQ","name":"Breakout Momentum","seg":"EQ · FUT","tfs":["15m","1h"],
+         "logic":"Multi-week consolidation breakout on expanding volume. Stock breaks above resistance of 3-week range. Volume must be 3x 20-day average.",
+         "entry":"Enter on daily close above range high. Add on first pullback to breakout level (converted to support).",
+         "sl_tgt":"SL: back below breakout level | T1: measured move from range | T2: 52-week high"},
+
+        {"col":"EQ","name":"Earnings Momentum","seg":"EQ · OPT","tfs":["5m","15m"],
+         "logic":"Stock gaps on quarterly results. If gap holds and direction matches consensus, enter continuation. Avoid fading earnings gaps.",
+         "entry":"Enter long after 15-min holding above gap level (no fill). Volume must sustain > 2x average.",
+         "sl_tgt":"SL: gap fill (50%) | T1: +3% | T2: +5% from open"},
+
+        {"col":"EQ","name":"Mean Reversion","seg":"EQ · OPT","tfs":["15m","1h"],
+         "logic":"Stock extended 2+ standard deviations from 20-day MA. RSI > 75 (overbought) or < 25 (oversold). Fade the extension for quick reversion.",
+         "entry":"Enter counter-trend at 2σ BB band with confirming candle. Small size — against trend.",
+         "sl_tgt":"SL: 2.5σ BB band | T1: 1σ BB band | T2: 20-day MA"},
+
+        {"col":"EQ","name":"Bull Flag","seg":"EQ · FUT","tfs":["15m","1h"],
+         "logic":"Strong pole (>1.5% impulse) followed by orderly 3-5 bar consolidation with declining volume. Classic continuation pattern.",
+         "entry":"Enter on break of flag high with volume surge (>1.5x average). Ideal 1-3 PM IST entry.",
+         "sl_tgt":"SL: below flag low | T1: pole height projected from flag | T2: 1.618x pole"},
+
+        {"col":"EQ","name":"RSI Divergence","seg":"EQ · OPT","tfs":["1h","4h"],
+         "logic":"Price makes new high/low but RSI doesn't confirm. Hidden/regular divergence at key levels signals momentum failure.",
+         "entry":"Enter counter-trend on divergence candle reversal. Require structure confirmation (break of minor S/R).",
+         "sl_tgt":"SL: beyond divergence swing | T1: 38.2% retracement | T2: 61.8% retracement"},
+
+        {"col":"EQ","name":"MACD Histogram Reversal","seg":"EQ · FUT","tfs":["1h","4h"],
+         "logic":"MACD histogram reverses from extreme reading. Zero-line crossover adds confluence. Works best on daily chart for swing trades.",
+         "entry":"Enter on first MACD histogram bar shrinking after peak/trough. Confirm with price action reversal candle.",
+         "sl_tgt":"SL: beyond swing high/low | T1: MACD zero line cross | T2: prior swing"},
+
+        {"col":"EQ","name":"Supertrend Signal","seg":"EQ · FUT","tfs":["15m","1h"],
+         "logic":"Supertrend indicator (10, 3 ATR) flip from red to green (buy) or green to red (sell). Simple trend-following signal widely used in NSE algos.",
+         "entry":"Enter on Supertrend color change candle close. Confirm with RSI > 50 (buy) or < 50 (sell).",
+         "sl_tgt":"SL: Supertrend line | T1: 1.5x ATR | T2: prior swing"},
+
+        {"col":"EQ","name":"Volume Profile POC","seg":"EQ · FUT","tfs":["1h","4h"],
+         "logic":"Point of Control (POC) — highest volume price level of session/week. Price gravitates to POC and tends to auction around it.",
+         "entry":"Enter fade at Value Area High/Low (VAH/VAL). Enter breakout when price closes beyond VAH/VAL with volume.",
+         "sl_tgt":"SL: 0.3% beyond VAH/VAL | T1: POC | T2: opposite VA boundary"},
+
+        {"col":"EQ","name":"AI Narrative + Technical","seg":"EQ · OPT","tfs":["1h","4h"],
+         "logic":"Combine AI sector momentum (e.g., IT, pharma, defence themes) with technical setup. Enter stocks in AI/theme narrative at pullback.",
+         "entry":"Enter theme stock at 61.8% Fib pullback during sector strength week. Require Nifty sector index trend up.",
+         "sl_tgt":"SL: below 78.6% Fib | T1: prior high | T2: sector ETF target"},
+
+        {"col":"EQ","name":"Relative Strength Leader","seg":"EQ","tfs":["1h","4h"],
+         "logic":"Find stock outperforming Nifty on down days and making new highs on up days. RS leader tends to sustain outperformance in current cycle.",
+         "entry":"Enter RS leader on Nifty pullback day — if stock holds or rises, it's a strong long.",
+         "sl_tgt":"SL: day low | T1: 52-week high | T2: sector rotation target"},
+
+        # ===== OPTIONS (27) =====
+        {"col":"OPT","name":"Iron Condor","seg":"OPT","tfs":["4h"],
+         "logic":"Sell OTM call + buy further OTM call + sell OTM put + buy further OTM put. Profit if Nifty/BankNifty stays in range. Best before weekly expiry.",
+         "entry":"Enter with 5-7 DTE. Short strikes at 1 SD. Collect > 0.5% of index as premium.",
+         "sl_tgt":"SL: 2x premium collected | T1: 50% premium decay | T2: 75% premium decay"},
+
+        {"col":"OPT","name":"Iron Butterfly","seg":"OPT","tfs":["4h"],
+         "logic":"Sell ATM call and put (same strike) + buy OTM wings. Profit if index pins at ATM strike at expiry. High premium collection, limited range.",
+         "entry":"Enter 2-3 DTE near expiry when IV high. Select ATM strike at current index level.",
+         "sl_tgt":"SL: index moves > 0.8% from ATM | T1: 40% premium decay | T2: expiry pin"},
+
+        {"col":"OPT","name":"Long Butterfly","seg":"OPT","tfs":["4h"],
+         "logic":"Buy lower strike call + sell 2x middle strike calls + buy upper strike call. Low risk, profit at middle strike pin. Used when expecting low movement.",
+         "entry":"Enter 5-7 DTE with debit < 20% of spread width. Center strike = ATM.",
+         "sl_tgt":"SL: full debit paid | T1: 2x debit | T2: max profit at center strike"},
+
+        {"col":"OPT","name":"Broken Wing Butterfly","seg":"OPT","tfs":["4h"],
+         "logic":"Asymmetric butterfly — skip strike on one wing to collect credit. Profit if market goes sideways or in one direction. Zero-cost or credit entry possible.",
+         "entry":"Structure: buy 1 call, sell 2 calls (1 strike up), buy 1 call (3 strikes up). Adjust for credit.",
+         "sl_tgt":"SL: if net credit, SL = defined loss on downside | T1: middle strike area | T2: full credit retention"},
+
+        {"col":"OPT","name":"Long Straddle","seg":"OPT","tfs":["1h","4h"],
+         "logic":"Buy ATM call + ATM put. Profit if Nifty moves > IV-implied move. Use before events: RBI policy, Budget, elections, quarterly results.",
+         "entry":"Enter 1-2 days before catalyst event. Buy when IV rank < 50%.",
+         "sl_tgt":"SL: 30% of premium paid | T1: breakeven + 0.5% | T2: 2x premium paid"},
+
+        {"col":"OPT","name":"Short Straddle","seg":"OPT","tfs":["4h"],
+         "logic":"Sell ATM call + ATM put. Profit from theta decay if Nifty stays flat. High-risk — unlimited loss potential. Best in high IV environments.",
+         "entry":"Sell when IV rank > 75%. Best entry: Monday or Tuesday for weekly expiry.",
+         "sl_tgt":"SL: 2x premium collected | T1: 50% decay | T2: close day before expiry"},
+
+        {"col":"OPT","name":"Long Strangle","seg":"OPT","tfs":["1h","4h"],
+         "logic":"Buy OTM call + OTM put. Cheaper than straddle, needs bigger move. Use when expecting volatility spike but unsure of direction.",
+         "entry":"Buy 1-2% OTM strikes. Enter when IV rank < 30%. Hold through event.",
+         "sl_tgt":"SL: 40% of premium | T1: 1.5x premium | T2: 3x premium"},
+
+        {"col":"OPT","name":"Short Strangle","seg":"OPT","tfs":["4h"],
+         "logic":"Sell OTM call + OTM put. Wider range than short straddle. Collect premium from high IV contraction. Manage at 50% profit.",
+         "entry":"Sell 1-2 SD OTM strikes. Enter after IV spike (IV rank > 80%). Weekly expiry.",
+         "sl_tgt":"SL: 2x premium per side | T1: 50% decay | T2: expiry worthless"},
+
+        {"col":"OPT","name":"Jade Lizard","seg":"OPT","tfs":["4h"],
+         "logic":"Sell OTM put + sell OTM call spread. Collect enough premium so upside credit covers call spread width — no upside risk. Bullish bias.",
+         "entry":"Select short put at strong support. Call spread width = 100-200 Nifty points.",
+         "sl_tgt":"SL: put breaches — roll or close | T1: 50% premium | T2: expiry pin above short put"},
+
+        {"col":"OPT","name":"Bull Call Spread","seg":"OPT","tfs":["1h","4h"],
+         "logic":"Buy lower strike call + sell higher strike call. Reduces cost, defines max profit. Use when moderately bullish on Nifty/BankNifty.",
+         "entry":"Buy ATM call, sell 0.5-1% OTM call. Enter on technical breakout confirmation.",
+         "sl_tgt":"SL: 50% of debit paid | T1: short strike area | T2: full spread width"},
+
+        {"col":"OPT","name":"Bear Put Spread","seg":"OPT","tfs":["1h","4h"],
+         "logic":"Buy higher strike put + sell lower strike put. Defined risk bearish play. Use on Nifty breakdown below support with stop.",
+         "entry":"Buy ATM put, sell 0.5% OTM put. Enter on technical breakdown.",
+         "sl_tgt":"SL: 50% of debit | T1: short strike area | T2: full spread width"},
+
+        {"col":"OPT","name":"Vertical Credit Spread","seg":"OPT","tfs":["4h"],
+         "logic":"Sell OTM option + buy further OTM for protection. Directional bias with defined risk. Suitable for weekly Nifty/BankNifty expiry.",
+         "entry":"Credit > 30% of spread width. Short strike at key S/R. Enter Mon/Tue for Thu expiry.",
+         "sl_tgt":"SL: short strike breached | T1: 50% premium decay | T2: 80% decay"},
+
+        {"col":"OPT","name":"Calendar Spread","seg":"OPT","tfs":["4h"],
+         "logic":"Sell near-month ATM option + buy far-month same strike. Profit from IV differential and theta. Best when near-month IV > far-month.",
+         "entry":"Enter when front-month IV > back-month by 5+ points. Use same strike ATM.",
+         "sl_tgt":"SL: index moves > 1% from center | T1: near expiry IV collapse | T2: near expiry worthless"},
+
+        {"col":"OPT","name":"Diagonal Spread","seg":"OPT","tfs":["4h"],
+         "logic":"Long far-month slightly ITM option + short near-month OTM same type. Poor Man's Covered Call for index. Combines theta and delta.",
+         "entry":"Buy 30-45 DTE 0.5% ITM, sell 7-14 DTE OTM. Delta target: net 0.3-0.4.",
+         "sl_tgt":"SL: long option loses 30% of value | T1: short option expires worthless | T2: roll short monthly"},
+
+        {"col":"OPT","name":"Ratio Spread","seg":"OPT","tfs":["4h"],
+         "logic":"Buy 1 ATM call + sell 2 OTM calls (or put version). Collect credit if market stays below ratio-sold strikes. Undefined upside risk.",
+         "entry":"1:2 ratio. Short strikes at strong resistance. Collect small net credit.",
+         "sl_tgt":"SL: index closes above both short strikes | T1: credit retention at expiry | T2: close both at 80% decay"},
+
+        {"col":"OPT","name":"Risk Reversal","seg":"OPT","tfs":["1h","4h"],
+         "logic":"Sell OTM put + buy OTM call (bullish) or vice versa. Zero-cost or small credit/debit. Directional play with minimal capital outlay.",
+         "entry":"Sell put at support, buy call at resistance. Balance strikes for zero-cost.",
+         "sl_tgt":"SL: sold option doubles in value | T1: bought option 2x | T2: 3x bought option"},
+
+        {"col":"OPT","name":"Synthetic Long","seg":"OPT","tfs":["1h","4h"],
+         "logic":"Buy ATM call + sell ATM put = same P&L as owning futures at lower capital. Bullish directional with full upside, full downside.",
+         "entry":"Enter when bullish on trend with IV rank < 50%. Use same expiry as trading plan.",
+         "sl_tgt":"SL: put strike (max loss defined by put premium received) | T1: 1% index move | T2: 2% index move"},
+
+        {"col":"OPT","name":"Put Skew Trade","seg":"OPT","tfs":["4h"],
+         "logic":"Nifty put skew (higher IV in puts) means OTM puts are expensive. Sell put spreads to harvest skew premium. Mean-reversion on IV skew.",
+         "entry":"When put skew (25D put IV - 25D call IV) > 3%. Sell OTM put spread.",
+         "sl_tgt":"SL: 2x premium | T1: skew normalises | T2: expiry"},
+
+        {"col":"OPT","name":"Covered Call","seg":"OPT","tfs":["4h"],
+         "logic":"Hold stock position (or futures) + sell OTM call above. Earns premium against holding cost. Works in sideways/mild bullish market.",
+         "entry":"Sell call at resistance or 1-2% OTM. Monthly expiry for stock positions.",
+         "sl_tgt":"SL: buy back call if stock breaks above | T1: call expires worthless | T2: roll up on breakout"},
+
+        {"col":"OPT","name":"Cash Secured Put","seg":"OPT","tfs":["4h"],
+         "logic":"Sell OTM put on quality stock/index with cash collateral. Intent: earn premium or acquire stock at discount. Bullish income strategy.",
+         "entry":"Sell put at strong support or 52-week low area. IV rank > 50%.",
+         "sl_tgt":"SL: put assigned, hold position | T1: expires worthless | T2: roll down if breached"},
+
+        {"col":"OPT","name":"Protective Put","seg":"OPT","tfs":["1h","4h"],
+         "logic":"Hold futures long + buy ATM or OTM put as insurance. Limits downside during uncertainty. Cost = put premium.",
+         "entry":"Buy put when holding overnight futures during major events (RBI, Fed, quarterly).",
+         "sl_tgt":"SL: none (put is the hedge) | T1: futures move > put premium | T2: 2x put premium on futures gain"},
+
+        {"col":"OPT","name":"Collar Strategy","seg":"OPT","tfs":["4h"],
+         "logic":"Hold stock + sell OTM call + buy OTM put. Zero-cost collar = no net premium. Caps upside/downside. Useful for large stock positions.",
+         "entry":"Put = 1-2% OTM below. Call = 1-2% OTM above. Match premium for zero-cost.",
+         "sl_tgt":"SL: put provides floor | T1: call provides cap | T2: close or roll monthly"},
+
+        {"col":"OPT","name":"ATM Call Momentum","seg":"OPT","tfs":["5m","15m"],
+         "logic":"Buy ATM call when Nifty breaks intraday high with volume. Quick scalp using options for leverage. Delta ~0.5. Exit same day.",
+         "entry":"Enter ATM call on ORB breakout or HOD break. Delta > 0.45 required.",
+         "sl_tgt":"SL: 20% of premium | T1: 50% premium gain | T2: 100% premium gain"},
+
+        {"col":"OPT","name":"ATM Put Momentum","seg":"OPT","tfs":["5m","15m"],
+         "logic":"Buy ATM put on Nifty breakdown below intraday low or VWAP. Quick directional scalp. Same-day exit mandatory.",
+         "entry":"Enter on 5-min close below VWAP or prior LOD with volume surge.",
+         "sl_tgt":"SL: 20% of premium | T1: 50% premium gain | T2: 100% premium gain"},
+
+        {"col":"OPT","name":"LEAPS Bull Call","seg":"OPT","tfs":["4h"],
+         "logic":"Buy deep ITM call with 3+ month expiry on quality Nifty 50 stock. Low time-decay, high delta. Substitute for stock at 30-40% capital.",
+         "entry":"Buy 80 delta call (deep ITM). Strike = stock price - 10%. 90+ DTE.",
+         "sl_tgt":"SL: 20% loss on option | T1: stock reaches prior high | T2: 52-week high"},
+
+        {"col":"OPT","name":"Wheel Strategy","seg":"OPT","tfs":["4h"],
+         "logic":"Step 1: Sell cash-secured put. If assigned, Step 2: Sell covered calls until called away. Repeat. Generates regular income from quality stocks.",
+         "entry":"Start by selling OTM put on strong stock at support. Target > 1% premium per month.",
+         "sl_tgt":"SL: stock breaks below major support | T1: put expires worthless (repeat) | T2: called away above entry (profit)"},
+
+        {"col":"OPT","name":"Poor Man's Covered Call","seg":"OPT","tfs":["4h"],
+         "logic":"Buy long-dated ITM call (LEAPS) + sell short-dated OTM call monthly. Replaces stock in covered call at 30% capital. Diagonal spread.",
+         "entry":"Buy 90+ DTE 70-delta call. Sell 30 DTE 30-delta call against it monthly.",
+         "sl_tgt":"SL: long option loses 25% | T1: roll short monthly for income | T2: close full position at 20% gain"},
+
+        # ===== FUTURES (25) =====
+        {"col":"FUT","name":"Nifty Fibonacci PPT","seg":"FUT","tfs":["5m","15m","1h","4h"],
+         "logic":"Gareth Soloway PPT adapted for Nifty futures. 61.8% retracement of prior impulse on E-mini equivalent (NF/BNF). High-precision reversal entry.",
+         "entry":"Enter at 61.8% Fib level with reversal candle on Nifty/BankNifty futures. Volume contraction at retracement.",
+         "sl_tgt":"SL: below 78.6% Fib | T1: prior swing | T2: 127% Fib extension"},
+
+        {"col":"FUT","name":"Fibonacci Cluster","seg":"FUT","tfs":["1h","4h"],
+         "logic":"Multiple Fib levels from different impulse legs coincide at same price zone. Cluster = high-probability S/R. Nifty futures respect clusters strongly.",
+         "entry":"Mark 2-3 Fib sets. Enter at cluster zone (< 0.2% range) with reversal candle.",
+         "sl_tgt":"SL: beyond cluster zone | T1: next Fib cluster | T2: measured move"},
+
+        {"col":"FUT","name":"Opening Range Breakout NF","seg":"FUT","tfs":["5m","15m"],
+         "logic":"Nifty futures first 15-min range (9:15-9:30 IST) defines day's bias. Breakout of this range with volume = high-conviction entry for rest of day.",
+         "entry":"Enter on 5-min close above/below 15-min ORB with volume 2x+ average. No entries after 10:00 IST.",
+         "sl_tgt":"SL: back inside ORB | T1: 1x ORB projected | T2: 2x ORB projected"},
+
+        {"col":"FUT","name":"Overnight Range Break","seg":"FUT","tfs":["5m","15m"],
+         "logic":"Nifty futures SGX/Gift range (previous close to 9:15 open). Breakout of this pre-market range after RTH open signals directional day.",
+         "entry":"Enter on Gift Nifty range breakout sustained for 2 bars after 9:15 IST open.",
+         "sl_tgt":"SL: back inside Gift range | T1: 1% from entry | T2: 2% from entry"},
+
+        {"col":"FUT","name":"VWAP Reclaim Futures","seg":"FUT","tfs":["5m","15m"],
+         "logic":"Nifty/BankNifty futures reclaim VWAP after dip below (bullish) or break below VWAP after bounce (bearish). Institutional reference level.",
+         "entry":"Enter on 5-min close back above VWAP (long) or below VWAP (short). Require volume confirmation.",
+         "sl_tgt":"SL: 0.2% beyond VWAP | T1: prior day high/low | T2: 1% from VWAP"},
+
+        {"col":"FUT","name":"Nifty Gap Fill","seg":"FUT","tfs":["5m","15m"],
+         "logic":"Nifty opens with gap vs prior close. Gaps < 0.5% tend to fill within first hour. Fade the opening gap direction for a gap-fill scalp.",
+         "entry":"Enter fade on first 5-min reversal candle after open if gap < 0.5%. Volume should contract.",
+         "sl_tgt":"SL: beyond gap candle | T1: VWAP | T2: prior close (gap fill)"},
+
+        {"col":"FUT","name":"Gift Nifty High/Low Break","seg":"FUT","tfs":["5m"],
+         "logic":"Gift Nifty (SGX equivalent) trades 6:30-9:15 IST. Its high and low become first key levels for Nifty futures at open. Breakout = momentum.",
+         "entry":"Enter on break of Gift Nifty high/low within first 15 min of NSE open. Quick scalp.",
+         "sl_tgt":"SL: back inside Gift range | T1: 50 Nifty points | T2: 100 Nifty points"},
+
+        {"col":"FUT","name":"Nifty Momentum Scalp","seg":"FUT","tfs":["5m"],
+         "logic":"Strong directional push (>0.3% in 5 min) with expanding volume. Enter pullback continuation. Works in morning session 9:15-11:00 IST.",
+         "entry":"Enter on first 2-bar pullback after momentum thrust. Price must hold 9 EMA.",
+         "sl_tgt":"SL: below 9 EMA (longs) | T1: 0.5% from entry | T2: 1% from entry"},
+
+        {"col":"FUT","name":"RTH Open Drive","seg":"FUT","tfs":["5m","15m"],
+         "logic":"NSE session opens (9:15-9:30 IST) with strong directional push that doesn't pause. Open drive = trend day likely. Hold position all session.",
+         "entry":"Enter long/short if first 3 bars all same direction with volume. No contra-candle.",
+         "sl_tgt":"SL: back below open candle | T1: +1% | T2: +1.5% (close at 3:00 IST)"},
+
+        {"col":"FUT","name":"BankNifty Tech Momentum","seg":"FUT","tfs":["5m","15m"],
+         "logic":"BankNifty is high-beta version of Nifty. Strong banking sector news (PSU, HDFC, ICICI) drives BNF momentum. Use for amplified directional trades.",
+         "entry":"Enter BankNifty futures on confirmed ORB or VWAP reclaim with banking sector catalyst.",
+         "sl_tgt":"SL: 0.3% | T1: 0.7% | T2: 1.5% (BNF moves bigger than Nifty)"},
+
+        {"col":"FUT","name":"Sensex Divergence","seg":"FUT","tfs":["15m","1h"],
+         "logic":"When Sensex (BSE) diverges from Nifty (NSE) — one makes new high while other doesn't — it signals distribution/rotation. Trade the weaker index short.",
+         "entry":"Enter short on the lagging index future when divergence confirmed on 15-min close.",
+         "sl_tgt":"SL: beyond divergence high | T1: VWAP of lagging index | T2: divergence resolved"},
+
+        {"col":"FUT","name":"Reversal at VWAP","seg":"FUT","tfs":["5m","15m"],
+         "logic":"Price extends far from VWAP (> 0.5%) then shows reversal candle returning to VWAP. Mean-reversion scalp toward VWAP. High win rate.",
+         "entry":"Enter fade at 0.6%+ from VWAP on reversal candle. Target VWAP.",
+         "sl_tgt":"SL: 0.3% beyond extreme | T1: VWAP | T2: VWAP ± 0.2%"},
+
+        {"col":"FUT","name":"Cumulative Delta Divergence","seg":"FUT","tfs":["5m","15m"],
+         "logic":"Price rises but cumulative delta (buy-sell volume) falls — bearish divergence. Indicates absorption at highs. Used on Nifty/BankNifty futures.",
+         "entry":"Enter short when price makes new intraday high but cum-delta makes lower high on 5-min.",
+         "sl_tgt":"SL: beyond price high | T1: VWAP | T2: POC"},
+
+        {"col":"FUT","name":"Lunch Hour Fade","seg":"FUT","tfs":["15m"],
+         "logic":"12:00-1:30 PM IST is low-volume lunch session in India. Trending moves during this period often reverse. Fade extremes at lunch highs/lows.",
+         "entry":"Enter counter-trend at 12:30-1:00 PM IST if price is at intraday extreme with low volume.",
+         "sl_tgt":"SL: beyond lunch extreme | T1: VWAP | T2: open price"},
+
+        {"col":"FUT","name":"Power Hour Breakout","seg":"FUT","tfs":["5m","15m"],
+         "logic":"2:00-3:30 PM IST is high-volume power hour in NSE. Breakouts of day's range in this period have strong follow-through. Enter late-day breakouts.",
+         "entry":"Enter on 15-min close above/below day's HOD/LOD after 2:00 PM IST with volume surge.",
+         "sl_tgt":"SL: back inside day range | T1: HOD + 0.5% | T2: close position at 3:25 IST"},
+
+        {"col":"FUT","name":"Market Profile TPO","seg":"FUT","tfs":["1h","4h"],
+         "logic":"TPO (Time Price Opportunity) chart shows value area (70% of volume). Trade from VAL (Value Area Low) to VAH (Value Area High) in balanced market.",
+         "entry":"Enter long at VAL with acceptance (2 TPO periods). Enter short at VAH with rejection.",
+         "sl_tgt":"SL: beyond VA boundary | T1: POC | T2: opposite VA boundary"},
+
+        {"col":"FUT","name":"Nifty 50 EMA Support","seg":"FUT","tfs":["1h","4h"],
+         "logic":"50 EMA on hourly/4H chart is major institutional support/resistance for Nifty futures. Price bounces from 50 EMA in trending markets.",
+         "entry":"Enter long on 50 EMA touch with hammer/bullish engulfing on 1H. Trend must be up (above 200 EMA).",
+         "sl_tgt":"SL: 0.3% below 50 EMA | T1: prior swing high | T2: 127% Fib extension"},
+
+        {"col":"FUT","name":"BankNifty Relative Strength","seg":"FUT","tfs":["15m","1h"],
+         "logic":"When BankNifty outperforms Nifty (BNF/NF ratio rising), go long BNF futures. When underperforming, go short BNF relative to Nifty.",
+         "entry":"Enter BNF long when BNF/NF ratio breaks above 5-day high. Pair trade: long BNF short Nifty.",
+         "sl_tgt":"SL: ratio reverses | T1: 0.5% BNF outperformance | T2: 1% BNF outperformance"},
+
+        {"col":"FUT","name":"Nifty Inside Day","seg":"FUT","tfs":["4h"],
+         "logic":"Day's range inside prior day's range = coiled energy. Next day's break of inside day high/low = powerful directional move. Position trade.",
+         "entry":"Enter on break of inside day high (bullish) or low (bearish) on daily chart. Set alert at levels.",
+         "sl_tgt":"SL: back inside inside day | T1: measured move = inside day range | T2: 2x measured move"},
+
+        {"col":"FUT","name":"Volume Node Rejection","seg":"FUT","tfs":["1h","4h"],
+         "logic":"Volume Profile shows high-volume nodes (HVN) as S/R and low-volume nodes (LVN) as price moves through quickly. Trade rejections at HVN.",
+         "entry":"Enter when price reaches HVN and shows reversal candle. Volume should decline at HVN.",
+         "sl_tgt":"SL: beyond HVN | T1: next LVN | T2: opposite HVN"},
+
+        {"col":"FUT","name":"Nifty Trend Follow","seg":"FUT","tfs":["1h","4h"],
+         "logic":"Classical trend following: 20 EMA > 50 EMA > 200 EMA (uptrend). Enter pullbacks to 20 EMA in bull trend. Ride medium-term directional moves.",
+         "entry":"Enter on 20 EMA bounce with RSI > 50 in uptrend. Exit on 20 EMA break.",
+         "sl_tgt":"SL: below 50 EMA | T1: channel top | T2: prior major swing"},
+
+        {"col":"FUT","name":"MNF/MBNF Swing","seg":"FUT","tfs":["4h"],
+         "logic":"Mini Nifty (MNF) and Mini BankNifty (MBNF) contracts for smaller capital. Swing trades 2-5 days. Same setups as regular contracts at 1/10th size.",
+         "entry":"Enter mini contracts at same technical levels. Better for position sizing discipline.",
+         "sl_tgt":"SL: same % as regular | T1: 1.5x ATR swing | T2: prior weekly swing"},
+
+        {"col":"FUT","name":"FII DII Flow Follow","seg":"FUT","tfs":["4h"],
+         "logic":"Track daily FII (Foreign) and DII (Domestic) institutional buying/selling from NSE data. Multi-day consistent FII buying = bullish signal for Nifty.",
+         "entry":"Enter after 3+ consecutive days of FII net buying > 1000 crore. Confirm with Nifty above 20 EMA.",
+         "sl_tgt":"SL: FII turns net seller | T1: 1% Nifty gain | T2: 2% Nifty gain"},
+
+        {"col":"FUT","name":"India VIX Spike Reversal","seg":"FUT","tfs":["1h","4h"],
+         "logic":"India VIX > 20 signals fear. VIX spike above 25 then reversal = buy Nifty. VIX mean-reverts quickly. High win rate after VIX spikes.",
+         "entry":"Enter long Nifty futures when VIX falls from spike high by >10%. Require reversal candle on Nifty.",
+         "sl_tgt":"SL: VIX makes new high | T1: VIX returns to 18 | T2: VIX returns to 14"},
+
+        {"col":"FUT","name":"Budget/Event Straddle Unwind","seg":"FUT","tfs":["15m"],
+         "logic":"Before major events (Union Budget, RBI Policy, FOMC), IV spikes. After event, IV crush. Short straddle/strangle day before, unwind day after.",
+         "entry":"Enter short straddle/strangle 1 day before event. Exit within 1 hour after event announcement.",
+         "sl_tgt":"SL: Nifty moves > 1.5% intraday | T1: IV crush 30% | T2: close 2 hours post event"},
+    ]
+
+    # ── Renderer ──────────────────────────────────────────────────────────────
+    def _strat_card(s):
+        _col_colors = {"EQ": ("#1d4ed8","#eff6ff"), "OPT": ("#d97706","#fffbeb"), "FUT": ("#16a34a","#f0fdf4")}
+        _cc, _cbg = _col_colors.get(s["col"], ("#64748b","#f8fafc"))
+        return (
+            f'<div style="background:{_cbg};border:1px solid {_cc}33;border-left:3px solid {_cc};'
+            f'border-radius:6px;padding:10px 14px;margin:6px 0;font-family:JetBrains Mono">'
+            f'<div style="display:flex;justify-content:space-between;align-items:center">'
+            f'<span style="color:{_cc};font-weight:700;font-size:12px">{s["name"]}</span>'
+            f'<span style="background:{_cc};color:#fff;font-size:8px;padding:2px 6px;border-radius:4px">{s["seg"]}</span>'
+            f'</div>'
+            f'<div style="color:#475569;font-size:10px;margin-top:4px">TF: {" · ".join(s["tfs"])}</div>'
+            f'<div style="color:#1e293b;font-size:10px;margin-top:6px"><b>Logic:</b> {s["logic"]}</div>'
+            f'<div style="color:#1e293b;font-size:10px;margin-top:4px"><b>Entry:</b> {s["entry"]}</div>'
+            f'<div style="color:#64748b;font-size:10px;margin-top:4px"><b>SL/Target:</b> {s["sl_tgt"]}</div>'
+            f'</div>'
+        )
+
+    # ── Header banner ─────────────────────────────────────────────────────────
+    _eq_n  = sum(1 for s in _IND_ALL_STRATS if s["col"]=="EQ")
+    _opt_n = sum(1 for s in _IND_ALL_STRATS if s["col"]=="OPT")
+    _fut_n = sum(1 for s in _IND_ALL_STRATS if s["col"]=="FUT")
+    st.markdown(
+        f'<div style="background:#dde9ff;border-radius:10px;padding:12px 18px;'
+        f'margin-bottom:14px;font-family:JetBrains Mono">'
+        f'<div style="color:#1d4ed8;font-size:18px;font-weight:700">India Strategies — {len(_IND_ALL_STRATS)} Strategies</div>'
+        f'<div style="display:flex;gap:16px;margin-top:6px">'
+        f'<span style="background:#1d4ed8;color:#fff;padding:3px 10px;border-radius:20px;font-size:11px">Equity {_eq_n}</span>'
+        f'<span style="background:#d97706;color:#fff;padding:3px 10px;border-radius:20px;font-size:11px">Options {_opt_n}</span>'
+        f'<span style="background:#16a34a;color:#fff;padding:3px 10px;border-radius:20px;font-size:11px">Futures {_fut_n}</span>'
+        f'<span style="color:#5a72a0;font-size:11px;margin-top:3px">3 columns · 4 timeframes · Nifty · BankNifty · Sensex</span>'
+        f'</div></div>',
+        unsafe_allow_html=True)
+
+    # ── TF sub-tabs ───────────────────────────────────────────────────────────
+    _strat_tabs = st.tabs(["5-Min Scalp", "15-Min Intraday", "1-Hour Swing", "4-Hour Position", "Backtest"])
+    _tf_filter  = {"5-Min Scalp":"5m","15-Min Intraday":"15m","1-Hour Swing":"1h","4-Hour Position":"4h"}
+
+    for _sti, _stt in enumerate(_strat_tabs[:-1]):
+        with _stt:
+            _tf_key = list(_tf_filter.values())[_sti]
+            _tf_strats = [s for s in _IND_ALL_STRATS if _tf_key in s["tfs"]]
+            _eq_s  = [s for s in _tf_strats if s["col"]=="EQ"]
+            _opt_s = [s for s in _tf_strats if s["col"]=="OPT"]
+            _fut_s = [s for s in _tf_strats if s["col"]=="FUT"]
+            st.markdown(
+                f'<div style="background:#f8fafc;border-radius:8px;padding:8px 14px;'
+                f'margin-bottom:10px;font-family:JetBrains Mono;font-size:11px">'
+                f'<span style="color:#1d4ed8;font-weight:700">{len(_tf_strats)} strategies on {_tf_key}</span>'
+                f'&nbsp;·&nbsp;EQ:{len(_eq_s)} OPT:{len(_opt_s)} FUT:{len(_fut_s)}'
+                f'</div>', unsafe_allow_html=True)
+            _c1, _c2, _c3 = st.columns(3)
+            with _c1:
+                st.markdown('<div style="color:#1d4ed8;font-weight:700;font-size:11px;font-family:JetBrains Mono;margin-bottom:4px">EQUITY</div>', unsafe_allow_html=True)
+                for _s in _eq_s:
+                    st.markdown(_strat_card(_s), unsafe_allow_html=True)
+            with _c2:
+                st.markdown('<div style="color:#d97706;font-weight:700;font-size:11px;font-family:JetBrains Mono;margin-bottom:4px">OPTIONS</div>', unsafe_allow_html=True)
+                for _s in _opt_s:
+                    st.markdown(_strat_card(_s), unsafe_allow_html=True)
+            with _c3:
+                st.markdown('<div style="color:#16a34a;font-weight:700;font-size:11px;font-family:JetBrains Mono;margin-bottom:4px">FUTURES</div>', unsafe_allow_html=True)
+                for _s in _fut_s:
+                    st.markdown(_strat_card(_s), unsafe_allow_html=True)
+
+    # ── Backtest tab ──────────────────────────────────────────────────────────
+    with _strat_tabs[4]:
+        st.markdown('<div style="color:#1d4ed8;font-size:16px;font-weight:700;font-family:JetBrains Mono">Strategy Backtester</div>', unsafe_allow_html=True)
+        _bt_col1, _bt_col2 = st.columns([2,1])
+        with _bt_col1:
+            _bt_strat = st.selectbox("Select Strategy", [s["name"] for s in _IND_ALL_STRATS], key="ind_bt_strat")
+            _bt_inst  = st.selectbox("Index", ["NIFTY","BANKNIFTY","SENSEX"], key="ind_bt_inst")
+        with _bt_col2:
+            _bt_capital = st.number_input("Capital (₹)", value=100000, step=10000, key="ind_bt_cap")
+            _bt_lots    = st.number_input("Lots", value=1, min_value=1, key="ind_bt_lots")
+        _bt_tf = st.radio("Timeframe", ["5m","15m","1h","4h"], horizontal=True, key="ind_bt_tf")
+        if st.button("Run Backtest", key="ind_bt_run", type="primary"):
+            _bt_info = next((s for s in _IND_ALL_STRATS if s["name"]==_bt_strat), None)
+            if _bt_info:
+                st.info(f"Running backtest: {_bt_strat} on {_bt_inst} ({_bt_tf})")
+                if BT_OK:
+                    try:
+                        _btr = Backtester(strategy=_bt_strat, index=_bt_inst, tf=_bt_tf,
+                                          capital=_bt_capital, lots=_bt_lots)
+                        _btr.run()
+                        st.success(f"Backtest complete — see results below")
+                    except Exception as _bte:
+                        st.warning(f"Backtester not configured for this strategy: {_bte}")
+                        st.markdown(
+                            f'<div class="mcard">'
+                            f'<div class="mlbl">{_bt_strat}</div>'
+                            f'<div style="font-size:11px;color:#475569;font-family:JetBrains Mono">'
+                            f'<b>Logic:</b> {_bt_info["logic"]}<br>'
+                            f'<b>Entry:</b> {_bt_info["entry"]}<br>'
+                            f'<b>SL/Target:</b> {_bt_info["sl_tgt"]}'
+                            f'</div></div>',
+                            unsafe_allow_html=True)
+                else:
+                    st.markdown(
+                        f'<div class="mcard">'
+                        f'<div class="mlbl">{_bt_strat}</div>'
+                        f'<div style="font-size:11px;color:#475569;font-family:JetBrains Mono">'
+                        f'<b>Logic:</b> {_bt_info["logic"]}<br>'
+                        f'<b>Entry:</b> {_bt_info["entry"]}<br>'
+                        f'<b>SL/Target:</b> {_bt_info["sl_tgt"]}'
+                        f'</div></div>',
+                        unsafe_allow_html=True)
+
+
+with _tabs[3]:
+    st.markdown(f'<div style="color:#1d4ed8;font-size:20px;font-weight:700;font-family:JetBrains Mono">P&L Summary</div>', unsafe_allow_html=True)
+    st.caption("All historical trades · Filtered view · Excel + CSV download")
+
+    _pf_all = _all_trades()
+    _pf_today = date.today().isoformat()
+
+    if not _pf_all:
+        st.info("No trade results yet. Trades are saved automatically when bots complete.")
+    else:
+        _pf_tot  = len(_pf_all)
+        _pf_wins = sum(1 for t in _pf_all if _trade_net_pnl(t) > 0)
+        _pf_net  = sum(_trade_net_pnl(t) for t in _pf_all)
+        _pf_chg  = sum(_trade_charges(t) for t in _pf_all)
+        _pf_gross= sum(_trade_gross_pnl(t) for t in _pf_all)
+        _pf_wr   = _pf_wins/_pf_tot*100 if _pf_tot else 0
+        _pf_wc   = "#166534" if _pf_wr >= 55 else "#d97706" if _pf_wr >= 45 else "#dc2626"
+        _pf_nc   = "#166534" if _pf_net >= 0 else "#dc2626"
+
+        _pa,_pb,_pc2,_pd,_pe,_pf2 = st.columns(6)
+        for _pcol, (_plbl,_pval,_pc3) in zip([_pa,_pb,_pc2,_pd,_pe,_pf2],[
+            ("TOTAL TRADES", str(_pf_tot), "#1e293b"),
+            ("WIN RATE",     f"{_pf_wr:.1f}%", _pf_wc),
+            ("WINS",         str(_pf_wins), "#166534"),
+            ("LOSSES",       str(_pf_tot-_pf_wins), "#dc2626"),
+            ("NET P&L",      f"₹{_pf_net:+,.0f}", _pf_nc),
+            ("TOTAL CHARGES",f"₹{_pf_chg:,.0f}", "#64748b"),
+        ]):
+            with _pcol:
+                st.markdown(f'<div class="mcard" style="text-align:center;padding:10px"><div class="mlbl">{_plbl}</div><div style="font-size:16px;font-weight:700;color:{_pc3};font-family:JetBrains Mono">{_pval}</div></div>', unsafe_allow_html=True)
+
+        st.markdown("---")
+
+        # Filters
+        _pff1, _pff2, _pff3, _pff4, _pff5 = st.columns(5)
+        with _pff1: _pf_period = st.selectbox("Period", ["Today","Last 7 Days","Last 30 Days","All Time"], key="pf_period")
+        with _pff2: _pf_seg2   = st.selectbox("Segment", ["All"]+sorted(set(t.get('Segment','') for t in _pf_all if t.get('Segment'))), key="pf_seg2")
+        with _pff3: _pf_sym3   = st.selectbox("Symbol",  ["All"]+sorted(set(t.get('Symbol','') for t in _pf_all if t.get('Symbol'))), key="pf_sym3")
+        with _pff4: _pf_dir2   = st.selectbox("Direction",["All","LONG","SHORT"], key="pf_dir2")
+        with _pff5: _pf_strat2 = st.selectbox("Strategy", ["All"]+sorted(set(t.get('Strategy','') for t in _pf_all if t.get('Strategy'))), key="pf_strat2")
+
+        _pf_filtered = _pf_all
+        if _pf_period == "Today":
+            _pf_filtered = [t for t in _pf_filtered if t.get('Date','') == _pf_today]
+        elif _pf_period == "Last 7 Days":
+            _cut2 = (date.today()-timedelta(days=7)).isoformat()
+            _pf_filtered = [t for t in _pf_filtered if t.get('Date','') >= _cut2]
+        elif _pf_period == "Last 30 Days":
+            _cut2 = (date.today()-timedelta(days=30)).isoformat()
+            _pf_filtered = [t for t in _pf_filtered if t.get('Date','') >= _cut2]
+        if _pf_seg2  != "All": _pf_filtered = [t for t in _pf_filtered if t.get('Segment','') == _pf_seg2]
+        if _pf_sym3  != "All": _pf_filtered = [t for t in _pf_filtered if t.get('Symbol','')  == _pf_sym3]
+        if _pf_dir2  != "All": _pf_filtered = [t for t in _pf_filtered if t.get('Direction','')== _pf_dir2]
+        if _pf_strat2!= "All": _pf_filtered = [t for t in _pf_filtered if t.get('Strategy','')== _pf_strat2]
+
+        # View toggle
+        _pf_view = st.radio("View", ["Trade by Trade","Daily Summary"], horizontal=True, key="pf_view_mode", label_visibility="collapsed")
+
+        if _pf_view == "Daily Summary":
+            _render_daily_summary(_pf_filtered, "pf_ds")
+            # Equity curve
+            if _pf_filtered:
+                _sorted_pf = sorted(_pf_filtered, key=lambda t:(t.get('Date',''),t.get('Entry Time','')))
+                _cum_net   = np.cumsum([_trade_net_pnl(t) for t in _sorted_pf])
+                if len(_cum_net) > 0:
+                    _ecolor_pf = "#1d4ed8" if _cum_net[-1] >= 0 else "#dc2626"
+                    _efig_pf   = go.Figure()
+                    _efig_pf.add_trace(go.Scatter(y=_cum_net, mode="lines", fill="tozeroy",
+                        line=dict(color=_ecolor_pf, width=2),
+                        fillcolor="rgba(29,78,216,0.05)" if _cum_net[-1]>=0 else "rgba(220,38,38,0.05)"))
+                    _efig_pf.add_trace(go.Scatter(y=np.maximum.accumulate(_cum_net), mode="lines",
+                        line=dict(color="#eab308", width=1, dash="dot"), name="Peak"))
+                    _efig_pf.update_layout(
+                        paper_bgcolor="#f0f6ff", plot_bgcolor="#f8faff",
+                        height=250, showlegend=False,
+                        font=dict(family="JetBrains Mono", color="#1e293b"),
+                        title=f"Cumulative Net P&L — {len(_pf_filtered)} trades | ₹{_cum_net[-1]:+,.0f}",
+                        xaxis=dict(showgrid=False, title="Trade #"),
+                        yaxis=dict(showgrid=True, gridcolor="#dde9ff", tickprefix="₹", tickformat=",")
+                    )
+                    st.plotly_chart(_efig_pf, use_container_width=True)
+        else:
+            # Strategy P&L bar chart
+            if _pf_filtered:
+                _strat_pnl = defaultdict(float)
+                for _t in _pf_filtered:
+                    _strat_pnl[_t.get('Strategy','Unknown') or 'Unknown'] += _trade_net_pnl(_t)
+                _sp_sorted = sorted(_strat_pnl.items(), key=lambda x: x[1], reverse=True)
+                if _sp_sorted:
+                    _sp_fig = go.Figure(go.Bar(
+                        x=[s for s,_ in _sp_sorted],
+                        y=[v for _,v in _sp_sorted],
+                        marker_color=["#1d4ed8" if v>=0 else "#dc2626" for _,v in _sp_sorted],
+                        text=[f"₹{v:+,.0f}" for _,v in _sp_sorted],
+                        textposition="outside"
+                    ))
+                    _sp_fig.update_layout(
+                        title="Net P&L by Strategy",
+                        paper_bgcolor="#f0f6ff", plot_bgcolor="#f8faff",
+                        height=300, font=dict(family="JetBrains Mono", size=11, color="#1e293b"),
+                        yaxis=dict(tickprefix="₹", gridcolor="#dde9ff"),
+                        xaxis=dict(gridcolor="#dde9ff"),
+                        showlegend=False
+                    )
+                    st.plotly_chart(_sp_fig, use_container_width=True)
+
+            # Equity curve
+            if _pf_filtered:
+                _sorted_pf2 = sorted(_pf_filtered, key=lambda t:(t.get('Date',''),t.get('Entry Time','')))
+                _cum_net2   = np.cumsum([_trade_net_pnl(t) for t in _sorted_pf2])
+                if len(_cum_net2) > 0:
+                    _ecolor2 = "#1d4ed8" if _cum_net2[-1] >= 0 else "#dc2626"
+                    _efig2   = go.Figure()
+                    _efig2.add_trace(go.Scatter(y=_cum_net2, mode="lines", fill="tozeroy",
+                        line=dict(color=_ecolor2, width=2)))
+                    _efig2.add_trace(go.Scatter(y=np.maximum.accumulate(_cum_net2), mode="lines",
+                        line=dict(color="#eab308", width=1, dash="dot")))
+                    _efig2.update_layout(
+                        paper_bgcolor="#f0f6ff", plot_bgcolor="#f8faff",
+                        height=250, showlegend=False,
+                        font=dict(family="JetBrains Mono", color="#1e293b"),
+                        title=f"Equity Curve ({len(_pf_filtered)} trades)",
+                        xaxis=dict(showgrid=False),
+                        yaxis=dict(gridcolor="#dde9ff", tickprefix="₹", tickformat=",")
+                    )
+                    st.plotly_chart(_efig2, use_container_width=True)
+
+            _render_pnl_table(_pf_filtered, "pf_main")
+
+        # Downloads
+        _dl1, _dl2, _dl3 = st.columns(3)
+        with _dl1:
+            if _pf_filtered:
+                _csv_pf = pd.DataFrame(_pf_filtered).to_csv(index=False)
+                st.download_button("Download Filtered CSV", _csv_pf, "india_pnl_filtered.csv", "text/csv", key="pf_dl_csv")
+        with _dl2:
+            if _pf_all:
+                _csv_all2 = pd.DataFrame(_pf_all).to_csv(index=False)
+                st.download_button("Download ALL CSV", _csv_all2, "india_pnl_all.csv", "text/csv", key="pf_dl_all")
+        with _dl3:
+            if _pf_all:
+                try:
+                    import io as _io2
+                    _xls_buf = _io2.BytesIO()
+                    with pd.ExcelWriter(_xls_buf, engine='openpyxl') as _xlw:
+                        pd.DataFrame(_pf_all).to_excel(_xlw, index=False, sheet_name='All Trades')
+                        if _pf_filtered and len(_pf_filtered) != len(_pf_all):
+                            pd.DataFrame(_pf_filtered).to_excel(_xlw, index=False, sheet_name='Filtered')
+                    st.download_button("Download Excel", _xls_buf.getvalue(), "india_pnl.xlsx",
+                        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", key="pf_dl_xlsx")
+                except Exception:
+                    pass
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════════════════════
+# TAB 4 — SETTINGS
+# ═══════════════════════════════════════════════════════════════════════════════
+with _tabs[4]:
+    st.markdown(f'<div style="color:#1d4ed8;font-size:20px;font-weight:700;font-family:JetBrains Mono">Settings</div>', unsafe_allow_html=True)
+
+    _stg1, _stg2 = st.columns(2)
+
+    with _stg1:
+        st.markdown("**Angel One API Configuration**")
+        st.caption("Store credentials in .env file for security")
+        st.markdown(
+            '<div style="background:#fff;border:1px solid #dde9ff;border-radius:8px;padding:12px;font-family:JetBrains Mono;font-size:11px">'
+            f'<div style="color:#5a72a0">API Key: {"✅ Set" if os.getenv("ANGEL_API_KEY") else "❌ Not set"}</div>'
+            f'<div style="color:#5a72a0">Client ID: {"✅ Set" if os.getenv("ANGEL_CLIENT_ID") else "❌ Not set"}</div>'
+            f'<div style="color:#5a72a0">MPIN: {"✅ Set" if os.getenv("ANGEL_MPIN") else "❌ Not set"}</div>'
+            f'<div style="color:#5a72a0">TOTP Key: {"✅ Set" if os.getenv("ANGEL_TOTP_KEY") else "❌ Not set"}</div>'
+            '</div>',
+            unsafe_allow_html=True)
+        st.caption("Edit the `.env` file in the India trader folder to update credentials.")
+
+        st.markdown("---")
+        st.markdown("**Angel One Status**")
+        if st.session_state.angel_connected:
+            _funds2 = st.session_state.angel_funds
+            st.success("Connected to Angel One")
+            if _funds2:
+                _fa2, _fb2 = st.columns(2)
+                with _fa2:
+                    st.metric("Available Cash", f"₹{float(_funds2.get('availablecash',0)):,.0f}")
+                with _fb2:
+                    st.metric("Net", f"₹{float(_funds2.get('net',0)):,.0f}")
+        else:
+            st.warning("Not connected to Angel One")
+
+    with _stg2:
+        st.markdown("**Market Configuration**")
+        st.markdown(
+            '<div style="background:#fff;border:1px solid #dde9ff;border-radius:8px;padding:12px;font-family:JetBrains Mono;font-size:11px">'
+            '<div style="color:#1d4ed8;font-weight:700;margin-bottom:6px">Market Hours (IST)</div>'
+            '<div style="color:#5a72a0">Market Opens: 9:15 AM IST</div>'
+            '<div style="color:#5a72a0">Market Closes: 3:30 PM IST</div>'
+            '<div style="color:#5a72a0">Bot Trading: 9:20 AM - 3:15 PM IST</div>'
+            '<div style="color:#5a72a0">Auto Square Off: 3:15 PM IST</div>'
+            '</div>',
+            unsafe_allow_html=True)
+
+        st.markdown("**Instrument Lot Sizes**")
+        _ls_data = [{"Instrument": k, "Lot Size": v, "Margin (approx ₹)": f"₹{v*24500*0.06:,.0f}"} for k,v in NSE_LOT_SIZE.items()]
+        st.dataframe(pd.DataFrame(_ls_data), use_container_width=True, hide_index=True)
+
+        st.markdown("**Results Folder**")
+        _n_files = len(_glob_mod.glob(os.path.join(_RESULTS_DIR, "trades_*.json")))
+        _n_trades = len(_all_trades())
+        st.markdown(
+            f'<div style="background:#f0f6ff;border:1px solid #dde9ff;border-radius:8px;padding:10px;font-family:JetBrains Mono;font-size:11px">'
+            f'<div style="color:#1d4ed8;font-weight:700">{_n_files} result files · {_n_trades} total trades</div>'
+            f'<div style="color:#5a72a0;margin-top:4px">{_RESULTS_DIR}</div>'
+            f'</div>',
+            unsafe_allow_html=True)

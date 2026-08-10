@@ -1,0 +1,570 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 3,
+  "total_trades": 11,
+  "winning": 0,
+  "total_pnl": -1.700002441406241,
+  "last_scan": "12:05:22",
+  "last_signal": "SHORT @ 207",
+  "last_action": "Opened SHORT TATASTEEL",
+  "log": [
+    {
+      "time": "13:54:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 210.12"
+    },
+    {
+      "time": "13:54:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 209 | LTP: 210 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:09:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 210.70"
+    },
+    {
+      "time": "14:09:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 209 | LTP: 211 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:24:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 210.52"
+    },
+    {
+      "time": "14:24:45",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 209 | LTP: 211 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:39:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 210.77"
+    },
+    {
+      "time": "14:39:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 209 | LTP: 211 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:54:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 210.42"
+    },
+    {
+      "time": "14:54:47",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 209 | LTP: 210 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:09:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 210.50"
+    },
+    {
+      "time": "15:09:47",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 209 | LTP: 210 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:24:48",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed SHORT TATASTEEL | Entry: 209 \u2192 Exit: 211 | PnL: -2pts (Rs.-2) | EOD_SQUAREOFF"
+    },
+    {
+      "time": "15:39:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:39:48) \u2014 waiting"
+    },
+    {
+      "time": "15:54:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:54:48) \u2014 waiting"
+    },
+    {
+      "time": "16:09:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:09:48) \u2014 waiting"
+    },
+    {
+      "time": "16:24:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:24:48) \u2014 waiting"
+    },
+    {
+      "time": "16:39:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:39:48) \u2014 waiting"
+    },
+    {
+      "time": "16:54:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:54:48) \u2014 waiting"
+    },
+    {
+      "time": "17:09:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:09:48) \u2014 waiting"
+    },
+    {
+      "time": "17:24:48",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:24:48) \u2014 waiting"
+    },
+    {
+      "time": "19:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:33:59) \u2014 waiting"
+    },
+    {
+      "time": "19:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:48:59) \u2014 waiting"
+    },
+    {
+      "time": "20:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:03:59) \u2014 waiting"
+    },
+    {
+      "time": "20:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:18:59) \u2014 waiting"
+    },
+    {
+      "time": "20:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:33:59) \u2014 waiting"
+    },
+    {
+      "time": "20:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:48:59) \u2014 waiting"
+    },
+    {
+      "time": "21:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:03:59) \u2014 waiting"
+    },
+    {
+      "time": "21:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:18:59) \u2014 waiting"
+    },
+    {
+      "time": "21:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:33:59) \u2014 waiting"
+    },
+    {
+      "time": "21:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:48:59) \u2014 waiting"
+    },
+    {
+      "time": "22:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:03:59) \u2014 waiting"
+    },
+    {
+      "time": "22:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:18:59) \u2014 waiting"
+    },
+    {
+      "time": "22:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:33:59) \u2014 waiting"
+    },
+    {
+      "time": "22:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:48:59) \u2014 waiting"
+    },
+    {
+      "time": "23:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:03:59) \u2014 waiting"
+    },
+    {
+      "time": "23:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:18:59) \u2014 waiting"
+    },
+    {
+      "time": "23:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:33:59) \u2014 waiting"
+    },
+    {
+      "time": "23:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:48:59) \u2014 waiting"
+    },
+    {
+      "time": "00:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:03:59) \u2014 waiting"
+    },
+    {
+      "time": "00:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:18:59) \u2014 waiting"
+    },
+    {
+      "time": "00:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:33:59) \u2014 waiting"
+    },
+    {
+      "time": "00:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:48:59) \u2014 waiting"
+    },
+    {
+      "time": "01:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:03:59) \u2014 waiting"
+    },
+    {
+      "time": "01:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:18:59) \u2014 waiting"
+    },
+    {
+      "time": "01:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:33:59) \u2014 waiting"
+    },
+    {
+      "time": "01:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:48:59) \u2014 waiting"
+    },
+    {
+      "time": "02:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:03:59) \u2014 waiting"
+    },
+    {
+      "time": "02:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:18:59) \u2014 waiting"
+    },
+    {
+      "time": "02:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:33:59) \u2014 waiting"
+    },
+    {
+      "time": "02:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:48:59) \u2014 waiting"
+    },
+    {
+      "time": "03:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:03:59) \u2014 waiting"
+    },
+    {
+      "time": "03:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:18:59) \u2014 waiting"
+    },
+    {
+      "time": "03:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:33:59) \u2014 waiting"
+    },
+    {
+      "time": "03:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:48:59) \u2014 waiting"
+    },
+    {
+      "time": "04:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:03:59) \u2014 waiting"
+    },
+    {
+      "time": "04:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:18:59) \u2014 waiting"
+    },
+    {
+      "time": "04:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:33:59) \u2014 waiting"
+    },
+    {
+      "time": "04:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:48:59) \u2014 waiting"
+    },
+    {
+      "time": "05:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:03:59) \u2014 waiting"
+    },
+    {
+      "time": "05:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:18:59) \u2014 waiting"
+    },
+    {
+      "time": "05:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:33:59) \u2014 waiting"
+    },
+    {
+      "time": "05:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:48:59) \u2014 waiting"
+    },
+    {
+      "time": "06:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:03:59) \u2014 waiting"
+    },
+    {
+      "time": "06:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:18:59) \u2014 waiting"
+    },
+    {
+      "time": "06:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:33:59) \u2014 waiting"
+    },
+    {
+      "time": "06:48:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:48:59) \u2014 waiting"
+    },
+    {
+      "time": "07:03:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:03:59) \u2014 waiting"
+    },
+    {
+      "time": "07:18:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:18:59) \u2014 waiting"
+    },
+    {
+      "time": "07:33:59",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:59) \u2014 waiting"
+    },
+    {
+      "time": "07:49:00",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:49:00) \u2014 waiting"
+    },
+    {
+      "time": "08:04:00",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:04:00) \u2014 waiting"
+    },
+    {
+      "time": "08:19:00",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:19:00) \u2014 waiting"
+    },
+    {
+      "time": "08:34:00",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:34:00) \u2014 waiting"
+    },
+    {
+      "time": "08:49:00",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:49:00) \u2014 waiting"
+    },
+    {
+      "time": "09:04:00",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:04:00) \u2014 waiting"
+    },
+    {
+      "time": "09:19:00",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:19:00) \u2014 waiting"
+    },
+    {
+      "time": "09:35:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.39"
+    },
+    {
+      "time": "09:35:12",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:50:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.86"
+    },
+    {
+      "time": "09:50:14",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TATASTEEL | Entry: 208 | Target: 185 | SL: 220 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 210"
+    },
+    {
+      "time": "09:50:14",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TATASTEEL @ 207"
+    },
+    {
+      "time": "10:05:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.32"
+    },
+    {
+      "time": "10:05:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 207 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "10:20:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.79"
+    },
+    {
+      "time": "10:20:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 208 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "10:35:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.31"
+    },
+    {
+      "time": "10:35:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 207 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "10:50:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.00"
+    },
+    {
+      "time": "10:50:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 206 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:05:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 207.00"
+    },
+    {
+      "time": "11:05:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 207 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "11:20:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.80"
+    },
+    {
+      "time": "11:20:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 207 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "11:35:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.61"
+    },
+    {
+      "time": "11:35:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 207 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "11:50:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.20"
+    },
+    {
+      "time": "11:50:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 206 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "12:05:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATASTEEL | LTP: 206.01"
+    },
+    {
+      "time": "12:05:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TATASTEEL | Entry: 207 | LTP: 206 | Unrealized: +1pts (Rs.+1)"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260602_144526",
+      "date": "2026-06-02",
+      "time": "14:45:26",
+      "strategy": "GAP_AND_GO",
+      "instrument": "TATASTEEL",
+      "direction": "SHORT",
+      "entry": 210.49,
+      "target": 189.52,
+      "stop_loss": 220.92,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 210.55,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -0.06,
+      "pnl_rs": -0.06,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_101535",
+      "date": "2026-06-03",
+      "time": "10:15:35",
+      "strategy": "GAP_AND_GO",
+      "instrument": "TATASTEEL",
+      "direction": "SHORT",
+      "entry": 209.0,
+      "target": 186.42,
+      "stop_loss": 220.12,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 210.64,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -1.64,
+      "pnl_rs": -1.64,
+      "paper": true
+    }
+  ],
+  "open_trade": {
+    "id": "POS_20260605_095014",
+    "date": "2026-06-05",
+    "time": "09:50:14",
+    "strategy": "GAP_AND_GO",
+    "instrument": "TATASTEEL",
+    "direction": "SHORT",
+    "entry": 206.86,
+    "target": 185.06,
+    "stop_loss": 219.51,
+    "qty": 1,
+    "status": "OPEN",
+    "exit_price": 0.0,
+    "exit_reason": "",
+    "pnl_pts": 0.0,
+    "pnl_rs": 0.0,
+    "paper": true
+  },
+  "date": "2026-06-05"
+}

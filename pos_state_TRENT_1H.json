@@ -1,0 +1,625 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 6,
+  "total_trades": 6,
+  "winning": 3,
+  "total_pnl": -1454.0000488281248,
+  "last_scan": "12:06:30",
+  "last_signal": "LONG @ 2,786",
+  "last_action": "Closed +8pts (Rs.+8)",
+  "log": [
+    {
+      "time": "08:13:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:13:24) \u2014 waiting"
+    },
+    {
+      "time": "08:18:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:24) \u2014 waiting"
+    },
+    {
+      "time": "08:23:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:23:24) \u2014 waiting"
+    },
+    {
+      "time": "08:28:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:28:24) \u2014 waiting"
+    },
+    {
+      "time": "08:33:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:24) \u2014 waiting"
+    },
+    {
+      "time": "08:38:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:38:24) \u2014 waiting"
+    },
+    {
+      "time": "08:43:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:43:24) \u2014 waiting"
+    },
+    {
+      "time": "08:48:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:24) \u2014 waiting"
+    },
+    {
+      "time": "08:53:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:53:24) \u2014 waiting"
+    },
+    {
+      "time": "08:58:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:58:24) \u2014 waiting"
+    },
+    {
+      "time": "09:03:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:24) \u2014 waiting"
+    },
+    {
+      "time": "09:08:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:08:24) \u2014 waiting"
+    },
+    {
+      "time": "09:13:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:13:24) \u2014 waiting"
+    },
+    {
+      "time": "09:18:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:24) \u2014 waiting"
+    },
+    {
+      "time": "09:23:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,810.00"
+    },
+    {
+      "time": "09:23:25",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG TRENT | Entry: 2,841 | Target: 2,979 | SL: 2,820 | R:R 1:6.7 | Pre-market break LONG | PM H 2,830 | Range 69pts"
+    },
+    {
+      "time": "09:23:26",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG TRENT @ 2,810"
+    },
+    {
+      "time": "09:28:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,805.50"
+    },
+    {
+      "time": "09:28:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG TRENT | Entry: 2,810 | LTP: 2,806 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "09:28:27",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed LONG TRENT | Entry: 2,810 \u2192 Exit: 2,806 | PnL: -4pts (Rs.-4) | STOP_LOSS"
+    },
+    {
+      "time": "09:34:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,802.90"
+    },
+    {
+      "time": "09:34:37",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:40:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,796.20"
+    },
+    {
+      "time": "09:40:51",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG TRENT | Entry: 2,841 | Target: 2,979 | SL: 2,820 | R:R 1:6.7 | Pre-market break LONG | PM H 2,830 | Range 69pts"
+    },
+    {
+      "time": "09:40:51",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG TRENT @ 2,796"
+    },
+    {
+      "time": "09:45:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,802.30"
+    },
+    {
+      "time": "09:45:52",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG TRENT | Entry: 2,796 | LTP: 2,802 | Unrealized: +6pts (Rs.+6)"
+    },
+    {
+      "time": "09:45:52",
+      "level": "TRADE",
+      "message": "\u2705 WIN: Closed LONG TRENT | Entry: 2,796 \u2192 Exit: 2,802 | PnL: +6pts (Rs.+6) | STOP_LOSS"
+    },
+    {
+      "time": "09:50:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,798.70"
+    },
+    {
+      "time": "09:50:53",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG TRENT | Entry: 2,841 | Target: 2,979 | SL: 2,820 | R:R 1:6.7 | Pre-market break LONG | PM H 2,830 | Range 69pts"
+    },
+    {
+      "time": "09:50:53",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG TRENT @ 2,799"
+    },
+    {
+      "time": "09:55:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,781.90"
+    },
+    {
+      "time": "09:55:54",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG TRENT | Entry: 2,799 | LTP: 2,782 | Unrealized: -17pts (Rs.-17)"
+    },
+    {
+      "time": "09:55:54",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed LONG TRENT | Entry: 2,799 \u2192 Exit: 2,782 | PnL: -17pts (Rs.-17) | STOP_LOSS"
+    },
+    {
+      "time": "10:00:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,786.00"
+    },
+    {
+      "time": "10:00:55",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG TRENT | Entry: 2,841 | Target: 2,979 | SL: 2,820 | R:R 1:6.7 | Pre-market break LONG | PM H 2,830 | Range 69pts"
+    },
+    {
+      "time": "10:00:57",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG TRENT @ 2,786"
+    },
+    {
+      "time": "10:05:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,794.10"
+    },
+    {
+      "time": "10:05:58",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG TRENT | Entry: 2,786 | LTP: 2,794 | Unrealized: +8pts (Rs.+8)"
+    },
+    {
+      "time": "10:05:58",
+      "level": "TRADE",
+      "message": "\u2705 WIN: Closed LONG TRENT | Entry: 2,786 \u2192 Exit: 2,794 | PnL: +8pts (Rs.+8) | STOP_LOSS"
+    },
+    {
+      "time": "10:10:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,809.90"
+    },
+    {
+      "time": "10:10:59",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,810 | Target: 2,779 | SL: 2,825 | R:R 1:2.0 | VWAP trend SHORT | EMA5=2,815 VWAP=2,812 | Vol spike"
+    },
+    {
+      "time": "10:10:59",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,793 | This trade: \u20b92,810 \u2014 skipped."
+    },
+    {
+      "time": "10:16:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,800.00"
+    },
+    {
+      "time": "10:16:00",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:21:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,810.80"
+    },
+    {
+      "time": "10:21:01",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:26:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,810.00"
+    },
+    {
+      "time": "10:26:02",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:31:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,803.20"
+    },
+    {
+      "time": "10:31:03",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:36:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,790.70"
+    },
+    {
+      "time": "10:36:05",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:41:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,783.00"
+    },
+    {
+      "time": "10:41:06",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:46:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,762.40"
+    },
+    {
+      "time": "10:46:07",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:51:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,767.00"
+    },
+    {
+      "time": "10:51:09",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:56:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,778.90"
+    },
+    {
+      "time": "10:56:10",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:01:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,778.80"
+    },
+    {
+      "time": "11:01:11",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:06:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,781.90"
+    },
+    {
+      "time": "11:06:12",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:11:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,779.70"
+    },
+    {
+      "time": "11:11:13",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "11:16:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,777.50"
+    },
+    {
+      "time": "11:16:14",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:16:14",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,778 \u2014 skipped."
+    },
+    {
+      "time": "11:21:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,768.60"
+    },
+    {
+      "time": "11:21:15",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:21:16",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,769 \u2014 skipped."
+    },
+    {
+      "time": "11:26:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,767.70"
+    },
+    {
+      "time": "11:26:17",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:26:17",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,768 \u2014 skipped."
+    },
+    {
+      "time": "11:31:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,762.20"
+    },
+    {
+      "time": "11:31:18",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:31:19",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,762 \u2014 skipped."
+    },
+    {
+      "time": "11:36:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,759.10"
+    },
+    {
+      "time": "11:36:20",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:36:20",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,759 \u2014 skipped."
+    },
+    {
+      "time": "11:41:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,766.60"
+    },
+    {
+      "time": "11:41:21",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:41:22",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,767 \u2014 skipped."
+    },
+    {
+      "time": "11:46:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,770.50"
+    },
+    {
+      "time": "11:46:23",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:46:23",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,770 \u2014 skipped."
+    },
+    {
+      "time": "11:51:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,766.20"
+    },
+    {
+      "time": "11:51:24",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:51:25",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,766 \u2014 skipped."
+    },
+    {
+      "time": "11:56:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,767.80"
+    },
+    {
+      "time": "11:56:26",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "11:56:27",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,768 \u2014 skipped."
+    },
+    {
+      "time": "12:01:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,765.20"
+    },
+    {
+      "time": "12:01:30",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "12:01:30",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,765 \u2014 skipped."
+    },
+    {
+      "time": "12:06:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TRENT | LTP: 2,786.20"
+    },
+    {
+      "time": "12:06:31",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TRENT | Entry: 2,773 | Target: 2,706 | SL: 2,806 | R:R 1:2.1 | Pre-market break SHORT | PM L 2,796 | Range 34pts"
+    },
+    {
+      "time": "12:06:32",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b92,786 \u2014 skipped."
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260603_131816",
+      "date": "2026-06-03",
+      "time": "13:18:16",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "TRENT",
+      "direction": "LONG",
+      "entry": 4271.0,
+      "target": 4418.6,
+      "stop_loss": 4245.8,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2793.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -1478.0,
+      "pnl_rs": -1478.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260604_101738",
+      "date": "2026-06-04",
+      "time": "10:17:38",
+      "strategy": "GAP_AND_GO",
+      "instrument": "TRENT",
+      "direction": "SHORT",
+      "entry": 2811.2,
+      "target": 2780.35,
+      "stop_loss": 2831.28,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2780.1,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 31.1,
+      "pnl_rs": 31.1,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_092326",
+      "date": "2026-06-05",
+      "time": "09:23:26",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "TRENT",
+      "direction": "LONG",
+      "entry": 2810.0,
+      "target": 2978.63,
+      "stop_loss": 2820.2,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2805.5,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -4.5,
+      "pnl_rs": -4.5,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_094051",
+      "date": "2026-06-05",
+      "time": "09:40:51",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "TRENT",
+      "direction": "LONG",
+      "entry": 2796.2,
+      "target": 2978.63,
+      "stop_loss": 2820.2,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2802.3,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 6.1,
+      "pnl_rs": 6.1,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_095053",
+      "date": "2026-06-05",
+      "time": "09:50:53",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "TRENT",
+      "direction": "LONG",
+      "entry": 2798.7,
+      "target": 2978.63,
+      "stop_loss": 2820.2,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2781.9,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -16.8,
+      "pnl_rs": -16.8,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_100057",
+      "date": "2026-06-05",
+      "time": "10:00:57",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "TRENT",
+      "direction": "LONG",
+      "entry": 2786.0,
+      "target": 2978.63,
+      "stop_loss": 2820.2,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2794.1,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 8.1,
+      "pnl_rs": 8.1,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

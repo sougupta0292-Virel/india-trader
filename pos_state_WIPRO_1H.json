@@ -1,0 +1,570 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 3,
+  "total_trades": 9,
+  "winning": 2,
+  "total_pnl": 1.9000000000000057,
+  "last_scan": "12:07:37",
+  "last_signal": "SHORT @ 197",
+  "last_action": "Opened SHORT WIPRO",
+  "log": [
+    {
+      "time": "06:46:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:46:19) \u2014 waiting"
+    },
+    {
+      "time": "06:51:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:51:19) \u2014 waiting"
+    },
+    {
+      "time": "06:56:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:56:19) \u2014 waiting"
+    },
+    {
+      "time": "07:01:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:01:19) \u2014 waiting"
+    },
+    {
+      "time": "07:06:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:06:19) \u2014 waiting"
+    },
+    {
+      "time": "07:11:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:11:19) \u2014 waiting"
+    },
+    {
+      "time": "07:16:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:16:20) \u2014 waiting"
+    },
+    {
+      "time": "07:21:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:21:20) \u2014 waiting"
+    },
+    {
+      "time": "07:26:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:26:20) \u2014 waiting"
+    },
+    {
+      "time": "07:31:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:31:20) \u2014 waiting"
+    },
+    {
+      "time": "07:36:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:36:20) \u2014 waiting"
+    },
+    {
+      "time": "07:41:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:41:20) \u2014 waiting"
+    },
+    {
+      "time": "07:46:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:46:20) \u2014 waiting"
+    },
+    {
+      "time": "07:51:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:51:20) \u2014 waiting"
+    },
+    {
+      "time": "07:56:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:56:20) \u2014 waiting"
+    },
+    {
+      "time": "08:01:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:01:20) \u2014 waiting"
+    },
+    {
+      "time": "08:06:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:06:20) \u2014 waiting"
+    },
+    {
+      "time": "08:11:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:11:20) \u2014 waiting"
+    },
+    {
+      "time": "08:16:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:16:20) \u2014 waiting"
+    },
+    {
+      "time": "08:21:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:21:20) \u2014 waiting"
+    },
+    {
+      "time": "08:26:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:26:20) \u2014 waiting"
+    },
+    {
+      "time": "08:31:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:31:20) \u2014 waiting"
+    },
+    {
+      "time": "08:36:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:36:20) \u2014 waiting"
+    },
+    {
+      "time": "08:41:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:41:20) \u2014 waiting"
+    },
+    {
+      "time": "08:46:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:46:20) \u2014 waiting"
+    },
+    {
+      "time": "08:51:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:51:20) \u2014 waiting"
+    },
+    {
+      "time": "08:56:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:56:20) \u2014 waiting"
+    },
+    {
+      "time": "09:01:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:01:20) \u2014 waiting"
+    },
+    {
+      "time": "09:06:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:06:20) \u2014 waiting"
+    },
+    {
+      "time": "09:11:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:11:20) \u2014 waiting"
+    },
+    {
+      "time": "09:16:20",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:16:20) \u2014 waiting"
+    },
+    {
+      "time": "09:21:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.20"
+    },
+    {
+      "time": "09:21:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:26:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.16"
+    },
+    {
+      "time": "09:26:23",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:31:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.73"
+    },
+    {
+      "time": "09:31:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:37:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.80"
+    },
+    {
+      "time": "09:37:06",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:42:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.43"
+    },
+    {
+      "time": "09:42:07",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:47:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.09"
+    },
+    {
+      "time": "09:47:08",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:52:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.05"
+    },
+    {
+      "time": "09:52:09",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:57:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.70"
+    },
+    {
+      "time": "09:57:10",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:02:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.20"
+    },
+    {
+      "time": "10:02:12",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:07:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.91"
+    },
+    {
+      "time": "10:07:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:12:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.48"
+    },
+    {
+      "time": "10:12:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:17:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.93"
+    },
+    {
+      "time": "10:17:14",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT WIPRO | Entry: 197 | Target: 165 | SL: 213 | R:R 1:2.0 | Gap+Go SHORT | Gap -99.1% | 9EMA 203"
+    },
+    {
+      "time": "10:17:15",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT WIPRO @ 197"
+    },
+    {
+      "time": "10:22:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.36"
+    },
+    {
+      "time": "10:22:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "10:27:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.75"
+    },
+    {
+      "time": "10:27:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 197 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "10:32:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.56"
+    },
+    {
+      "time": "10:32:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 197 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "10:37:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.34"
+    },
+    {
+      "time": "10:37:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "10:42:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.35"
+    },
+    {
+      "time": "10:42:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "10:47:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.12"
+    },
+    {
+      "time": "10:47:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "10:52:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.10"
+    },
+    {
+      "time": "10:52:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "10:57:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.45"
+    },
+    {
+      "time": "10:57:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "11:02:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.34"
+    },
+    {
+      "time": "11:02:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:07:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.66"
+    },
+    {
+      "time": "11:07:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 197 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "11:12:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.98"
+    },
+    {
+      "time": "11:12:24",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:17:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.95"
+    },
+    {
+      "time": "11:17:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:22:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.75"
+    },
+    {
+      "time": "11:22:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:27:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.85"
+    },
+    {
+      "time": "11:27:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:32:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.43"
+    },
+    {
+      "time": "11:32:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:37:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.46"
+    },
+    {
+      "time": "11:37:30",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "11:42:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.26"
+    },
+    {
+      "time": "11:42:31",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:47:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 196.18"
+    },
+    {
+      "time": "11:47:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:52:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.96"
+    },
+    {
+      "time": "11:52:33",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "11:57:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.98"
+    },
+    {
+      "time": "11:57:36",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "12:02:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.82"
+    },
+    {
+      "time": "12:02:37",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "12:07:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning WIPRO | LTP: 195.99"
+    },
+    {
+      "time": "12:07:38",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT WIPRO | Entry: 197 | LTP: 196 | Unrealized: +1pts (Rs.+1)"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260602_110450",
+      "date": "2026-06-02",
+      "time": "11:04:50",
+      "strategy": "VWAP_TREND",
+      "instrument": "WIPRO",
+      "direction": "LONG",
+      "entry": 208.25,
+      "target": 234.41,
+      "stop_loss": 195.17,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 209.85,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 1.6,
+      "pnl_rs": 1.6,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_111615",
+      "date": "2026-06-03",
+      "time": "11:16:15",
+      "strategy": "GAP_AND_GO",
+      "instrument": "WIPRO",
+      "direction": "SHORT",
+      "entry": 204.65,
+      "target": 179.02,
+      "stop_loss": 217.72,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 204.35,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 0.3,
+      "pnl_rs": 0.3,
+      "paper": true
+    }
+  ],
+  "open_trade": {
+    "id": "POS_20260605_101715",
+    "date": "2026-06-05",
+    "time": "10:17:15",
+    "strategy": "GAP_AND_GO",
+    "instrument": "WIPRO",
+    "direction": "SHORT",
+    "entry": 196.93,
+    "target": 164.63,
+    "stop_loss": 212.83,
+    "qty": 1,
+    "status": "OPEN",
+    "exit_price": 0.0,
+    "exit_reason": "",
+    "pnl_pts": 0.0,
+    "pnl_rs": 0.0,
+    "paper": true
+  },
+  "date": "2026-06-05"
+}

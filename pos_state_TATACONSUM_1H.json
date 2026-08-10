@@ -1,0 +1,571 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 10,
+  "winning": 1,
+  "total_pnl": -15.699951171875,
+  "last_scan": "12:05:39",
+  "last_signal": "No signal",
+  "last_action": "Closed +9pts (Rs.+9)",
+  "log": [
+    {
+      "time": "06:32:44",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:32:44) \u2014 waiting"
+    },
+    {
+      "time": "06:37:44",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:37:44) \u2014 waiting"
+    },
+    {
+      "time": "06:42:44",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:42:44) \u2014 waiting"
+    },
+    {
+      "time": "06:47:44",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:47:44) \u2014 waiting"
+    },
+    {
+      "time": "06:52:44",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:52:44) \u2014 waiting"
+    },
+    {
+      "time": "06:57:44",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:57:44) \u2014 waiting"
+    },
+    {
+      "time": "07:02:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:02:45) \u2014 waiting"
+    },
+    {
+      "time": "07:07:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:07:45) \u2014 waiting"
+    },
+    {
+      "time": "07:12:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:12:45) \u2014 waiting"
+    },
+    {
+      "time": "07:17:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:17:45) \u2014 waiting"
+    },
+    {
+      "time": "07:22:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:22:45) \u2014 waiting"
+    },
+    {
+      "time": "07:27:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:27:45) \u2014 waiting"
+    },
+    {
+      "time": "07:32:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:32:45) \u2014 waiting"
+    },
+    {
+      "time": "07:37:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:37:45) \u2014 waiting"
+    },
+    {
+      "time": "07:42:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:42:45) \u2014 waiting"
+    },
+    {
+      "time": "07:47:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:47:45) \u2014 waiting"
+    },
+    {
+      "time": "07:52:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:52:45) \u2014 waiting"
+    },
+    {
+      "time": "07:57:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:57:45) \u2014 waiting"
+    },
+    {
+      "time": "08:02:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:02:45) \u2014 waiting"
+    },
+    {
+      "time": "08:07:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:07:45) \u2014 waiting"
+    },
+    {
+      "time": "08:12:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:12:45) \u2014 waiting"
+    },
+    {
+      "time": "08:17:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:45) \u2014 waiting"
+    },
+    {
+      "time": "08:22:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:45) \u2014 waiting"
+    },
+    {
+      "time": "08:27:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:45) \u2014 waiting"
+    },
+    {
+      "time": "08:32:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:45) \u2014 waiting"
+    },
+    {
+      "time": "08:37:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:45) \u2014 waiting"
+    },
+    {
+      "time": "08:42:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:45) \u2014 waiting"
+    },
+    {
+      "time": "08:47:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:45) \u2014 waiting"
+    },
+    {
+      "time": "08:52:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:45) \u2014 waiting"
+    },
+    {
+      "time": "08:57:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:45) \u2014 waiting"
+    },
+    {
+      "time": "09:02:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:45) \u2014 waiting"
+    },
+    {
+      "time": "09:07:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:45) \u2014 waiting"
+    },
+    {
+      "time": "09:12:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:45) \u2014 waiting"
+    },
+    {
+      "time": "09:17:45",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:45) \u2014 waiting"
+    },
+    {
+      "time": "09:22:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,152.00"
+    },
+    {
+      "time": "09:22:46",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:27:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,155.20"
+    },
+    {
+      "time": "09:27:48",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:34:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,155.10"
+    },
+    {
+      "time": "09:34:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:39:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,148.10"
+    },
+    {
+      "time": "09:40:03",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:45:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,150.20"
+    },
+    {
+      "time": "09:45:05",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:50:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,147.40"
+    },
+    {
+      "time": "09:50:06",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:55:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,149.00"
+    },
+    {
+      "time": "09:55:07",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:00:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,148.30"
+    },
+    {
+      "time": "10:00:08",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:05:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,146.00"
+    },
+    {
+      "time": "10:05:11",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:10:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,146.80"
+    },
+    {
+      "time": "10:10:12",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:15:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,148.10"
+    },
+    {
+      "time": "10:15:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:20:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,147.00"
+    },
+    {
+      "time": "10:20:13",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:25:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,145.00"
+    },
+    {
+      "time": "10:25:14",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:30:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,143.00"
+    },
+    {
+      "time": "10:30:16",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:35:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,142.10"
+    },
+    {
+      "time": "10:35:18",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:40:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,142.60"
+    },
+    {
+      "time": "10:40:19",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:45:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,142.80"
+    },
+    {
+      "time": "10:45:20",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:50:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,143.10"
+    },
+    {
+      "time": "10:50:21",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "10:55:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,138.90"
+    },
+    {
+      "time": "10:55:22",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:00:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,140.60"
+    },
+    {
+      "time": "11:00:23",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:05:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,143.10"
+    },
+    {
+      "time": "11:05:25",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:10:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,142.50"
+    },
+    {
+      "time": "11:10:26",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:15:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,140.10"
+    },
+    {
+      "time": "11:15:27",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:20:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,138.80"
+    },
+    {
+      "time": "11:20:28",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:25:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,137.90"
+    },
+    {
+      "time": "11:25:30",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:30:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,139.90"
+    },
+    {
+      "time": "11:30:31",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:35:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,139.20"
+    },
+    {
+      "time": "11:35:33",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:40:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,139.70"
+    },
+    {
+      "time": "11:40:35",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:45:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,140.20"
+    },
+    {
+      "time": "11:45:35",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:50:36",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,139.60"
+    },
+    {
+      "time": "11:50:37",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:55:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,137.30"
+    },
+    {
+      "time": "11:55:38",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:00:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,137.00"
+    },
+    {
+      "time": "12:00:39",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:05:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TATACONSUM | LTP: 1,136.80"
+    },
+    {
+      "time": "12:05:39",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260528_095503",
+      "date": "2026-05-28",
+      "time": "09:55:03",
+      "strategy": "VWAP_TREND",
+      "instrument": "TATACONSUM",
+      "direction": "SHORT",
+      "entry": 1205.0,
+      "target": 1453.0,
+      "stop_loss": 1490.65,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1205.0,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 0.0,
+      "pnl_rs": 0.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260602_121642",
+      "date": "2026-06-02",
+      "time": "12:16:42",
+      "strategy": "GAP_AND_GO",
+      "instrument": "TATACONSUM",
+      "direction": "SHORT",
+      "entry": 1134.0,
+      "target": 1086.64,
+      "stop_loss": 1156.03,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1158.6,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -24.6,
+      "pnl_rs": -24.6,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_111747",
+      "date": "2026-06-03",
+      "time": "11:17:47",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "TATACONSUM",
+      "direction": "SHORT",
+      "entry": 1158.0,
+      "target": 1106.2,
+      "stop_loss": 1182.2,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1149.1,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 8.9,
+      "pnl_rs": 8.9,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

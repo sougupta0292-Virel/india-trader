@@ -1,0 +1,518 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 16,
+  "winning": 0,
+  "total_pnl": 0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 8,360",
+  "last_action": "Opened SHORT APOLLOHOSP",
+  "log": [
+    {
+      "time": "14:30:59",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:36:01",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,357.00"
+    },
+    {
+      "time": "14:36:01",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,357 | Unrealized: +6pts (Rs.+6)"
+    },
+    {
+      "time": "14:36:01",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:02",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,361.00"
+    },
+    {
+      "time": "14:37:02",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,361 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:37:02",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:03",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,355.50"
+    },
+    {
+      "time": "14:38:03",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,356 | Unrealized: +8pts (Rs.+8)"
+    },
+    {
+      "time": "14:38:03",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:05",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,354.50"
+    },
+    {
+      "time": "14:39:05",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,354 | Unrealized: +8pts (Rs.+8)"
+    },
+    {
+      "time": "14:39:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:06",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,353.50"
+    },
+    {
+      "time": "14:40:06",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,354 | Unrealized: +10pts (Rs.+10)"
+    },
+    {
+      "time": "14:40:06",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:08",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,350.00"
+    },
+    {
+      "time": "14:41:08",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,350 | Unrealized: +13pts (Rs.+13)"
+    },
+    {
+      "time": "14:41:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:09",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,350.00"
+    },
+    {
+      "time": "14:42:09",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,350 | Unrealized: +13pts (Rs.+13)"
+    },
+    {
+      "time": "14:42:09",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:10",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,351.00"
+    },
+    {
+      "time": "14:43:10",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,351 | Unrealized: +12pts (Rs.+12)"
+    },
+    {
+      "time": "14:43:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:12",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,353.00"
+    },
+    {
+      "time": "14:44:12",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,353 | Unrealized: +10pts (Rs.+10)"
+    },
+    {
+      "time": "14:44:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:13",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,349.00"
+    },
+    {
+      "time": "14:45:13",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,349 | Unrealized: +14pts (Rs.+14)"
+    },
+    {
+      "time": "14:45:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:14",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,352.50"
+    },
+    {
+      "time": "14:46:14",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,352 | Unrealized: +10pts (Rs.+10)"
+    },
+    {
+      "time": "14:46:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:15",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,359.00"
+    },
+    {
+      "time": "14:47:15",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,359 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:47:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:16",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,360.00"
+    },
+    {
+      "time": "14:48:16",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,360 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:48:16",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:17",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,363.50"
+    },
+    {
+      "time": "14:49:17",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,364 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:49:17",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:19",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,365.50"
+    },
+    {
+      "time": "14:50:19",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,366 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:50:19",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:55:21",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,365.00"
+    },
+    {
+      "time": "14:55:21",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,365 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:55:21",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:00:22",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,361.00"
+    },
+    {
+      "time": "15:00:22",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,361 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "15:00:23",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 1.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:05:23",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,360.00"
+    },
+    {
+      "time": "15:05:23",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,360 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "15:05:23",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:06:25",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,349.50"
+    },
+    {
+      "time": "15:06:25",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,350 | Unrealized: +14pts (Rs.+14)"
+    },
+    {
+      "time": "15:06:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:07:26",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,351.00"
+    },
+    {
+      "time": "15:07:26",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,351 | Unrealized: +12pts (Rs.+12)"
+    },
+    {
+      "time": "15:07:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:08:27",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,351.00"
+    },
+    {
+      "time": "15:08:27",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,351 | Unrealized: +12pts (Rs.+12)"
+    },
+    {
+      "time": "15:08:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:09:28",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,352.00"
+    },
+    {
+      "time": "15:09:28",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,352 | Unrealized: +11pts (Rs.+11)"
+    },
+    {
+      "time": "15:09:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:10:29",
+      "level": "INFO",
+      "message": "🔍 Scanning APOLLOHOSP | LTP: 8,359.50"
+    },
+    {
+      "time": "15:10:29",
+      "level": "INFO",
+      "message": "📊 SHORT APOLLOHOSP | Entry: 8,363 | LTP: 8,360 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "15:10:29",
+      "level": "TRADE",
+      "message": "🎯 SIGNAL: SHORT APOLLOHOSP | Entry: 8,360 | Target: 8,338 | SL: 8,370 | R:R 1:2.0 | Gap+Go SHORT | Gap -64.6% | 9EMA 8360"
+    },
+    {
+      "time": "15:10:29",
+      "level": "PAPER",
+      "message": "📋 PAPER TRADE: SHORT APOLLOHOSP @ 8,360"
+    },
+    {
+      "time": "15:15:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:15:29) — waiting"
+    },
+    {
+      "time": "15:20:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:20:29) — waiting"
+    },
+    {
+      "time": "15:25:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:25:29) — waiting"
+    },
+    {
+      "time": "15:30:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:30:29) — waiting"
+    },
+    {
+      "time": "15:35:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:35:29) — waiting"
+    },
+    {
+      "time": "15:40:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:40:29) — waiting"
+    },
+    {
+      "time": "15:45:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:45:29) — waiting"
+    },
+    {
+      "time": "15:50:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:50:29) — waiting"
+    },
+    {
+      "time": "15:55:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:55:29) — waiting"
+    },
+    {
+      "time": "16:00:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:00:29) — waiting"
+    },
+    {
+      "time": "16:05:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:05:29) — waiting"
+    },
+    {
+      "time": "16:10:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:10:29) — waiting"
+    },
+    {
+      "time": "16:15:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:15:29) — waiting"
+    },
+    {
+      "time": "16:20:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:20:29) — waiting"
+    },
+    {
+      "time": "16:25:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:25:29) — waiting"
+    },
+    {
+      "time": "16:30:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:30:29) — waiting"
+    },
+    {
+      "time": "16:35:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:35:29) — waiting"
+    },
+    {
+      "time": "16:40:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:40:29) — waiting"
+    },
+    {
+      "time": "16:45:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:45:29) — waiting"
+    },
+    {
+      "time": "16:50:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:50:29) — waiting"
+    },
+    {
+      "time": "16:55:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:55:29) — waiting"
+    },
+    {
+      "time": "17:00:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:00:29) — waiting"
+    },
+    {
+      "time": "17:05:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:05:29) — waiting"
+    },
+    {
+      "time": "17:10:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:10:29) — waiting"
+    },
+    {
+      "time": "17:15:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:15:29) — waiting"
+    },
+    {
+      "time": "17:20:29",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:20:29) — waiting"
+    },
+    {
+      "time": "17:24:27",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | APOLLOHOSP | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:15) — waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 0,
+  "losses": 0
+}

@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 6,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:14",
+  "last_signal": "SHORT @ 1,284",
+  "last_action": "Opened SHORT JSWSTEEL",
+  "log": [
+    {
+      "time": "14:22:59",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:24:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,285.40"
+    },
+    {
+      "time": "14:24:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,285 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:24:00",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,285.70"
+    },
+    {
+      "time": "14:25:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,286 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:25:01",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:26:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,285.60"
+    },
+    {
+      "time": "14:26:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,286 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:26:02",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:31:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,283.10"
+    },
+    {
+      "time": "14:31:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,283 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:31:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:32:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,284.00"
+    },
+    {
+      "time": "14:32:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,284 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:32:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,284.80"
+    },
+    {
+      "time": "14:33:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,285 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:33:07",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,284.60"
+    },
+    {
+      "time": "14:34:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,285 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:34:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:35:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,283.20"
+    },
+    {
+      "time": "14:35:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,283 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:35:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:36:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,284.60"
+    },
+    {
+      "time": "14:36:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,285 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:36:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:37:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,283.90"
+    },
+    {
+      "time": "14:37:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,284 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:37:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:38:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,282.90"
+    },
+    {
+      "time": "14:38:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,283 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:38:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:39:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,282.90"
+    },
+    {
+      "time": "14:39:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,283 | Unrealized: +1pts (Rs.+1)"
+    },
+    {
+      "time": "14:39:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:40:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,284.10"
+    },
+    {
+      "time": "14:40:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,284 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:40:15",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:45:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,283.70"
+    },
+    {
+      "time": "14:45:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,284 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:45:16",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:50:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,285.30"
+    },
+    {
+      "time": "14:50:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,285 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:50:18",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,284.00"
+    },
+    {
+      "time": "14:55:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,284 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:55:20",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT JSWSTEEL | Entry: 1,284 | Target: 1,263 | SL: 1,294 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.6% | 9EMA 1284"
+    },
+    {
+      "time": "14:55:20",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT JSWSTEEL @ 1,284"
+    },
+    {
+      "time": "15:00:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,283.50"
+    },
+    {
+      "time": "15:00:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,284 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "15:00:21",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:05:22",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,285.10"
+    },
+    {
+      "time": "15:05:22",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,285 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:05:22",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:06:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,284.80"
+    },
+    {
+      "time": "15:06:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,285 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:06:24",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:07:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,285.80"
+    },
+    {
+      "time": "15:07:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,286 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:07:25",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:08:25",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,285.60"
+    },
+    {
+      "time": "15:08:25",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,286 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:08:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:09:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,286.00"
+    },
+    {
+      "time": "15:09:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,286 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:09:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:10:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning JSWSTEEL | LTP: 1,285.40"
+    },
+    {
+      "time": "15:10:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT JSWSTEEL | Entry: 1,284 | LTP: 1,285 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "15:10:28",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:15:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:28) \u2014 waiting"
+    },
+    {
+      "time": "15:20:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:28) \u2014 waiting"
+    },
+    {
+      "time": "15:25:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:28) \u2014 waiting"
+    },
+    {
+      "time": "15:30:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:28) \u2014 waiting"
+    },
+    {
+      "time": "15:35:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:28) \u2014 waiting"
+    },
+    {
+      "time": "15:40:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:28) \u2014 waiting"
+    },
+    {
+      "time": "15:45:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:28) \u2014 waiting"
+    },
+    {
+      "time": "15:50:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:28) \u2014 waiting"
+    },
+    {
+      "time": "15:55:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:28) \u2014 waiting"
+    },
+    {
+      "time": "16:00:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:28) \u2014 waiting"
+    },
+    {
+      "time": "16:05:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:28) \u2014 waiting"
+    },
+    {
+      "time": "16:10:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:28) \u2014 waiting"
+    },
+    {
+      "time": "16:15:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:28) \u2014 waiting"
+    },
+    {
+      "time": "16:20:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:28) \u2014 waiting"
+    },
+    {
+      "time": "16:25:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:28) \u2014 waiting"
+    },
+    {
+      "time": "16:30:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:28) \u2014 waiting"
+    },
+    {
+      "time": "16:35:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:28) \u2014 waiting"
+    },
+    {
+      "time": "16:40:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:28) \u2014 waiting"
+    },
+    {
+      "time": "16:45:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:28) \u2014 waiting"
+    },
+    {
+      "time": "16:50:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:28) \u2014 waiting"
+    },
+    {
+      "time": "16:55:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:28) \u2014 waiting"
+    },
+    {
+      "time": "17:00:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:28) \u2014 waiting"
+    },
+    {
+      "time": "17:05:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:28) \u2014 waiting"
+    },
+    {
+      "time": "17:10:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:28) \u2014 waiting"
+    },
+    {
+      "time": "17:15:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:28) \u2014 waiting"
+    },
+    {
+      "time": "17:20:28",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:28) \u2014 waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | JSWSTEEL | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:14",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:14) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

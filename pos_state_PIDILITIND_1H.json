@@ -1,0 +1,553 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 2,
+  "total_trades": 27,
+  "winning": 0,
+  "total_pnl": -27.499926757812318,
+  "last_scan": "12:05:50",
+  "last_signal": "No signal",
+  "last_action": "Closed -10pts (Rs.-10)",
+  "log": [
+    {
+      "time": "07:27:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:27:33) \u2014 waiting"
+    },
+    {
+      "time": "07:32:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:32:33) \u2014 waiting"
+    },
+    {
+      "time": "07:37:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:37:33) \u2014 waiting"
+    },
+    {
+      "time": "07:42:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:42:33) \u2014 waiting"
+    },
+    {
+      "time": "07:47:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:47:33) \u2014 waiting"
+    },
+    {
+      "time": "07:52:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:52:33) \u2014 waiting"
+    },
+    {
+      "time": "07:57:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:57:33) \u2014 waiting"
+    },
+    {
+      "time": "08:02:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:02:33) \u2014 waiting"
+    },
+    {
+      "time": "08:07:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:07:33) \u2014 waiting"
+    },
+    {
+      "time": "08:12:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:12:33) \u2014 waiting"
+    },
+    {
+      "time": "08:17:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:17:33) \u2014 waiting"
+    },
+    {
+      "time": "08:22:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:22:33) \u2014 waiting"
+    },
+    {
+      "time": "08:27:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:27:33) \u2014 waiting"
+    },
+    {
+      "time": "08:32:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:32:33) \u2014 waiting"
+    },
+    {
+      "time": "08:37:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:37:33) \u2014 waiting"
+    },
+    {
+      "time": "08:42:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:42:33) \u2014 waiting"
+    },
+    {
+      "time": "08:47:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:47:33) \u2014 waiting"
+    },
+    {
+      "time": "08:52:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:52:33) \u2014 waiting"
+    },
+    {
+      "time": "08:57:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:57:33) \u2014 waiting"
+    },
+    {
+      "time": "09:02:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:02:33) \u2014 waiting"
+    },
+    {
+      "time": "09:07:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:07:33) \u2014 waiting"
+    },
+    {
+      "time": "09:12:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:12:33) \u2014 waiting"
+    },
+    {
+      "time": "09:17:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:17:33) \u2014 waiting"
+    },
+    {
+      "time": "09:22:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,477.00"
+    },
+    {
+      "time": "09:22:34",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:27:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,475.70"
+    },
+    {
+      "time": "09:27:35",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:33:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,474.90"
+    },
+    {
+      "time": "09:34:03",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:40:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,473.80"
+    },
+    {
+      "time": "09:40:12",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:45:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,473.30"
+    },
+    {
+      "time": "09:45:13",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:50:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,471.60"
+    },
+    {
+      "time": "09:50:15",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "09:55:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,470.80"
+    },
+    {
+      "time": "09:55:16",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:00:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,471.40"
+    },
+    {
+      "time": "10:00:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:05:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,470.40"
+    },
+    {
+      "time": "10:05:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:10:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,473.60"
+    },
+    {
+      "time": "10:10:18",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:15:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,473.50"
+    },
+    {
+      "time": "10:15:19",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 1.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "10:20:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,473.40"
+    },
+    {
+      "time": "10:20:21",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "10:20:22",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,473 \u2014 skipped."
+    },
+    {
+      "time": "10:25:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,474.00"
+    },
+    {
+      "time": "10:25:23",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "10:25:23",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,474 \u2014 skipped."
+    },
+    {
+      "time": "10:30:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,473.90"
+    },
+    {
+      "time": "10:30:25",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "10:30:25",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,474 \u2014 skipped."
+    },
+    {
+      "time": "10:35:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,473.10"
+    },
+    {
+      "time": "10:35:27",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "10:35:30",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,473 \u2014 skipped."
+    },
+    {
+      "time": "10:40:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,469.50"
+    },
+    {
+      "time": "10:40:31",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "10:40:31",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,470 \u2014 skipped."
+    },
+    {
+      "time": "10:45:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,467.00"
+    },
+    {
+      "time": "10:45:33",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "10:45:33",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,467 \u2014 skipped."
+    },
+    {
+      "time": "10:50:34",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,469.60"
+    },
+    {
+      "time": "10:50:34",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "10:50:35",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,470 \u2014 skipped."
+    },
+    {
+      "time": "10:55:35",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,470.40"
+    },
+    {
+      "time": "10:55:36",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "10:55:36",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,470 \u2014 skipped."
+    },
+    {
+      "time": "11:00:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,473.00"
+    },
+    {
+      "time": "11:00:37",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "11:00:37",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,473 \u2014 skipped."
+    },
+    {
+      "time": "11:05:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,471.90"
+    },
+    {
+      "time": "11:05:38",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "11:05:38",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,472 \u2014 skipped."
+    },
+    {
+      "time": "11:10:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,471.10"
+    },
+    {
+      "time": "11:10:39",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG PIDILITIND | Entry: 1,474 | Target: 1,531 | SL: 1,454 | R:R 1:2.9 | Pre-market break LONG | PM H 1,464 | Range 29pts"
+    },
+    {
+      "time": "11:10:39",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,990 | This trade: \u20b91,471 \u2014 skipped."
+    },
+    {
+      "time": "11:15:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,470.00"
+    },
+    {
+      "time": "11:15:41",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:20:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,469.70"
+    },
+    {
+      "time": "11:20:42",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:25:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,469.20"
+    },
+    {
+      "time": "11:25:42",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:30:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,469.60"
+    },
+    {
+      "time": "11:30:43",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:35:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,469.70"
+    },
+    {
+      "time": "11:35:45",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:40:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,467.20"
+    },
+    {
+      "time": "11:40:47",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:45:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,468.00"
+    },
+    {
+      "time": "11:45:48",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:50:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,476.40"
+    },
+    {
+      "time": "11:50:49",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "11:55:49",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,476.00"
+    },
+    {
+      "time": "11:55:50",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:00:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,475.30"
+    },
+    {
+      "time": "12:00:50",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "12:05:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning PIDILITIND | LTP: 1,475.30"
+    },
+    {
+      "time": "12:05:52",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260602_111603",
+      "date": "2026-06-02",
+      "time": "11:16:03",
+      "strategy": "GAP_AND_GO",
+      "instrument": "PIDILITIND",
+      "direction": "SHORT",
+      "entry": 1438.4,
+      "target": 1386.1,
+      "stop_loss": 1465.45,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1455.7,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -17.3,
+      "pnl_rs": -17.3,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_121802",
+      "date": "2026-06-03",
+      "time": "12:18:02",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "PIDILITIND",
+      "direction": "SHORT",
+      "entry": 1460.4,
+      "target": 1406.8,
+      "stop_loss": 1483.7,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 1470.6,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": -10.2,
+      "pnl_rs": -10.2,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

@@ -1,0 +1,625 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 3,
+  "total_trades": 13,
+  "winning": 2,
+  "total_pnl": -50.5,
+  "last_scan": "12:05:46",
+  "last_signal": "No signal",
+  "last_action": "Closed -30pts (Rs.-30)",
+  "log": [
+    {
+      "time": "13:54:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG EICHERMOT | Entry: 7,058 | LTP: 7,112 | Unrealized: +54pts (Rs.+54)"
+    },
+    {
+      "time": "14:10:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,115.00"
+    },
+    {
+      "time": "14:10:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG EICHERMOT | Entry: 7,058 | LTP: 7,115 | Unrealized: +56pts (Rs.+56)"
+    },
+    {
+      "time": "14:25:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,113.00"
+    },
+    {
+      "time": "14:25:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG EICHERMOT | Entry: 7,058 | LTP: 7,113 | Unrealized: +54pts (Rs.+54)"
+    },
+    {
+      "time": "14:40:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,125.50"
+    },
+    {
+      "time": "14:40:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG EICHERMOT | Entry: 7,058 | LTP: 7,126 | Unrealized: +67pts (Rs.+67)"
+    },
+    {
+      "time": "14:55:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,102.00"
+    },
+    {
+      "time": "14:55:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG EICHERMOT | Entry: 7,058 | LTP: 7,102 | Unrealized: +44pts (Rs.+44)"
+    },
+    {
+      "time": "15:10:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,097.00"
+    },
+    {
+      "time": "15:10:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG EICHERMOT | Entry: 7,058 | LTP: 7,097 | Unrealized: +38pts (Rs.+38)"
+    },
+    {
+      "time": "15:25:04",
+      "level": "TRADE",
+      "message": "\u2705 WIN: Closed LONG EICHERMOT | Entry: 7,058 \u2192 Exit: 7,132 | PnL: +73pts (Rs.+73) | EOD_SQUAREOFF"
+    },
+    {
+      "time": "15:40:04",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:04) \u2014 waiting"
+    },
+    {
+      "time": "15:55:04",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:04) \u2014 waiting"
+    },
+    {
+      "time": "16:10:04",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:04) \u2014 waiting"
+    },
+    {
+      "time": "16:25:04",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:04) \u2014 waiting"
+    },
+    {
+      "time": "16:40:04",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:04) \u2014 waiting"
+    },
+    {
+      "time": "16:55:04",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:04) \u2014 waiting"
+    },
+    {
+      "time": "17:10:04",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:04) \u2014 waiting"
+    },
+    {
+      "time": "17:25:04",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:25:04) \u2014 waiting"
+    },
+    {
+      "time": "19:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:34:15) \u2014 waiting"
+    },
+    {
+      "time": "19:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:49:15) \u2014 waiting"
+    },
+    {
+      "time": "20:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:04:15) \u2014 waiting"
+    },
+    {
+      "time": "20:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:19:15) \u2014 waiting"
+    },
+    {
+      "time": "20:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:34:15) \u2014 waiting"
+    },
+    {
+      "time": "20:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:49:15) \u2014 waiting"
+    },
+    {
+      "time": "21:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:04:15) \u2014 waiting"
+    },
+    {
+      "time": "21:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:19:15) \u2014 waiting"
+    },
+    {
+      "time": "21:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:34:15) \u2014 waiting"
+    },
+    {
+      "time": "21:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:49:15) \u2014 waiting"
+    },
+    {
+      "time": "22:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:04:15) \u2014 waiting"
+    },
+    {
+      "time": "22:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:19:15) \u2014 waiting"
+    },
+    {
+      "time": "22:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:34:15) \u2014 waiting"
+    },
+    {
+      "time": "22:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:49:15) \u2014 waiting"
+    },
+    {
+      "time": "23:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:04:15) \u2014 waiting"
+    },
+    {
+      "time": "23:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:19:15) \u2014 waiting"
+    },
+    {
+      "time": "23:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:34:15) \u2014 waiting"
+    },
+    {
+      "time": "23:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:49:15) \u2014 waiting"
+    },
+    {
+      "time": "00:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:04:15) \u2014 waiting"
+    },
+    {
+      "time": "00:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:19:15) \u2014 waiting"
+    },
+    {
+      "time": "00:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:34:15) \u2014 waiting"
+    },
+    {
+      "time": "00:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:49:15) \u2014 waiting"
+    },
+    {
+      "time": "01:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:04:15) \u2014 waiting"
+    },
+    {
+      "time": "01:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:19:15) \u2014 waiting"
+    },
+    {
+      "time": "01:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:34:15) \u2014 waiting"
+    },
+    {
+      "time": "01:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:49:15) \u2014 waiting"
+    },
+    {
+      "time": "02:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:04:15) \u2014 waiting"
+    },
+    {
+      "time": "02:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:19:15) \u2014 waiting"
+    },
+    {
+      "time": "02:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:34:15) \u2014 waiting"
+    },
+    {
+      "time": "02:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:49:15) \u2014 waiting"
+    },
+    {
+      "time": "03:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:04:15) \u2014 waiting"
+    },
+    {
+      "time": "03:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:19:15) \u2014 waiting"
+    },
+    {
+      "time": "03:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:34:15) \u2014 waiting"
+    },
+    {
+      "time": "03:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:49:15) \u2014 waiting"
+    },
+    {
+      "time": "04:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:04:15) \u2014 waiting"
+    },
+    {
+      "time": "04:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:19:15) \u2014 waiting"
+    },
+    {
+      "time": "04:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:34:15) \u2014 waiting"
+    },
+    {
+      "time": "04:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:49:15) \u2014 waiting"
+    },
+    {
+      "time": "05:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:04:15) \u2014 waiting"
+    },
+    {
+      "time": "05:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:19:15) \u2014 waiting"
+    },
+    {
+      "time": "05:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:34:15) \u2014 waiting"
+    },
+    {
+      "time": "05:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:49:15) \u2014 waiting"
+    },
+    {
+      "time": "06:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:04:15) \u2014 waiting"
+    },
+    {
+      "time": "06:19:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:19:15) \u2014 waiting"
+    },
+    {
+      "time": "06:34:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:34:15) \u2014 waiting"
+    },
+    {
+      "time": "06:49:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:49:15) \u2014 waiting"
+    },
+    {
+      "time": "07:04:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:04:15) \u2014 waiting"
+    },
+    {
+      "time": "07:19:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:19:16) \u2014 waiting"
+    },
+    {
+      "time": "07:34:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:34:16) \u2014 waiting"
+    },
+    {
+      "time": "07:49:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:49:16) \u2014 waiting"
+    },
+    {
+      "time": "08:04:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:04:16) \u2014 waiting"
+    },
+    {
+      "time": "08:19:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:19:16) \u2014 waiting"
+    },
+    {
+      "time": "08:34:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:34:16) \u2014 waiting"
+    },
+    {
+      "time": "08:49:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:49:16) \u2014 waiting"
+    },
+    {
+      "time": "09:04:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:04:16) \u2014 waiting"
+    },
+    {
+      "time": "09:19:16",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:19:16) \u2014 waiting"
+    },
+    {
+      "time": "09:35:33",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,091.00"
+    },
+    {
+      "time": "09:35:37",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:50:38",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,078.00"
+    },
+    {
+      "time": "09:50:38",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT EICHERMOT | Entry: 7,090 | Target: 7,018 | SL: 7,106 | R:R 1:4.6 | Pre-market break SHORT | PM L 7,096 | Range 36pts"
+    },
+    {
+      "time": "09:50:38",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT EICHERMOT @ 7,078"
+    },
+    {
+      "time": "10:05:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,089.00"
+    },
+    {
+      "time": "10:05:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT EICHERMOT | Entry: 7,078 | LTP: 7,089 | Unrealized: -11pts (Rs.-11)"
+    },
+    {
+      "time": "10:20:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,091.50"
+    },
+    {
+      "time": "10:20:40",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT EICHERMOT | Entry: 7,078 | LTP: 7,092 | Unrealized: -14pts (Rs.-14)"
+    },
+    {
+      "time": "10:35:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,061.00"
+    },
+    {
+      "time": "10:35:41",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT EICHERMOT | Entry: 7,078 | LTP: 7,061 | Unrealized: +17pts (Rs.+17)"
+    },
+    {
+      "time": "10:50:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,055.00"
+    },
+    {
+      "time": "10:50:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT EICHERMOT | Entry: 7,078 | LTP: 7,055 | Unrealized: +23pts (Rs.+23)"
+    },
+    {
+      "time": "11:05:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,086.00"
+    },
+    {
+      "time": "11:05:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT EICHERMOT | Entry: 7,078 | LTP: 7,086 | Unrealized: -8pts (Rs.-8)"
+    },
+    {
+      "time": "11:20:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,097.50"
+    },
+    {
+      "time": "11:20:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT EICHERMOT | Entry: 7,078 | LTP: 7,098 | Unrealized: -20pts (Rs.-20)"
+    },
+    {
+      "time": "11:35:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,098.00"
+    },
+    {
+      "time": "11:35:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT EICHERMOT | Entry: 7,078 | LTP: 7,098 | Unrealized: -20pts (Rs.-20)"
+    },
+    {
+      "time": "11:50:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,107.50"
+    },
+    {
+      "time": "11:50:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT EICHERMOT | Entry: 7,078 | LTP: 7,108 | Unrealized: -30pts (Rs.-30)"
+    },
+    {
+      "time": "11:50:46",
+      "level": "TRADE",
+      "message": "\u274c LOSS: Closed SHORT EICHERMOT | Entry: 7,078 \u2192 Exit: 7,108 | PnL: -30pts (Rs.-30) | STOP_LOSS"
+    },
+    {
+      "time": "12:05:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning EICHERMOT | LTP: 7,122.00"
+    },
+    {
+      "time": "12:05:47",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260526_104253",
+      "date": "2026-05-26",
+      "time": "10:42:53",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "EICHERMOT",
+      "direction": "LONG",
+      "entry": 7366.5,
+      "target": 7406.5,
+      "stop_loss": 7357.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 7413.0,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": 46.5,
+      "pnl_rs": 46.5,
+      "paper": true
+    },
+    {
+      "id": "POS_20260527_092102",
+      "date": "2026-05-27",
+      "time": "09:21:02",
+      "strategy": "GAP_AND_GO",
+      "instrument": "EICHERMOT",
+      "direction": "SHORT",
+      "entry": 7372.5,
+      "target": 7329.74,
+      "stop_loss": 7399.13,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 7400.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -27.5,
+      "pnl_rs": -27.5,
+      "paper": true
+    },
+    {
+      "id": "POS_20260529_094006",
+      "date": "2026-05-29",
+      "time": "09:40:06",
+      "strategy": "VWAP_TREND",
+      "instrument": "EICHERMOT",
+      "direction": "LONG",
+      "entry": 7361.0,
+      "target": 7342.16,
+      "stop_loss": 7366.67,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 7348.0,
+      "exit_reason": "TARGET_HIT",
+      "pnl_pts": -13.0,
+      "pnl_rs": -13.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260602_123039",
+      "date": "2026-06-02",
+      "time": "12:30:39",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "EICHERMOT",
+      "direction": "SHORT",
+      "entry": 7017.5,
+      "target": 6880.0,
+      "stop_loss": 7101.5,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 7117.5,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -100.0,
+      "pnl_rs": -100.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_101558",
+      "date": "2026-06-03",
+      "time": "10:15:58",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "EICHERMOT",
+      "direction": "LONG",
+      "entry": 7058.5,
+      "target": 7177.5,
+      "stop_loss": 7015.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 7131.5,
+      "exit_reason": "EOD_SQUAREOFF",
+      "pnl_pts": 73.0,
+      "pnl_rs": 73.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260605_095038",
+      "date": "2026-06-05",
+      "time": "09:50:38",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "EICHERMOT",
+      "direction": "SHORT",
+      "entry": 7078.0,
+      "target": 7017.5,
+      "stop_loss": 7106.5,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 7107.5,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -29.5,
+      "pnl_rs": -29.5,
+      "paper": true
+    }
+  ],
+  "open_trade": null,
+  "date": "2026-06-05"
+}

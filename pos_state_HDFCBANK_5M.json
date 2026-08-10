@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 4,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:13",
+  "last_signal": "SHORT @ 765",
+  "last_action": "Opened SHORT HDFCBANK",
+  "log": [
+    {
+      "time": "14:18:51",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:19:51",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.95"
+    },
+    {
+      "time": "14:19:51",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 766 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:19:52",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:20:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.95"
+    },
+    {
+      "time": "14:20:53",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 766 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:20:53",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:25:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 766.45"
+    },
+    {
+      "time": "14:25:54",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 766 | Unrealized: +2pts (Rs.+2)"
+    },
+    {
+      "time": "14:25:54",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:30:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.00"
+    },
+    {
+      "time": "14:30:55",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:30:56",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:35:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.80"
+    },
+    {
+      "time": "14:35:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 766 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:35:57",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:40:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 764.85"
+    },
+    {
+      "time": "14:40:58",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:40:58",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 764.50"
+    },
+    {
+      "time": "14:41:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 764 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:42:00",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 764.70"
+    },
+    {
+      "time": "14:43:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:43:01",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 764.85"
+    },
+    {
+      "time": "14:44:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:44:02",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 764.45"
+    },
+    {
+      "time": "14:45:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 764 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:45:03",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 764.90"
+    },
+    {
+      "time": "14:46:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:46:04",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.15"
+    },
+    {
+      "time": "14:47:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:47:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.25"
+    },
+    {
+      "time": "14:48:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:48:06",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:08",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.05"
+    },
+    {
+      "time": "14:49:08",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:49:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 764.60"
+    },
+    {
+      "time": "14:50:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:50:10",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.1 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:11",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.10"
+    },
+    {
+      "time": "14:55:11",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:55:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:56:12",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.05"
+    },
+    {
+      "time": "14:56:12",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:56:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:57:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.10"
+    },
+    {
+      "time": "14:57:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:57:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:58:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.05"
+    },
+    {
+      "time": "14:58:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +4pts (Rs.+4)"
+    },
+    {
+      "time": "14:58:14",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:59:15",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.50"
+    },
+    {
+      "time": "14:59:15",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 766 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "14:59:16",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:00:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 766.00"
+    },
+    {
+      "time": "15:00:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 766 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "15:00:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:05:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.90"
+    },
+    {
+      "time": "15:05:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 766 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "15:05:17",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:10:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning HDFCBANK | LTP: 765.45"
+    },
+    {
+      "time": "15:10:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT HDFCBANK | Entry: 769 | LTP: 765 | Unrealized: +3pts (Rs.+3)"
+    },
+    {
+      "time": "15:10:18",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT HDFCBANK | Entry: 766 | Target: 746 | SL: 776 | R:R 1:2.0 | Gap+Go SHORT | Gap -96.7% | 9EMA 766"
+    },
+    {
+      "time": "15:10:18",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT HDFCBANK @ 765"
+    },
+    {
+      "time": "15:15:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:18) \u2014 waiting"
+    },
+    {
+      "time": "15:20:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:18) \u2014 waiting"
+    },
+    {
+      "time": "15:25:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:18) \u2014 waiting"
+    },
+    {
+      "time": "15:30:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:18) \u2014 waiting"
+    },
+    {
+      "time": "15:35:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:18) \u2014 waiting"
+    },
+    {
+      "time": "15:40:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:18) \u2014 waiting"
+    },
+    {
+      "time": "15:45:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:18) \u2014 waiting"
+    },
+    {
+      "time": "15:50:18",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:18) \u2014 waiting"
+    },
+    {
+      "time": "15:55:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:19) \u2014 waiting"
+    },
+    {
+      "time": "16:00:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:19) \u2014 waiting"
+    },
+    {
+      "time": "16:05:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:19) \u2014 waiting"
+    },
+    {
+      "time": "16:10:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:19) \u2014 waiting"
+    },
+    {
+      "time": "16:15:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:19) \u2014 waiting"
+    },
+    {
+      "time": "16:20:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:19) \u2014 waiting"
+    },
+    {
+      "time": "16:25:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:19) \u2014 waiting"
+    },
+    {
+      "time": "16:30:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:19) \u2014 waiting"
+    },
+    {
+      "time": "16:35:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:19) \u2014 waiting"
+    },
+    {
+      "time": "16:40:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:19) \u2014 waiting"
+    },
+    {
+      "time": "16:45:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:19) \u2014 waiting"
+    },
+    {
+      "time": "16:50:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:19) \u2014 waiting"
+    },
+    {
+      "time": "16:55:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:19) \u2014 waiting"
+    },
+    {
+      "time": "17:00:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:19) \u2014 waiting"
+    },
+    {
+      "time": "17:05:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:19) \u2014 waiting"
+    },
+    {
+      "time": "17:10:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:19) \u2014 waiting"
+    },
+    {
+      "time": "17:15:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:19) \u2014 waiting"
+    },
+    {
+      "time": "17:20:19",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:19) \u2014 waiting"
+    },
+    {
+      "time": "17:24:28",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | HDFCBANK | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:13",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:13) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}

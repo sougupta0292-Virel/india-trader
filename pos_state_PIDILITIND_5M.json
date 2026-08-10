@@ -1,0 +1,518 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 7,
+  "winning": 0,
+  "total_pnl": 0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 1,471",
+  "last_action": "Opened SHORT PIDILITIND",
+  "log": [
+    {
+      "time": "14:15:03",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,472 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:15:03",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:20:04",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,471.70"
+    },
+    {
+      "time": "14:20:04",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,472 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:20:04",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:21:05",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,474.10"
+    },
+    {
+      "time": "14:21:05",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,474 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:21:05",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:22:06",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,474.00"
+    },
+    {
+      "time": "14:22:06",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,474 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:22:06",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:23:07",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,473.90"
+    },
+    {
+      "time": "14:23:07",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,474 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "14:23:07",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:24:08",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,475.00"
+    },
+    {
+      "time": "14:24:08",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,475 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:24:09",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:10",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,475.30"
+    },
+    {
+      "time": "14:25:10",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,475 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:25:10",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:30:11",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,473.60"
+    },
+    {
+      "time": "14:30:11",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,474 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:30:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:31:12",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,475.70"
+    },
+    {
+      "time": "14:31:12",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,476 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:31:12",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:32:13",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,475.00"
+    },
+    {
+      "time": "14:32:13",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,475 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:32:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:33:14",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,475.80"
+    },
+    {
+      "time": "14:33:14",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,476 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:33:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:34:16",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,475.90"
+    },
+    {
+      "time": "14:34:16",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,476 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:34:17",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:35:18",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,475.30"
+    },
+    {
+      "time": "14:35:18",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,475 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:35:18",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:40:19",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,476.10"
+    },
+    {
+      "time": "14:40:19",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,476 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:40:19",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:45:19",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,477.40"
+    },
+    {
+      "time": "14:45:19",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,477 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "14:45:20",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:50:21",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,481.00"
+    },
+    {
+      "time": "14:50:21",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,481 | Unrealized: -10pts (Rs.-10)"
+    },
+    {
+      "time": "14:50:21",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "14:55:23",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,482.20"
+    },
+    {
+      "time": "14:55:23",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,482 | Unrealized: -11pts (Rs.-11)"
+    },
+    {
+      "time": "14:55:23",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:00:25",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,477.30"
+    },
+    {
+      "time": "15:00:25",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,477 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "15:00:26",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.6 < 1.8 — skipped"
+    },
+    {
+      "time": "15:05:26",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,477.70"
+    },
+    {
+      "time": "15:05:26",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,478 | Unrealized: -7pts (Rs.-7)"
+    },
+    {
+      "time": "15:05:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:06:27",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,477.60"
+    },
+    {
+      "time": "15:06:27",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,478 | Unrealized: -6pts (Rs.-6)"
+    },
+    {
+      "time": "15:06:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:07:28",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,477.80"
+    },
+    {
+      "time": "15:07:28",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,478 | Unrealized: -7pts (Rs.-7)"
+    },
+    {
+      "time": "15:07:29",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:08:29",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,478.30"
+    },
+    {
+      "time": "15:08:29",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,478 | Unrealized: -7pts (Rs.-7)"
+    },
+    {
+      "time": "15:08:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:09:30",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,478.20"
+    },
+    {
+      "time": "15:09:30",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,478 | Unrealized: -7pts (Rs.-7)"
+    },
+    {
+      "time": "15:09:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:10:31",
+      "level": "INFO",
+      "message": "🔍 Scanning PIDILITIND | LTP: 1,478.90"
+    },
+    {
+      "time": "15:10:31",
+      "level": "INFO",
+      "message": "📊 SHORT PIDILITIND | Entry: 1,471 | LTP: 1,479 | Unrealized: -8pts (Rs.-8)"
+    },
+    {
+      "time": "15:10:31",
+      "level": "INFO",
+      "message": "⚠️ Signal found but R:R 0.0 < 1.8 — skipped"
+    },
+    {
+      "time": "15:15:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:15:31) — waiting"
+    },
+    {
+      "time": "15:20:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:20:31) — waiting"
+    },
+    {
+      "time": "15:25:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:25:31) — waiting"
+    },
+    {
+      "time": "15:30:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:30:31) — waiting"
+    },
+    {
+      "time": "15:35:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:35:31) — waiting"
+    },
+    {
+      "time": "15:40:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:40:31) — waiting"
+    },
+    {
+      "time": "15:45:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:45:31) — waiting"
+    },
+    {
+      "time": "15:50:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:50:31) — waiting"
+    },
+    {
+      "time": "15:55:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (15:55:31) — waiting"
+    },
+    {
+      "time": "16:00:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:00:31) — waiting"
+    },
+    {
+      "time": "16:05:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:05:31) — waiting"
+    },
+    {
+      "time": "16:10:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:10:31) — waiting"
+    },
+    {
+      "time": "16:15:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:15:31) — waiting"
+    },
+    {
+      "time": "16:20:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:20:31) — waiting"
+    },
+    {
+      "time": "16:25:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:25:31) — waiting"
+    },
+    {
+      "time": "16:30:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:30:31) — waiting"
+    },
+    {
+      "time": "16:35:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:35:31) — waiting"
+    },
+    {
+      "time": "16:40:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:40:31) — waiting"
+    },
+    {
+      "time": "16:45:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:45:31) — waiting"
+    },
+    {
+      "time": "16:50:31",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:50:31) — waiting"
+    },
+    {
+      "time": "16:55:32",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (16:55:32) — waiting"
+    },
+    {
+      "time": "17:00:32",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:00:32) — waiting"
+    },
+    {
+      "time": "17:05:32",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:05:32) — waiting"
+    },
+    {
+      "time": "17:10:32",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:10:32) — waiting"
+    },
+    {
+      "time": "17:15:32",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:15:32) — waiting"
+    },
+    {
+      "time": "17:20:32",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (17:20:32) — waiting"
+    },
+    {
+      "time": "17:24:29",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "🚀 POS Auto Trader STARTED | PIDILITIND | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "⏰ Outside market hours (01:45:15) — waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23",
+  "wins": 0,
+  "losses": 0
+}

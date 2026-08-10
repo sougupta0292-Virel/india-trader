@@ -1,0 +1,732 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 8,
+  "total_trades": 13,
+  "winning": 6,
+  "total_pnl": -58.20014648437537,
+  "last_scan": "12:06:07",
+  "last_signal": "LONG @ 2,960",
+  "last_action": "Opened LONG ADANIENT",
+  "log": [
+    {
+      "time": "06:38:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:38:24) \u2014 waiting"
+    },
+    {
+      "time": "06:43:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:43:24) \u2014 waiting"
+    },
+    {
+      "time": "06:48:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:48:24) \u2014 waiting"
+    },
+    {
+      "time": "06:53:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:53:24) \u2014 waiting"
+    },
+    {
+      "time": "06:58:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:58:24) \u2014 waiting"
+    },
+    {
+      "time": "07:03:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:03:24) \u2014 waiting"
+    },
+    {
+      "time": "07:08:24",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:08:24) \u2014 waiting"
+    },
+    {
+      "time": "07:13:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:13:25) \u2014 waiting"
+    },
+    {
+      "time": "07:18:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:18:25) \u2014 waiting"
+    },
+    {
+      "time": "07:23:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:23:25) \u2014 waiting"
+    },
+    {
+      "time": "07:28:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:28:25) \u2014 waiting"
+    },
+    {
+      "time": "07:33:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:25) \u2014 waiting"
+    },
+    {
+      "time": "07:38:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:38:25) \u2014 waiting"
+    },
+    {
+      "time": "07:43:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:43:25) \u2014 waiting"
+    },
+    {
+      "time": "07:48:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:48:25) \u2014 waiting"
+    },
+    {
+      "time": "07:53:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:53:25) \u2014 waiting"
+    },
+    {
+      "time": "07:58:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:58:25) \u2014 waiting"
+    },
+    {
+      "time": "08:03:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:03:25) \u2014 waiting"
+    },
+    {
+      "time": "08:08:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:08:25) \u2014 waiting"
+    },
+    {
+      "time": "08:13:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:13:25) \u2014 waiting"
+    },
+    {
+      "time": "08:18:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:25) \u2014 waiting"
+    },
+    {
+      "time": "08:23:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:23:25) \u2014 waiting"
+    },
+    {
+      "time": "08:28:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:28:25) \u2014 waiting"
+    },
+    {
+      "time": "08:33:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:25) \u2014 waiting"
+    },
+    {
+      "time": "08:38:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:38:25) \u2014 waiting"
+    },
+    {
+      "time": "08:43:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:43:25) \u2014 waiting"
+    },
+    {
+      "time": "08:48:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:25) \u2014 waiting"
+    },
+    {
+      "time": "08:53:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:53:25) \u2014 waiting"
+    },
+    {
+      "time": "08:58:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:58:25) \u2014 waiting"
+    },
+    {
+      "time": "09:03:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:25) \u2014 waiting"
+    },
+    {
+      "time": "09:08:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:08:25) \u2014 waiting"
+    },
+    {
+      "time": "09:13:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:13:25) \u2014 waiting"
+    },
+    {
+      "time": "09:18:25",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:25) \u2014 waiting"
+    },
+    {
+      "time": "09:23:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 2,959.90"
+    },
+    {
+      "time": "09:23:27",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG ADANIENT | Entry: 2,978 | Target: 3,122 | SL: 2,927 | R:R 1:2.8 | Pre-market break LONG | PM H 2,937 | Range 72pts"
+    },
+    {
+      "time": "09:23:27",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: LONG ADANIENT @ 2,960"
+    },
+    {
+      "time": "09:28:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,032.40"
+    },
+    {
+      "time": "09:28:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,032 | Unrealized: +72pts (Rs.+72)"
+    },
+    {
+      "time": "09:34:37",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,022.60"
+    },
+    {
+      "time": "09:34:37",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,023 | Unrealized: +63pts (Rs.+63)"
+    },
+    {
+      "time": "09:40:39",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,047.70"
+    },
+    {
+      "time": "09:40:39",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,048 | Unrealized: +88pts (Rs.+88)"
+    },
+    {
+      "time": "09:45:40",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,037.00"
+    },
+    {
+      "time": "09:45:40",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,037 | Unrealized: +77pts (Rs.+77)"
+    },
+    {
+      "time": "09:50:41",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,021.00"
+    },
+    {
+      "time": "09:50:41",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,021 | Unrealized: +61pts (Rs.+61)"
+    },
+    {
+      "time": "09:55:42",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,030.30"
+    },
+    {
+      "time": "09:55:42",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,030 | Unrealized: +70pts (Rs.+70)"
+    },
+    {
+      "time": "10:00:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,032.70"
+    },
+    {
+      "time": "10:00:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,033 | Unrealized: +73pts (Rs.+73)"
+    },
+    {
+      "time": "10:05:43",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,038.90"
+    },
+    {
+      "time": "10:05:43",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,039 | Unrealized: +79pts (Rs.+79)"
+    },
+    {
+      "time": "10:10:44",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,038.40"
+    },
+    {
+      "time": "10:10:44",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,038 | Unrealized: +78pts (Rs.+78)"
+    },
+    {
+      "time": "10:15:45",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,032.80"
+    },
+    {
+      "time": "10:15:45",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,033 | Unrealized: +73pts (Rs.+73)"
+    },
+    {
+      "time": "10:20:46",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,032.10"
+    },
+    {
+      "time": "10:20:46",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,032 | Unrealized: +72pts (Rs.+72)"
+    },
+    {
+      "time": "10:25:47",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,030.00"
+    },
+    {
+      "time": "10:25:47",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,030 | Unrealized: +70pts (Rs.+70)"
+    },
+    {
+      "time": "10:30:48",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,030.00"
+    },
+    {
+      "time": "10:30:48",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,030 | Unrealized: +70pts (Rs.+70)"
+    },
+    {
+      "time": "10:35:50",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,041.70"
+    },
+    {
+      "time": "10:35:50",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,042 | Unrealized: +82pts (Rs.+82)"
+    },
+    {
+      "time": "10:40:52",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,016.00"
+    },
+    {
+      "time": "10:40:52",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,016 | Unrealized: +56pts (Rs.+56)"
+    },
+    {
+      "time": "10:45:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,004.00"
+    },
+    {
+      "time": "10:45:53",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,004 | Unrealized: +44pts (Rs.+44)"
+    },
+    {
+      "time": "10:50:53",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,018.00"
+    },
+    {
+      "time": "10:50:53",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,018 | Unrealized: +58pts (Rs.+58)"
+    },
+    {
+      "time": "10:55:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,018.80"
+    },
+    {
+      "time": "10:55:54",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,019 | Unrealized: +59pts (Rs.+59)"
+    },
+    {
+      "time": "11:00:55",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,018.20"
+    },
+    {
+      "time": "11:00:55",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,018 | Unrealized: +58pts (Rs.+58)"
+    },
+    {
+      "time": "11:05:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,033.50"
+    },
+    {
+      "time": "11:05:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,034 | Unrealized: +74pts (Rs.+74)"
+    },
+    {
+      "time": "11:10:56",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,029.90"
+    },
+    {
+      "time": "11:10:56",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,030 | Unrealized: +70pts (Rs.+70)"
+    },
+    {
+      "time": "11:15:57",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,032.30"
+    },
+    {
+      "time": "11:15:57",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,032 | Unrealized: +72pts (Rs.+72)"
+    },
+    {
+      "time": "11:20:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,024.30"
+    },
+    {
+      "time": "11:20:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,024 | Unrealized: +64pts (Rs.+64)"
+    },
+    {
+      "time": "11:25:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,027.00"
+    },
+    {
+      "time": "11:25:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,027 | Unrealized: +67pts (Rs.+67)"
+    },
+    {
+      "time": "11:31:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,033.20"
+    },
+    {
+      "time": "11:31:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,033 | Unrealized: +73pts (Rs.+73)"
+    },
+    {
+      "time": "11:36:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,032.10"
+    },
+    {
+      "time": "11:36:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,032 | Unrealized: +72pts (Rs.+72)"
+    },
+    {
+      "time": "11:41:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,030.80"
+    },
+    {
+      "time": "11:41:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,031 | Unrealized: +71pts (Rs.+71)"
+    },
+    {
+      "time": "11:46:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,031.70"
+    },
+    {
+      "time": "11:46:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,032 | Unrealized: +72pts (Rs.+72)"
+    },
+    {
+      "time": "11:51:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,031.40"
+    },
+    {
+      "time": "11:51:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,031 | Unrealized: +71pts (Rs.+71)"
+    },
+    {
+      "time": "11:56:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,030.00"
+    },
+    {
+      "time": "11:56:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,030 | Unrealized: +70pts (Rs.+70)"
+    },
+    {
+      "time": "12:01:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,025.00"
+    },
+    {
+      "time": "12:01:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,025 | Unrealized: +65pts (Rs.+65)"
+    },
+    {
+      "time": "12:06:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning ADANIENT | LTP: 3,027.30"
+    },
+    {
+      "time": "12:06:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca LONG ADANIENT | Entry: 2,960 | LTP: 3,027 | Unrealized: +67pts (Rs.+67)"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260522_095354",
+      "date": "2026-05-22",
+      "time": "09:53:54",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "SHORT",
+      "entry": 2728.3,
+      "target": 2591.0,
+      "stop_loss": 2708.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2728.1,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 0.2,
+      "pnl_rs": 0.2,
+      "paper": true
+    },
+    {
+      "id": "POS_20260522_095855",
+      "date": "2026-05-22",
+      "time": "09:58:55",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "SHORT",
+      "entry": 2728.1,
+      "target": 2591.0,
+      "stop_loss": 2708.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2727.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 1.1,
+      "pnl_rs": 1.1,
+      "paper": true
+    },
+    {
+      "id": "POS_20260522_100357",
+      "date": "2026-05-22",
+      "time": "10:03:57",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "SHORT",
+      "entry": 2727.0,
+      "target": 2591.0,
+      "stop_loss": 2708.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2721.7,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 5.3,
+      "pnl_rs": 5.3,
+      "paper": true
+    },
+    {
+      "id": "POS_20260522_101404",
+      "date": "2026-05-22",
+      "time": "10:14:04",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "SHORT",
+      "entry": 2724.0,
+      "target": 2591.0,
+      "stop_loss": 2708.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2721.8,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 2.2,
+      "pnl_rs": 2.2,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_092154",
+      "date": "2026-06-03",
+      "time": "09:21:54",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "LONG",
+      "entry": 2942.7,
+      "target": 3032.6,
+      "stop_loss": 2957.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2940.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -2.7,
+      "pnl_rs": -2.7,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_093159",
+      "date": "2026-06-03",
+      "time": "09:31:59",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "LONG",
+      "entry": 2933.9,
+      "target": 3032.6,
+      "stop_loss": 2957.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2923.4,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -10.5,
+      "pnl_rs": -10.5,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_094207",
+      "date": "2026-06-03",
+      "time": "09:42:07",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "LONG",
+      "entry": 2923.0,
+      "target": 3032.6,
+      "stop_loss": 2957.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2927.2,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 4.2,
+      "pnl_rs": 4.2,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_095225",
+      "date": "2026-06-03",
+      "time": "09:52:25",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "LONG",
+      "entry": 2911.0,
+      "target": 3032.6,
+      "stop_loss": 2957.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2889.7,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -21.3,
+      "pnl_rs": -21.3,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_100228",
+      "date": "2026-06-03",
+      "time": "10:02:28",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "LONG",
+      "entry": 2903.3,
+      "target": 3032.6,
+      "stop_loss": 2957.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2915.8,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 12.5,
+      "pnl_rs": 12.5,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_101232",
+      "date": "2026-06-03",
+      "time": "10:12:32",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "LONG",
+      "entry": 2908.4,
+      "target": 3032.6,
+      "stop_loss": 2957.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2900.4,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -8.0,
+      "pnl_rs": -8.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_111747",
+      "date": "2026-06-03",
+      "time": "11:17:47",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "ADANIENT",
+      "direction": "SHORT",
+      "entry": 2897.2,
+      "target": 2824.6,
+      "stop_loss": 2938.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 2938.4,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -41.2,
+      "pnl_rs": -41.2,
+      "paper": true
+    }
+  ],
+  "open_trade": {
+    "id": "POS_20260605_092327",
+    "date": "2026-06-05",
+    "time": "09:23:27",
+    "strategy": "PREMARKET_BREAK",
+    "instrument": "ADANIENT",
+    "direction": "LONG",
+    "entry": 2959.9,
+    "target": 3122.1,
+    "stop_loss": 2927.3,
+    "qty": 1,
+    "status": "OPEN",
+    "exit_price": 0.0,
+    "exit_reason": "",
+    "pnl_pts": 0.0,
+    "pnl_rs": 0.0,
+    "paper": true
+  },
+  "date": "2026-06-05"
+}

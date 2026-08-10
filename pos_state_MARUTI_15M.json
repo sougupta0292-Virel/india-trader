@@ -1,0 +1,606 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 4,
+  "total_trades": 10,
+  "winning": 1,
+  "total_pnl": -299.0,
+  "last_scan": "12:05:05",
+  "last_signal": "SHORT @ 13,040",
+  "last_action": "Opened SHORT MARUTI",
+  "log": [
+    {
+      "time": "14:09:24",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,135.00"
+    },
+    {
+      "time": "14:09:25",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG MARUTI | Entry: 13,134 | Target: 13,314 | SL: 13,045 | R:R 1:2.0 | Pre-market break LONG | PM H 13,055 | Range 90pts"
+    },
+    {
+      "time": "14:09:25",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,753 | This trade: \u20b913,135 \u2014 skipped."
+    },
+    {
+      "time": "14:24:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,104.00"
+    },
+    {
+      "time": "14:24:26",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: LONG MARUTI | Entry: 13,123 | Target: 13,367 | SL: 13,096 | R:R 1:9.0 | Pre-market break LONG | PM H 13,106 | Range 122pts"
+    },
+    {
+      "time": "14:24:27",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,753 | This trade: \u20b913,104 \u2014 skipped."
+    },
+    {
+      "time": "14:39:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,143.00"
+    },
+    {
+      "time": "14:39:28",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "14:54:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,099.00"
+    },
+    {
+      "time": "14:54:29",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "15:09:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,045.00"
+    },
+    {
+      "time": "15:09:30",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT MARUTI | Entry: 13,046 | Target: 12,821 | SL: 13,158 | R:R 1:2.0 | VWAP trend SHORT | EMA5=13,094 VWAP=13,148 | Vol spike"
+    },
+    {
+      "time": "15:09:30",
+      "level": "WARNING",
+      "message": "\ud83d\udeab Daily cap \u20b91,000,000 reached! Deployed: \u20b9999,753 | This trade: \u20b913,045 \u2014 skipped."
+    },
+    {
+      "time": "15:39:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:39:30) \u2014 waiting"
+    },
+    {
+      "time": "15:54:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:54:30) \u2014 waiting"
+    },
+    {
+      "time": "16:09:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:09:30) \u2014 waiting"
+    },
+    {
+      "time": "16:24:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:24:30) \u2014 waiting"
+    },
+    {
+      "time": "16:39:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:39:30) \u2014 waiting"
+    },
+    {
+      "time": "16:54:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:54:30) \u2014 waiting"
+    },
+    {
+      "time": "17:09:30",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:09:30) \u2014 waiting"
+    },
+    {
+      "time": "17:24:31",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:24:31) \u2014 waiting"
+    },
+    {
+      "time": "19:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:33:42) \u2014 waiting"
+    },
+    {
+      "time": "19:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (19:48:42) \u2014 waiting"
+    },
+    {
+      "time": "20:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:03:42) \u2014 waiting"
+    },
+    {
+      "time": "20:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:18:42) \u2014 waiting"
+    },
+    {
+      "time": "20:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:33:42) \u2014 waiting"
+    },
+    {
+      "time": "20:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (20:48:42) \u2014 waiting"
+    },
+    {
+      "time": "21:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:03:42) \u2014 waiting"
+    },
+    {
+      "time": "21:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:18:42) \u2014 waiting"
+    },
+    {
+      "time": "21:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:33:42) \u2014 waiting"
+    },
+    {
+      "time": "21:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (21:48:42) \u2014 waiting"
+    },
+    {
+      "time": "22:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:03:42) \u2014 waiting"
+    },
+    {
+      "time": "22:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:18:42) \u2014 waiting"
+    },
+    {
+      "time": "22:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:33:42) \u2014 waiting"
+    },
+    {
+      "time": "22:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (22:48:42) \u2014 waiting"
+    },
+    {
+      "time": "23:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:03:42) \u2014 waiting"
+    },
+    {
+      "time": "23:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:18:42) \u2014 waiting"
+    },
+    {
+      "time": "23:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:33:42) \u2014 waiting"
+    },
+    {
+      "time": "23:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (23:48:42) \u2014 waiting"
+    },
+    {
+      "time": "00:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:03:42) \u2014 waiting"
+    },
+    {
+      "time": "00:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:18:42) \u2014 waiting"
+    },
+    {
+      "time": "00:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:33:42) \u2014 waiting"
+    },
+    {
+      "time": "00:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (00:48:42) \u2014 waiting"
+    },
+    {
+      "time": "01:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:03:42) \u2014 waiting"
+    },
+    {
+      "time": "01:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:18:42) \u2014 waiting"
+    },
+    {
+      "time": "01:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:33:42) \u2014 waiting"
+    },
+    {
+      "time": "01:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:48:42) \u2014 waiting"
+    },
+    {
+      "time": "02:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:03:42) \u2014 waiting"
+    },
+    {
+      "time": "02:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:18:42) \u2014 waiting"
+    },
+    {
+      "time": "02:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:33:42) \u2014 waiting"
+    },
+    {
+      "time": "02:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (02:48:42) \u2014 waiting"
+    },
+    {
+      "time": "03:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:03:42) \u2014 waiting"
+    },
+    {
+      "time": "03:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:18:42) \u2014 waiting"
+    },
+    {
+      "time": "03:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:33:42) \u2014 waiting"
+    },
+    {
+      "time": "03:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (03:48:42) \u2014 waiting"
+    },
+    {
+      "time": "04:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:03:42) \u2014 waiting"
+    },
+    {
+      "time": "04:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:18:42) \u2014 waiting"
+    },
+    {
+      "time": "04:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:33:42) \u2014 waiting"
+    },
+    {
+      "time": "04:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (04:48:42) \u2014 waiting"
+    },
+    {
+      "time": "05:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:03:42) \u2014 waiting"
+    },
+    {
+      "time": "05:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:18:42) \u2014 waiting"
+    },
+    {
+      "time": "05:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:33:42) \u2014 waiting"
+    },
+    {
+      "time": "05:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (05:48:42) \u2014 waiting"
+    },
+    {
+      "time": "06:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:03:42) \u2014 waiting"
+    },
+    {
+      "time": "06:18:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:18:42) \u2014 waiting"
+    },
+    {
+      "time": "06:33:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:33:42) \u2014 waiting"
+    },
+    {
+      "time": "06:48:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (06:48:42) \u2014 waiting"
+    },
+    {
+      "time": "07:03:42",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:03:42) \u2014 waiting"
+    },
+    {
+      "time": "07:18:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:18:43) \u2014 waiting"
+    },
+    {
+      "time": "07:33:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:33:43) \u2014 waiting"
+    },
+    {
+      "time": "07:48:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (07:48:43) \u2014 waiting"
+    },
+    {
+      "time": "08:03:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:03:43) \u2014 waiting"
+    },
+    {
+      "time": "08:18:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:18:43) \u2014 waiting"
+    },
+    {
+      "time": "08:33:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:33:43) \u2014 waiting"
+    },
+    {
+      "time": "08:48:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (08:48:43) \u2014 waiting"
+    },
+    {
+      "time": "09:03:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:03:43) \u2014 waiting"
+    },
+    {
+      "time": "09:18:43",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (09:18:43) \u2014 waiting"
+    },
+    {
+      "time": "09:34:54",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,082.00"
+    },
+    {
+      "time": "09:34:57",
+      "level": "INFO",
+      "message": "\u26aa No signal this scan"
+    },
+    {
+      "time": "09:49:58",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,040.00"
+    },
+    {
+      "time": "09:49:58",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT MARUTI | Entry: 13,074 | Target: 12,910 | SL: 13,136 | R:R 1:2.6 | Pre-market break SHORT | PM L 13,126 | Range 82pts"
+    },
+    {
+      "time": "09:49:58",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT MARUTI @ 13,040"
+    },
+    {
+      "time": "10:04:59",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,040.00"
+    },
+    {
+      "time": "10:04:59",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 13,040 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "10:20:00",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,044.00"
+    },
+    {
+      "time": "10:20:00",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 13,044 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "10:35:01",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 12,981.00"
+    },
+    {
+      "time": "10:35:01",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 12,981 | Unrealized: +59pts (Rs.+59)"
+    },
+    {
+      "time": "10:50:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 12,961.00"
+    },
+    {
+      "time": "10:50:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 12,961 | Unrealized: +79pts (Rs.+79)"
+    },
+    {
+      "time": "11:05:02",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,034.00"
+    },
+    {
+      "time": "11:05:02",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 13,034 | Unrealized: +6pts (Rs.+6)"
+    },
+    {
+      "time": "11:20:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,060.00"
+    },
+    {
+      "time": "11:20:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 13,060 | Unrealized: -20pts (Rs.-20)"
+    },
+    {
+      "time": "11:35:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,060.00"
+    },
+    {
+      "time": "11:35:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 13,060 | Unrealized: -20pts (Rs.-20)"
+    },
+    {
+      "time": "11:50:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,101.00"
+    },
+    {
+      "time": "11:50:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 13,101 | Unrealized: -61pts (Rs.-61)"
+    },
+    {
+      "time": "12:05:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning MARUTI | LTP: 13,121.00"
+    },
+    {
+      "time": "12:05:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT MARUTI | Entry: 13,040 | LTP: 13,121 | Unrealized: -81pts (Rs.-81)"
+    }
+  ],
+  "history": [
+    {
+      "id": "POS_20260527_092042",
+      "date": "2026-05-27",
+      "time": "09:20:42",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "MARUTI",
+      "direction": "SHORT",
+      "entry": 13228.0,
+      "target": 13082.0,
+      "stop_loss": 13237.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 13240.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -12.0,
+      "pnl_rs": -12.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260602_124509",
+      "date": "2026-06-02",
+      "time": "12:45:09",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "MARUTI",
+      "direction": "SHORT",
+      "entry": 12923.0,
+      "target": 12775.0,
+      "stop_loss": 12961.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 13020.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -97.0,
+      "pnl_rs": -97.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260603_100021",
+      "date": "2026-06-03",
+      "time": "10:00:21",
+      "strategy": "5EMA",
+      "instrument": "MARUTI",
+      "direction": "SHORT",
+      "entry": 13043.0,
+      "target": 12855.0,
+      "stop_loss": 13195.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 13236.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": -193.0,
+      "pnl_rs": -193.0,
+      "paper": true
+    },
+    {
+      "id": "POS_20260604_103907",
+      "date": "2026-06-04",
+      "time": "10:39:07",
+      "strategy": "PREMARKET_BREAK",
+      "instrument": "MARUTI",
+      "direction": "LONG",
+      "entry": 13151.0,
+      "target": 13274.0,
+      "stop_loss": 13155.0,
+      "qty": 1,
+      "status": "CLOSED",
+      "exit_price": 13154.0,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pts": 3.0,
+      "pnl_rs": 3.0,
+      "paper": true
+    }
+  ],
+  "open_trade": {
+    "id": "POS_20260605_094958",
+    "date": "2026-06-05",
+    "time": "09:49:58",
+    "strategy": "PREMARKET_BREAK",
+    "instrument": "MARUTI",
+    "direction": "SHORT",
+    "entry": 13040.0,
+    "target": 12910.0,
+    "stop_loss": 13136.0,
+    "qty": 1,
+    "status": "OPEN",
+    "exit_price": 0.0,
+    "exit_reason": "",
+    "pnl_pts": 0.0,
+    "pnl_rs": 0.0,
+    "paper": true
+  },
+  "date": "2026-06-05"
+}

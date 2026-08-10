@@ -1,0 +1,516 @@
+{
+  "status": "RUNNING",
+  "global_bias": "NEUTRAL",
+  "trades_today": 0,
+  "total_trades": 6,
+  "winning": 0,
+  "total_pnl": 0.0,
+  "last_scan": "01:45:15",
+  "last_signal": "SHORT @ 1,418",
+  "last_action": "Opened SHORT TECHM",
+  "log": [
+    {
+      "time": "14:24:03",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,422.20"
+    },
+    {
+      "time": "14:24:03",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,417 | LTP: 1,422 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:24:03",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:25:04",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,422.00"
+    },
+    {
+      "time": "14:25:04",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,417 | LTP: 1,422 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:25:04",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:30:05",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,418.70"
+    },
+    {
+      "time": "14:30:05",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,417 | LTP: 1,419 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:30:05",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TECHM | Entry: 1,419 | Target: 1,398 | SL: 1,430 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.0% | 9EMA 1420"
+    },
+    {
+      "time": "14:30:05",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TECHM @ 1,419"
+    },
+    {
+      "time": "14:35:06",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,418.30"
+    },
+    {
+      "time": "14:35:06",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,419 | LTP: 1,418 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:35:06",
+      "level": "TRADE",
+      "message": "\ud83c\udfaf SIGNAL: SHORT TECHM | Entry: 1,419 | Target: 1,397 | SL: 1,430 | R:R 1:2.0 | Gap+Go SHORT | Gap -94.0% | 9EMA 1420"
+    },
+    {
+      "time": "14:35:06",
+      "level": "PAPER",
+      "message": "\ud83d\udccb PAPER TRADE: SHORT TECHM @ 1,418"
+    },
+    {
+      "time": "14:40:07",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,418.90"
+    },
+    {
+      "time": "14:40:07",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,419 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:40:08",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:41:09",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,418.70"
+    },
+    {
+      "time": "14:41:09",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,419 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:41:10",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:42:10",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,418.60"
+    },
+    {
+      "time": "14:42:10",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,419 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:42:11",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:43:13",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,418.40"
+    },
+    {
+      "time": "14:43:13",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,418 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:43:13",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:44:14",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,418.30"
+    },
+    {
+      "time": "14:44:14",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,418 | Unrealized: -0pts (Rs.-0)"
+    },
+    {
+      "time": "14:44:15",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:45:16",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,417.90"
+    },
+    {
+      "time": "14:45:16",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,418 | Unrealized: +0pts (Rs.+0)"
+    },
+    {
+      "time": "14:45:16",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:46:17",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,419.70"
+    },
+    {
+      "time": "14:46:17",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,420 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:46:17",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:47:18",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,419.10"
+    },
+    {
+      "time": "14:47:18",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,419 | Unrealized: -1pts (Rs.-1)"
+    },
+    {
+      "time": "14:47:18",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:48:19",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,420.00"
+    },
+    {
+      "time": "14:48:19",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,420 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "14:48:19",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:49:20",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,422.40"
+    },
+    {
+      "time": "14:49:20",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,422 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:49:20",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "14:50:21",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,422.60"
+    },
+    {
+      "time": "14:50:21",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,423 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "14:50:21",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "14:55:23",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,423.40"
+    },
+    {
+      "time": "14:55:23",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,423 | Unrealized: -5pts (Rs.-5)"
+    },
+    {
+      "time": "14:55:23",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:00:26",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,420.70"
+    },
+    {
+      "time": "15:00:26",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,421 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:00:26",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:01:27",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,420.60"
+    },
+    {
+      "time": "15:01:27",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,421 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:01:27",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:02:28",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,420.60"
+    },
+    {
+      "time": "15:02:28",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,421 | Unrealized: -2pts (Rs.-2)"
+    },
+    {
+      "time": "15:02:28",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:03:29",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,421.10"
+    },
+    {
+      "time": "15:03:29",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,421 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:03:29",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:04:30",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,421.30"
+    },
+    {
+      "time": "15:04:30",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,421 | Unrealized: -3pts (Rs.-3)"
+    },
+    {
+      "time": "15:04:30",
+      "level": "ERROR",
+      "message": "Loop error: 'POSSignalDetector' object has no attribute 'check_overnight_range'"
+    },
+    {
+      "time": "15:05:31",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,422.00"
+    },
+    {
+      "time": "15:05:31",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,422 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "15:05:31",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.2 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:10:32",
+      "level": "INFO",
+      "message": "\ud83d\udd0d Scanning TECHM | LTP: 1,422.60"
+    },
+    {
+      "time": "15:10:32",
+      "level": "INFO",
+      "message": "\ud83d\udcca SHORT TECHM | Entry: 1,418 | LTP: 1,423 | Unrealized: -4pts (Rs.-4)"
+    },
+    {
+      "time": "15:10:33",
+      "level": "INFO",
+      "message": "\u26a0\ufe0f Signal found but R:R 0.0 < 1.8 \u2014 skipped"
+    },
+    {
+      "time": "15:15:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:15:33) \u2014 waiting"
+    },
+    {
+      "time": "15:20:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:20:33) \u2014 waiting"
+    },
+    {
+      "time": "15:25:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:25:33) \u2014 waiting"
+    },
+    {
+      "time": "15:30:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:30:33) \u2014 waiting"
+    },
+    {
+      "time": "15:35:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:35:33) \u2014 waiting"
+    },
+    {
+      "time": "15:40:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:40:33) \u2014 waiting"
+    },
+    {
+      "time": "15:45:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:45:33) \u2014 waiting"
+    },
+    {
+      "time": "15:50:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:50:33) \u2014 waiting"
+    },
+    {
+      "time": "15:55:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (15:55:33) \u2014 waiting"
+    },
+    {
+      "time": "16:00:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:00:33) \u2014 waiting"
+    },
+    {
+      "time": "16:05:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:05:33) \u2014 waiting"
+    },
+    {
+      "time": "16:10:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:10:33) \u2014 waiting"
+    },
+    {
+      "time": "16:15:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:15:33) \u2014 waiting"
+    },
+    {
+      "time": "16:20:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:20:33) \u2014 waiting"
+    },
+    {
+      "time": "16:25:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:25:33) \u2014 waiting"
+    },
+    {
+      "time": "16:30:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:30:33) \u2014 waiting"
+    },
+    {
+      "time": "16:35:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:35:33) \u2014 waiting"
+    },
+    {
+      "time": "16:40:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:40:33) \u2014 waiting"
+    },
+    {
+      "time": "16:45:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:45:33) \u2014 waiting"
+    },
+    {
+      "time": "16:50:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:50:33) \u2014 waiting"
+    },
+    {
+      "time": "16:55:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (16:55:33) \u2014 waiting"
+    },
+    {
+      "time": "17:00:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:00:33) \u2014 waiting"
+    },
+    {
+      "time": "17:05:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:05:33) \u2014 waiting"
+    },
+    {
+      "time": "17:10:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:10:33) \u2014 waiting"
+    },
+    {
+      "time": "17:15:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:15:33) \u2014 waiting"
+    },
+    {
+      "time": "17:20:33",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (17:20:33) \u2014 waiting"
+    },
+    {
+      "time": "17:25:02",
+      "level": "INFO",
+      "message": "EOD auto-close"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\ud83d\ude80 POS Auto Trader STARTED | TECHM | TF: 5m | Strategies: ['5EMA', 'INSIDE', 'ROUND', 'FIB_OI', 'ORB', 'LIQUIDITY_SWEEP', 'VWAP_TREND', 'FABIO_AAA', 'FABIO_SQUEEZE', 'FABIO_DELTA', 'TAIL_REVERSAL', 'DOJI_REV', '3BAR_REV', 'VOL_CLIMAX', 'SCALP_SR', 'GAP_FILL', 'GAP_AND_GO', 'EARNINGS_MOM', 'PREMARKET_BREAK', 'HOD_BREAK', 'OPEN_DRIVE', 'GLOBEX_HL_BREAK', 'OVERNIGHT_RANGE', 'MOM_SCALP', 'POWER_HOUR', 'BREAKOUT_MOM', 'BNTECH_MOM', 'MA_CROSS', 'EMA50_SUPPORT', 'TREND_FOLLOW', 'MOM_SWING', 'BULL_FLAG', 'RSI_DIV', 'MACD_REV', 'SUPERTREND', 'MEAN_REV', 'BB_SQUEEZE', 'VOL_POC', 'VOL_NODE', 'MKT_PROFILE', 'CUM_DELTA', 'SUPPORT_BOUNCE', 'FIB_CLUSTER', 'INSIDE_DAY', 'LUNCH_FADE', 'SENSEX_DIV', 'VIX_REV'] | PAPER"
+    },
+    {
+      "time": "01:45:15",
+      "level": "INFO",
+      "message": "\u23f0 Outside market hours (01:45:15) \u2014 waiting"
+    }
+  ],
+  "history": [],
+  "open_trade": null,
+  "date": "2026-05-23"
+}
