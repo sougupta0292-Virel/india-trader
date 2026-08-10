@@ -1,15 +1,1 @@
-{
-  "status": "STOPPED",
-  "global_bias": "NEUTRAL",
-  "trades_today": 0,
-  "total_trades": 0,
-  "winning": 0,
-  "total_pnl": 0.0,
-  "last_scan": "",
-  "last_signal": "\u2014",
-  "last_action": "\u2014",
-  "log": [],
-  "history": [],
-  "open_trade": null,
-  "date": "2026-05-17"
-}
+﻿{"status":"IDLE","global_bias":"NEUTRAL","trades_today":0,"total_trades":0,"winning":0,"total_pnl":0.0,"last_scan":null,"last_signal":null,"last_action":null,"log":[],"history":[],"open_trade":null,"date":""}
