@@ -17,7 +17,7 @@
       "entry_time": "2026-10-01T15:02:34.394967+05:30",
       "lot_size": 100,
       "qty": 1,
-      "current_price": 11535.0
+      "current_price": 11475.0
     },
     {
       "id": "15832208",
@@ -36,7 +36,7 @@
       "entry_time": "2026-10-05T15:13:05.668204+05:30",
       "lot_size": 125,
       "qty": 1,
-      "current_price": 962.85
+      "current_price": 957.35
     },
     {
       "id": "666b0e05",
@@ -55,7 +55,7 @@
       "entry_time": "2026-10-13T15:19:33.394044+05:30",
       "lot_size": 35,
       "qty": 1,
-      "current_price": 55479.75
+      "current_price": 55488.1
     },
     {
       "id": "b36c3277",
@@ -74,7 +74,7 @@
       "entry_time": "2026-10-13T15:19:33.394044+05:30",
       "lot_size": 550,
       "qty": 1,
-      "current_price": 708.35
+      "current_price": 712.0
     },
     {
       "id": "fa722f70",
@@ -93,7 +93,7 @@
       "entry_time": "2026-10-15T13:17:41.238282+05:30",
       "lot_size": 20,
       "qty": 1,
-      "current_price": 73819.01
+      "current_price": 73852.9
     },
     {
       "id": "e2ba6521",
@@ -112,7 +112,7 @@
       "entry_time": "2026-10-15T13:17:41.238282+05:30",
       "lot_size": 250,
       "qty": 1,
-      "current_price": 1206.4
+      "current_price": 1202.0
     },
     {
       "id": "8fb504a8",
@@ -131,26 +131,7 @@
       "entry_time": "2026-10-15T13:17:41.238282+05:30",
       "lot_size": 700,
       "qty": 1,
-      "current_price": 1383.0
-    },
-    {
-      "id": "e2d81c62",
-      "symbol": "SBIN",
-      "yf_ticker": "SBIN.NS",
-      "segment": "Equity",
-      "tf": "1H",
-      "strategy": "VWAP_TREND",
-      "direction": "LONG",
-      "entry": 959.8,
-      "target": 972.87,
-      "stop": 953.66,
-      "rr": 2.13,
-      "score": 6,
-      "reason": "VWAP trend \u2191 3-bar VWAP=955",
-      "entry_time": "2026-10-15T13:17:41.238282+05:30",
-      "lot_size": 750,
-      "qty": 1,
-      "current_price": 971.0
+      "current_price": 1381.0
     },
     {
       "id": "ab8bf696",
@@ -169,7 +150,7 @@
       "entry_time": "2026-10-15T13:17:41.238282+05:30",
       "lot_size": 700,
       "qty": 1,
-      "current_price": 1368.6
+      "current_price": 1379.9
     },
     {
       "id": "694a5d90",
@@ -188,7 +169,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 175,
       "qty": 1,
-      "current_price": 2454.3
+      "current_price": 2460.9
     },
     {
       "id": "3192a5d5",
@@ -207,7 +188,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 1500,
       "qty": 1,
-      "current_price": 182.6
+      "current_price": 182.14
     },
     {
       "id": "cd95be99",
@@ -226,7 +207,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 100,
       "qty": 1,
-      "current_price": 11535.0
+      "current_price": 11475.0
     },
     {
       "id": "3ad8d967",
@@ -245,7 +226,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 100,
       "qty": 1,
-      "current_price": 11535.0
+      "current_price": 11475.0
     },
     {
       "id": "c7940506",
@@ -264,7 +245,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 100,
       "qty": 1,
-      "current_price": 11535.0
+      "current_price": 11475.0
     },
     {
       "id": "ba39977c",
@@ -283,7 +264,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 150,
       "qty": 1,
-      "current_price": 3658.3
+      "current_price": 3661.9
     },
     {
       "id": "61ba03fa",
@@ -302,7 +283,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 150,
       "qty": 1,
-      "current_price": 3658.3
+      "current_price": 3661.9
     },
     {
       "id": "b9b3d503",
@@ -321,7 +302,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 150,
       "qty": 1,
-      "current_price": 3658.3
+      "current_price": 3661.9
     },
     {
       "id": "4e61d349",
@@ -340,7 +321,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 700,
       "qty": 1,
-      "current_price": 1368.6
+      "current_price": 1379.9
     },
     {
       "id": "5bac6eef",
@@ -359,7 +340,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 700,
       "qty": 1,
-      "current_price": 1368.6
+      "current_price": 1379.9
     },
     {
       "id": "ee110aee",
@@ -378,7 +359,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 350,
       "qty": 1,
-      "current_price": 1741.6
+      "current_price": 1743.0
     },
     {
       "id": "90c5a43a",
@@ -397,7 +378,7 @@
       "entry_time": "2026-10-16T13:06:03.331682+05:30",
       "lot_size": 350,
       "qty": 1,
-      "current_price": 1741.6
+      "current_price": 1743.0
     },
     {
       "id": "9405b9b5",
@@ -416,7 +397,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 75,
       "qty": 1,
-      "current_price": 22893.6
+      "current_price": 22888.95
     },
     {
       "id": "0825f132",
@@ -435,7 +416,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 75,
       "qty": 1,
-      "current_price": 22893.6
+      "current_price": 22888.95
     },
     {
       "id": "f7bf0e1f",
@@ -454,7 +435,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 35,
       "qty": 1,
-      "current_price": 55485.25
+      "current_price": 55488.1
     },
     {
       "id": "1759c0bc",
@@ -473,7 +454,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 35,
       "qty": 1,
-      "current_price": 55489.35
+      "current_price": 55488.1
     },
     {
       "id": "d4533749",
@@ -492,7 +473,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 20,
       "qty": 1,
-      "current_price": 73817.7
+      "current_price": 73852.9
     },
     {
       "id": "9a9dcbfe",
@@ -511,26 +492,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 20,
       "qty": 1,
-      "current_price": 73817.7
-    },
-    {
-      "id": "79a12492",
-      "symbol": "RELIANCE",
-      "yf_ticker": "RELIANCE.NS",
-      "segment": "Equity",
-      "tf": "5M",
-      "strategy": "INSIDE_BAR",
-      "direction": "LONG",
-      "entry": 1206.5,
-      "target": 1210.5,
-      "stop": 1204.1,
-      "rr": 1.67,
-      "score": 7,
-      "reason": "Inside bar break \u2191 range=2",
-      "entry_time": "2026-10-19T13:41:32.392625+05:30",
-      "lot_size": 250,
-      "qty": 1,
-      "current_price": 1206.5
+      "current_price": 73852.9
     },
     {
       "id": "83faf440",
@@ -549,26 +511,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 250,
       "qty": 1,
-      "current_price": 1206.5
-    },
-    {
-      "id": "d3793608",
-      "symbol": "TCS",
-      "yf_ticker": "TCS.NS",
-      "segment": "Equity",
-      "tf": "15M",
-      "strategy": "VWAP_CPR",
-      "direction": "SHORT",
-      "entry": 2453.8,
-      "target": 2422.77,
-      "stop": 2460.08,
-      "rr": 4.94,
-      "score": 7,
-      "reason": "VWAP+CPR bear TC=2454 VWAP=2471",
-      "entry_time": "2026-10-19T13:41:32.392625+05:30",
-      "lot_size": 175,
-      "qty": 1,
-      "current_price": 2453.8
+      "current_price": 1202.0
     },
     {
       "id": "b468817e",
@@ -587,7 +530,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 550,
       "qty": 1,
-      "current_price": 708.8
+      "current_price": 712.0
     },
     {
       "id": "eb03f381",
@@ -606,7 +549,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 400,
       "qty": 1,
-      "current_price": 1128.75
+      "current_price": 1130.7
     },
     {
       "id": "2159988f",
@@ -625,7 +568,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 750,
       "qty": 1,
-      "current_price": 971.5
+      "current_price": 973.7
     },
     {
       "id": "cbca00b1",
@@ -644,7 +587,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 750,
       "qty": 1,
-      "current_price": 971.5
+      "current_price": 973.7
     },
     {
       "id": "953497c3",
@@ -663,7 +606,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 625,
       "qty": 1,
-      "current_price": 1236.2
+      "current_price": 1236.0
     },
     {
       "id": "fc9dbbd5",
@@ -682,26 +625,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 1500,
       "qty": 1,
-      "current_price": 182.58
-    },
-    {
-      "id": "7cb6aef7",
-      "symbol": "MARUTI",
-      "yf_ticker": "MARUTI.NS",
-      "segment": "Equity",
-      "tf": "1H",
-      "strategy": "KEY_LEVEL",
-      "direction": "LONG",
-      "entry": 11545.0,
-      "target": 11691.72,
-      "stop": 11475.32,
-      "rr": 2.11,
-      "score": 7,
-      "reason": "PDH break \u2191 PDH=11512",
-      "entry_time": "2026-10-19T13:41:32.392625+05:30",
-      "lot_size": 100,
-      "qty": 1,
-      "current_price": 11545.0
+      "current_price": 182.14
     },
     {
       "id": "af63e35d",
@@ -720,7 +644,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 3200,
       "qty": 1,
-      "current_price": 260.7
+      "current_price": 260.8
     },
     {
       "id": "e411a2d5",
@@ -739,26 +663,7 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 3200,
       "qty": 1,
-      "current_price": 260.7
-    },
-    {
-      "id": "a4b697e5",
-      "symbol": "HCLTECH",
-      "yf_ticker": "HCLTECH.NS",
-      "segment": "Equity",
-      "tf": "5M",
-      "strategy": "INSIDE_BAR",
-      "direction": "LONG",
-      "entry": 1368.9,
-      "target": 1374.1,
-      "stop": 1366.2,
-      "rr": 1.93,
-      "score": 7,
-      "reason": "Inside bar break \u2191 range=3",
-      "entry_time": "2026-10-19T13:41:32.392625+05:30",
-      "lot_size": 700,
-      "qty": 1,
-      "current_price": 1368.9
+      "current_price": 260.8
     },
     {
       "id": "e45c15c2",
@@ -777,200 +682,200 @@
       "entry_time": "2026-10-19T13:41:32.392625+05:30",
       "lot_size": 350,
       "qty": 1,
-      "current_price": 1742.0
-    }
-  ],
-  "closed_trades": [
-    {
-      "id": "2c9470f6",
-      "symbol": "AXISBANK",
-      "yf_ticker": "AXISBANK.NS",
-      "segment": "Equity",
-      "tf": "15M",
-      "strategy": "EMA_PULLBACK",
-      "direction": "SHORT",
-      "entry": 1217.1,
-      "target": 1207.35,
-      "stop": 1222.77,
-      "rr": 1.72,
-      "score": 8,
-      "reason": "EMA pull \u2193 E5=1220 E20=1224",
-      "entry_time": "2026-10-02T14:36:37.443149+05:30",
-      "lot_size": 625,
-      "qty": 1,
-      "current_price": 1246.7,
-      "exit_price": 1222.77,
-      "exit_reason": "STOP_LOSS",
-      "exit_time": "2026-10-06T15:01:30.378724+05:30",
-      "pnl_pts": -5.67,
-      "pnl_rs": -3543.75,
-      "won": false,
-      "Symbol": "AXISBANK",
-      "Segment": "Equity",
-      "TF": "15m",
-      "Strategy": "EMA_PULLBACK",
-      "Direction": "SHORT",
-      "Entry \u20b9": 1217.1,
-      "Exit \u20b9": 1222.77,
-      "Net PnL \u20b9": -3543.75,
-      "PnL %": -0.47,
-      "Charges \u20b9": 0,
-      "Date": "2026-10-02",
-      "Exit Reason": "STOP_LOSS",
-      "Qty": 1
+      "current_price": 1743.0
     },
     {
-      "id": "3a7c0bcb",
-      "symbol": "NIFTY",
-      "yf_ticker": "^NSEI",
-      "segment": "Futures",
-      "tf": "15M",
-      "strategy": "FABIO_FIB",
-      "direction": "LONG",
-      "entry": 22533.7,
-      "target": 22610.55,
-      "stop": 22514.01,
-      "rr": 3.9,
-      "score": 8,
-      "reason": "61.8% Fib LONG PH=22611 PL=22218",
-      "entry_time": "2026-10-05T15:13:05.668204+05:30",
-      "lot_size": 75,
-      "qty": 1,
-      "current_price": 22703.05,
-      "exit_price": 22610.55,
-      "exit_reason": "TARGET_HIT",
-      "exit_time": "2026-10-06T15:01:30.467689+05:30",
-      "pnl_pts": 76.85,
-      "pnl_rs": 5763.75,
-      "won": true,
-      "Symbol": "NIFTY",
-      "Segment": "Futures",
-      "TF": "15m",
-      "Strategy": "FABIO_FIB",
-      "Direction": "LONG",
-      "Entry \u20b9": 22533.7,
-      "Exit \u20b9": 22610.55,
-      "Net PnL \u20b9": 5763.75,
-      "PnL %": 0.34,
-      "Charges \u20b9": 0,
-      "Date": "2026-10-05",
-      "Exit Reason": "TARGET_HIT",
-      "Qty": 1
-    },
-    {
-      "id": "44fa3fbd",
+      "id": "9acc8ace",
       "symbol": "BANKNIFTY",
       "yf_ticker": "^NSEBANK",
       "segment": "Futures",
       "tf": "5M",
-      "strategy": "INSIDE_BAR",
+      "strategy": "5EMA_CROSS",
       "direction": "LONG",
-      "entry": 54683.95,
-      "target": 54851.55,
-      "stop": 54599.7,
-      "rr": 1.99,
+      "entry": 55488.1,
+      "target": 55599.28,
+      "stop": 55434.73,
+      "rr": 2.08,
       "score": 7,
-      "reason": "Inside bar break \u2191 range=84",
-      "entry_time": "2026-10-05T15:13:05.668204+05:30",
+      "reason": "5EMA\u00d720EMA bull | E5=55482",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
       "lot_size": 35,
       "qty": 1,
-      "current_price": 55022.9,
-      "exit_price": 54851.55,
-      "exit_reason": "TARGET_HIT",
-      "exit_time": "2026-10-06T15:01:30.514505+05:30",
-      "pnl_pts": 167.6,
-      "pnl_rs": 5866.0,
-      "won": true,
-      "Symbol": "BANKNIFTY",
-      "Segment": "Futures",
-      "TF": "5m",
-      "Strategy": "INSIDE_BAR",
-      "Direction": "LONG",
-      "Entry \u20b9": 54683.95,
-      "Exit \u20b9": 54851.55,
-      "Net PnL \u20b9": 5866.0,
-      "PnL %": 0.31,
-      "Charges \u20b9": 0,
-      "Date": "2026-10-05",
-      "Exit Reason": "TARGET_HIT",
-      "Qty": 1
+      "current_price": 55488.1
     },
     {
-      "id": "d1b022f1",
-      "symbol": "BANKNIFTY",
-      "yf_ticker": "^NSEBANK",
-      "segment": "Futures",
+      "id": "2957641c",
+      "symbol": "TCS",
+      "yf_ticker": "TCS.NS",
+      "segment": "Equity",
       "tf": "15M",
-      "strategy": "VWAP_CPR",
-      "direction": "SHORT",
-      "entry": 54683.95,
-      "target": 54363.66,
-      "stop": 54684.67,
-      "rr": 442.04,
-      "score": 7,
-      "reason": "VWAP+CPR bear TC=54580 VWAP=54724",
-      "entry_time": "2026-10-05T15:13:05.668204+05:30",
-      "lot_size": 35,
+      "strategy": "FABIO_FIB",
+      "direction": "LONG",
+      "entry": 2460.9,
+      "target": 2482.9,
+      "stop": 2458.63,
+      "rr": 9.7,
+      "score": 8,
+      "reason": "61.8% Fib LONG PH=2483 PL=2379",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 175,
       "qty": 1,
-      "current_price": 55022.9,
-      "exit_price": 54684.67,
-      "exit_reason": "STOP_LOSS",
-      "exit_time": "2026-10-06T15:01:30.538107+05:30",
-      "pnl_pts": -0.72,
-      "pnl_rs": -25.2,
-      "won": false,
-      "Symbol": "BANKNIFTY",
-      "Segment": "Futures",
-      "TF": "15m",
-      "Strategy": "VWAP_CPR",
-      "Direction": "SHORT",
-      "Entry \u20b9": 54683.95,
-      "Exit \u20b9": 54684.67,
-      "Net PnL \u20b9": -25.2,
-      "PnL %": -0.0,
-      "Charges \u20b9": 0,
-      "Date": "2026-10-05",
-      "Exit Reason": "STOP_LOSS",
-      "Qty": 1
+      "current_price": 2460.9
     },
     {
-      "id": "7141a560",
-      "symbol": "RELIANCE",
-      "yf_ticker": "RELIANCE.NS",
+      "id": "c83a8925",
+      "symbol": "HDFCBANK",
+      "yf_ticker": "HDFCBANK.NS",
+      "segment": "Equity",
+      "tf": "15M",
+      "strategy": "ORB_15",
+      "direction": "SHORT",
+      "entry": 712.0,
+      "target": 683.88,
+      "stop": 732.5,
+      "rr": 1.37,
+      "score": 7,
+      "reason": "ORB15 \u2193 range=19 E20=713",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 550,
+      "qty": 1,
+      "current_price": 712.0
+    },
+    {
+      "id": "aff3ba8e",
+      "symbol": "INFY",
+      "yf_ticker": "INFY.NS",
+      "segment": "Equity",
+      "tf": "15M",
+      "strategy": "ORB_15",
+      "direction": "SHORT",
+      "entry": 1130.7,
+      "target": 1102.8,
+      "stop": 1153.1,
+      "rr": 1.25,
+      "score": 7,
+      "reason": "ORB15 \u2193 range=19 E20=1133",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 400,
+      "qty": 1,
+      "current_price": 1130.7
+    },
+    {
+      "id": "a14454dd",
+      "symbol": "ICICIBANK",
+      "yf_ticker": "ICICIBANK.NS",
+      "segment": "Equity",
+      "tf": "5M",
+      "strategy": "5EMA_CROSS",
+      "direction": "SHORT",
+      "entry": 1381.0,
+      "target": 1374.66,
+      "stop": 1384.05,
+      "rr": 2.08,
+      "score": 7,
+      "reason": "5EMA\u00d720EMA bear | E5=1382",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 700,
+      "qty": 1,
+      "current_price": 1381.0
+    },
+    {
+      "id": "93e43e3b",
+      "symbol": "AXISBANK",
+      "yf_ticker": "AXISBANK.NS",
+      "segment": "Equity",
+      "tf": "1H",
+      "strategy": "EMA_TREND",
+      "direction": "SHORT",
+      "entry": 1236.0,
+      "target": 1205.79,
+      "stop": 1251.11,
+      "rr": 2.0,
+      "score": 8,
+      "reason": "20/50 EMA bear cross E20=1259",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 625,
+      "qty": 1,
+      "current_price": 1236.0
+    },
+    {
+      "id": "bd98f155",
+      "symbol": "AXISBANK",
+      "yf_ticker": "AXISBANK.NS",
       "segment": "Equity",
       "tf": "1H",
       "strategy": "VWAP_TREND",
-      "direction": "LONG",
-      "entry": 1189.0,
-      "target": 1208.78,
-      "stop": 1179.68,
-      "rr": 2.12,
+      "direction": "SHORT",
+      "entry": 1236.0,
+      "target": 1210.82,
+      "stop": 1241.37,
+      "rr": 4.69,
       "score": 6,
-      "reason": "VWAP trend \u2191 3-bar VWAP=1182",
-      "entry_time": "2026-10-05T15:13:05.668204+05:30",
-      "lot_size": 250,
+      "reason": "VWAP trend \u2193 3-bar VWAP=1238",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 625,
       "qty": 1,
-      "current_price": 1215.4,
-      "exit_price": 1208.78,
-      "exit_reason": "TARGET_HIT",
-      "exit_time": "2026-10-06T15:01:30.676719+05:30",
-      "pnl_pts": 19.78,
-      "pnl_rs": 4945.0,
-      "won": true,
-      "Symbol": "RELIANCE",
-      "Segment": "Equity",
-      "TF": "1h",
-      "Strategy": "VWAP_TREND",
-      "Direction": "LONG",
-      "Entry \u20b9": 1189.0,
-      "Exit \u20b9": 1208.78,
-      "Net PnL \u20b9": 4945.0,
-      "PnL %": 1.66,
-      "Charges \u20b9": 0,
-      "Date": "2026-10-05",
-      "Exit Reason": "TARGET_HIT",
-      "Qty": 1
+      "current_price": 1236.0
     },
+    {
+      "id": "c4079d30",
+      "symbol": "MARUTI",
+      "yf_ticker": "MARUTI.NS",
+      "segment": "Equity",
+      "tf": "15M",
+      "strategy": "VWAP_CPR",
+      "direction": "SHORT",
+      "entry": 11475.0,
+      "target": 11395.11,
+      "stop": 11493.28,
+      "rr": 4.37,
+      "score": 7,
+      "reason": "VWAP+CPR bear TC=11468 VWAP=11562",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 100,
+      "qty": 1,
+      "current_price": 11475.0
+    },
+    {
+      "id": "04173b1a",
+      "symbol": "BAJFINANCE",
+      "yf_ticker": "BAJFINANCE.NS",
+      "segment": "Equity",
+      "tf": "1H",
+      "strategy": "KEY_LEVEL",
+      "direction": "SHORT",
+      "entry": 957.35,
+      "target": 943.4,
+      "stop": 961.99,
+      "rr": 3.01,
+      "score": 7,
+      "reason": "PDL break \u2193 PDL=958",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 125,
+      "qty": 1,
+      "current_price": 957.35
+    },
+    {
+      "id": "0a51f7b1",
+      "symbol": "HCLTECH",
+      "yf_ticker": "HCLTECH.NS",
+      "segment": "Equity",
+      "tf": "5M",
+      "strategy": "VWAP_BOUNCE",
+      "direction": "LONG",
+      "entry": 1379.9,
+      "target": 1385.77,
+      "stop": 1376.97,
+      "rr": 2.0,
+      "score": 6,
+      "reason": "VWAP bounce \u2191 VWAP=1379",
+      "entry_time": "2026-10-20T13:29:10.668315+05:30",
+      "lot_size": 700,
+      "qty": 1,
+      "current_price": 1379.9
+    }
+  ],
+  "closed_trades": [
     {
       "id": "ac5759a6",
       "symbol": "RELIANCE",
@@ -8380,9 +8285,199 @@
       "Date": "2026-10-16",
       "Exit Reason": "STOP_LOSS",
       "Qty": 1
+    },
+    {
+      "id": "e2d81c62",
+      "symbol": "SBIN",
+      "yf_ticker": "SBIN.NS",
+      "segment": "Equity",
+      "tf": "1H",
+      "strategy": "VWAP_TREND",
+      "direction": "LONG",
+      "entry": 959.8,
+      "target": 972.87,
+      "stop": 953.66,
+      "rr": 2.13,
+      "score": 6,
+      "reason": "VWAP trend \u2191 3-bar VWAP=955",
+      "entry_time": "2026-10-15T13:17:41.238282+05:30",
+      "lot_size": 750,
+      "qty": 1,
+      "current_price": 973.7,
+      "exit_price": 972.87,
+      "exit_reason": "TARGET_HIT",
+      "exit_time": "2026-10-20T13:29:08.041891+05:30",
+      "pnl_pts": 13.07,
+      "pnl_rs": 9802.5,
+      "won": true,
+      "Symbol": "SBIN",
+      "Segment": "Equity",
+      "TF": "1h",
+      "Strategy": "VWAP_TREND",
+      "Direction": "LONG",
+      "Entry \u20b9": 959.8,
+      "Exit \u20b9": 972.87,
+      "Net PnL \u20b9": 9802.5,
+      "PnL %": 1.36,
+      "Charges \u20b9": 0,
+      "Date": "2026-10-15",
+      "Exit Reason": "TARGET_HIT",
+      "Qty": 1
+    },
+    {
+      "id": "79a12492",
+      "symbol": "RELIANCE",
+      "yf_ticker": "RELIANCE.NS",
+      "segment": "Equity",
+      "tf": "5M",
+      "strategy": "INSIDE_BAR",
+      "direction": "LONG",
+      "entry": 1206.5,
+      "target": 1210.5,
+      "stop": 1204.1,
+      "rr": 1.67,
+      "score": 7,
+      "reason": "Inside bar break \u2191 range=2",
+      "entry_time": "2026-10-19T13:41:32.392625+05:30",
+      "lot_size": 250,
+      "qty": 1,
+      "current_price": 1202.0,
+      "exit_price": 1204.1,
+      "exit_reason": "STOP_LOSS",
+      "exit_time": "2026-10-20T13:29:09.746355+05:30",
+      "pnl_pts": -2.4,
+      "pnl_rs": -600.0,
+      "won": false,
+      "Symbol": "RELIANCE",
+      "Segment": "Equity",
+      "TF": "5m",
+      "Strategy": "INSIDE_BAR",
+      "Direction": "LONG",
+      "Entry \u20b9": 1206.5,
+      "Exit \u20b9": 1204.1,
+      "Net PnL \u20b9": -600.0,
+      "PnL %": -0.2,
+      "Charges \u20b9": 0,
+      "Date": "2026-10-19",
+      "Exit Reason": "STOP_LOSS",
+      "Qty": 1
+    },
+    {
+      "id": "d3793608",
+      "symbol": "TCS",
+      "yf_ticker": "TCS.NS",
+      "segment": "Equity",
+      "tf": "15M",
+      "strategy": "VWAP_CPR",
+      "direction": "SHORT",
+      "entry": 2453.8,
+      "target": 2422.77,
+      "stop": 2460.08,
+      "rr": 4.94,
+      "score": 7,
+      "reason": "VWAP+CPR bear TC=2454 VWAP=2471",
+      "entry_time": "2026-10-19T13:41:32.392625+05:30",
+      "lot_size": 175,
+      "qty": 1,
+      "current_price": 2460.9,
+      "exit_price": 2460.08,
+      "exit_reason": "STOP_LOSS",
+      "exit_time": "2026-10-20T13:29:09.814540+05:30",
+      "pnl_pts": -6.28,
+      "pnl_rs": -1099.0,
+      "won": false,
+      "Symbol": "TCS",
+      "Segment": "Equity",
+      "TF": "15m",
+      "Strategy": "VWAP_CPR",
+      "Direction": "SHORT",
+      "Entry \u20b9": 2453.8,
+      "Exit \u20b9": 2460.08,
+      "Net PnL \u20b9": -1099.0,
+      "PnL %": -0.26,
+      "Charges \u20b9": 0,
+      "Date": "2026-10-19",
+      "Exit Reason": "STOP_LOSS",
+      "Qty": 1
+    },
+    {
+      "id": "7cb6aef7",
+      "symbol": "MARUTI",
+      "yf_ticker": "MARUTI.NS",
+      "segment": "Equity",
+      "tf": "1H",
+      "strategy": "KEY_LEVEL",
+      "direction": "LONG",
+      "entry": 11545.0,
+      "target": 11691.72,
+      "stop": 11475.32,
+      "rr": 2.11,
+      "score": 7,
+      "reason": "PDH break \u2191 PDH=11512",
+      "entry_time": "2026-10-19T13:41:32.392625+05:30",
+      "lot_size": 100,
+      "qty": 1,
+      "current_price": 11475.0,
+      "exit_price": 11475.32,
+      "exit_reason": "STOP_LOSS",
+      "exit_time": "2026-10-20T13:29:10.361239+05:30",
+      "pnl_pts": -69.68,
+      "pnl_rs": -6968.0,
+      "won": false,
+      "Symbol": "MARUTI",
+      "Segment": "Equity",
+      "TF": "1h",
+      "Strategy": "KEY_LEVEL",
+      "Direction": "LONG",
+      "Entry \u20b9": 11545.0,
+      "Exit \u20b9": 11475.32,
+      "Net PnL \u20b9": -6968.0,
+      "PnL %": -0.6,
+      "Charges \u20b9": 0,
+      "Date": "2026-10-19",
+      "Exit Reason": "STOP_LOSS",
+      "Qty": 1
+    },
+    {
+      "id": "a4b697e5",
+      "symbol": "HCLTECH",
+      "yf_ticker": "HCLTECH.NS",
+      "segment": "Equity",
+      "tf": "5M",
+      "strategy": "INSIDE_BAR",
+      "direction": "LONG",
+      "entry": 1368.9,
+      "target": 1374.1,
+      "stop": 1366.2,
+      "rr": 1.93,
+      "score": 7,
+      "reason": "Inside bar break \u2191 range=3",
+      "entry_time": "2026-10-19T13:41:32.392625+05:30",
+      "lot_size": 700,
+      "qty": 1,
+      "current_price": 1379.9,
+      "exit_price": 1374.1,
+      "exit_reason": "TARGET_HIT",
+      "exit_time": "2026-10-20T13:29:10.611769+05:30",
+      "pnl_pts": 5.2,
+      "pnl_rs": 3640.0,
+      "won": true,
+      "Symbol": "HCLTECH",
+      "Segment": "Equity",
+      "TF": "5m",
+      "Strategy": "INSIDE_BAR",
+      "Direction": "LONG",
+      "Entry \u20b9": 1368.9,
+      "Exit \u20b9": 1374.1,
+      "Net PnL \u20b9": 3640.0,
+      "PnL %": 0.38,
+      "Charges \u20b9": 0,
+      "Date": "2026-10-19",
+      "Exit Reason": "TARGET_HIT",
+      "Qty": 1
     }
   ],
-  "capital": 897596.47,
-  "last_updated": "2026-10-19T13:41:49.567030+05:30",
-  "runs": 78
+  "capital": 902371.97,
+  "last_updated": "2026-10-20T13:29:23.261469+05:30",
+  "runs": 79
 }
